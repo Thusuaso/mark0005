@@ -1,0 +1,27 @@
+<template>
+  <MazFullscreenLoader v-if="loading" >
+    <p>
+      Loading...
+    </p>
+  </MazFullscreenLoader>
+  <SharedNavbar :navbar="navbar" :navbar_link="navbar_link" />
+  <div class="mt-4 container">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
+  <hr />
+  <div class="container">
+    <SharedFooter :footer="footer" />
+
+  </div>
+
+</template>
+<script lang="ts" setup>
+import { useStore } from '~/store/index';
+const store = useStore();
+const navbar = store.getNavbar;
+const navbar_link = store.getNavbarLinks;
+const footer = store.getFooter;
+const loading = store.getLoading;
+</script>

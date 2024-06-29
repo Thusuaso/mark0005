@@ -1,0 +1,545 @@
+{
+    "navbar":{
+        "home":"ДОМ",
+        "product":"ПРОДУКТЫ",
+        "info":"ИНФОРМАЦИЯ",
+        "about":"О",
+        "contact":"КОНТАКТ",
+        "fabrication":"ИЗГОТОВЛЕНИЕ",
+        "videos":"ВИДЕО",
+        "project":"ПРОЕКТ",
+        "catalog":"КАТАЛОГ",
+        "usastock":"АКЦИИ США",
+        "categories":"КАТЕГОРИИ",
+        "colors":"ЦВЕТА",
+        "areas":"ОБЛАСТИ"
+    },
+    "navbar_link":{
+        "home":"/ru",
+        "about":"/ru/about",
+        "contact":"/ru/contact",
+        "fabrication":"/ru/fabrication",
+        "videos":"/ru/videos",
+        "project":"/ru/project",
+        "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
+        "usastock":"/usa/stock",
+        "categories":[
+            {"id":1,"title":"Мрамор","link":"/ru/product/marble/1"},
+            {"id":2,"title":"Травертин","link":"/ru/product/travertine/2"},
+
+            {"id":3,"title":"Известняк","link":"/ru/product/limestone/3"},
+            {"id":4,"title":"Мозаика","link":"/ru/product/mosaics/4"},
+            {"id":5,"title":"Открытый","link":"/ru/product/outdoor/5"},
+            {"id":6,"title":"Ванна и кухня","link":"/ru/product/bath-and-kitchen/6"},
+            {"id":7,"title":"Плиты","link":"/ru/product/slabs/7"},
+            {"id":8,"title":"Кварц","link":"/ru/product/quartz/8"},
+            {"id":9,"title":"Побочный продукт","link":"/ru/product/by-product/9"},
+            {"id":10,"title":"Монтажные материалы","link":"/ru/product/installation-materials/11"},
+            {"id":11,"title":"Гипсокартон","link":"/ru/product/plasterboard/18"}
+            
+
+        ],
+        "colors":[
+            {"id":1,"title":"Белый","link":"/ru/color/white"},
+            {"id":2,"title":"Серый","link":"/ru/color/gray"},
+            {"id":3,"title":"Черный","link":"/ru/color/black"},
+            {"id":4,"title":"Бежевый","link":"/ru/color/beige"},
+            {"id":5,"title":"Коричневый","link":"/ru/color/brown"},
+            {"id":6,"title":"Желтый","link":"/ru/color/yellow"},
+            {"id":7,"title":"Зеленый","link":"/ru/color/green"},
+            {"id":8,"title":"Синий","link":"/ru/color/blue"},
+            {"id":9,"title":"Красный/Розовый/Фиолетовый","link":"/ru/color/red-pink-purple"}
+
+
+
+        ],
+        "areas":[
+            {"id":1,"title":"Гостиная","link":"/ru/area/living-room"},
+            {"id":2,"title":"Кухня","link":"/ru/area/kitchen"},
+            {"id":3,"title":"Ванная комната","link":"/ru/area/bathroom"},
+            {"id":4,"title":"Пейзаж","link":"/ru/area/landscape"},
+            {"id":5,"title":"Гараж","link":"/ru/area/garage"},
+            {"id":6,"title":"Бассейн","link":"/ru/area/pool"},
+            {"id":7,"title":"Фасад","link":"/ru/area/facede"},
+            {"id":8,"title":"Стена","link":"/ru/area/wall"},
+            {"id":9,"title":"Пол","link":"/ru/area/floor"}
+
+            
+        ],
+        "info":[
+            {"id":1,"title":"О","link":"/ru/about"},
+            {"id":2,"title":"Контакт","link":"/ru/contact"}
+
+        ]
+    },
+    "footer":{
+        "about":{
+            "header":"О НАС",
+            "description":"MEKMAR производит и поставляет лучшие и высококачественные изделия из натурального камня с 2002 года. Мы стремимся к лучшему качеству, лучшему обслуживанию и максимальной удовлетворенности клиентов до момента доставки продукции. Мы шаг за шагом информируем вас об оплате, производстве и доставке.",
+            "items":[
+                
+                {"id" : 1, "value" : "Мы предоставляем услуги доставки по всему миру в течение 21 года."},
+                { "id"  :2, "value" : "Мы производим все виды натурального камня от плиты до мозаики." }  ,
+                { "id" : 3, "value" : "Ежемесячно мы контролируем 30 000 кв.м. продукции." },
+                { "id" : 4, "value" :  "Мы поставляем натуральные решения для архитектурных проектов." }
+            ],
+            "socials":[
+                {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"fab fa-facebook-square fa-lg"},
+                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fab fa-twitter fa-lg"},
+                {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"fab fa-youtube fa-lg"},
+                {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"fab fa-instagram fa-lg"},
+                {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"fab fa-pinterest fa-lg"}
+        
+            ]
+        },
+        "news":{
+            "header":"NEWS",
+            "items":[
+                {"id":1,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-3-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-3-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-33-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-33-b.jpeg"},
+                {"id":2,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-6-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-6-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-66-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-66-b.jpeg"},
+                {"id":3,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-7-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-7-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-77-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-77-b.jpeg"},
+                {"id":4,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-8-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-8-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-88-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-88-b.jpeg"},
+                {"id":5,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-5-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-5-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-55-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-55-b.jpeg"},
+                {"id":6,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-4-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-4-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-44-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-44-b.jpeg"},
+                {"id":7,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-9-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-9-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-99-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-99-b.jpeg"},
+                {"id":8,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-2-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-2-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-22-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-22-b.jpeg"},
+                {"id":9,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-1-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-1-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-11-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-11-b.jpeg"}
+        
+            ]
+        },
+        "personal":{
+            "header":"КОМАНДА ПРОДАЖ МЕКМАР",
+            "items":[
+                {
+                    "name" : "Gizem",
+                     "job" : "специалист по продажам",
+                     "email" : "export@mekmar.com",
+                     "whatsapp" : "+90 542 660 8087",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                     "id"  : 1,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
+                  },
+                  {
+                    "name" : "Ozlem",
+                     "job" : "специалист по продажам",
+                     "email" : "export1@mekmar.com",
+                     "whatsapp" : "+90 542 660 8085",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                     "id" : 2,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
+                  },
+                  {
+                    "name" : "Hakan",
+                     "job" : "специалист по продажам",
+                     "email" : "export2@mekmar.com",
+                     "whatsapp" : "+90 542 660 8084",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                     "id" : 3,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
+                  }
+            ]
+        }
+    },
+    "slides":{
+        "slide1":[
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg"}
+          ],
+          "slide2":[
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg"}
+          ],
+          "slide3":[
+            {"id":1,"link":"/ru/fabrication","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"Императорский Каррарский мрамор","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"Астория Кварц","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"Мистик Коричневый Кварц","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"Ванна Модель 106","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg"}
+          ]
+    },
+    "categories":[
+        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.jpg"},
+        {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.jpg"},
+        {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.jpg"},
+        {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.jpg"},
+        {"id":5,"link":"/ru/product/outdoor/5","name":"НАРУЖНЫЙ","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.jpg"},
+        {"id":6,"link":"/ru/product/bath-and-kitchen/6","name":"ВАННА И КУХНЯ","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.jpg"},
+        {"id":7,"link":"/ru/product/slabs/7","name":"ПЛИТЫ","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.jpg"},
+        {"id":8,"link":"/ru/product/quartz/8","name":"КВАРЦ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.jpg"},
+        {"id":9,"link":"/ru/product/by-products/9","name":"ПО ПРОДУКЦИИ","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.jpg"},
+        {"id":11,"link":"/ru/product/installation-materials/11","name":"МОНТАЖНЫЕ МАТЕРИАЛЫ","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.jpg"},
+        {"id":18,"link":"/ru/product/plasterboard/18","name":"ГИПСОКАРТОН","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.jpg"}
+    
+      ],
+      "about" : {
+        "header" : "О НАС",
+        "title_1" : "Наша миссия",
+        "title_2" : "Наш взгляд",
+        "items_1" : [
+    
+           { "id" : 1, "value" : "Эффективное использование природных ресурсов; быть уважаемой глобальной компанией, которая чутко относится к обществу и окружающей среде." },
+           { "id" : 2, "value" : "Обеспечить удовлетворение всех клиентов и относиться к каждому клиенту с достоинством." },
+           { "id" : 3, "value" : "Поддержание имиджа первоклассного турецкого поставщика/производителя натурального камня во всем мире." }
+        ],
+        "items_2" : [
+    
+          { "id" : 1, "value" : "Предоставление решений из натурального камня с помощью программ 3D-рисования и рендеринга, чтобы помочь нашим клиентам построить дом своей мечты." },
+          { "id" : 2, "value" : "Развиваем наши производственные, контрольные и транспортные решения в течение 18 лет, увеличивая ассортимент продукции и количество клиентов." },
+          { "id" : 3, "value" : "Предоставление лучших элементов дизайна для создания идеального жилого пространства." }
+       ],   
+       "sub_link_title":"Если вы хотите просмотреть профиль нашей компании в формате PDF, нажмите здесь:",
+       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf"
+      },
+      "contact":{
+        "header":"КОНТАКТ",
+        "items":[
+            {
+                "name" : "Gizem",
+                 "job" : "специалист по продажам",
+                 "email" : "export@mekmar.com",
+                 "whatsapp" : "+90 542 660 8087",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                 "id"  : 1,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
+              },
+              {
+                "name" : "Ozlem",
+                 "job" : "специалист по продажам",
+                 "email" : "export1@mekmar.com",
+                 "whatsapp" : "+90 542 660 8085",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                 "id" : 2,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
+              },
+              {
+                "name" : "Hakan",
+                 "job" : "специалист по продажам",
+                 "email" : "export2@mekmar.com",
+                 "whatsapp" : "+90 542 660 8084",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                 "id" : 3,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
+              }
+        ],
+        "form":{
+            "name":"Имя",
+            "email":"Электронная почта",
+            "phone":"Телефон",
+            "message":"Сообщение",
+            "field_1":"Поле имени обязательно, пожалуйста, заполните",
+            "field_2":"Поле Почта обязательно, пожалуйста, заполните",
+            "field_3":"Поле телефона обязательно, пожалуйста, заполните"
+        }
+    },
+    "fabrication":{
+
+        "items":[
+            {   "id":1,
+                "header":"ЗАВОДЫ, НА КОТОРЫХ МЫ РАБОТАЕМ",
+              "images":[
+              {"id":1,"title":"Эпоксидная линия для бежевого мрамора","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.jpg"},
+              {"id":2,"title":"Фабрика Бьянко Ибица","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.jpg"},
+              {"id":3,"title":"Процесс обработки пазов для лестниц","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.jpg"},
+              {"id":4,"title":"Резка угловых лестниц с ЧПУ","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.jpg"}
+            ]},
+            {
+                "id":2,
+              "header":"КАРЬЕРЫ, В КОТОРЫХ МЫ РАБОТАЕМ",
+              "images":[
+                {"id":1,"title":"Мраморный карьер Бьянко Ибица","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.jpg"},
+                {"id":2,"title":"Турецкий мраморный карьер Калакатта","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.jpg"},
+                {"id":3,"title":"Классический травертиновый карьер","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.jpg"},
+                {"id":4,"title":"Пикассо Травертиновый карьер","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.jpg"}
+    
+              ]
+            },
+            {
+                "id":3,
+              "header":"НАШ СКЛАД В США",
+              "images":[
+                {"id":1,"title":"Площадь образца","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.jpg"},
+                {"id":2,"title":"Доступные акции","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.jpg"},
+                {"id":3,"title":"Специальные заказы","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.jpg"},
+                {"id":4,"title":"Контейнер вошел","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.jpg"}
+    
+              ]
+            }
+        ]
+      },
+      "videos":{
+        "title_1":"ИНФОРМАТИВНЫЕ ВИДЕО",
+        "title_2":"ПРОИЗВОДСТВЕННОЕ ВИДЕО",
+        "title_3":"ВИДЕО ПРОЕКТА",
+        "projects":[
+          {"id":1,"name":"Видео проекта | Классическая прожилковая огранка Травертин Заполненный Хонингованный Заполненный Полированный","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"1"},
+          {"id":2,"name":"Видео проекта | Травертин Pablo Vein Cut","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"2"},
+          {"id":3,"name":"Видео проекта | Мина Рустик Травертин","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"3"},
+          {"id":4,"name":"Классический тарвертин с прожилками, наполненный смолой, хонингованный и классический травертин с разделенной поверхностью","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"4"},
+          {"id":5,"name":"Мраморный фонтан / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"5"},
+          {"id":6,"name":"Архитектурные решения от Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"6"},
+          {"id":7,"name":"Видео проекта | Проект Адамс на Багамах","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"7"},
+          {"id":8,"name":"Видео проекта | Проект Бошан во Вьетнаме","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"8"},
+          {"id":9,"name":"Видео проекта | Проект Джексона в Испании","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"9"},
+          {"id":10,"name":"Видео проекта | Проект отеля Verdi на Мальте","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"10"},
+          {"id":11,"name":"Видео проекта | Проект Аль-Сабуни в Кувейте","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"11"},
+          {"id":12,"name":"Видео проекта | Проект Besse в Швейцарии","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"12"}
+  
+        ],
+        "production":[
+          {"id":1,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Видео производства Мекмара | Проект «Океанский серый мрамор»","queue":"1"},
+          {"id":2,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Видео производства Мекмара | Разделенное лицо","queue":"2"},
+          {"id":3,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Видео производства Мекмара | Скошенная отделка","queue":"3"},
+          {"id":4,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Проект травертиновой арки в Дубае","queue":"4"},
+          {"id":5,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Видео производства Мекмара | Заказать производственный контроль","queue":"5"},
+          {"id":6,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Товары на заказ/различный выбор","queue":"6"}
+        ],
+        "informative":[
+          {"id":1,"name":"Виды поставки: ИНКОТЕРМС","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
+          {"id":2,"name":"Разрез вен против поперечного разреза","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
+          {"id":3,"name":"В чем разница между камнями?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
+          {"id":4,"name":"Различные варианты поверхности травертина","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
+          {"id":5,"name":"Различные варианты кромок плитки из натурального камня","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
+          {"id":6,"name":"Различные варианты поверхности мрамора и известняка","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"9"},
+          {"id":7,"name":"Бежевый мрамор | В чем разница и как их выбрать?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"10"},
+          {"id":8,"name":"Как обработка поверхности влияет на цвет камня","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"11"}
+  
+        ],
+        "informative_fr":[
+          {"id":1,"name":"Поверхность Les Differentes Sur Le Travertin","url":"https://www.youtube.com/embed/fMTPX9B5jB0","queue":"6"},
+          {"id":2,"name":"Различные варианты бордюра на карро и в естественной пустыне","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
+          {"id":3,"name":"Какие различия между пьерами?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
+          {"id":4,"name":"Виды обременений: ИНКОТЕРМС","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
+          {"id":5,"name":"Coupe Veineuse против Coupe Croisée","url":"https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI","queue":11}
+  
+        ]
+      },
+      "product_detail" : {
+
+        "description" : "ОПИСАНИЕ",
+        "tab_1" : "ДЕТАЛИ",
+        "tab_2" : "ПРИЛОЖЕНИЕ",
+        "tab_3" : "РАЗМЕР И ЦЕНА",
+        "tab_1_code" : "КОД",
+        "tab_1_stonetype" : "ТИП КАМНЯ",
+        "tab_1_country" : "СТРАНА",
+        "tab_1_varitaion" : "ВАРИАЦИЯ",
+        "tab_2_test_report" : "Отчет об испытаниях/Техническая спецификация",
+        "tab_2_available" : "Доступные поверхности",
+        "benzerurun_title" : "ВАС МОЖЕТ ЗАИНТЕРЕСОВАТЬ",
+        "onerilenurun_title" : "РЕКОМЕНДУЕМЫЕ ПРОДУКТЫ",
+        "hastags":"ХЭШТЕГИ",
+        "specification":"СПЕЦИФИКАЦИИ ПРОДУКТА"
+    
+      },
+      "variation":{
+        "var_1":"МИНИМУМ",
+        "var_2":"СЕРЕДИНА"
+      },
+      "application":{
+        "marble":[
+          {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+        ],
+        "travertine":[
+                    {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"НЕТ"}
+
+
+        ],
+        "limestone":[
+
+          {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"НЕТ"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"НЕТ"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"НЕТ"}
+
+
+        ],
+         "mosaic":[
+          
+          {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"НЕТ"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+
+
+        ],
+        "slab":[
+
+
+                    {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+        ],
+        "quartz":[
+
+
+                              {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+        ],
+        "outdoor":[
+
+
+                              {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"НЕТ"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+        ],
+        "bath":[
+          
+                              {"name":"СТЕНА","status":"НЕТ"},
+          {"name":"ПОЛ","status":"НЕТ"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"НЕТ"}
+
+   
+        ],
+        "byproducts":[
+                    
+                              {"name":"СТЕНА","status":"НЕТ"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+
+
+        ],
+        "installation":[
+          {"name":"СТЕНА","status":"ДА"},
+          {"name":"ПОЛ","status":"ДА"},
+          {"name":"ЖИЛОЙ","status":"ДА"},
+          {"name":"КОММЕРЧЕСКИЙ","status":"ДА"},
+          {"name":"ВЛАЖНЫЕ ЗОНЫ","status":"ДА"},
+          {"name":"НАРУЖНОЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"ВНУТРЕННЕЕ ИСПОЛЬЗОВАНИЕ","status":"ДА"},
+          {"name":"МОРОЗНЫЙ КЛИМАТ","status":"ДА"}
+
+        ]
+
+      },
+      "specification":{
+              "marble":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
+        {"name":"Пескоструйная обработка","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"}
+
+      ],
+      "travertine":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
+        {"name":"Пескоструйная обработка","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"},
+        {"name":"Буш забит","link":"https://cdn.mekmarimage.com/other/BUSHHAMMERED.webp"}
+
+      ],
+      "limestone":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "mosaic":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+      "slab":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "quartz":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+      "outdoor":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Матовый","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "bath":[
+        {"name":"Отточенный","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Полированный","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"}
+
+      ]
+    
+    },
+      "similar_products":[
+        {"id":1,"name":"ПЛИТЫ","image":"https://cdn.mekmarimage.com/youmayalso/slabs+.jpg","link":"/ru/product/slabs/7"},
+        {"id":2,"name":"ЛЕСТНИЦЫ И ПОДЪЕМЫ","image":"https://cdn.mekmarimage.com/youmayalso/stair-risers+.jpg","link":"/ru/product/by-product/9"},
+        {"id":3,"name":"РАКОВИНЫ И СТОЛЕШНИЦЫ","image":"https://cdn.mekmarimage.com/youmayalso/sink-countertop.jpg","link":"/ru/product/bath-and-kitchen/6"},
+        {"id":4,"name":"МОЗАИКА","image":"https://cdn.mekmarimage.com/youmayalso/mosaic+.jpg","link":"/ru/product/mosaics/4"}
+      ],
+            "project":{
+        "header":"МЕКМАР ПРОЕКТЫ",
+                "description":"Описание"
+
+      },
+            "login":{
+        "username":"Имя пользователя",
+        "status_1":"АВТОРИЗОВАТЬСЯ",
+        "status_2":"НАПИШИТЕ НАМ",
+        "dialog_header":"Войдите или напишите нам"
+      },
+            "toast":{
+        "success":"Успех",
+          "error":"Ошибка"
+      }
+}

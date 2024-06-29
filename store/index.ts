@@ -1,0 +1,156 @@
+import { defineStore } from 'pinia';
+import control from '~/lang/control';
+import { ref } from 'vue';
+export const useStore = defineStore('store', {
+    state: () => ({
+        lang:'',
+        navbar: {},
+        navbar_links: {},
+        categories: [],
+        slides: {},
+        footer: {},
+        about: {},
+        fabrication: {},
+        videos: {},
+        contact: {},
+        projects: [],
+        product: [],
+        similar: [],
+        application:[],
+        project_detail: [],
+        projects_header: "",
+        projects_description: "",
+        categories_detail: [],
+        product_detail: [],
+        login: {},
+        auth_status: ref(false),
+        toast: {},
+        variation: {},
+        loading: ref(false),
+        specification:[]
+  }),
+  getters: {
+      getNavbar(state) {
+          return state.navbar;
+      },
+      getNavbarLinks(state) {
+          return state.navbar_links;
+      },
+      getCategories(state) {
+          return state.categories;
+      },
+      getSlides(state) {
+          return state.slides;
+      },
+      getFooter(state) {
+          return state.footer;
+      },
+      getAbout(state) {
+          return state.about;
+      },
+      getFabrication(state) {
+          return state.fabrication;
+      },
+      getVideos(state) {
+          return state.videos;
+      },
+      getContact(state) {
+          return state.contact;
+      },
+      getProjects(state) {
+          return state.projects;
+      },
+      getLang(state) {
+          return state.lang;
+      },
+      getProjectDetail(state) {
+          return state.project_detail;
+      },
+      getProjectHeader(state) {
+          return state.projects_header;
+      },
+      getProjectDescription(state) {
+          return state.projects_description;
+      },
+      getCategoriesDetail(state) {
+          return state.categories_detail;
+      },
+      getProductDetail(state) {
+          return state.product_detail;
+      },
+      getProduct(state) {
+          return state.product;
+      },
+      getSimilar(state) {
+          return state.similar;
+      },
+      getLogin(state) {
+          return state.login;
+      },
+      getAuthStatus(state) {
+          return state.auth_status;
+      },
+      getToast(state) {
+          return state.toast;
+      },
+      getVariation(state) {
+          return state.variation;
+      },
+      getLoading(state) {
+          return state.loading;
+      },
+      getApplication(state) {
+          return state.application;
+      },
+      getSpecification(state) {
+          return state.specification;
+      }
+  },
+  actions: {
+    setMainStorage(payload:any) {
+          this.navbar = payload.navbar;
+          this.navbar_links = payload.navbar_link;
+          this.categories = payload.categories;
+          this.slides = payload.slides;
+          this.footer = payload.footer;
+          this.about = payload.about;
+          this.fabrication = payload.fabrication;
+          this.videos = payload.videos;
+          this.contact = payload.contact;
+          this.projects_header = payload.project.header;
+          this.projects_description = payload.project.description;
+          this.product = payload.product_detail;
+          this.similar = payload.similar_products;
+          this.login = payload.login;
+          this.toast = payload.toast;
+          this.variation = payload.variation;
+          this.application = payload.application;
+          this.specification = payload.specification;
+      },
+      setProjects(payload: any) {
+          this.projects = control.lang_project(payload,this.lang);
+      },
+      setLang(payload: any) {
+          this.lang = payload;
+      },
+      setProjectDetail(payload: any) {
+          this.project_detail = payload;
+      },
+      setProjectDescription(payload: any) {
+          this.projects_description = payload;
+      },
+      setCategoriesDetail(payload: any) {
+          this.categories_detail = payload;
+      },
+      setProductDetail(payload: any) {
+          this.product_detail = payload;
+      },
+      setAuthStatus(payload: any) {
+          this.auth_status = payload;
+      },
+      setLoading(payload: any) {
+          this.loading = payload;
+      }
+
+  },
+})

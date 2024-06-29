@@ -1,0 +1,544 @@
+{
+    "navbar":{
+        "home":"HOGAR",
+        "product":"PRODUCTO",
+        "info":"INFO",
+        "about":"SOBRE",
+        "contact":"CONTACTO",
+        "fabrication":"FABRICACION",
+        "videos":"VIDEOS",
+        "project":"PROYECTOS",
+        "catalog":"CATALOGAR",
+        "usastock":"ACCIONES EUA",
+        "categories":"CATEGORIAS",
+        "colors":"COLORES",
+        "areas":"AREAS"
+    },
+    "navbar_link":{
+        "home":"/es",
+        "about":"/es/about",
+        "contact":"/es/contact",
+        "fabrication":"/es/fabrication",
+        "videos":"/es/videos",
+        "project":"/es/project",
+        "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
+        "usastock":"/usa/stock",
+        "categories":[
+            {"id":1,"title":"Marmol","link":"/es/product/marble/1"},
+            {"id":2,"title":"Travertino","link":"/es/product/travertine/2"},
+
+            {"id":3,"title":"Limestone","link":"/es/product/limestone/3"},
+            {"id":4,"title":"Mosaico","link":"/es/product/mosaics/4"},
+            {"id":5,"title":"Productos Del Exterior","link":"/es/product/outdoor/5"},
+            {"id":6,"title":"Salle de Bain & Cuisne","link":"/es/product/bath-and-kitchen/6"},
+            {"id":7,"title":"Plaques","link":"/es/product/slabs/7"},
+            {"id":8,"title":"Quartz","link":"/es/product/quartz/8"},
+            {"id":9,"title":"Par Produits","link":"/es/product/by-product/9"},
+            {"id":10,"title":"Materiels D'Installation","link":"/es/product/installation-materials/11"},
+            {"id":11,"title":"Plaque de Platre","link":"/es/product/plasterboard/18"}
+            
+
+        ],
+        "colors":[
+            {"id":1,"title":"Blanco","link":"/fr/color/white"},
+            {"id":2,"title":"Gris","link":"/fr/color/gray"},
+            {"id":3,"title":"Negro","link":"/fr/color/black"},
+            {"id":4,"title":"Beige","link":"/fr/color/beige"},
+            {"id":5,"title":"Beige","link":"/fr/color/brown"},
+            {"id":6,"title":"Amarillo","link":"/fr/color/yellow"},
+            {"id":7,"title":"Verde","link":"/fr/color/green"},
+            {"id":8,"title":"Bleu","link":"/fr/color/blue"},
+            {"id":9,"title":"Rojo/rosa/morado","link":"/fr/color/red-pink-purple"}
+
+
+
+        ],
+        "areas":[
+            {"id":1,"title":"Sala de estar","link":"/es/area/living-room"},
+            {"id":2,"title":"Cocina","link":"/es/area/kitchen"},
+            {"id":3,"title":"Cuarto de baño","link":"/es/area/bathroom"},
+            {"id":4,"title":"Paisaje","link":"/es/area/landscape"},
+            {"id":5,"title":"Cochera","link":"/es/area/garage"},
+            {"id":6,"title":"Piscina","link":"/es/area/pool"},
+            {"id":7,"title":"Fachada","link":"/es/area/facede"},
+            {"id":8,"title":"Muro","link":"/es/area/wall"},
+            {"id":9,"title":"Suelo","link":"/es/area/floor"}
+
+            
+        ],
+        "info":[
+            {"id":1,"title":"Sobre","link":"/es/about"},
+            {"id":2,"title":"Contacto","link":"/es/contact"}
+
+        ]
+    },
+    "footer":{
+        "about":{
+            "header":"A PROPOSITO DE NOSOTROS",
+            "description":"MEKMAR produce y suministra los mejores y más altos productos de piedra natural desde 2002. Nuestro objetivo es la mejor calidad, el mejor servicio y la máxima satisfacción del cliente hasta la entrega de los productos. Te actualizamos paso a paso sobre pago, producción y envíos.",
+            "items":[
+                
+                {"id" : 1, "value" : "Brindamos servicio de envío a todo el mundo durante 21 años."},
+                { "id"  :2, "value" : "Producimos todo tipo de piedra natural desde losa hasta mosaico." }  ,
+                { "id" : 3, "value" : "Controlamos 30.000 m2 de producto mensualmente." },
+                { "id" : 4, "value" :  "Suministramos soluciones naturales para proyectos arquitectónicos." }
+            ],
+            "socials":[
+                {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"fab fa-facebook-square fa-lg"},
+                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fab fa-twitter fa-lg"},
+                {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"fab fa-youtube fa-lg"},
+                {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"fab fa-instagram fa-lg"},
+                {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"fab fa-pinterest fa-lg"}
+        
+            ]
+        },
+        "news":{
+            "header":"NUEVO",
+            "items":[
+                {"id":1,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-3-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-3-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-33-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-33-b.jpeg"},
+                {"id":2,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-6-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-6-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-66-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-66-b.jpeg"},
+                {"id":3,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-7-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-7-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-77-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-77-b.jpeg"},
+                {"id":4,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-8-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-8-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-88-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-88-b.jpeg"},
+                {"id":5,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-5-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-5-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-55-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-55-b.jpeg"},
+                {"id":6,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-4-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-4-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-44-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-44-b.jpeg"},
+                {"id":7,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-9-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-9-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-99-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-99-b.jpeg"},
+                {"id":8,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-2-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-2-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-22-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-22-b.jpeg"},
+                {"id":9,"webps":"https://cdn.mekmarimage.com/news/small/newsSmall/news-1-s.webp","webpb":"https://cdn.mekmarimage.com/news/big/newsBig/news-1-b.webp","jpegs":"https://cdn.mekmarimage.com/news/small/newsSmall/news-11-s.jpeg","jpegb":"https://cdn.mekmarimage.com/news/big/newsBig/news-11-b.jpeg"}
+        
+            ]
+        },
+        "personal":{
+            "header":"EQUIPO DE VENTAS DE MEKMAR",
+            "items":[
+                {
+                    "name" : "Gizem",
+                     "job" : "Especialista En Ventas",
+                     "email" : "export@mekmar.com",
+                     "whatsapp" : "+90 542 660 8087",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                     "id"  : 1,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
+                  },
+                  {
+                    "name" : "Ozlem",
+                     "job" : "Especialista En Ventas",
+                     "email" : "export1@mekmar.com",
+                     "whatsapp" : "+90 542 660 8085",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                     "id" : 2,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
+                  },
+                  {
+                    "name" : "Hakan",
+                     "job" : "Especialista En Ventas",
+                     "email" : "export2@mekmar.com",
+                     "whatsapp" : "+90 542 660 8084",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                     "id" : 3,
+                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
+                  }
+            ]
+        }
+    },
+    "slides":{
+        "slide1":[
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg"}
+          ],
+          "slide2":[
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg"}
+          ],
+          "slide3":[
+            {"id":1,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Mármol Imperial de Carrara","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg"},
+            {"id":2,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg"},
+            {"id":3,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Mystic Brown","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg"},
+            {"id":4,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Bañera Model 106","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg"}
+          ]
+    },
+    "categories":[
+        {"id":1,"link":"/es/product/marble/1","name":"MÁRMOL","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.jpg"},
+        {"id":2,"link":"/es/product/travertine/2","name":"TRAVERTINO","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.jpg"},
+        {"id":3,"link":"/es/product/limestone/3","name":"LIMESTONE","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.jpg"},
+        {"id":4,"link":"/es/product/mosaics/4","name":"MOSAICO","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.jpg"},
+        {"id":5,"link":"/es/product/outdoor/5","name":"PRODUCTOS DEL EXTERIOR","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.jpg"},
+        {"id":6,"link":"/es/product/bath-and-kitchen/6","name":"SALLE DE BAIN & CUISNE","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.jpg"},
+        {"id":7,"link":"/es/product/slabs/7","name":"PLAQUES","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.jpg"},
+        {"id":8,"link":"/es/product/quartz/8","name":"QUARTZ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.jpg"},
+        {"id":9,"link":"/es/product/by-products/9","name":"PAR PRODUITS","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.jpg"},
+        {"id":11,"link":"/es/product/installation-materials/11","name":"MATÉRIAUX D'INSTALLATION","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.jpg"},
+        {"id":18,"link":"/es/product/plasterboard/18","name":"PLAQUES DE PLÂTRE","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.jpg"}
+    
+      ],
+      "about" : {
+        "header" : "A PROPOSITO DE NOSOTROS",
+        "title_1" : "Nuestra misión",
+        "title_2" : "Nuestra visión",
+        "items_1" : [
+    
+           { "id" : 1, "value" : "Uso eficiente de los recursos naturales; ser una empresa global respetada, sensible a la sociedad y al medio ambiente." },
+           { "id" : 2, "value" : "Asegurar la satisfacción de todos los clientes y tratar a cada cliente con dignidad." },
+           { "id" : 3, "value" : "Mantener la imagen de un proveedor / fabricante turco de piedra natural de primera calidad en todo el mundo." }
+        ],
+        "items_2" : [
+    
+          { "id" : 1, "value" : "Brindar soluciones de piedra natural a través de programas de dibujo y renderizado 3D para ayudar a nuestros clientes a tener la casa de sus sueños." },
+          { "id" : 2, "value" : "Desarrollando nuestras soluciones de producción, control de calidad y transporte durante 18 años aumentando nuestra gama de productos y nuestro número de clientes." },
+          { "id" : 3, "value" : "Proporcione los mejores elementos de diseño para crear el espacio habitable perfecto." }
+       ],   
+       "sub_link_title":"Si desea ver el perfil de nuestra empresa en formato PDF, haga clic aquí:",
+       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf"
+      },
+      "contact":{
+        "header":"CONTACTO",
+        "items":[
+            {
+                "name" : "Gizem",
+                 "job" : "Especialista En Ventas",
+                 "email" : "export@mekmar.com",
+                 "whatsapp" : "+90 542 660 8087",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                 "id"  : 1,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
+              },
+              {
+                "name" : "Ozlem",
+                 "job" : "Especialista En Ventas",
+                 "email" : "export1@mekmar.com",
+                 "whatsapp" : "+90 542 660 8085",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                 "id" : 2,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
+              },
+              {
+                "name" : "Hakan",
+                 "job" : "Especialista En Ventas",
+                 "email" : "export2@mekmar.com",
+                 "whatsapp" : "+90 542 660 8084",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                 "id" : 3,
+                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
+              }
+        ],
+        "form":{
+            "name":"Apellido",
+            "email":"E-mail",
+            "phone":"Teléfono",
+            "message":"Mensaje",
+            "field_1":"El campo Nombre es obligatorio, por favor complete",
+            "field_2":"El campo Correo es obligatorio, complételo",
+            "field_3":"El campo Teléfono es obligatorio, por favor complete"
+        }
+    },
+    "fabrication":{
+
+        "items":[
+            {   "id":1,
+                "header":"FABRICAS EN LAS QUE TRABAJAMOS",
+              "images":[
+              {"id":1,"title":"Línea Epoxi Mármol Beige","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.jpg"},
+              {"id":2,"title":"Fábrica Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.jpg"},
+              {"id":3,"title":"Proceso de Ranurado Para Escaleras","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.jpg"},
+              {"id":4,"title":"Escaleras en Ángulo de Corte CNC","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.jpg"}
+            ]},
+            {
+                "id":2,
+              "header":"CANTERAS QUE TRABAJAMOS",
+              "images":[
+                {"id":1,"title":"Cantera de Mármol Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.jpg"},
+                {"id":2,"title":"Cantera Turca de Mármol Calacatta","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.jpg"},
+                {"id":3,"title":"Cantera de Travertino Clásica","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.jpg"},
+                {"id":4,"title":"Cantera de Travertino Picasso","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.jpg"}
+    
+              ]
+            },
+            {
+                "id":3,
+              "header":"NUESTRO ALMACEN EN EE. UU.",
+              "images":[
+                {"id":1,"title":"Área de Muestra","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.jpg"},
+                {"id":2,"title":"Las Existencias Disponibles","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.jpg"},
+                {"id":3,"title":"Órdenes Especiales","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.jpg"},
+                {"id":4,"title":"Contenedor Ingresado","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.jpg"}
+    
+              ]
+            }
+        ]
+      },
+      "videos":{
+        "title_1":"VÍDEOS INFORMATIVOS",
+        "title_2":"VÍDEOS DE PRODUCCIÓN",
+        "title_3":"VÍDEOS DEL PROYECTO",
+        "projects":[
+          {"id":1,"name":"Vídeos del Proyecto | Proyecto Litoral en Mauricio","url":"https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6","queue":"1"},
+          {"id":2,"name":"Vídeos del Proyecto | Proyecto Mansour in Australia","url":"https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3","queue":"2"},
+          {"id":3,"name":"Vídeos del Proyecto | Proyecto MBI en Ghana","url":"https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK","queue":"3"},
+          {"id":4,"name":"Vídeos del Proyecto | Proyecto Andersen en Países Bajos","url":"https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0","queue":"4"},
+          {"id":5,"name":"Vídeos del Proyecto | Proyecto Kirry in France","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"5"},
+          {"id":6,"name":"Vídeos del Proyecto | Proyecto Adams en Bahamas","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"6"},
+          {"id":7,"name":"Vídeos del Proyecto | Proyecto Beauchamp en Vietnam","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"7"},
+          {"id":8,"name":"Vídeos del Proyecto | Proyecto Jackson en España","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"8"},
+          {"id":9,"name":"Vídeos del Proyecto | Proyecto Hotel Verdi en Malta","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"9"},
+          {"id":10,"name":"Vídeos del Proyecto | Proyecto Al Sabouni en Kuwait","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"10"},
+          {"id":11,"name":"Vídeos del Proyecto | Proyecto Besse en Suiza","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"11"},
+          {"id":12,"name":"Vídeos del Proyecto | Travertino con corte de veta clásico Relleno Pulido Relleno Pulido","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"12"},
+          {"id":13,"name":"Vídeos del Proyecto | Travertino corte veta Pablo","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"13"},
+          {"id":14,"name":"Vídeos del Proyecto | Travertino Rústico Mina","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"14"},
+          {"id":15,"name":"Travertino con corte de veta clásico, relleno de resina, travertino pulido y clásico con cara dividida","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"15"},
+          {"id":16,"name":"Fuente de mármol","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"16"},
+          {"id":17,"name":"Soluciones arquitectónicas de Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"17"}
+
+
+        ],
+        "production":[
+          {"id":1,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Vídeos de producción de Mekmar | Proyecto de mármol gris océano","queue":"1"},
+          {"id":2,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Vídeos de producción de Mekmar | Cara partida","queue":"2"},
+          {"id":3,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Vídeos de producción de Mekmar | Acabado biselado","queue":"3"},
+          {"id":4,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Proyecto de arco de travertino en Dubai","queue":"4"},
+          {"id":5,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Vídeos de producción de Mekmar | Control de producción de pedidos","queue":"5"},
+          {"id":6,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Productos personalizados/varias selecciones","queue":"6"}
+        ],
+        "informative":[
+          {"id":1,"name":"Tipos de Entrega: INCOTERMS","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
+          {"id":2,"name":"Corte de vena versus corte transversal","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
+          {"id":3,"name":"Cuáles son las diferencias entre las piedras?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
+          {"id":4,"name":"Diferentes opciones de superficie en travertino","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
+          {"id":5,"name":"Diferentes opciones de bordes en baldosas de piedra natural","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
+          {"id":6,"name":"Diferentes opciones de superficies en mármol y piedra caliza","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"9"},
+          {"id":7,"name":"Mármol beige | ¿Cuál es la diferencia y cómo seleccionarlos?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"10"},
+          {"id":8,"name":"Cómo Afectan Los Tratamientos Superficiales Al Color De La Piedra","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"11"}
+  
+        ],
+        "informative_fr":[
+          {"id":1,"name":"Les Differentes Surface Sur Le Travertin","url":"https://www.youtube.com/embed/fMTPX9B5jB0","queue":"6"},
+          {"id":2,"name":"Différentes options de bord sur les carreaux en pierre naturelle","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
+          {"id":3,"name":"Quelles sont les différences entre les pierres ?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
+          {"id":4,"name":"Types de Chargement: INCOTERMS","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
+          {"id":5,"name":"Coupe Veineuse vs Coupe Croisée","url":"https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI","queue":11}
+  
+        ]
+      },
+      "product_detail" : {
+
+        "description" : "DESCRIPCION",
+        "tab_1" : "DETALLA",
+        "tab_2" : "SOLICITUD",
+        "tab_3" : "TAMANO & PREMIO",
+        "tab_1_code" : "CÓDIGO",
+        "tab_1_stonetype" : "TIPO DE PIEDRA",
+        "tab_1_country" : "PAÍS",
+        "tab_1_varitaion" : "VARIACIÓN",
+        "tab_2_test_report" : "INFORME DE PRUEBA // ESPECIFICACIONES TECNICAS",
+        "tab_2_available" : "Acabado disponible",
+        "benzerurun_title" : "TE PUEDE INTERESAR...",
+        "onerilenurun_title" : "PRODUCTOS SUGERIDOS",
+        "hastags":"ETIQUETAS",
+        "specification":"ESPECIFICACIONES DEL PRODUCTO"
+    
+      },
+      "variation":{
+        "var_1":"MÍNIMO",
+        "var_2":"PROMEDIO"
+      },
+      "application":{
+        "marble":[
+          {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+        ],
+        "travertine":[
+          {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"NO"}
+        ],
+                "limestone":[
+                            {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"NO"},
+          {"name":"ZONAS HÚMEDAS","status":"NO"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"NO"}
+
+
+        ],
+         "mosaic":[
+                                      {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"NO"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+
+        ],
+        "slab":[
+          {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+  
+        ],
+        "quartz":[
+          {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+        ],
+        "outdoor":[
+          {"name":"MURO","status":"NO"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"NO"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+
+        ],
+        "bath":[
+          {"name":"MURO","status":"NO"},
+          {"name":"PISO","status":"NO"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"NO"}
+
+
+        ],
+        "byproducts":[
+                    {"name":"MURO","status":"NO"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+
+        ],
+        "installation":[
+
+          {"name":"MURO","status":"SÍ"},
+          {"name":"PISO","status":"SÍ"},
+          {"name":"RESIDENCIAL","status":"SÍ"},
+          {"name":"COMERCIAL","status":"SÍ"},
+          {"name":"ZONAS HÚMEDAS","status":"SÍ"},
+          {"name":"USO EXTERIOR","status":"SÍ"},
+          {"name":"USO INTERIOR","status":"SÍ"},
+          {"name":"CLIMA HELADO","status":"SÍ"}
+
+        ]
+
+      },
+      "specification":{
+              "marble":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
+        {"name":"Arenado","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"}
+
+      ],
+      "travertine":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
+        {"name":"Arenado","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"},
+        {"name":"Abujardado","link":"https://cdn.mekmarimage.com/other/BUSHHAMMERED.webp"}
+
+      ],
+      "limestone":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "mosaic":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+      "slab":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "quartz":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+      "outdoor":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
+        {"name":"Cepillado","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
+
+      ],
+       "bath":[
+        {"name":"Perfeccionado","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
+        {"name":"Pulido","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"}
+
+      ]
+    
+    },
+      "similar_products":[
+        {"id":1,"name":"PLACAS","image":"https://cdn.mekmarimage.com/youmayalso/slabs+.jpg","link":"/es/product/slabs/7"},
+        {"id":2,"name":"ESCALERAS Y ALZAS","image":"https://cdn.mekmarimage.com/youmayalso/stair-risers+.jpg","link":"/es/product/by-product/9"},
+        {"id":3,"name":"FREGADEROS Y ENCIMERAS","image":"https://cdn.mekmarimage.com/youmayalso/sink-countertop.jpg","link":"/es/product/bath-and-kitchen/6"},
+        {"id":4,"name":"MOSAICOS","image":"https://cdn.mekmarimage.com/youmayalso/mosaic+.jpg","link":"/es/product/mosaics/4"}
+      ],
+            "project":{
+        "header":"PROYECTOS MEKMAR",
+        "description":"Descripción"
+      },
+            "login":{
+        "username":"Nombre de usuario",
+        "status_1":"ACCESO",
+        "status_2":"ESCRÍBENOS",
+        "dialog_header":"Inicia Sesión o Escríbenos"
+      },
+            "toast":{
+        "success":"Éxito",
+          "error":"Error"
+      }
+}
