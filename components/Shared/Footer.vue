@@ -12,16 +12,16 @@
             <div class="col-sm-4 ">
                 <h3 class="header mb-2">{{ footer.news.header }}</h3>
                 <div class="row m-auto text-center">
-                    <!-- <SharedFancybox :options="{
+                    <SharedFancybox :options="{
                     Carousel: {
                         transition: 'slide'
                     }
                 }">
-                        <a class="fancybox ml-3 mb-3 col-4" v-for="item of footer.news.items" :key="item.id"
+                        <a class="fancybox ml-3 mb-5 col-4" v-for="item of footer.news.items" :key="item.id"
                             :href="item.jpegb" data-fancybox="gallery">
                             <img :src="item.jpegb" style="width:100%;height:auto;" />
                         </a>
-                    </SharedFancybox> -->
+                    </SharedFancybox>
                     <!-- <MazGallery :images="images" :height="345" /> -->
                 </div>
 

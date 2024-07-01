@@ -22,7 +22,7 @@
         "videos":"/ru/videos",
         "project":"/ru/project",
         "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
-        "usastock":"/usa/stock",
+        "usastock":"/usa",
         "categories":[
             {"id":1,"title":"Мрамор","link":"/ru/product/marble/1"},
             {"id":2,"title":"Травертин","link":"/ru/product/travertine/2"},

@@ -54,23 +54,30 @@
               {{ navbar.usastock }}
             </NavLink>
           </NavItem>
-        </NavbarNavList>
-        <BForm flex >
-          <Dropdown>
-    <DropdownToggle button="secondary">
-      Dropdown button
-    </DropdownToggle>
-    <DropdownMenu>
-        <DropdownItem href="/">
-          English
-        </DropdownItem>
-        <DropdownItem href="/fr">France</DropdownItem>
-        <DropdownItem href="/es">Spanish</DropdownItem>
-        <DropdownItem href="/ru">Russian</DropdownItem>
 
-      </DropdownMenu>
-    </Dropdown>
-        </BForm>
+          <BForm
+          flex
+        >
+        <el-dropdown >
+      <el-button type="primary">
+        Language<el-icon class="el-icon--right"></el-icon>
+      </el-button>
+      <template #dropdown>
+        <el-dropdown-menu>
+          <el-dropdown-item><a href="/" class="text-decoration-none text-dark-emphasis">English</a></el-dropdown-item>
+
+          <el-dropdown-item><a href="/fr" class="text-decoration-none text-dark-emphasis">France</a></el-dropdown-item>
+          <el-dropdown-item><a href="/es" class="text-decoration-none text-dark-emphasis">Spanish</a></el-dropdown-item>
+          <el-dropdown-item><a href="/ru" class="text-decoration-none text-dark-emphasis">Russian</a></el-dropdown-item>
+
+
+        </el-dropdown-menu>
+      </template>
+          </el-dropdown>
+      </BForm>
+
+        </NavbarNavList>
+        
       </NavbarCollapse>
     </Container>
   </Navbar>

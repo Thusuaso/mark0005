@@ -22,7 +22,7 @@
         "videos":"/videos",
         "project":"/project",
         "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
-        "usastock":"/usa/stock",
+        "usastock":"/usa",
         "categories":[
             {"id":1,"title":"Marble","link":"/product/marble/1"},
             {"id":2,"title":"Travertine","link":"/product/travertine/2"},

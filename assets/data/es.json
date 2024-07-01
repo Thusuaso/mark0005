@@ -22,7 +22,7 @@
         "videos":"/es/videos",
         "project":"/es/project",
         "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
-        "usastock":"/usa/stock",
+        "usastock":"/usa",
         "categories":[
             {"id":1,"title":"Marmol","link":"/es/product/marble/1"},
             {"id":2,"title":"Travertino","link":"/es/product/travertine/2"},
