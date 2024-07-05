@@ -175,6 +175,115 @@ const project = {
         } else if (category == 6) {
             return payload.bath;
         }
+    },
+    lang_usa_product(payload:any,lang:any){
+
+        console.log(payload);
+        let data = [];
+        if(lang=='en'){
+            payload.forEach(x=>{
+                data.push({...x,'name':x.name_en,'link':x.link});
+            });
+        }        else if(lang=='fr'){
+            payload.forEach(x=>{
+                data.push({...x,'name':x.name_fr,'link':'/fr'+ x.link});
+            });
+        } else if(lang=='es'){
+            payload.forEach(x=>{
+                data.push({...x,'name':x.name_es,'link':'/es'+x.link});
+            });
+        }else if(lang=='ru'){
+            payload.forEach(x=>{
+                data.push({...x,'name':x.name_en,'link':x.link});
+
+            });
+        };
+        return data;
+    },
+    lang_usa_filter(payload:any,lang:any){
+
+
+        let data = [];
+        if(lang == 'en'){
+            payload.forEach(x=>{
+                data.push({"name":x.name_en,...x});
+            });
+        }else if (lang=="fr"){
+            payload.forEach(x=>{
+                data.push({"name":x.name_fr,...x});
+            });
+        }else if (lang == "es"){
+            payload.forEach(x=>{
+                data.push({"name":x.name_es,...x});
+            })
+        }else{
+            payload.forEach(x=>{
+                data.push({"name":x.name_en,...x});
+            });
+
+        };
+        
+        return data;
+    },
+    lang_usa_detail_product(payload:any,lang:any){
+        let data = {};
+        if(lang=='en'){
+            data = {'name':payload.urunadi_en,'description':payload.aciklama_en,'surface':payload.surface_en,
+                'renk':payload.renk_en,
+                'box_detail':payload.kutudetay_en,
+                'crate_detail':payload.kasadetay_en,
+                'edge':payload.edge_en,
+                ...payload};
+
+        } else if(lang=='fr'){
+            data = {'name':payload.urunadi_fr,'description':payload.aciklama_fr,'surface':payload.surface_fr,
+                'renk':payload.renk_fr,
+                'box_detail':payload.kutudetay_fr,
+                'crate_detail':payload.kasadetay_fr,
+                'edge':payload.edge_fr,
+                
+                ...payload};
+
+        }else if(lang=='es'){
+            data = {'name':payload.urunadi_es,'description':payload.aciklama_es,'surface':payload.surface_es,
+                'renk':payload.renk_es,
+                'box_detail':payload.kutudetay_es,
+                'crate_detail':payload.kasadetay_es,
+                'edge':payload.edge_es,
+                ...payload};
+
+        }else{
+            data = {'name':payload.urunadi_en,'description':payload.aciklama_en,'surface':payload.surface_en,
+                'renk':payload.renk_en,
+                'box_detail':payload.kutudetay_en,
+                'crate_detail':payload.kasadetay_en,
+                'edge':payload.edge_en,
+                ...payload};
+
+        }
+        return data;
+    },
+    lang_project_detail_photos(payload:any,lang:any){
+        const data = [];
+        if(lang=="en"){
+            payload.forEach(x=>{
+                data.push({'name':x.ProductName,...x});
+            });
+        }        else if(lang=="fr"){
+            payload.forEach(x=>{
+                data.push({'name':x.ProductName_Fr,...x});
+            });
+        }else if(lang=="es"){
+            payload.forEach(x=>{
+                data.push({'name':x.ProductName_Es,...x});
+            });
+        }else if(lang=="ru"){
+            payload.forEach(x=>{
+                data.push({'name':x.ProductName_Ru,...x});
+            });
+        };
+        return data;
+
     }
 
 }

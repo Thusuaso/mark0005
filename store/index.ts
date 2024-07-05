@@ -27,7 +27,9 @@ export const useStore = defineStore('store', {
         toast: {},
         variation: {},
         loading: ref(false),
-        specification:[]
+        specification:[],
+        usa:{},
+
   }),
   getters: {
       getNavbar(state) {
@@ -104,6 +106,9 @@ export const useStore = defineStore('store', {
       },
       getSpecification(state) {
           return state.specification;
+      },
+      getUsa(state){
+        return state.usa;
       }
   },
   actions: {
@@ -126,6 +131,7 @@ export const useStore = defineStore('store', {
           this.variation = payload.variation;
           this.application = payload.application;
           this.specification = payload.specification;
+          this.usa = payload.usa;
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);
@@ -144,6 +150,9 @@ export const useStore = defineStore('store', {
       },
       setProductDetail(payload: any) {
           this.product_detail = payload;
+
+
+
       },
       setAuthStatus(payload: any) {
           this.auth_status = payload;

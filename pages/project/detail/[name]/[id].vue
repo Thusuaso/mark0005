@@ -4,29 +4,18 @@
         <div class="col-sm-6">
             <div class="row m-auto text-center">
 
-                <SharedFancybox :options="{
-                    Carousel: {
-                        transition: 'slide'
-                    }
-                }">
-                    <div class="row m-auto text-center">
 
 
-                    </div>
-                    <a class="fancybox ml-3 mb-3 col-sm-6" v-for="item of photos" :key="item.id" :href="item.ImageLink"
-                        data-fancybox="gallery" >
 
-                            <div class="customContainer ">
+            <div v-for="(image, index) of photos" :key="index.id" class="col-sm-6 mb-3">
+                <div class="customContainer ">
                                 <div class="customElement">
-                                    <img :src="item.ImageLink" style="width:100%;height:250px;" />
-                                    <p class="card_title">{{ item.ProductName }}</p>
+                                    <img :src="image.ImageLink" :alt="image.name" style="cursor: pointer" @click="imageClick(index)" />
+                                    <p class="card_title">{{ image.name }}</p>
 
                                 </div>
                         </div>
-                    </a>
-
-
-                </SharedFancybox>
+            </div>
 
 
             </div>
@@ -54,6 +43,18 @@
 
     </div>
 
+    <Galleria v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="photos" :responsiveOptions="responsiveOptions" :numVisible="7"
+            containerStyle="max-width: 850px" :circular="true" :fullScreen="true" :showItemNavigators="true" :showThumbnails="false">
+            <template #item="slotProps">
+                <img :src="slotProps.item.ImageLink" :alt="slotProps.item.name" style="width: 100%; display: block" />
+            </template>
+            <template #thumbnail="slotProps">
+                <img :src="slotProps.item.ImageLink" :alt="slotProps.item.name" style="display: block" />
+            </template>
+        </Galleria>
+
+
+
 </template>
 <script lang="ts" setup>
 
@@ -63,11 +64,11 @@ import control from '~/lang/control';
 const store = useStore();
 const router = useRouter();
 await $fetch('/api/projects/detail/' + router.currentRoute._value.params.id)
-    .then(res => {
-        store.setProjectDetail(res);
+    .then(async res => {
+        await store.setProjectDetail(res);
     });
 
-const photos = store.getProjectDetail.photos;
+const photos = control.lang_project_detail_photos(store.getProjectDetail.photos,store.getLang);
 let video = '';
 if (store.getProjectDetail.video.length > 0) {
     video = store.getProjectDetail.video[0].VideosLink;
@@ -80,6 +81,26 @@ const description = control.lang_project_desc(store.getProjectDetail.description
 const suggesteds = control.lang_project(store.getProjectDetail.suggested,store.getLang);
 const description_ = store.getProjectDescription;
 const project_name = control.lang_project_detail_name(store.getProjectDetail.description[0], store.getLang);
+const activeIndex = ref(0);
+const responsiveOptions = ref([
+    {
+        breakpoint: '1024px',
+        numVisible: 5
+    },
+    {
+        breakpoint: '768px',
+        numVisible: 3
+    },
+    {
+        breakpoint: '560px',
+        numVisible: 1
+    }
+]);
+const displayCustom = ref(false);
 
+const imageClick = (index:any) => {
+    activeIndex.value = index;
+    displayCustom.value = true;
+};
 
 </script>

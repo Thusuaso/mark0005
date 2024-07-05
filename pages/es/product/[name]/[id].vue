@@ -86,8 +86,8 @@ const router = useRouter();
 const store = useStore();
 
 await $fetch('/api/products/' + router.currentRoute._value.params.id)
-    .then(res => {
-        store.setCategoriesDetail(res);
+    .then(async res => {
+        await store.setCategoriesDetail(res);
     });
 
 

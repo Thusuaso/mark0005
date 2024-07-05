@@ -1,4 +1,5 @@
 <template>
+
     <div class="row m-auto text-center">
         <div class="col-sm-3">
             <div class="container border mb-3">
@@ -71,7 +72,7 @@
         <div class="col-sm-9">
             <div class="row m-auto text-align">
                 <div class="col-sm-4" v-for="product in products" :key="product.Id">
-                    <ProductsCard :text="product.name" :image="product.image" :link="product.link" />
+                    <LazyProductsCard :text="product.name" :image="product.image" :link="product.link" />
                 </div>
             </div>
         </div>
@@ -82,12 +83,13 @@
 
 
 import { useStore } from '~/store/index';
+import {ref} from 'vue';
 const router = useRouter();
 const store = useStore();
 
 await $fetch('/api/products/' + router.currentRoute._value.params.id)
-    .then(res => {
-        store.setCategoriesDetail(res);
+    .then(async res => {
+        await store.setCategoriesDetail(res);
     });
 
 

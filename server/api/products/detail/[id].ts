@@ -64,6 +64,20 @@ from MekmarCom_Fotolar mf
 where mf.urunid='${productId}'
 order by mf.sira 
     `;
+	const productPhotosExceptFirstSql = `
+		select 
+
+		mf.Id,
+		mf.name,
+		mf.uzanti,
+		mf.imagePath,
+		mf.macPath,
+		mf.sira
+
+	from MekmarCom_Fotolar mf
+	where mf.urunid='${productId}' and mf.sira != 1
+	order by mf.sira 
+	`;
     const productSizesSql = `
         select 
 
@@ -88,7 +102,7 @@ order by me.sira
 	mp.urunadi_ar as name_ar,
 	(select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mo.onerilenurunid order by mf.sira) as image,
 	(select top 1 mf.name from MekmarCom_Fotolar mf where mf.urunid = mo.onerilenurunid order by mf.sira) as imageName,
-	TRIM('/product/detail/' + mp.urunadi_en + '/' + TRIM(STR(mp.urunid))) as link
+	TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
 
 	 
 from MekmarCom_OnerilenUrunler mo
@@ -100,14 +114,18 @@ where mo.urunid = '${productId}' and mp.yayinla=1
                 (await api).query(productPhotosSql, async (err, photos) => {
 					(await api).query(productSizesSql, async (err, sizes) => {
 						(await api).query(productSuggestedSql, async (err, suggested) => {
-							                        const data = {
-                            'detail': detail?.recordset,
-                            'photos': photos?.recordset,
-														'sizes': sizes?.recordset,
-							
-														'suggested':suggested?.recordset
-                        }
-                       await resolve(data) 
+							(await api).query(productPhotosExceptFirstSql,async(err,photosExceptFirst)=>{
+								const data = {
+									'detail': detail?.recordset,
+									'photos': photos?.recordset,
+																'sizes': sizes?.recordset,
+									
+																'suggested':suggested?.recordset,
+																'except':photosExceptFirst?.recordset
+								}
+							   await resolve(data)
+							});
+							                         
 						})
 
                     });

@@ -11,19 +11,23 @@
             </div>
             <div class="col-sm-4 ">
                 <h3 class="header mb-2">{{ footer.news.header }}</h3>
-                <div class="row m-auto text-center">
-                    <SharedFancybox :options="{
-                    Carousel: {
-                        transition: 'slide'
-                    }
-                }">
-                        <a class="fancybox ml-3 mb-5 col-4" v-for="item of footer.news.items" :key="item.id"
-                            :href="item.jpegb" data-fancybox="gallery">
-                            <img :src="item.jpegb" style="width:100%;height:auto;" />
-                        </a>
-                    </SharedFancybox>
-                    <!-- <MazGallery :images="images" :height="345" /> -->
-                </div>
+                <div class=" flex justify-center">
+        <Galleria v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="footer.news.items" :responsiveOptions="responsiveOptions" :numVisible="7"
+            containerStyle="max-width: 850px" :circular="true" :fullScreen="true" :showItemNavigators="true" :showThumbnails="false">
+            <template #item="slotProps">
+                <img :src="slotProps.item.image" :alt="slotProps.item.name" style="width: 100%; display: block" />
+            </template>
+            <template #thumbnail="slotProps">
+                <img :src="slotProps.item.image" :alt="slotProps.item.name" style="display: block" />
+            </template>
+        </Galleria>
+
+        <div v-if="footer.news.items" class="row m-auto text-center">
+            <div v-for="(image, index) of footer.news.items" :key="index" class="col-4">
+                <img :src="image.image" :alt="image.name" style="cursor: pointer;width:120px;height:110px;margin-bottom:10px;" @click="imageClick(index)" />
+            </div>
+        </div>
+    </div>
 
             </div>
             <div class="col-sm-4">
@@ -37,8 +41,17 @@
                             <div class="personalCardColumnTwo">
                                 <div>{{ item.name }}</div>
                                 <div>{{ item.job }}</div>
-                                <div>{{ item.email }}</div>
-                                <div>{{ item.whatsapp }}</div>
+                                <div>
+                                    <a :href="'mailto:'+item.email" class="text-decoration-none text-body-emphasis">
+                                        <i class="fa fa-envelope" style="color: black"></i>
+                                        <span style="color: black">{{ item.email }}</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a target="_blank" :href="item.watsappLink" class="text-decoration-none">
+                                    <span style="color: black">{{ item.whatsapp }}</span>
+                                    </a>
+                                </div>
 
                             </div>
                         </div>
@@ -61,5 +74,37 @@ const props = defineProps({
 });
 const { footer } = props;
 
-const images: MazGalleryImage[] = footer.news.items;
+const activeIndex = ref(0);
+const responsiveOptions = ref([
+    {
+        breakpoint: '1024px',
+        numVisible: 5
+    },
+    {
+        breakpoint: '768px',
+        numVisible: 3
+    },
+    {
+        breakpoint: '560px',
+        numVisible: 1
+    }
+]);
+const displayCustom = ref(false);
+
+const imageClick = (index:any) => {
+    activeIndex.value = index;
+    displayCustom.value = true;
+};
+
+
+
+
+
+
+
+
+
 </script>
+<style scoped> 
+    
+</style>

@@ -6,8 +6,7 @@ export default defineEventHandler(async (event) => {
      const productsSql = `
     select mp.Id,mp.urunid,mp.kategori_id,mp.urunadi_en as name_en,mp.urunadi_fr as name_fr,mp.urunadi_es as name_es,mp.urunadi_ru as name_ru,mp.urunadi_ar as name_ar,
     (select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mp.urunid order by mf.sira) as image,
-    TRIM('/product/detail/' + mp.urunadi_en + '/' + TRIM(STR(mp.urunid))) as link
-
+TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
     
     from MekmarCom_Products mp 
         inner join MekmarCom_Finish mf on mf.urunid = mp.urunid

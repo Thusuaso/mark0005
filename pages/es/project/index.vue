@@ -12,9 +12,9 @@ import {ref} from 'vue';
 const store = useStore();
 store.setLoading(ref(true));
 await $fetch('/api/projects/list')
-    .then(res => {
-        store.setProjects(res);
-        store.setLoading(ref(false));
+    .then(async res => {
+        await store.setProjects(res);
+        await store.setLoading(ref(false));
 
     });
 const projects = store.getProjects;

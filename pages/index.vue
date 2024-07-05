@@ -4,15 +4,13 @@
   <div class="row m-auto">
     <div class="col-sm-3 mt-2">
       <CategoriesSlides :slides="slides.slide1" />
-      <br />
       <CategoriesSlides :slides="slides.slide2" />
-      <br />
       <CategoriesSlides :slides="slides.slide3" />
     </div>
     <div class="col-sm-9">
       <div class="row m-auto">
         <div class="col-sm-4" v-for="category of categories" :key="category.id">
-          <CategoriesCard :link="category.link" :image="category.image" :text="category.name" />
+          <LazyCategoriesCard :link="category.link" :image="category.image" :text="category.name" />
         </div>
 
       </div>

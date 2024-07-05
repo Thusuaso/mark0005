@@ -39,7 +39,10 @@
             <h3 class="subheader">{{ desc_header }}</h3>
             <p class="description">{{ desc }}</p>
             <h3 class="subheader">{{ hash_header }}</h3>
-            <p class="description text-break">{{ hash }}</p>
+            <p class="description text-break" >
+                <a href="">{{ hash_ }}</a>
+                
+            </p>
         </div>
 
     </div>
@@ -100,4 +103,8 @@ const props = defineProps({
     }
 });
 const { desc, hash, category, stone, code, desc_header, hash_header, code_header, stone_header, country_header, variation_header, country, variation } = props;
+let hash_ = "";
+hash.split('#').forEach(x=>{
+    hash_+=('#' + x);
+})
 </script>

@@ -1,7 +1,7 @@
 <template>
     <h3 class="header mb-3">{{ detail.name.toUpperCase() }}</h3>
-    <div class="row m-auto text-center">
-        <div class="col-sm-6">
+    <div class="row m-auto text-center mb-3">
+        <div class="col-sm-6 mt-3">
             <ProductsDetailGalleries :photos="photos" />
         </div>
         <div class="col-sm-6">
@@ -34,12 +34,12 @@
             </MazTabs>
         </div>
     </div>
+    <hr/>
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-12">
-            <ProductsDetailPhotos />
+            <ProductsDetailPhotos :photos="photos" :except_photo="except_photo"/>
         </div>
     </div>
-    <ProductsDetailPhotos :photos="photos" />
     <h3 class="header mb-3">{{ product.benzerurun_title }}</h3>
     <div class="row m-auto text-center">
         <div class="col-sm-3" v-for="sim in similar" :key="sim.id">
@@ -62,16 +62,17 @@ const store = useStore();
 const router = useRouter();
 store.setLoading(ref(true));
 await $fetch('/api/products/detail/' + router.currentRoute._value.params.productId)
-    .then(res => {
+    .then(async res => {
         if (res) {
-            store.setProductDetail(res);
-            store.setLoading(ref(false));
+            await store.setProductDetail(res);
+            await store.setLoading(ref(false));
         }
 
 
     });
 const detail = control.product_detail(store.getProductDetail.detail[0], store.getLang);
 const photos = store.getProductDetail.photos;
+const except_photo = store.getProductDetail.except;
 const sizes = store.getProductDetail.sizes;
 const product = store.getProduct;
 const similar = store.getSimilar;

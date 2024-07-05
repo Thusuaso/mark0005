@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import Aura from '@primevue/themes/aura';
 export default defineNuxtConfig({
   app: {
   head: {
@@ -17,7 +18,9 @@ export default defineNuxtConfig({
 },
 
 
-
+nitro: {
+  preset: 'node-server'
+},
 
   devtools: { enabled: true },
   modules: [
@@ -25,6 +28,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     "maz-ui",
     "@element-plus/nuxt",
+    '@primevue/nuxt-module'
   ],
   usebootstrap: {
     bootstrap: {
@@ -37,8 +41,16 @@ export default defineNuxtConfig({
   css: [
     "bootstrap/scss/bootstrap.scss",
     "~/assets/css/default.css",
-    "@fancyapps/ui/dist/fancybox/fancybox.css"
-  ]
+    "@fancyapps/ui/dist/fancybox/fancybox.css",
+  ],
+  "overrides": { "vue": "3.3.13" },
+  primevue: {
+    options: {
+        theme: {
+            preset: Aura
+        }
+    }
+}
 
 
   

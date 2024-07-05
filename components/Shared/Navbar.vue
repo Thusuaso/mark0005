@@ -49,11 +49,23 @@
               {{ navbar.contact }}
             </NavLink>
           </NavItem>
-          <NavItem>
-            <NavLink :to="navbar_link.usastock">
-              {{ navbar.usastock }}
-            </NavLink>
-          </NavItem>
+          <NavItemDropdown>
+            <NavItemDropdownToggle to="">{{ navbar.usa }}</NavItemDropdownToggle>
+            <DropdownMenu>
+              <DropdownItem :to="navbar_link.usastock">
+                {{ navbar.usastock }}
+              </DropdownItem>
+              <DropdownItem :to="navbar_link.usaabout">
+                {{ navbar.usaabout }}
+              </DropdownItem>
+              <DropdownItem :to="navbar_link.usacontact">
+                {{ navbar.usacontact }}
+              </DropdownItem>
+              <DropdownItem :to="navbar_link.usafaq">
+                {{ navbar.usafaq }}
+              </DropdownItem>
+            </DropdownMenu>
+          </NavItemDropdown>
 
           <BForm
           flex
