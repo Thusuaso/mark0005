@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import Lara from '@primevue/themes/lara';
 export default defineNuxtConfig({
-  ssr: false,
   app: {
   head: {
     meta: [
