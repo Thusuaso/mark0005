@@ -25,7 +25,7 @@
                     </MazTabsContentItem>
                     <MazTabsContentItem :tab="3" class="maz-py-5">
                         <div class=" m-auto text-center">
-                            <ProductsDetailSize v-for="size in sizes" :key="size" :size="size.ebat" :unit="size.birim"
+                            <ProductsDetailSize v-for="size in sizes" :key="size" :size="size.ebat" :unit="size_control(size.birim)"
                                 :price="size.fiyat" />
 
                         </div>
@@ -90,6 +90,13 @@ function controlString(value:any) {
         return value.toUpperCase();
     }else{
         return "";
+    }
+};
+const size_control = (event)=>{
+    if(event == ' ' || event == '' || event == undefined || event == null){
+        return 'sqm';
+    }else{
+        return event;
     }
 }
 </script>

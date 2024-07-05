@@ -1,7 +1,11 @@
 <template>
-  <Navbar expand="lg" theme="light" background-color="light">
+  <div class="row m-auto text-center">
+    <div class="col-sm-2 fs-1 text-decoration-none">
+      <NuxtLink class="text-decoration-none" :to="selectedLang.link">MEKMAR</NuxtLink>
+    </div>
+    <div class="col-sm-10">
+      <Navbar expand="lg" theme="light" background-color="light">
     <Container type="fluid">
-      <NavbarBrand>MEKMAR</NavbarBrand>
       <NavbarToggler />
       <NavbarCollapse>
         <NavbarNavList margin="e-auto b-2 b-lg-0">
@@ -66,35 +70,37 @@
               </DropdownItem>
             </DropdownMenu>
           </NavItemDropdown>
-
+          
           <BForm
           flex
         >
-        <el-dropdown >
-      <el-button type="primary">
-        Language<el-icon class="el-icon--right"></el-icon>
-      </el-button>
-      <template #dropdown>
-        <el-dropdown-menu>
-          <el-dropdown-item><a href="/" class="text-decoration-none text-dark-emphasis">English</a></el-dropdown-item>
+        <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-25 "/>
+        <Select v-model="selectedLang" :options="langs" optionLabel="name" class="w-full md:w-56 bg-light text-dark ">
+          <template #value="slotProps">
+            <div v-if="slotProps.value" class="flex items-center text-dark">
+              {{ slotProps.value.name }}
+            </div>
 
-          <el-dropdown-item><a href="/fr" class="text-decoration-none text-dark-emphasis">France</a></el-dropdown-item>
-          <el-dropdown-item><a href="/es" class="text-decoration-none text-dark-emphasis">Spanish</a></el-dropdown-item>
-          <el-dropdown-item><a href="/ru" class="text-decoration-none text-dark-emphasis">Russian</a></el-dropdown-item>
-
-
-        </el-dropdown-menu>
-      </template>
-          </el-dropdown>
-      </BForm>
+        </template>
+        <template #option="slotProps">
+              <a :href="slotProps.option.link" class="text-decoration-none text-light">{{ slotProps.option.name }}</a>
+        </template>
+        </Select>
+          </BForm>
 
         </NavbarNavList>
         
       </NavbarCollapse>
     </Container>
   </Navbar>
+    </div>
+
+  </div>
+
 </template>
 <script lang="ts" setup>
+import {ref} from 'vue';
+import {useStore} from '~/store/index';
 const props = defineProps({
   navbar: {
     type: Object,
@@ -106,4 +112,29 @@ const props = defineProps({
   }
 });
 const { navbar, navbar_link } = props;
+const langs = [
+  {'name':'English','link':'/',"status":"en"},
+  {'name':'France','link':'/fr',"status":"fr"},
+  {'name':'Spanish','link':'/es',"status":"es"},
+  {'name':'Russian','link':'/ru',"status":"ru"},
+];
+const store = useStore();
+let selectedLang = ref();
+langs.forEach(x=>{
+  if(x.status == store.getLang){
+    selectedLang = ref(x);
+  }
+});
+
+const search = ref("");
+
+const searchInput = (event)=>{
+  const router = useRouter();
+  const search_link = store.getSearchLink;
+
+  router.push(search_link + event.target._value.replaceAll(' ','-'));
+};
+const search_placeholder = store.getSearch;
+
+
 </script>

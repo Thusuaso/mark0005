@@ -600,5 +600,7 @@
         "sizes":"SIZES",
         "mosaics":"MOSAICS"     
 
-      }
+      },
+      "search":"Search...",
+      "search_link":"/search/"
 }

@@ -178,7 +178,6 @@ const project = {
     },
     lang_usa_product(payload:any,lang:any){
 
-        console.log(payload);
         let data = [];
         if(lang=='en'){
             payload.forEach(x=>{

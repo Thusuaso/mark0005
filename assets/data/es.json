@@ -617,5 +617,7 @@
 
 
         ]
-      }
+      },
+      "search":"Buscar...",
+      "search_link":"/es/search/"
 }

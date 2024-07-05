@@ -29,6 +29,9 @@ export const useStore = defineStore('store', {
         loading: ref(false),
         specification:[],
         usa:{},
+        search_products:[],
+        search:'',
+        search_link:''
 
   }),
   getters: {
@@ -109,6 +112,15 @@ export const useStore = defineStore('store', {
       },
       getUsa(state){
         return state.usa;
+      },
+      getSearchProducts(state){
+        return state.search_products;
+      },
+      getSearch(state){
+        return state.search;
+      },
+      getSearchLink(state){
+        return state.search_link;
       }
   },
   actions: {
@@ -132,6 +144,8 @@ export const useStore = defineStore('store', {
           this.application = payload.application;
           this.specification = payload.specification;
           this.usa = payload.usa;
+          this.search = payload.search;
+          this.search_link = payload.search_link;
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);
@@ -159,6 +173,9 @@ export const useStore = defineStore('store', {
       },
       setLoading(payload: any) {
           this.loading = payload;
+      },
+      setSearchProductList(payload:any){
+        this.search_products = payload;
       }
 
   },

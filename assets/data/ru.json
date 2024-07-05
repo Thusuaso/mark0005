@@ -618,5 +618,7 @@
 
         ]
 
-      }
+      },
+      "search":"Поиск...",
+      "search_link":"/ru/search/"
 }

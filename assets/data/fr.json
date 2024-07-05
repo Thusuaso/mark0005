@@ -616,5 +616,7 @@
 
         ]
 
-      }
+      },
+      "search":"Recherche...",
+      "search_link":"/fr/search/"
 }
