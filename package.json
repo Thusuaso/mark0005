@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@element-plus/nuxt": "^1.0.9",
@@ -28,5 +29,8 @@
     "@types/mssql": "^9.1.5",
     "maz-ui": "^3.44.3",
     "usebootstrap": "^3.5.7"
-  }
+  },
+  "engines": {
+    "node": "20.x"
+}
 }
