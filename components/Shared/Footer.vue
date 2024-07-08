@@ -8,6 +8,13 @@
                     <li v-for="item of footer.about.items" :key="item.id" class="about-description">{{ item.value }}
                     </li>
                 </ul>
+                <ul class="row m-auto text-center">
+                    <li class="col-2" v-for="social of footer.about.socials" style="list-style-type: none;">
+                        <a :href="social.link" target="_blank">
+                            <i :class="social.icon" class="text-decoration-none" ></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div class="col-sm-4 ">
                 <h3 class="header mb-2">{{ footer.news.header }}</h3>
@@ -24,7 +31,7 @@
 
         <div v-if="footer.news.items" class="row m-auto text-center">
             <div v-for="(image, index) of footer.news.items" :key="index" class="col-4">
-                <img :src="image.image" :alt="image.name" style="cursor: pointer;width:120px;height:110px;margin-bottom:10px;" @click="imageClick(index)" />
+                <img :src="image.image" :alt="image.name" class="footer-news-img" @click="imageClick(index)" />
             </div>
         </div>
     </div>

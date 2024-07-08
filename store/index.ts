@@ -31,7 +31,8 @@ export const useStore = defineStore('store', {
         usa:{},
         search_products:[],
         search:'',
-        search_link:''
+        search_link:'',
+        projects_suggested_header:''
 
   }),
   getters: {
@@ -121,7 +122,11 @@ export const useStore = defineStore('store', {
       },
       getSearchLink(state){
         return state.search_link;
-      }
+      },
+      getProjectsSuggestedHeader(state){
+        return state.projects_suggested_header;
+      },
+
   },
   actions: {
     setMainStorage(payload:any) {
@@ -136,6 +141,7 @@ export const useStore = defineStore('store', {
           this.contact = payload.contact;
           this.projects_header = payload.project.header;
           this.projects_description = payload.project.description;
+          this.projects_suggested_header = payload.project.suggested;
           this.product = payload.product_detail;
           this.similar = payload.similar_products;
           this.login = payload.login;

@@ -536,7 +536,8 @@
       ],
             "project":{
         "header":"МЕКМАР ПРОЕКТЫ",
-                "description":"Описание"
+                "description":"Описание",
+                "suggested":"ПРЕДЛАГАЕМЫЕ ПРОЕКТЫ"
 
       },
             "login":{

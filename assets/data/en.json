@@ -518,7 +518,8 @@
       ],
       "project":{
         "header":"MEKMAR PROJECTS",
-        "description":"Description"
+        "description":"Description",
+        "suggested":"SUGGESTED PROJECTS"
       },
       "login":{
         "username":"Username",

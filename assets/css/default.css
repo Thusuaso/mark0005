@@ -278,6 +278,9 @@
 .product_gallery{
     box-shadow: 2px 2px 5px gray;
 }
+.footer-news-img{
+    cursor: pointer;width:120px;height:110px;margin-bottom:10px;
+}
 
 @media screen and (max-width:576px) {
     .footer_about_description{
@@ -291,6 +294,15 @@
                 .videosElement {
                     width: 100%;
                 }
+    .carousel-custom{
+        display:none;
+    }
+    .filter-custom{
+        display:none;
+    }
+    .footer-news-img{
+        cursor: pointer;width:100px;height:100px;margin-bottom:10px;
+    }
 }
 
 

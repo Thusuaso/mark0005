@@ -534,7 +534,8 @@
       ],
             "project":{
         "header":"PROJETS MEKMAR",
-                "description":"Description"
+                "description":"Description",
+                "suggested":"PROJETS SUGGÉRÉS"
 
       },
             "login":{

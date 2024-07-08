@@ -7,10 +7,8 @@
     </NuxtLayout>
   </div>
   <hr />
-  <div class="container">
-    <SharedFooter :footer="footer" />
+  <SharedFooter :footer="footer" />
 
-  </div>
 
 </template>
 <script lang="ts" setup>

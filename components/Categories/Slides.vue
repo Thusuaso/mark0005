@@ -5,7 +5,7 @@
         :name="slide.name" :header="slide.title" />
     </CarouselInner>
   </Carousel> -->
-  <Carousel :value="slides" :numVisible="1" :numScroll="1" :autoplayInterval="3000" orientation="horizontal"  :circular="true" :showIndicators="false" :showNavigators="false">
+  <Carousel  class="carousel-custom" :value="slides" :numVisible="1" :numScroll="1" :autoplayInterval="3000" orientation="horizontal"  :circular="true" :showIndicators="false" :showNavigators="false">
     <template #item="slotProps">
         <div class=" rounded   ">
             <div class="">

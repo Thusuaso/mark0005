@@ -17,7 +17,7 @@
 
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mt-2">
                         <iframe v-if="video" class="iframe-video" :src="video" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -25,12 +25,14 @@
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
                   class="iframe-video"
                 />
-            <div class="form-floating " style="margin-bottom:34px;">
+            <div class="form-floating " style="margin-bottom:6px;">
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
                     id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;"></textarea>
                 <label for="floatingTextareaDisabled">{{ description_ }}</label>
             </div>
             <div class="row m-auto text-center">
+                <h3 class="header " style="margin-bottom:6px;">{{ suggested_header }}</h3>
+
                 <div class="col-sm-6" v-for="suggested in suggesteds" :key="suggested.id">
                     <ProjectsCard :link="suggested.link" :image="suggested.Image" :text="suggested.name"
                         :country="suggested.country" />
@@ -94,5 +96,6 @@ const imageClick = (index:any) => {
     activeIndex.value = index;
     displayCustom.value = true;
 };
+const suggested_header = store.getProjectsSuggestedHeader;
 
 </script>
