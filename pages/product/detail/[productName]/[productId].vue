@@ -10,7 +10,7 @@
 
                 <MazTabsContent>
                     <MazTabsContentItem :tab="1" class="maz-py-5">
-                        <ProductsDetailDescription :desc="detail.desc" :hash="detail.hash"
+                        <ProductsDetailDescription :desc="detail.desc" :hash="controlString_2(detail.hash)"
                             :category="controlString(detail.category)" :stone="controlString(detail.stone)"
                             :code="controlString(detail.urunkod)" :desc_header="product.description"
                             :hash_header="product.hastags" :code_header="product.tab_1_code"
@@ -88,6 +88,13 @@ const specification = control.lang_specification(store.getSpecification, detail?
 function controlString(value:any) {
     if (value) {
         return value.toUpperCase();
+    }else{
+        return "";
+    }
+};
+function controlString_2(value:any) {
+    if (value) {
+        return value
     }else{
         return "";
     }

@@ -10,7 +10,7 @@
                 </ul>
                 <ul class="row m-auto text-center">
                     <li class="col-2" v-for="social of footer.about.socials" style="list-style-type: none;">
-                        <a :href="social.link" target="_blank">
+                        <a :href="social.link" target="_blank" style="color: #1357bc;">
                             <i :class="social.icon" class="text-decoration-none" ></i>
                         </a>
                     </li>
@@ -29,7 +29,7 @@
             </template>
         </Galleria>
 
-        <div v-if="footer.news.items" class="row m-auto text-center">
+        <div v-if="footer.news.items" class="row m-auto text-center" >
             <div v-for="(image, index) of footer.news.items" :key="index" class="col-4">
                 <img :src="image.image" :alt="image.name" class="footer-news-img" @click="imageClick(index)" />
             </div>
@@ -46,17 +46,19 @@
                                 <img :src="item.image" />
                             </div>
                             <div class="personalCardColumnTwo">
+       
                                 <div>{{ item.name }}</div>
                                 <div>{{ item.job }}</div>
                                 <div>
                                     <a :href="'mailto:'+item.email" class="text-decoration-none text-body-emphasis">
-                                        <i class="fa fa-envelope" style="color: black"></i>
-                                        <span style="color: black">{{ item.email }}</span>
+                                        <i class="fa fa-envelope" style="color: white;"></i>
+                                        <span class="footer-span">{{ item.email }}</span>
                                     </a>
                                 </div>
                                 <div>
                                     <a target="_blank" :href="item.watsappLink" class="text-decoration-none">
-                                    <span style="color: black">{{ item.whatsapp }}</span>
+                                        <i class="fa fa-whatsapp" style="color: white;"></i>
+                                        <span class="footer-span">{{ item.whatsapp }}</span>
                                     </a>
                                 </div>
 

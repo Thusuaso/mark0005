@@ -7,15 +7,19 @@
   </Carousel> -->
   <Carousel  class="carousel-custom" :value="slides" :numVisible="1" :numScroll="1" :autoplayInterval="3000" orientation="horizontal"  :circular="true" :showIndicators="false" :showNavigators="false">
     <template #item="slotProps">
+      <a :href="slotProps.data.link" class="text-decoration-none text-secondary">
         <div class=" rounded   ">
-            <div class="">
-                <div class="relative mx-auto">
-                    <img :src="slotProps.data.imagePath" :alt="slotProps.data.title" class="w-100" height="230" />
-                </div>
-            </div>
-            <div class="mb-3 font-medium text-center">{{ slotProps.data.title }}</div>
-           
-        </div>
+
+<div class="">
+    <div class="relative mx-auto">
+        <img :src="slotProps.data.imagePath" :alt="slotProps.data.title" class="w-100" height="230" />
+    </div>
+</div>
+<div class="mb-3 font-medium text-center">{{ slotProps.data.title }}</div>
+
+</div>
+      </a>  
+
     </template>
 </Carousel>
 </template>

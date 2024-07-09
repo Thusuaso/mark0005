@@ -3,9 +3,9 @@
     <a :href="link" class="list-group-item d-flex justify-content-between align-items-start">
 
         <div class="ms-2 me-auto">
-            <div class="fw-bold">{{ name }}</div>
+            <div ">{{ name }}</div>
         </div>
-        <span class="badge text-bg-dark rounded-pill">{{ value }}</span>
+        <span class="badge  rounded-pill" style="background-color:#727478;">{{ value }}</span>
     </a>
 
 

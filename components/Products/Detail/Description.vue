@@ -38,8 +38,8 @@
         <div class="col-sm-12">
             <h3 class="subheader">{{ desc_header }}</h3>
             <p class="description">{{ desc }}</p>
-            <h3 class="subheader">{{ hash_header }}</h3>
-            <p class="description text-break" >
+            <h3 class="subheader" v-if="hash_ != '#'">{{ hash_header }}</h3>
+            <p class="description text-break" v-if="hash_ != '#'">
                 <a href="">{{ hash_ }}</a>
                 
             </p>

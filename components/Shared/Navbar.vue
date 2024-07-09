@@ -1,7 +1,9 @@
 <template>
   <div class="row m-auto text-center">
-    <div class="col-sm-2 fs-1 text-decoration-none">
-      <NuxtLink class="text-decoration-none" :to="selectedLang.link">MEKMAR</NuxtLink>
+    <div class="col-sm-2 fs-1 text-decoration-none fw-light">
+      <NuxtLink class="text-decoration-none fw-light" :to="selectedLang.link" style="color:#1357bc;">
+        <img class="logo_mekmar" src="https://cdn.mekmarimage.com/logo/Mekmar%20Logo%20b%C3%BCy%C3%BCk%20yaz%C4%B1l%C4%B1-01.png"/>
+      </NuxtLink>
     </div>
     <div class="col-sm-10">
       <Navbar expand="lg" theme="light" background-color="light">
@@ -17,8 +19,11 @@
           <NavItemDropdown>
             <NavItemDropdownToggle to="">{{ navbar.product }}</NavItemDropdownToggle>
             <DropdownMenu>
-              <DropdownItem v-for="item in navbar_link.categories" :key="item.id" :to="item.link">
-                {{ item.title }}
+              <DropdownItem v-for="item in navbar_link.categories" :key="item.id" :to="item.link" >
+                <div class="navbar-dropdown-custom">
+                  {{ item.title }}
+                </div>
+                
               </DropdownItem>
             </DropdownMenu>
           </NavItemDropdown>
