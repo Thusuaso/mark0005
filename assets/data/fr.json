@@ -284,9 +284,11 @@
         ]
       },
       "videos":{
-        "title_1":"VIDÉOS INFORMATIVES",
+        "title_1":"VIDÉOS DU PROJET",
+
         "title_2":"VIDÉOS DE RÉALISATION",
-        "title_3":"VIDÉOS DU PROJET",
+        "title_3":"VIDÉOS INFORMATIVES",
+
         "projects":[
           {"id":1,"name":"Vidéos du Projet | Coupe Veinée Classique Travertin Rempli Adouci Rempli Poli","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"1"},
           {"id":2,"name":"Vidéos du Projet | Travertin Coupé Veiné Pablo","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"2"},

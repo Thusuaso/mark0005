@@ -1,5 +1,5 @@
 <template>
-    <div class=" m-auto">
+    <div class="container" >
         <div class="row m-auto ">
             <div class="col-sm-4 ">
                 <h3 class="header">{{ footer.about.header }}</h3>

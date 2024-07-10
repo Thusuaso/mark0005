@@ -5,8 +5,8 @@
             <ProductsDetailGalleries :photos="photos" />
         </div>
         <div class="col-sm-6">
-            <MazTabs>
-                <MazTabsBar :items="tabs" />
+            <MazTabs >
+                <MazTabsBar :items="tabs" style="box-shadow: 2px 2px 2px gray;"/>
 
                 <MazTabsContent>
                     <MazTabsContentItem :tab="1" class="maz-py-5">
@@ -40,7 +40,7 @@
             <ProductsDetailPhotos :photos="photos" :except_photo="except_photo"/>
         </div>
     </div>
-    <h3 class="header mb-3">{{ product.benzerurun_title }}</h3>
+    <h3 class="header mb-3 mt-4">{{ product.benzerurun_title }}</h3>
     <div class="row m-auto text-center">
         <div class="col-sm-3" v-for="sim in similar" :key="sim.id">
             <ProductsCard :link="sim.link" :image="sim.image" :text="sim.name" />

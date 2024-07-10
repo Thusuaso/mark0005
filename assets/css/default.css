@@ -26,7 +26,7 @@
     text-decoration: none;
     margin: 0px auto;
     padding: 0px;
-    line-height: 35px;
+    line-height: 26px;
 }
 
 .about-page-description {
@@ -49,7 +49,7 @@
     text-decoration: none;
     text-indent: 25px;
     margin-bottom:10px;
-    margin-top:10px;
+    margin-top:5px;
 }
 .faq_description{
     width: 100%;
@@ -97,7 +97,7 @@
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
     background-color: rgba(123, 122, 122, 0.5);
-    font-size: 14px;
+    font-size: 18px;
     padding:0px;
 }
 .card_title p{
@@ -147,14 +147,14 @@
 .personalCardColumnOne {
     display: inline-block;
     float: left;
-    width: 25%;
+    width: 30%;
     height: 110px;
 }
 
 .personalCardColumnTwo {
     display: inline-block;
     float: left;
-    width: 75%;
+    width: 70%;
     height: 110px;
     background: linear-gradient(90deg, rgba(42,42,45,1) 0%, rgba(114,116,120,1) 50%, rgba(250,250,250,1) 100%);
 
@@ -246,6 +246,8 @@
 
 .product_gallery{
     box-shadow: 2px 2px 5px gray;
+    border:none;
+    border-radius: 15px;
 }
 .footer-news-img{
     cursor: pointer;width:120px;height:110px;margin-bottom:10px;

@@ -283,9 +283,9 @@
         ]
       },
       "videos":{
-        "title_1":"VÍDEOS INFORMATIVOS",
+        "title_1":"VÍDEOS DEL PROYECTO",
         "title_2":"VÍDEOS DE PRODUCCIÓN",
-        "title_3":"VÍDEOS DEL PROYECTO",
+        "title_3":"VÍDEOS INFORMATIVOS",
         "projects":[
           {"id":1,"name":"Vídeos del Proyecto | Proyecto Litoral en Mauricio","url":"https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6","queue":"1"},
           {"id":2,"name":"Vídeos del Proyecto | Proyecto Mansour in Australia","url":"https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3","queue":"2"},

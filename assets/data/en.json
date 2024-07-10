@@ -283,9 +283,10 @@
         ]
       },
       "videos":{
-        "title_1":"INFORMATIVE VIDEOS",
+        "title_1":"PROJECT VIDEOS",
         "title_2":"PRODUCTION VIDEOS",
-        "title_3":"PROJECT VIDEOS",
+
+        "title_3":"INFORMATIVE VIDEOS",
         "projects":[
           {"id":1,"name":"Project Videos | Classic Vein Cut Travertine Filled Honed Filled Polished","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"1"},
           {"id":2,"name":"Project Videos | Pablo Vein Cut Travertine","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"2"},

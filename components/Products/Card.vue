@@ -3,7 +3,7 @@
         <div class="customElement">
             <a :href="link">
                 <img class="lazyload" :src="image" />
-                <div class="card_title">
+                <div class="card_title" style="font-size:16px;">
                     <p>{{ text }}</p>
                 </div>
             </a>

@@ -6,7 +6,7 @@
         </div>
         <div class="col-sm-6">
             <MazTabs>
-                <MazTabsBar :items="tabs" />
+                <MazTabsBar :items="tabs" style="box-shadow: 2px 2px 2px gray;"/>
 
                 <MazTabsContent>
                     <MazTabsContentItem :tab="1" class="maz-py-5">

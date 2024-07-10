@@ -2,10 +2,10 @@
     <div class="m-auto mt-3 text-center border w-75 bg-secondary bg-gradient text-light">
 
         <div class="row m-auto text-center ">
-            <div class="col-6">{{ size }} / {{ unit}}</div>
+            <div class="col-6">{{ size }}</div>
             <div class="col-6">
                 <span v-if="!store.getAuthStatus"><a href="#" class="text-decoration-none text-light" @click="login">Get
-                        Price</a></span><span v-else>${{ price }}</span>
+                        Price</a></span><span v-else>${{ price }}  / {{ unit}}</span>
             </div>
 
         </div>
