@@ -32,7 +32,9 @@ export const useStore = defineStore('store', {
         search_products:[],
         search:'',
         search_link:'',
-        projects_suggested_header:''
+        projects_suggested_header:'',
+        usa_stock_main_menu:{},
+
 
   }),
   getters: {
@@ -126,6 +128,10 @@ export const useStore = defineStore('store', {
       getProjectsSuggestedHeader(state){
         return state.projects_suggested_header;
       },
+      getUsaStockMainMenu(state){
+        return state.usa_stock_main_menu;
+      },
+
 
   },
   actions: {
@@ -152,6 +158,7 @@ export const useStore = defineStore('store', {
           this.usa = payload.usa;
           this.search = payload.search;
           this.search_link = payload.search_link;
+          this.usa_stock_main_menu = payload.usa_stock_main_menu;
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);
@@ -182,7 +189,7 @@ export const useStore = defineStore('store', {
       },
       setSearchProductList(payload:any){
         this.search_products = payload;
-      }
+      },
 
   },
 })

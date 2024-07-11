@@ -80,17 +80,29 @@
           flex
         >
         <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-25 "/>
-        <Select v-model="selectedLang" :options="langs" optionLabel="name" class="w-full md:w-56 bg-light text-dark ">
-          <template #value="slotProps">
-            <div v-if="slotProps.value" class="flex items-center text-dark">
-              {{ slotProps.value.name }}
-            </div>
+        <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)">
+            <template #value="slotProps">
+                <div v-if="slotProps.value" class="flex items-center">
+                    <img :alt="slotProps.value.label" :src="slotProps.value.img" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" style="width: 18px" />
+                </div>
+                <span v-else>
+                    {{ slotProps.placeholder }}
+                </span>
+            </template>
+            <template #option="slotProps">
+              <a :href="slotProps.option.link">
 
-        </template>
-        <template #option="slotProps">
-              <a :href="slotProps.option.link" class="text-decoration-none text-light">{{ slotProps.option.name }}</a>
-        </template>
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" style="width: 22px" />
+
+              </a>
+
+              
+
+            </template>
         </Select>
+
+
+
           </BForm>
 
         </NavbarNavList>
@@ -104,7 +116,7 @@
 
 </template>
 <script lang="ts" setup>
-import {ref} from 'vue';
+import {ref,onMounted} from 'vue';
 import {useStore} from '~/store/index';
 const props = defineProps({
   navbar: {
@@ -117,29 +129,37 @@ const props = defineProps({
   }
 });
 const { navbar, navbar_link } = props;
-const langs = [
-  {'name':'English','link':'/',"status":"en"},
-  {'name':'France','link':'/fr',"status":"fr"},
-  {'name':'Spanish','link':'/es',"status":"es"},
-  {'name':'Russian','link':'/ru',"status":"ru"},
-];
+const langs = ref([
+  {'name':'English','link':'/',"status":"en","img":"https://cdn.mekmarimage.com/logo/en-flag.png",code:'EN'},
+  {'name':'France','link':'/fr',"status":"fr","img":"https://cdn.mekmarimage.com/logo/fr-flag.png",code:'FR'},
+  {'name':'Spanish','link':'/es',"status":"es","img":"https://cdn.mekmarimage.com/logo/es-flag.png",code:'ES'},
+  {'name':'Russian','link':'/ru',"status":"ru","img":"https://cdn.mekmarimage.com/logo/ru-flag.png",code:'RU'},
+]);
 const store = useStore();
 let selectedLang = ref();
-langs.forEach(x=>{
+langs.value.forEach(x=>{
   if(x.status == store.getLang){
     selectedLang = ref(x);
   }
 });
 
 const search = ref("");
-
-const searchInput = (event)=>{
-  const router = useRouter();
+const router = useRouter();
+const searchInput = (event:any)=>{
+  
   const search_link = store.getSearchLink;
 
   router.push(search_link + event.target._value.replaceAll(' ','-'));
 };
 const search_placeholder = store.getSearch;
+
+
+
+
+
+
+
+
 
 
 </script>

@@ -4,7 +4,7 @@
         <div class="col-sm-6 mt-3">
             <ProductsDetailGalleries :photos="photos" />
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 first">
             <MazTabs >
                 <MazTabsBar :items="tabs" style="box-shadow: 2px 2px 2px gray;"/>
 
@@ -57,7 +57,7 @@
 
 import { useStore } from '~/store/index';
 import control from '~/lang/control';
-import { ref } from 'vue';
+import { ref,onMounted } from 'vue';
 const store = useStore();
 const router = useRouter();
 store.setLoading(ref(true));
@@ -99,11 +99,16 @@ function controlString_2(value:any) {
         return "";
     }
 };
-const size_control = (event)=>{
+const size_control = (event:any)=>{
     if(event == ' ' || event == '' || event == undefined || event == null){
         return 'sqm';
     }else{
         return event;
     }
-}
+};
+
+
+
 </script>
+
+

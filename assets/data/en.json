@@ -604,5 +604,10 @@
 
       },
       "search":"Search...",
-      "search_link":"/search/"
+      "search_link":"/search/",
+      "usa_stock_main_menu":{
+        "name":"CHECK OUR USA STOCKS",
+        "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
+        "link":"/usa/stock"
+      }
 }

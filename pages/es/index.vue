@@ -2,11 +2,21 @@
 
 <template>
   <div class="row m-auto">
-    <div class="col-sm-3 mt-2">
+    <div class="col-sm-3 mt-0">
+      <div class="customContainer mb-2">
+        <a :href="usastock.link">
+        <div class="customElement">
+            
+                <img class="lazyload" :src="usastock.img" />
+                <div class="card_title" style="font-size:14px;">
+                    <p>{{ usastock.name }}</p>
+                </div>
+        </div>
+      </a>
+
+    </div>
       <CategoriesSlides :slides="slides.slide1" />
-      <br />
       <CategoriesSlides :slides="slides.slide2" />
-      <br />
       <CategoriesSlides :slides="slides.slide3" />
     </div>
     <div class="col-sm-9">
@@ -24,4 +34,6 @@ import { useStore } from '~/store/index';
 const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
+const usastock = store.getUsaStockMainMenu;
+
 </script>

@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Lara from '@primevue/themes/lara';
+import Aura from '@primevue/themes/aura';
 export default defineNuxtConfig({
   app: {
   head: {
@@ -49,7 +49,7 @@ nitro: {
   primevue: {
     options: {
         theme: {
-            preset: Lara
+            preset: Aura
         }
     }
 }

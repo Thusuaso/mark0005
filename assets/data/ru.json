@@ -623,5 +623,10 @@
 
       },
       "search":"Поиск...",
-      "search_link":"/ru/search/"
+      "search_link":"/ru/search/",
+      "usa_stock_main_menu":{
+        "name":"ПРОВЕРЬТЕ НАШИ АКЦИИ В США",
+        "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
+        "link":"/ru/usa/stock"
+      }
 }

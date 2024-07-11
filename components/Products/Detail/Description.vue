@@ -108,5 +108,6 @@ const { desc, hash, category, stone, code, desc_header, hash_header, code_header
 let hash_ = "";
 hash.split('#').forEach(x=>{
     hash_+=('#' + x);
-})
+});
+
 </script>

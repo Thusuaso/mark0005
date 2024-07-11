@@ -2,11 +2,11 @@
     <div class="customContainer">
         <div class="customElement">
             <a :href="link">
-                <div class="card_title2">
+                <div class="card_title2" style="font-size:16px;line-height: 0;height:7%;">
                     <p>{{ text }}</p>
                 </div>
                 <img class="lazyload" :src="image" />
-                <div class="card_title">
+                <div class="card_title" style="font-size:16px;line-height: 0.1;height:7%;">
                     <p>${{ price }} / {{ stock }} sqft</p>
                 </div>
             </a>
@@ -75,6 +75,7 @@ const { link, image, text,price,stock } = props;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
     background-color: rgba(123, 122, 122, 0.5);
     font-size: 14px;
+    padding:8px;
 }
 
 .customElement img {

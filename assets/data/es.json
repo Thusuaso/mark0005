@@ -620,5 +620,10 @@
         ]
       },
       "search":"Buscar...",
-      "search_link":"/es/search/"
+      "search_link":"/es/search/",
+      "usa_stock_main_menu":{
+        "name":"CONSULTA NUESTRAS ACCIONES EUA",
+        "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
+        "link":"/es/usa/stock"
+      }
 }

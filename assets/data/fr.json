@@ -621,5 +621,10 @@
 
       },
       "search":"Recherche...",
-      "search_link":"/fr/search/"
+      "search_link":"/fr/search/",
+      "usa_stock_main_menu":{
+        "name":"CONSULTEZ NOTRE NOS STOCKS USA",
+        "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
+        "link":"/fr/usa/stock"
+      }
 }

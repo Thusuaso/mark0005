@@ -16,6 +16,7 @@
         </div>
     </div>
     <hr v-if="specification"/>
+    <span><img src="https://cdn.mekmarimage.com/logo/test-resport-logo.jpg" width="120" height="100" /></span>
 
     <span style="margin-right:10px;" v-if="test_report">{{ test_report_header }}</span><span>
         <a :href="test_report" target="_blank" v-if="test_report">
@@ -24,7 +25,6 @@
         </a>
 
     </span>
-    <span><img src="https://cdn.mekmarimage.com/logo/test-resport-logo.jpg" width="120" height="100" /></span>
 
 </template>
 <script setup lang="ts">
