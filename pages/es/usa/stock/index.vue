@@ -1,6 +1,6 @@
 <template>
     <div class="row m-auto text-center">
-        <div class="col-sm-3">
+        <div class="col-sm-3 filter-custom">
             <div class="border">
                 <h3 class="header mb-3 mt-3">{{ usage_header }}</h3>
                 <ol class="list-group list-group-numbered">

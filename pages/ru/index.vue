@@ -2,7 +2,7 @@
 
 <template>
   <div class="row m-auto">
-    <div class="col-sm-3 mt-0">
+    <div class="col-sm-3 mt-0 filter-custom">
       <div class="customContainer mb-2">
         <a :href="usastock.link">
         <div class="customElement">

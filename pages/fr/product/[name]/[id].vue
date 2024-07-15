@@ -1,6 +1,6 @@
 <template>
     <div class="row m-auto text-center">
-        <div class="col-sm-3">
+        <div class="col-sm-3 filter-custom">
             <div class="container border mb-3">
                 <h3 class="header mt-3">CATEGORIES</h3>
 
