@@ -29,7 +29,7 @@
     "@primevue/nuxt-module": "^4.0.0",
     "@types/mssql": "^9.1.5",
     "maz-ui": "^3.44.3",
-    "usebootstrap": "^3.5.7"
+    "usebootstrap": "^3.5.19"
   },
   "engines": {
     "node": "20.x"
