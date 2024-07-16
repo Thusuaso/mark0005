@@ -27,7 +27,6 @@
             <div class="form-floating " style="margin-bottom:6px;">
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
                     id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;"></textarea>
-                <label for="floatingTextareaDisabled">{{ description_ }}</label>
             </div>
             <div class="row m-auto text-center">
                 <h3 class="header " style="margin-bottom:6px;">{{ suggested_header }}</h3>

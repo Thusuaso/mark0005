@@ -1,7 +1,7 @@
 <template>
     <div class="customContainer">
         <div class="customElement">
-            <a :href="link">
+            <a :href="link" target="_blank">
                 <img class="lazyload" :src="image" />
                 <div class="card_title" style="font-size:16px;line-height: 0.1;height:7%;" >
                     <p>{{ text }}</p>

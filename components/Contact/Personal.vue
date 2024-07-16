@@ -7,13 +7,13 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">{{ job }}</li>
-                <a :href="'mailto:' + email" class="text-decoration-none">
-                    <li class="list-group-item">
+                <a :href="'mailto:' + email" class="text-decoration-none ">
+                    <li class="list-group-item contact-personal" >
                         {{ email }}
                     </li>
                 </a>
-                <a :href="watsappLink" class="text-decoration-none">
-                    <li class="list-group-item">{{ whatsapp }}</li>
+                <a :href="watsappLink" class="text-decoration-none contact-personal">
+                    <li class="list-group-item contact-personal">{{ whatsapp }}</li>
                 </a>
             </ul>
         </div>

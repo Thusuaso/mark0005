@@ -1,11 +1,11 @@
 <template>
   <div class=" container row m-auto text-center">
-    <div class="col-sm-2 fs-1 text-decoration-none fw-light">
+    <div class="col-sm-2 fs-1 text-decoration-none fw-light" >
       <NuxtLink class="text-decoration-none fw-light" :to="selectedLang.link" style="color:#1357bc;">
         <img class="logo_mekmar" src="https://cdn.mekmarimage.com/logo/Mekmar%20Logo%20b%C3%BCy%C3%BCk%20yaz%C4%B1l%C4%B1-01.png"/>
       </NuxtLink>
     </div>
-    <div class="col-sm-10">
+    <div class="col-sm-10" >
       <Navbar expand="lg" theme="light" background-color="light">
     <Container type="fluid">
       <NavbarToggler />
@@ -78,8 +78,9 @@
           
           <BForm
           flex
+          style="margin-left:35px;"
         >
-        <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-25 "/>
+        <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-50 " style="margin-right:5px;"/>
         <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">

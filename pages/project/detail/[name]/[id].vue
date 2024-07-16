@@ -28,11 +28,8 @@
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
                   class="iframe-video"
                 />
-            <div class="form-floating " style="margin-bottom:6px;">
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
-                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;"></textarea>
-                <label for="floatingTextareaDisabled">{{ description_ }}</label>
-            </div>
+                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;"></textarea>
 
             <div class="row m-auto text-center " >
                 <h3 class="header " style="margin-bottom:6px;">{{ suggested_header }}</h3>

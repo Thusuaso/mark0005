@@ -25,7 +25,7 @@
         "fabrication":"/es/fabrication",
         "videos":"/es/videos",
         "project":"/es/project",
-        "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
+        "catalog":"https://cdn.mekmarimage.com/category/1_compressed.pdf",
         "usastock":"/es/usa/stock",
         "categories":[
             {"id":1,"title":"Marmol","link":"/es/product/marble/1"},
@@ -85,7 +85,7 @@
             "description":"MEKMAR produce y suministra los mejores y más altos productos de piedra natural desde 2002. Nuestro objetivo es la mejor calidad, el mejor servicio y la máxima satisfacción del cliente hasta la entrega de los productos. Te actualizamos paso a paso sobre pago, producción y envíos.",
             "items":[
                 
-                {"id" : 1, "value" : "Brindamos servicio de envío a todo el mundo durante 21 años."},
+                {"id" : 1, "value" : "Brindamos servicio de envío a todo el mundo durante 22 años."},
                 { "id"  :2, "value" : "Producimos todo tipo de piedra natural desde losa hasta mosaico." }  ,
                 { "id" : 3, "value" : "Controlamos 30.000 m2 de producto mensualmente." },
                 { "id" : 4, "value" :  "Suministramos soluciones naturales para proyectos arquitectónicos." }
@@ -186,8 +186,8 @@
       ],
       "about" : {
         "header" : "A PROPOSITO DE NOSOTROS",
-        "title_1" : "Nuestra misión",
-        "title_2" : "Nuestra visión",
+        "title_1" : "NUESTRA MISION",
+        "title_2" : "NUESTRA VISION",
         "items_1" : [
     
            { "id" : 1, "value" : "Uso eficiente de los recursos naturales; ser una empresa global respetada, sensible a la sociedad y al medio ambiente." },
@@ -240,11 +240,15 @@
         "form":{
             "name":"Apellido",
             "email":"E-mail",
-            "phone":"Teléfono",
+            "phone":"Número de teléfono",
             "message":"Mensaje",
             "field_1":"El campo Nombre es obligatorio, por favor complete",
             "field_2":"El campo Correo es obligatorio, complételo",
-            "field_3":"El campo Teléfono es obligatorio, por favor complete"
+            "field_3":"El campo Teléfono es obligatorio, por favor complete",
+                        "country":"Código de País",
+            "example":"Ejemplo:",
+                        "choose_country":"Elige País",
+            "search_country":"Buscar un País"
         }
     },
     "fabrication":{

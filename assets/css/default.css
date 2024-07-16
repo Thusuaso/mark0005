@@ -26,7 +26,7 @@
     text-decoration: none;
     margin: 0px auto;
     padding: 0px;
-    line-height: 26px;
+    line-height: 40px;
 }
 
 .about-page-description {
@@ -275,6 +275,12 @@
 .categories-slide:hover {
     color:#1357bc;
 }
+
+.contact-personal:hover{
+    color:#1357bc
+}
+
+
 @media screen and (max-width:576px) {
     .footer_about_description{
         font-size:14px;

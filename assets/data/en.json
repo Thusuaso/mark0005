@@ -25,7 +25,7 @@
         "fabrication":"/fabrication",
         "videos":"/videos",
         "project":"/project",
-        "catalog":"https://mekmar.com/static/assets/mekmar-catalog/catolog-page.html",
+        "catalog":"https://cdn.mekmarimage.com/category/1_compressed.pdf",
         "usastock":"/usa/stock",
         "categories":[
             {"id":1,"title":"Marble","link":"/product/marble/1"},
@@ -85,7 +85,7 @@
             "description":"MEKMAR is producing and supplying the best and high-quality natural stone products since 2002. We aim the best quality, the best service, and the highest customer satisfaction until the delivery of products. We update you about payment, production and shipments steps by steps.",
             "items":[
                 
-                {"id" : 1, "value" : "We provide worldwide shipment service for 21 years."},
+                {"id" : 1, "value" : "We provide worldwide shipment service for 22 years."},
                 { "id"  :2, "value" : "We produce all kinds of natural stone from slab to mosaic." }  ,
                 { "id" : 3, "value" : "We control 30.000 sqm product monthly." },
                 { "id" : 4, "value" :  "We supply natural solutions for architectural projects." }
@@ -186,8 +186,8 @@
       ],
       "about" : {
         "header" : "ABOUT US",
-        "title_1" : "Our Mission",
-        "title_2" : "Our Vision",
+        "title_1" : "OUR MISSION",
+        "title_2" : "OUR VISION",
         "items_1" : [
     
            { "id" : 1, "value" : "Using natural resources efficiently; to be a respected global company that is sensitive to society and the environment." },
@@ -218,7 +218,7 @@
               },
               {
                 "name" : "Ozlem",
-                 "job" : "Industrial Designer",
+                 "job" : "Sales Specialist",
                  "email" : "export1@mekmar.com",
                  "whatsapp" : "+90 542 660 8085",
                  "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
@@ -240,11 +240,15 @@
         "form":{
             "name":"Name",
             "email":"Email",
-            "phone":"Phone",
+            "phone":"Phone Number",
             "message":"Message",
             "field_1":"Name field is required, please fill",
             "field_2":"Mail field is required, please fill",
-            "field_3":"Phone field is required, please fill"
+            "field_3":"Phone field is required, please fill",
+            "country":"Country Code",
+            "example":"Example:",
+            "choose_country":"Choose Country",
+            "search_country":"Search a Country"
         }
     },
     "fabrication":{
