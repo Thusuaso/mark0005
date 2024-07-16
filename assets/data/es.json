@@ -248,7 +248,9 @@
                         "country":"Código de País",
             "example":"Ejemplo:",
                         "choose_country":"Elige País",
-            "search_country":"Buscar un País"
+            "search_country":"Buscar un País",
+            "general_field":"Por favor complete todas las entradas"
+
         }
     },
     "fabrication":{

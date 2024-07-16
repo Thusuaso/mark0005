@@ -3,9 +3,9 @@
         <div class="row m-auto ">
             <div class="col-sm-4 ">
                 <h3 class="header">{{ footer.about.header }}</h3>
-                <p class="about-description">{{ footer.about.description }}</p>
+                <p :class="lang == 'en' ? 'about-description-en':''">{{ footer.about.description }}</p>
                 <ul>
-                    <li v-for="item of footer.about.items" :key="item.id" class="about-description">{{ item.value }}
+                    <li v-for="item of footer.about.items" :key="item.id" :class="lang == 'en' ? 'about-description-en':''">{{ item.value }}
                     </li>
                 </ul>
                 <ul class="row m-auto text-center">
@@ -73,12 +73,15 @@
 
 </template>
 <script lang="ts" setup>
-import MazGallery, { type MazGalleryImage } from 'maz-ui/components/MazGallery'
 
 const props = defineProps({
     footer: {
         type: Object,
         required: true
+    },
+    lang:{
+        type:String,
+        required:true
     }
 });
 const { footer } = props;
@@ -104,6 +107,8 @@ const imageClick = (index:any) => {
     activeIndex.value = index;
     displayCustom.value = true;
 };
+
+
 
 
 

@@ -4,7 +4,7 @@
             <a :href="link">
                 <img class="lazyload" :src="image" />
                 <div class="card_title">
-                    <p>{{ text }}</p>
+                    {{ text }}
                 </div>
             </a>
         </div>

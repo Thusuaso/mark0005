@@ -249,7 +249,9 @@
                         "country":"Code Postal",
             "example":"Exemple:",
                         "choose_country":"Choisissez un Pays",
-            "search_country":"Rechercher un Pays"
+            "search_country":"Rechercher un Pays",
+            "general_field":"Veuillez remplir toutes les entrées"
+
         }
     },
     "fabrication":{

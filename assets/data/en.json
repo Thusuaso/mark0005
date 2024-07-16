@@ -248,7 +248,8 @@
             "country":"Country Code",
             "example":"Example:",
             "choose_country":"Choose Country",
-            "search_country":"Search a Country"
+            "search_country":"Search a Country",
+            "general_field":"Please Fill All Input"
         }
     },
     "fabrication":{

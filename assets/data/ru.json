@@ -248,7 +248,9 @@
                         "country":"Код страны",
             "example":"Пример:",
                         "choose_country":"Выберите страну",
-            "search_country":"Поиск страны"
+            "search_country":"Поиск страны",
+            "general_field":"Пожалуйста, заполните все данные"
+
         }
     },
     "fabrication":{

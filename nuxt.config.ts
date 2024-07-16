@@ -25,12 +25,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: [
-    '@pinia/nuxt',
-    "maz-ui",
-    "@element-plus/nuxt",
-    '@primevue/nuxt-module'
-  ],
+  modules: ['@pinia/nuxt', "maz-ui", "@element-plus/nuxt", '@primevue/nuxt-module', "@vee-validate/nuxt"],
 
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
