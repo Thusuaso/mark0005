@@ -3,8 +3,12 @@ import Aura from '@primevue/themes/aura';
 export default defineNuxtConfig({
   app: {
   head: {
+    title:'Mekmar',
+    charset: 'utf-8',
     meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      
+      { name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      { name: 'description', content: 'My amazing site.' }
     ],
     script: [
       {src:'https://kit.fontawesome.com/0867affd7d.js'},
@@ -25,7 +29,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: ['@pinia/nuxt', "maz-ui", "@element-plus/nuxt", '@primevue/nuxt-module', "@vee-validate/nuxt"],
+  modules: ['@pinia/nuxt', "maz-ui/nuxt", "@element-plus/nuxt", '@primevue/nuxt-module', "@vee-validate/nuxt"],
 
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
