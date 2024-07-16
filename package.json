@@ -15,6 +15,7 @@
     "@fancyapps/ui": "^5.0.36",
     "@pinia/nuxt": "^0.5.1",
     "@primevue/themes": "^4.0.0",
+    "bootstrap": "^5.3.3",
     "libphonenumber-js": "^1.11.4",
     "mssql": "^11.0.0",
     "nodemailer": "^6.9.14",
@@ -28,8 +29,7 @@
   "devDependencies": {
     "@primevue/nuxt-module": "^4.0.0",
     "@types/mssql": "^9.1.5",
-    "maz-ui": "^3.44.3",
-    "usebootstrap": "^3.5.19"
+    "maz-ui": "^3.44.3"
   },
   "engines": {
     "node": "20.x"

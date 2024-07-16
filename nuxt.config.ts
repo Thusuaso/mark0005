@@ -19,41 +19,34 @@ export default defineNuxtConfig({
   }
 },
 
-
-nitro: {
-  preset: 'node-server'
-},
+  nitro: {
+    preset: 'node-server'
+  },
 
   devtools: { enabled: true },
+
   modules: [
-    "usebootstrap",
     '@pinia/nuxt',
     "maz-ui",
     "@element-plus/nuxt",
     '@primevue/nuxt-module'
   ],
-  usebootstrap: {
-    bootstrap: {
-      prefix: ``
-    },
-    html: {
-      prefix: `B`
-    },
-  },
+
   css: [
-    "bootstrap/scss/bootstrap.scss",
+    "bootstrap/dist/css/bootstrap.min.css",
     "~/assets/css/default.css",
     "@fancyapps/ui/dist/fancybox/fancybox.css",
   ],
+
   "overrides": { "vue": "3.3.13" },
+
   primevue: {
     options: {
         theme: {
             preset: Aura
         }
     }
-}
+},
 
-
-  
+  compatibilityDate: "2024-07-16"
 })

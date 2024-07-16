@@ -6,7 +6,7 @@
       </NuxtLink>
     </div>
     <div class="col-sm-10" >
-      <Navbar expand="lg" theme="light" background-color="light">
+      <!-- <Navbar expand="lg" theme="light" background-color="light">
     <Container type="fluid">
       <NavbarToggler />
       <NavbarCollapse>
@@ -110,7 +110,89 @@
         
       </NavbarCollapse>
     </Container>
-  </Navbar>
+      </Navbar> -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <NuxtLink class="nav-link" tag="a" :to="navbar_link.home">{{ navbar.home }}</NuxtLink>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ navbar.product }}
+          </a>
+          <ul class="dropdown-menu">
+            <li v-for="item in navbar_link.categories" :key="item.id">
+              <NuxtLink  class="dropdown-item" tag="a" :to="item.link">{{ item.title }}</NuxtLink>
+            </li>
+
+          </ul>
+          
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ navbar.info }}
+          </a>
+          <ul class="dropdown-menu">
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.about">{{ navbar.about }}</NuxtLink>
+            </li>
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.catalog">{{ navbar.catalog }}</NuxtLink>
+            </li>
+
+          </ul>
+          
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" tag="a" :to="navbar_link.fabrication">{{ navbar.fabrication}}</NuxtLink>
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" tag="a" :to="navbar_link.videos">{{ navbar.videos}}</NuxtLink>
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" tag="a" :to="navbar_link.project">{{ navbar.project}}</NuxtLink>
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ navbar.usa }}
+          </a>
+          <ul class="dropdown-menu">
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.usastock">{{ navbar.usastock }}</NuxtLink>
+            </li>
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.usaabout">{{ navbar.usaabout }}</NuxtLink>
+            </li>
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.usacontact">{{ navbar.usacontact }}</NuxtLink>
+            </li>
+            <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.usafaq">{{ navbar.usafaq }}</NuxtLink>
+            </li>
+
+          </ul>
+          
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+    
     </div>
 
   </div>
