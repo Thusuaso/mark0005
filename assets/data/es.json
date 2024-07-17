@@ -93,7 +93,7 @@
             ],
             "socials":[
                 {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"fab fa-facebook-square fa-lg"},
-                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fab fa-twitter fa-lg"},
+                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fa-brands fa-x-twitter"},
                 {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"fab fa-youtube fa-lg"},
                 {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"fab fa-instagram fa-lg"},
                 {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"fab fa-pinterest fa-lg"}
