@@ -16,10 +16,12 @@ export default defineEventHandler(async (event) => {
 
     from MekmarCom_Products mp 
 	inner join MekmarCom_ProductAreas mpa on mpa.UrunId = mp.urunid
+    	inner join MekmarCom_Kategoriler mk on mk.Id = mp.kategori_id
 
 	where mp.yayinla=1 and mpa.AreaId = '${id}'
 
-    order by mp.sira asc
+    order by mk.Id
+
 
     `;
     const productCategoryFilterList = `

@@ -9,9 +9,11 @@ export default defineEventHandler(async (event) => {
     from MekmarCom_Products mp 
 	inner join MekmarCom_UrunlerRenkList ur on ur.UrunId = mp.urunid
 	inner join MekmarCom_ProductsColor pc on pc.ID = ur.RenkId
+    	inner join MekmarCom_Kategoriler mk on mk.Id = mp.kategori_id
+
 	where mp.yayinla=1 and ur.RenkId='${id}'
 
-    order by mp.sira asc
+        order by mk.Id
 
     `;
     const productCategoryFilterList = `
