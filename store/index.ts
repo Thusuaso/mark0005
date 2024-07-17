@@ -34,6 +34,7 @@ export const useStore = defineStore('store', {
         search_link:'',
         projects_suggested_header:'',
         usa_stock_main_menu:{},
+        product_color_detail:[]
 
 
   }),
@@ -131,6 +132,10 @@ export const useStore = defineStore('store', {
       getUsaStockMainMenu(state){
         return state.usa_stock_main_menu;
       },
+      getProductColor(state){
+        return state.product_color_detail;
+      }
+      
 
 
   },
@@ -190,6 +195,8 @@ export const useStore = defineStore('store', {
       setSearchProductList(payload:any){
         this.search_products = payload;
       },
-
+      setProductColorDetail(payload:any){
+        this.product_color_detail = payload;
+      }
   },
 })

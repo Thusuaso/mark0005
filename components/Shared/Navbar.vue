@@ -22,12 +22,36 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.product }}
           </a>
+            
+             
           <ul class="dropdown-menu">
-            <li v-for="item in navbar_link.categories" :key="item.id">
+
+            <div class="row m-auto text-center" style="width:550px;">
+              <div class="col-4" style="border-right: 1px solid gray">
+                <h3 class="header border-bottom">{{ navbar.categories }}</h3>
+                <li v-for="item in navbar_link.categories" :key="item.id" >
+                  <NuxtLink  class="dropdown-item" tag="a" :to="item.link">{{ item.title }}</NuxtLink>
+                </li>
+              </div>
+              <div class="col-4" style="border-right: 1px solid gray">
+                <h3 class="header border-bottom">{{ navbar.colors }}</h3>
+
+                <li v-for="item in navbar_link.colors" :key="item.id">
+                  <NuxtLink  class="dropdown-item" tag="a" :to="item.link">{{ item.title }}</NuxtLink>
+                </li>
+              </div>
+              <div class="col-4" >
+                <h3 class="header border-bottom">{{ navbar.areas }}</h3>
+
+                <li v-for="item in navbar_link.areas" :key="item.id">
               <NuxtLink  class="dropdown-item" tag="a" :to="item.link">{{ item.title }}</NuxtLink>
             </li>
+              </div>
+            </div>  
+
 
           </ul>
+
           
         </li>
         <li class="nav-item dropdown">
@@ -39,7 +63,7 @@
               <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.about">{{ navbar.about }}</NuxtLink>
             </li>
             <li >
-              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.catalog">{{ navbar.catalog }}</NuxtLink>
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.catalog" target="_blank">{{ navbar.catalog }}</NuxtLink>
             </li>
 
           </ul>

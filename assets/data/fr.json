@@ -26,7 +26,7 @@
         "fabrication":"/fr/fabrication",
         "videos":"/fr/videos",
         "project":"/fr/project",
-        "catalog":"https://cdn.mekmarimage.com/category/1_compressed.pdf",
+        "catalog":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf",
         "usastock":"/fr/usa/stock",
         "categories":[
             {"id":1,"title":"Marbre","link":"/fr/product/marble/1"},
@@ -45,29 +45,30 @@
 
         ],
         "colors":[
-            {"id":1,"title":"Blanc","link":"/fr/color/white"},
-            {"id":2,"title":"Gris","link":"/fr/color/gray"},
-            {"id":3,"title":"Noir","link":"/fr/color/black"},
-            {"id":4,"title":"Beige","link":"/fr/color/beige"},
-            {"id":5,"title":"Brun","link":"/fr/color/brown"},
-            {"id":6,"title":"Jaune","link":"/fr/color/yellow"},
-            {"id":7,"title":"Vert","link":"/fr/color/green"},
-            {"id":8,"title":"Bleu","link":"/fr/color/blue"},
-            {"id":9,"title":"Rouge/rose/violet","link":"/fr/color/red-pink-purple"}
+            {"id":1,"title":"Blanc","link":"/fr/product/color/white/1"},
+            {"id":2,"title":"Gris","link":"/fr/product/color/grey/2"},
+            {"id":3,"title":"Noir","link":"/fr/product/color/black/3"},
+            {"id":4,"title":"Beige","link":"/fr/product/color/beige/4"},
+            {"id":5,"title":"Brun","link":"/fr/product/color/brown/5"},
+            {"id":6,"title":"Jaune","link":"/fr/product/color/yellow/6"},
+            {"id":7,"title":"Vert","link":"/fr/product/color/green/7"},
+            {"id":8,"title":"Bleu","link":"/fr/product/color/blue/8"},
+            {"id":9,"title":"Rouge/rose/violet","link":"/fr/product/color/red-pink-purple/9"},
+            {"id":10,"title":"Multicolore","link":"/fr/product/color/multicolor/10"}
 
 
 
         ],
         "areas":[
-            {"id":1,"title":"Salon","link":"/fr/area/living-room"},
-            {"id":2,"title":"Cuisine","link":"/fr/area/kitchen"},
-            {"id":3,"title":"Salle de bain","link":"/fr/area/bathroom"},
-            {"id":4,"title":"Paysage","link":"/fr/area/landscape"},
-            {"id":5,"title":"Garage","link":"/fr/area/garage"},
-            {"id":6,"title":"Piscine","link":"/fr/area/pool"},
-            {"id":7,"title":"Façade","link":"/fr/area/facede"},
-            {"id":8,"title":"Mur","link":"/fr/area/wall"},
-            {"id":9,"title":"Sol","link":"/fr/area/floor"}
+            {"id":1,"title":"Salon","link":"/fr/product/area/living-room/1"},
+            {"id":2,"title":"Cuisine","link":"/fr/product/area/kitchen/2"},
+            {"id":3,"title":"Salle de bain","link":"/fr/product/area/bathroom/3"},
+            {"id":4,"title":"Paysage","link":"/fr/product/area/landscape/4"},
+            {"id":5,"title":"Garage","link":"/fr/product/area/garage/5"},
+            {"id":6,"title":"Piscine","link":"/fr/product/area/pool/6"},
+            {"id":7,"title":"Façade","link":"/fr/product/area/facede/7"},
+            {"id":8,"title":"Mur","link":"/fr/product/area/wall/8"},
+            {"id":9,"title":"Sol","link":"/fr/product/area/floor/9"}
 
             
         ],

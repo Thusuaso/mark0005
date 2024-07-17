@@ -25,7 +25,7 @@
         "fabrication":"/ru/fabrication",
         "videos":"/ru/videos",
         "project":"/ru/project",
-        "catalog":"https://cdn.mekmarimage.com/category/1_compressed.pdf",
+        "catalog":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf",
         "usastock":"/ru/usa/stock",
         "categories":[
             {"id":1,"title":"Мрамор","link":"/ru/product/marble/1"},
@@ -44,29 +44,30 @@
 
         ],
         "colors":[
-            {"id":1,"title":"Белый","link":"/ru/color/white"},
-            {"id":2,"title":"Серый","link":"/ru/color/gray"},
-            {"id":3,"title":"Черный","link":"/ru/color/black"},
-            {"id":4,"title":"Бежевый","link":"/ru/color/beige"},
-            {"id":5,"title":"Коричневый","link":"/ru/color/brown"},
-            {"id":6,"title":"Желтый","link":"/ru/color/yellow"},
-            {"id":7,"title":"Зеленый","link":"/ru/color/green"},
-            {"id":8,"title":"Синий","link":"/ru/color/blue"},
-            {"id":9,"title":"Красный/Розовый/Фиолетовый","link":"/ru/color/red-pink-purple"}
+            {"id":1,"title":"Белый","link":"/ru/product/color/white/1"},
+            {"id":2,"title":"Серый","link":"/ru/product/color/grey/2"},
+            {"id":3,"title":"Черный","link":"/ru/product/color/black/3"},
+            {"id":4,"title":"Бежевый","link":"/ru/product/color/beige/4"},
+            {"id":5,"title":"Коричневый","link":"/ru/product/color/brown/5"},
+            {"id":6,"title":"Желтый","link":"/ru/product/color/yellow/6"},
+            {"id":7,"title":"Зеленый","link":"/ru/product/color/green/7"},
+            {"id":8,"title":"Синий","link":"/ru/product/color/blue/8"},
+            {"id":9,"title":"Красный/Розовый/Фиолетовый","link":"/ru/product/color/red-pink-purple/9"},
+            {"id":10,"title":"Многоцветный","link":"/ru/product/color/multicolor/10"}
 
 
 
         ],
         "areas":[
-            {"id":1,"title":"Гостиная","link":"/ru/area/living-room"},
-            {"id":2,"title":"Кухня","link":"/ru/area/kitchen"},
-            {"id":3,"title":"Ванная комната","link":"/ru/area/bathroom"},
-            {"id":4,"title":"Пейзаж","link":"/ru/area/landscape"},
-            {"id":5,"title":"Гараж","link":"/ru/area/garage"},
-            {"id":6,"title":"Бассейн","link":"/ru/area/pool"},
-            {"id":7,"title":"Фасад","link":"/ru/area/facede"},
-            {"id":8,"title":"Стена","link":"/ru/area/wall"},
-            {"id":9,"title":"Пол","link":"/ru/area/floor"}
+            {"id":1,"title":"Гостиная","link":"/ru/product/area/living-room/1"},
+            {"id":2,"title":"Кухня","link":"/ru/product/area/kitchen/2"},
+            {"id":3,"title":"Ванная комната","link":"/ru/product/area/bathroom/3"},
+            {"id":4,"title":"Пейзаж","link":"/ru/product/area/landscape/4"},
+            {"id":5,"title":"Гараж","link":"/ru/product/area/garage/5"},
+            {"id":6,"title":"Бассейн","link":"/ru/product/area/pool/6"},
+            {"id":7,"title":"Фасад","link":"/ru/product/area/facede/7"},
+            {"id":8,"title":"Стена","link":"/ru/product/area/wall/8"},
+            {"id":9,"title":"Пол","link":"/ru/product/area/floor/9"}
 
             
         ],
