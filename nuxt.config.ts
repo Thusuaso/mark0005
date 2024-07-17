@@ -3,6 +3,7 @@ import Aura from '@primevue/themes/aura';
 export default defineNuxtConfig({
   app: {
   head: {
+
     title:'Mekmar',
     charset: 'utf-8',
     meta: [
@@ -10,12 +11,15 @@ export default defineNuxtConfig({
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
       { name: 'description', content: 'My amazing site.' }
     ],
+
     script: [
       {src:'https://kit.fontawesome.com/0867affd7d.js'},
 
     ],
       link: [
         {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
+        {rel:"icon",href:"https://cdn.mekmarimage.com/logo/mekmar-up-icon.png"},
+
     ],
     style: [
     ],
