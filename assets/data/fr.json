@@ -652,5 +652,16 @@
         "name":"CONSULTEZ NOTRE NOS STOCKS USA",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
         "link":"/fr/usa/stock"
+      },
+      "filtered_header":{
+        "category":"CATÉGORIES",
+        "color":"COULEURS",
+        "area":"ZONES",
+        "type":"LES TYPES",
+        "edge":"BORDS",
+        "style":"MODES",
+        "material":"MATÉRIAUX",
+        "finish":"FINITIONS"
+
       }
 }

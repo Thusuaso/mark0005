@@ -636,5 +636,16 @@
         "name":"CHECK OUR USA STOCKS",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
         "link":"/usa/stock"
+      },
+      "filtered_header":{
+        "category":"CATEGORIES",
+        "color":"COLORS",
+        "area":"AREAS",
+        "type":"TYPES",
+        "edge":"EDGES",
+        "style":"STYLES",
+        "material":"MATERIALS",
+        "finish":"FINISHES"
+
       }
 }

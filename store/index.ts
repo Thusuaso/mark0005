@@ -34,7 +34,8 @@ export const useStore = defineStore('store', {
         search_link:'',
         projects_suggested_header:'',
         usa_stock_main_menu:{},
-        product_color_detail:[]
+        product_color_detail:[],
+        filtered_header:{}
 
 
   }),
@@ -134,6 +135,9 @@ export const useStore = defineStore('store', {
       },
       getProductColor(state){
         return state.product_color_detail;
+      },
+      getFilteredHeader(state){
+        return state.filtered_header;
       }
       
 
@@ -164,6 +168,7 @@ export const useStore = defineStore('store', {
           this.search = payload.search;
           this.search_link = payload.search_link;
           this.usa_stock_main_menu = payload.usa_stock_main_menu;
+          this.filtered_header = payload.filtered_header;
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);

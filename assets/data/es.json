@@ -646,5 +646,16 @@
         "name":"CONSULTA NUESTRAS ACCIONES EUA",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
         "link":"/es/usa/stock"
+      },
+      "filtered_header":{
+        "category":"CATEGORÍAS",
+        "color":"COLORES",
+        "area":"ÁREAS",
+        "type":"TIPOS",
+        "edge":"BORDES",
+        "style":"ESTILOS",
+        "material":"MATERIALES",
+        "finish":"ACABADOS"
+
       }
 }

@@ -655,5 +655,16 @@
         "name":"ПРОВЕРЬТЕ НАШИ АКЦИИ В США",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
         "link":"/ru/usa/stock"
+      },
+      "filtered_header":{
+        "category":"КАТЕГОРИИ",
+        "color":"ЦВЕТА",
+        "area":"ОБЛАСТИ",
+        "type":"ТИПЫ",
+        "edge":"КРАЯ",
+        "style":"СТИЛИ",
+        "material":"МАТЕРИАЛЫ",
+        "finish":"ОТДЕЛКА"
+
       }
 }
