@@ -322,8 +322,9 @@
         {"id":22,"name":"Vidéos du Projet | Travertin rustique Mina","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
         {"id":23,"name":"Vidéos du Projet | Projet de villa Alawadhi au Koweït","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
         {"id":24,"name":"Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Solutions Architecturales de Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
-  
+        {"id":25,"name":"Solutions Architecturales de Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
+        {"id":26,"name":"Vidéos du Projet | Projet Gebing - Allemagne","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"}
+
         ],
         "production":[
           {"id":2,
