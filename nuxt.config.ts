@@ -33,7 +33,14 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: ['@pinia/nuxt', "maz-ui/nuxt", "@element-plus/nuxt", '@primevue/nuxt-module', "@vee-validate/nuxt"],
+  modules: [
+    '@pinia/nuxt',
+    "maz-ui/nuxt",
+    "@element-plus/nuxt",
+    '@primevue/nuxt-module',
+    "@vee-validate/nuxt",
+    "@nuxtjs/sitemap"
+  ],
 
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
@@ -52,5 +59,9 @@ export default defineNuxtConfig({
 },
 
   compatibilityDate: "2024-07-16",
-  override:true
+  override:true,
+  site: {
+    url: 'https://www.mekmar.com',
+    trailingSlash: true
+  },
 })
