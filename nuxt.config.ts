@@ -63,5 +63,5 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.mekmar.com',
     trailingSlash: true
-  },
+  }
 })

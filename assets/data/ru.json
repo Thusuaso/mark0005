@@ -296,6 +296,7 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
+          {"id":26,"name":"Видео проекта | Проект Гебинг – Германия","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
           {"id":1,"name":"Видео проекта | САН ПРОЕКТ - ХОРВАТИЯ","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"Видео проекта | Проект Аль-Махруки в Омане","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
           {"id":3,"name":"Видео проекта | Проект стены в Австралии","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
@@ -322,8 +323,7 @@
         {"id":22,"name":"Видео проекта | Мина Рустик Травертин","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
         {"id":23,"name":"Видео проекта | Проект виллы Алавадхи в Кувейте","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
         {"id":24,"name":"Мраморный фонтан / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Архитектурные решения от Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
-        {"id":26,"name":"Видео проекта | Проект Гебинг – Германия","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"}
+        {"id":25,"name":"Архитектурные решения от Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
 
   
         ],

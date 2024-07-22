@@ -3,9 +3,16 @@
         <div class="row m-auto ">
             <div class="col-sm-4 ">
                 <h3 class="header">{{ footer.about.header }}</h3>
-                <p :class="lang == 'en' ? 'about-description-en':''">{{ footer.about.description }}</p>
+                <p :class="
+                lang == 'en' ? 'about-description-en':'' ||
+                lang == 'ar' ? 'about-description-ar':''
+                ">{{ footer.about.description }}</p>
                 <ul>
-                    <li v-for="item of footer.about.items" :key="item.id" :class="lang == 'en' ? 'about-description-en':''">{{ item.value }}
+                    <li v-for="item of footer.about.items" :key="item.id" :class="
+                        lang == 'en' ? 'about-description-en':'' || 
+                        lang == 'ar' ? 'about-description-ar':''
+                        
+                        ">{{ item.value }}
                     </li>
                 </ul>
                 <ul class="row m-auto text-center">

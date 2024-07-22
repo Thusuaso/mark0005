@@ -24,12 +24,13 @@ export default defineEventHandler(async (event) => {
 	mk.kategoriadi_fr as name_fr,
 	mk.kategoriadi_es as name_es,
 	mk.kategoriadi_ru as name_ru,
+    mk.kategoriadi_ar as name_ar,
 	('/product/' + TRIM(LOWER(mk.kategori_link))) + '/' + TRIM(LOWER(STR(mk.Id))) as link
 
 from MekmarCom_Products mp 
 inner join MekmarCom_Kategoriler mk on mk.Id = mp.kategori_id
 where mp.yayinla=1
-group by mk.kategoriadi_en,mk.kategoriadi_fr,mk.kategoriadi_es,mk.kategoriadi_ru,mk.Id,mk.kategori_link
+group by mk.kategoriadi_en,mk.kategoriadi_fr,mk.kategoriadi_es,mk.kategoriadi_ru,mk.Id,mk.kategori_link,mk.kategoriadi_ar
 order by mk.Id
     `;
     const productAreaFilterList = `
@@ -39,13 +40,14 @@ select
 				mar.Areas_fr as name_fr,
 				mar.Areas_es as name_es,
 				mar.Areas_ru as name_ru,
+                mar.Areas_ar as name_ar,
             ('/product/area/'+ LOWER(REPLACE(mar.Areas,' ','-')) + '/' + TRIM(STR(ma.AreaId)) ) as link
 
         from MekmarCom_Products mp 
         inner join MekmarCom_ProductAreas ma on ma.UrunId = mp.urunid
 		inner join MekmarCom_Areas mar on mar.ID = ma.AreaId
         where mp.yayinla=1 
-        group by ma.AreaId,mar.Areas,mar.Areas_fr,mar.Areas_es,mar.Areas_ru
+        group by ma.AreaId,mar.Areas,mar.Areas_fr,mar.Areas_es,mar.Areas_ru,mar.Areas_ar
         order by COUNT(ma.ID) desc
     `;
     const productColorFilterList = `
@@ -55,6 +57,7 @@ select
     mpc.renk_fr as name_fr,
     mpc.renk_es as name_es,
     mpc.renk_ru as name_ru,
+    mpc.renk_ar as name_ar,
 	('/product/color/' + LOWER(REPLACE(mpc.renk_en,'/','-')) +'/' + TRIM(STR(mur.RenkId))) as link,
     mpc.ID as Id
     
@@ -64,7 +67,7 @@ select
     
     where  mp.yayinla=1
     
-    group by mpc.renk_en,mpc.renk_fr,mpc.renk_es,mpc.renk_ru,mpc.ID,mur.RenkId
+    group by mpc.renk_en,mpc.renk_fr,mpc.renk_es,mpc.renk_ru,mpc.ID,mur.RenkId,mpc.renk_ar
     order by COUNT(mpc.renk_en) desc
     `;  
 

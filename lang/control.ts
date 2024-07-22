@@ -20,6 +20,11 @@ const project = {
                 data.push({  ...x,'name': x.ProjectName_Ru, 'country': x.CountryName_Ru, 'link':'/ru'+x.Link  });  
             });
         }
+        else if (lang == 'ar') {
+            payload.forEach((x: { ProjectName_Ar: any; CountryName_Ar: any;Link:any }) => {
+    data.push({  ...x,'name': x.ProjectName_Ar, 'country': x.CountryName_Ar, 'link':'/ar'+x.Link  });  
+});
+}
         return data;
 
     },
@@ -33,6 +38,8 @@ const project = {
             desc = payload.ProjectInformation_Es;
         }else if (lang == "ru") {
             desc = payload.ProjectInformation_Ru;
+        }else if (lang == "ar") {
+            desc = payload.ProjectInformation_Ar;
         }
 
         return desc;
@@ -47,6 +54,8 @@ const project = {
             name = payload.ProjectName_Es+ '-' + payload.CountryName_Es;
         }else if (lang == 'ru') {
             name = payload.ProjectName_Ru + '-' + payload.CountryName_Ru;
+        }else if (lang == 'ar') {
+            name = payload.ProjectName_Ar + '-' + payload.CountryName_Ar;
         };
 
         
@@ -70,7 +79,12 @@ const project = {
             payload.forEach((x: { name_ru: any;link:any }) => {
                 data.push({...x, 'name': x.name_ru,'link':'/ru'+x.link  });
             });
+        }else if (lang == 'ar') {
+            payload.forEach((x: { name_ar: any;link:any }) => {
+                data.push({...x, 'name': x.name_ar,'link':'/ar'+x.link  });
+            });
         };
+
         return data;
     },
     lang_filter(payload: any, lang: any) {
@@ -93,6 +107,11 @@ const project = {
                                                 data.push({...x, 'name': x.name_ru, 'link':'/ru' + x.link});
 
             });
+        }else if (lang == 'ar') {
+            payload.forEach((x: any) => {
+                                                data.push({...x, 'name': x.name_ar, 'link':'/ar' + x.link});
+
+            });
         };
         return data;
     },
@@ -106,6 +125,8 @@ const project = {
             data = { 'name': payload.urunadi_es, 'desc': payload.aciklama_es, 'keys': payload.anahtarlar_es, 'hash': payload.keywords_es, 'category': payload.kategori_es, 'stone': payload.stone_type_es, ...payload };
         }else if (lang == 'ru') {
             data = { 'name': payload.urunadi_ru, 'desc': payload.aciklama_ru, 'keys': payload.anahtarlar_ru, 'hash': payload.keywords_ru, 'category': payload.kategori_ru, 'stone': payload.stone_type_ru, ...payload };
+        }else if (lang == 'ar') {
+            data = { 'name': payload.urunadi_ar, 'desc': payload.aciklama_ar, 'keys': payload.anahtarlar_ar, 'hash': payload.keywords_ar, 'category': payload.kategori_ar, 'stone': payload.stone_type_ar, ...payload };
         };
         return data;
     },
@@ -196,6 +217,11 @@ const project = {
                 data.push({...x,'name':x.name_en,'link':x.link});
 
             });
+        }else if(lang=='ar'){
+            payload.forEach(x=>{
+                data.push({...x,'name':x.name_en,'link':x.link});
+
+            });
         };
         return data;
     },
@@ -220,7 +246,7 @@ const project = {
                 data.push({"name":x.name_en,...x});
             });
 
-        };
+        }
         
         return data;
     },
@@ -279,6 +305,10 @@ const project = {
         }else if(lang=="ru"){
             payload.forEach(x=>{
                 data.push({'name':x.ProductName_Ru,...x});
+            });
+        }else if(lang=="ar"){
+            payload.forEach(x=>{
+                data.push({'name':x.ProductName_Ar,...x});
             });
         };
         return data;

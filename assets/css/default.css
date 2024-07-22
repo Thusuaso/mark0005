@@ -279,7 +279,15 @@
 .contact-personal:hover{
     color:#1357bc
 }
-
+.about-description-ar{
+    font-size: 14px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 45px;
+}
 
 @media screen and (max-width:576px) {
     .footer_about_description{

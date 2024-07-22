@@ -2,7 +2,7 @@ import api from '~/sql/api';
 export default defineEventHandler(async (event) => {
     const category = getRouterParam(event, 'category');
     let finish = getRouterParam(event, 'finish');
-    finish = finish.replaceAll('-', ' ');
+    finish = finish?.replaceAll('-', ' ');
      const productsSql = `
     select mp.Id,mp.urunid,mp.kategori_id,mp.urunadi_en as name_en,mp.urunadi_fr as name_fr,mp.urunadi_es as name_es,mp.urunadi_ru as name_ru,mp.urunadi_ar as name_ar,
     (select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mp.urunid order by mf.sira) as image,
@@ -23,12 +23,13 @@ TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(
 	mk.kategoriadi_fr as name_fr,
 	mk.kategoriadi_es as name_es,
 	mk.kategoriadi_ru as name_ru,
+    mk.kategoriadi_ar as name_ar,
 	('/product/' + TRIM(LOWER(mk.kategori_link))) + '/' + TRIM(LOWER(STR(mk.Id))) as link
 
 from MekmarCom_Products mp 
 inner join MekmarCom_Kategoriler mk on mk.Id = mp.kategori_id
 where mp.yayinla=1
-group by mk.kategoriadi_en,mk.kategoriadi_fr,mk.kategoriadi_es,mk.kategoriadi_ru,mk.Id,mk.kategori_link
+group by mk.kategoriadi_en,mk.kategoriadi_fr,mk.kategoriadi_es,mk.kategoriadi_ru,mk.Id,mk.kategori_link,mk.kategoriadi_ar
 order by mk.Id
     `;
     const colorFilterSql = `
@@ -38,6 +39,7 @@ order by mk.Id
     mpc.renk_fr as name_fr,
     mpc.renk_es as name_es,
     mpc.renk_ru as name_ru,
+    mpc.renk_ar as name_ar,
     mpc.ID as id,
     ('/product/filter/category/' + TRIM(STR(mk.Id))   + '/color/'+ LOWER(TRIM(REPLACE(mpc.renk_en,'/','-'))) + '/' + TRIM(STR(mpc.ID))) as link
     
@@ -48,7 +50,7 @@ order by mk.Id
     
     where mk.Id='${category}' and mp.yayinla=1
     
-    group by mpc.renk_en,mpc.renk_fr,mpc.renk_es,mpc.renk_ru,mpc.ID,mk.Id
+    group by mpc.renk_en,mpc.renk_fr,mpc.renk_es,mpc.renk_ru,mpc.ID,mk.Id,mpc.renk_ar
     order by COUNT(mpc.renk_en) desc
     `;
     const finishFilterSql = `
@@ -58,13 +60,14 @@ order by mk.Id
 	mf.finish_fr as name_fr,
 	mf.finish_es as name_es,
 	mf.finish_ru as name_ru,
+    mf.finish_ar as name_ar,
     ('/product/filter/category/' + TRIM(STR(mk.Id))   + '/finish/' + LOWER(TRIM(REPLACE(mf.finish_en,' ','-')))) as link
 
 from MekmarCom_Finish mf
 inner join MekmarCom_Products mp on mp.urunid = mf.urunid
 inner join MekmarCom_Kategoriler mk on mk.Id = mp.kategori_id
 where mp.yayinla = 1 and mk.Id='${category}'
-group by mf.finish_en,mf.finish_fr,mf.finish_es,mf.finish_ru,mk.Id
+group by mf.finish_en,mf.finish_fr,mf.finish_es,mf.finish_ru,mk.Id,mf.finish_ar
 order by COUNT(mf.finish_en) desc
     `;
     const edgeFilterSql = `
@@ -75,6 +78,7 @@ order by COUNT(mf.finish_en) desc
 	mkl.KenarFr as name_fr,
 	mkl.KenarEs as name_es,
 	mkl.KenarRu as name_ru,
+    mkl.KenarAr as name_ar,
 	('/product/filter/category/' + TRIM(STR(mp.kategori_id))   + '/edge/'+ LOWER(TRIM(mkl.KenarEn)) + '/' + TRIM(STR(mkl.ID))) as link
 
 
@@ -83,7 +87,7 @@ inner join MekmarCom_KenarList mkl on mkl.ID = mkf.KenarId
 inner join MekmarCom_Products mp on mp.urunid = mkf.UrunId
 
 where mp.yayinla=1 and mp.kategori_id='${category}'
-group by mkl.KenarEn,mkl.KenarFr,mkl.KenarEs,mkl.KenarRu,mkl.ID,mp.kategori_id
+group by mkl.KenarEn,mkl.KenarFr,mkl.KenarEs,mkl.KenarRu,mkl.ID,mp.kategori_id,mkl.KenarAr
 order by COUNT(mkl.KenarEn) desc
     `;
     const materialFilterSql = `
@@ -93,6 +97,7 @@ order by COUNT(mkl.KenarEn) desc
 	mml.MateryalFr as name_fr,
 	mml.MateryalEs as name_es,
 	mml.MateryalRu as name_ru,
+    mml.MateryalAr as name_ar,
 	('/product/filter/category/' + TRIM(STR(mp.kategori_id))   + '/material/'+ LOWER(TRIM(mml.MateryalEn)) + '/' + TRIM(STR(mml.ID))) as link
 
 
@@ -101,7 +106,7 @@ inner join MekmarCom_MateryalList mml on mml.ID = mmf.MateryalId
 inner join MekmarCom_Products mp on mp.urunid = mmf.UrunId
 
 where mp.yayinla=1 and mp.kategori_id='${category}'
-group by mml.MateryalEn,mml.MateryalFr,mml.MateryalEs,mml.MateryalRu,mml.ID,mp.kategori_id
+group by mml.MateryalEn,mml.MateryalFr,mml.MateryalEs,mml.MateryalRu,mml.ID,mp.kategori_id,mml.MateryalAr
 order by COUNT(mml.MateryalEn) desc
     `;
     const styleFilterSql = `
@@ -111,6 +116,7 @@ order by COUNT(mml.MateryalEn) desc
 	msl.StilFr as name_fr,
 	msl.StilEs as name_es,
 	msl.StilRu as name_ru,
+    msl.StilAr as name_ar,
 	('/product/filter/category/' + TRIM(STR(mp.kategori_id))   + '/style/'+ LOWER(TRIM(msl.StilEn)) + '/' + TRIM(STR(msl.ID))) as link
 
 
@@ -119,7 +125,7 @@ inner join MekmarCom_StilList msl on msl.ID = msf.StilId
 inner join MekmarCom_Products mp on mp.urunid = msf.UrunId
 
 where mp.yayinla=1 and mp.kategori_id='${category}'
-group by msl.StilEn,msl.StilFr,msl.StilEs,msl.StilRu,msl.ID,mp.kategori_id
+group by msl.StilEn,msl.StilFr,msl.StilEs,msl.StilRu,msl.ID,mp.kategori_id,msl.StilAr
 order by COUNT(msl.StilEn) desc
     `;
     const typeFilterSql = `
@@ -129,6 +135,7 @@ order by COUNT(msl.StilEn) desc
 	msl.StilFr as name_fr,
 	msl.StilEs as name_es,
 	msl.StilRu as name_ru,
+    msl.StilAr as name_ar,
 	('/product/filter/category/' + TRIM(STR(mp.kategori_id))   + '/style/'+ LOWER(TRIM(msl.StilEn)) + '/' + TRIM(STR(msl.ID))) as link
 
 
@@ -137,7 +144,7 @@ inner join MekmarCom_StilList msl on msl.ID = msf.StilId
 inner join MekmarCom_Products mp on mp.urunid = msf.UrunId
 
 where mp.yayinla=1 and mp.kategori_id='${category}'
-group by msl.StilEn,msl.StilFr,msl.StilEs,msl.StilRu,msl.ID,mp.kategori_id
+group by msl.StilEn,msl.StilFr,msl.StilEs,msl.StilRu,msl.ID,mp.kategori_id,msl.StilAr
 order by COUNT(msl.StilEn) desc
     `;
     return new Promise(async (resolve, reject) => {

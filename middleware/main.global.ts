@@ -3,6 +3,8 @@ import en from '~/assets/data/en.json';
 import fr from '~/assets/data/fr.json';
 import es from '~/assets/data/es.json';
 import ru from '~/assets/data/ru.json';
+import ar from '~/assets/data/ar.json';
+
 import { ref } from 'vue';
 export default defineNuxtRouteMiddleware(async (to, from) => {
 
@@ -34,7 +36,12 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
       await store.setLang('ru');
       
     }
-    
+    else if (langs == 'ar') {
+      cookie.value = 'ar';
+await store.setMainStorage(ar);
+await store.setLang('ar');
+
+}
     else {
         cookie.value = 'en';
       await store.setMainStorage(en);

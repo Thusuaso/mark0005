@@ -12,7 +12,9 @@ export default defineEventHandler(async (event) => {
 	mpd.ImageName,
 	mpd.ProductName_Fr,
 	mpd.ProductName_Es,
-	mpd.ProductName_Ru
+	mpd.ProductName_Ru,
+	mpd.ProductName_Ar
+
 
 from MekmarCom_Project_Detail mpd
 where mpd.ImageStatus=1 and mpd.ProjectId='${id}'
