@@ -26,7 +26,7 @@
                 allowfullscreen></iframe>
             <img v-else
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
-                  class="iframe-video"
+                  class="iframe-video"3
                 />
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
                     id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;"></textarea>

@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     meta: [
       
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      { name: 'description', content: 'My amazing site.' }
+      { name: 'description', content: 'Mekmar Marble' }
     ],
 
     script: [
