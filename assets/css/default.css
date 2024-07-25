@@ -288,7 +288,9 @@
     padding: 0px;
     line-height: 45px;
 }
-
+.galleria-img{
+    width: 900px; display: block;
+}
 @media screen and (max-width:576px) {
     .footer_about_description{
         font-size:14px;
@@ -309,6 +311,9 @@
     }
     .footer-news-img{
         cursor: pointer;width:100px;height:100px;margin-bottom:10px;
+    }
+    .galleria-img{
+        width: 100%; display: block;
     }
 }
 

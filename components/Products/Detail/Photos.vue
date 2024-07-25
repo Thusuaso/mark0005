@@ -2,10 +2,10 @@
         <Galleria v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="photos" :responsiveOptions="responsiveOptions" :numVisible="7"
              :circular="true" :fullScreen="true" :showItemNavigators="true" :showThumbnails="false">
             <template #item="slotProps">
-                <img :src="slotProps.item.imagePath" :alt="slotProps.item.name" style="width: 900px; display: block" />
+                <img class="galleria-img" :src="slotProps.item.imagePath" :alt="slotProps.item.name"  />
             </template>
             <template #thumbnail="slotProps">
-                <img :src="slotProps.item.imagePath" :alt="slotProps.item.name" style="display: block;width:900px;" />
+                <img class="galleria-img" :src="slotProps.item.imagePath" :alt="slotProps.item.name"  />
             </template>
         </Galleria>
 
