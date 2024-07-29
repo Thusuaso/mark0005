@@ -294,6 +294,9 @@
         "title_2":"VÍDEOS DE PRODUCCIÓN",
         "title_3":"VÍDEOS INFORMATIVOS",
         "projects":[
+          {"id":27,"name":"Vídeos del proyecto | PROYECTO DÚO - FRANCIA","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+          {"id":26,"name":"Vídeos del proyecto | Proyecto Gebing - Alemania","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+
           {"id":1,"name":"Vídeos del proyecto | PROYECTO SAN - CROACIA","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"Vídeos del proyecto | Proyecto Al Mahruqi en Omán","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
           {"id":3,"name":"Vídeos del proyecto | Proyecto de muro en Australia","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
@@ -320,8 +323,7 @@
         {"id":22,"name":"Project Videos | Mina Rustic Travertine","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
         {"id":23,"name":"Project Videos | Alawadhi Villa Project in Kuwait","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
         {"id":24,"name":"Marble Fountain / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Architectural solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
-        {"id":26,"name":"Vídeos del proyecto | Proyecto Gebing - Alemania","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"}
+        {"id":25,"name":"Architectural solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
 
   
         ],

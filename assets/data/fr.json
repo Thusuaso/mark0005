@@ -296,6 +296,8 @@
         "title_2":"VIDÉOS DE RÉALISATION",
         "title_3":"VIDÉOS INFORMATIVES",
         "projects":[
+          {"id":27,"name":"Vidéos du projet | PROJET DUO - FRANCE","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+
           {"id":26,"name":"Vidéos du Projet | Projet Gebing - Allemagne","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
           {"id":1,"name":"Vidéos du Projet | PROJET SAN - CROATIE","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"Vidéos du Projet | Projet Al Mahruqi à Oman","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},

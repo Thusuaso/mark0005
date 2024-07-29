@@ -295,6 +295,8 @@
 
         "title_3":"INFORMATIVE VIDEOS",
         "projects":[
+          {"id":27,"name":"Project Videos | DUO PROJECT - FRANCE","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+
           {"id":26,"name":"Project Videos | Gebing Project - Germany","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
 
           {"id":1,"name":"Project Videos | SAN PROJECT - CROATIA","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},

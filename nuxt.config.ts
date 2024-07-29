@@ -14,8 +14,10 @@ export default defineNuxtConfig({
 
     script: [
       {src:'https://kit.fontawesome.com/0867affd7d.js'},
-
+      {src:'https://www.googletagmanager.com/gtag/js?id=G-1VBK9JFP48'}
+      
     ],
+    
       link: [
         {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
         {rel:"icon",href:"https://cdn.mekmarimage.com/logo/mekmar-up-icon.png"},
@@ -28,7 +30,11 @@ export default defineNuxtConfig({
 },
 
   nitro: {
-    preset: 'node-server'
+    preset: 'node-server',
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', 'sitemap.xml'],
+    },
   },
 
   devtools: { enabled: true },
@@ -63,5 +69,8 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.mekmar.com',
     trailingSlash: true
-  }
+  },
+  sitemap: {
+    sources: ['/api/sitemap'],
+  },
 })
