@@ -9,7 +9,9 @@ export default defineNuxtConfig({
     meta: [
       
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      { name: 'description', content: 'Mekmar Marble' }
+      { name: 'description', content: 'Mekmar Marble' },
+      {name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA'}
+
     ],
 
     script: [

@@ -2,7 +2,7 @@
     <div class="customContainer">
         <div class="customElement">
             <a :href="link" target="_blank">
-                <img class="lazyload" :src="image" />
+                <img class="lazyload" :src="image" :alt="text"/>
                 <div class="card_title" style="font-size:16px;" >
                     {{ text }}
                 </div>
