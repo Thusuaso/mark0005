@@ -11,8 +11,10 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
   const store = useStore();
   
     const langs = to.path.split('/')[1];
+    
   const cookie = useCookie('language');
   const cookieUser = useCookie('user');
+
   if (cookieUser.value == null || cookieUser.value == undefined || cookieUser.value == '' || cookieUser.value == ' ') {
     store.setAuthStatus(ref(false));
   } else {

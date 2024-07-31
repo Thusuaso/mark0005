@@ -636,6 +636,8 @@
       },
       "search":"Search...",
       "search_link":"/search/",
+      "usa_search":"Usa Search...",
+      "usa_search_link":"/usa/search/",
       "usa_stock_main_menu":{
         "name":"CHECK OUR USA STOCKS",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",

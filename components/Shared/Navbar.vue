@@ -104,8 +104,31 @@
         </li>
 
       </ul>
-      <form class="d-flex" role="search">
+      <form class="d-flex" role="search" v-if="!usa_link_status">
         <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-50 " style="margin-right:5px;"/>
+        <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)">
+            <template #value="slotProps">
+                <div v-if="slotProps.value" class="flex items-center">
+                    <img :alt="slotProps.value.label" :src="slotProps.value.img" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" style="width: 18px" />
+                </div>
+                <span v-else>
+                    {{ slotProps.placeholder }}
+                </span>
+            </template>
+            <template #option="slotProps">
+              <a :href="slotProps.option.link">
+
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" style="width: 22px" />
+
+              </a>
+
+              
+
+            </template>
+        </Select>
+      </form>
+      <form class="d-flex" role="search" v-if="usa_link_status">
+        <InputText v-model="search_usa" :placeholder="usa_search.usa_search" @keydown.prevent.enter="searchInputUsa($event)" class="text-dark bg-light w-50 " style="margin-right:5px;"/>
         <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">
@@ -168,16 +191,55 @@ langs.value.forEach(x=>{
 });
 
 const search = ref("");
+const search_usa = ref('');
 const router = useRouter();
 const searchInput = (event:any)=>{
   
   const search_link = store.getSearchLink;
+  let search_word = '';
+  if(event.target._value == '' || event.target._value == ' ' || event.target._value == undefined || event.target._value == null){
+    router.push('/');
 
-  router.push(search_link + event.target._value.replaceAll(' ','-'));
+  }else{
+    search_word = event.target._value.replaceAll(' ','-');
+    router.push(search_link + search_word);
+
+  }
 };
 const search_placeholder = store.getSearch;
+let usa_link_status = ref(false);
+const usa_search = store.getUsaSearch;
+watch(() => router.currentRoute.value.fullPath, () => {
+  console.log("router.currentRoute.value",router.currentRoute.value)
+  let link = router.currentRoute.value.fullPath;
+  link = link.split('/')[1];
+  if(link == 'usa'){
+    usa_link_status.value = true;
+  }else{
+    usa_link_status.value = false;
+  }
 
+});
+let link = router.currentRoute.value.fullPath;
+link = link.split('/')[1];
+if(link == 'usa'){
+  usa_link_status.value = true;
+}else{
+  usa_link_status.value = false;
+}
 
+const searchInputUsa = (event:any)=>{
+  const search_link = store.getUsaSearch.usa_search_link;
+  let search_word = '';
+  if(event.target._value == '' || event.target._value == ' ' || event.target._value == undefined || event.target._value == null){
+    router.push('/usa/stock');
+
+  }else{
+    search_word = event.target._value.replaceAll(' ','-');
+    router.push(search_link + search_word);
+  }
+  
+}
 
 
 

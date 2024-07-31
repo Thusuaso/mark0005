@@ -35,7 +35,9 @@ export const useStore = defineStore('store', {
         projects_suggested_header:'',
         usa_stock_main_menu:{},
         product_color_detail:[],
-        filtered_header:{}
+        filtered_header:{},
+        usa_search:'',
+        usa_search_link:''
 
 
   }),
@@ -138,7 +140,15 @@ export const useStore = defineStore('store', {
       },
       getFilteredHeader(state){
         return state.filtered_header;
+      },
+      getUsaSearch(state){
+        const data = {
+            'usa_search':state.usa_search,
+            'usa_search_link':state.usa_search_link
+        }
+        return data;
       }
+
       
 
 
@@ -169,6 +179,8 @@ export const useStore = defineStore('store', {
           this.search_link = payload.search_link;
           this.usa_stock_main_menu = payload.usa_stock_main_menu;
           this.filtered_header = payload.filtered_header;
+           this.usa_search = payload.usa_search;
+           this.usa_search_link = payload.usa_search_link;
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);
@@ -202,6 +214,7 @@ export const useStore = defineStore('store', {
       },
       setProductColorDetail(payload:any){
         this.product_color_detail = payload;
-      }
+      },
+
   },
 })

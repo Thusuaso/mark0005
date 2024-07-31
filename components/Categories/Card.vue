@@ -26,4 +26,5 @@ const props = defineProps({
     }
 });
 const { link, image, text } = props;
+
 </script>
