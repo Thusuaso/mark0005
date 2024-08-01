@@ -9,7 +9,7 @@
             
                 <img class="lazyload" :src="usastock.img" />
                 <div class="card_title" style="font-size:14px;">
-                    <p>{{ usastock.name }}</p>
+                   {{ usastock.name }}
                 </div>
         </div>
       </a>

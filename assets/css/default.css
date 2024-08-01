@@ -291,6 +291,10 @@
 .galleria-img{
     width: 900px; display: block;
 }
+.p-select-dropdown{
+    display: none;
+}
+
 @media screen and (max-width:576px) {
     .footer_about_description{
         font-size:14px;

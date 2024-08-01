@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
     script: [
       {src:'https://kit.fontawesome.com/0867affd7d.js'},
-      {src:'https://www.googletagmanager.com/gtag/js?id=G-1VBK9JFP48'}
+      {src:'https://www.googletagmanager.com/gtag/js?id=G-1VBK9JFP48'},
       
     ],
     
@@ -51,8 +51,9 @@ export default defineNuxtConfig({
   ],
 
   css: [
-    "bootstrap/dist/css/bootstrap.min.css",
     "~/assets/css/default.css",
+
+    "bootstrap/dist/css/bootstrap.min.css",
     "@fancyapps/ui/dist/fancybox/fancybox.css",
   ],
 

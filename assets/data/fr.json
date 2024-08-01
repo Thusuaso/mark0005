@@ -1,7 +1,7 @@
 {
     "navbar":{
         "home":"MAISON",
-        "product":"DES PRODUITS",
+        "product":"PRODUITS",
         "info":"INFO",
         "about":"À PROPOS",
         "contact":"CONTACT",
@@ -9,7 +9,7 @@
         "videos":"VIDÉOS",
         "project":"PROJET",
         "catalog":"CATALOGUE",
-        "usa":"ACTIONS ÉTATS-UNIS",
+        "usa":"ÉTATS-UNIS STOCKS",
         "categories":"CATÉGORIES",
         "colors":"COULEURS",
         "areas":"ZONES",

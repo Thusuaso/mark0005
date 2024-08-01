@@ -106,7 +106,7 @@
       </ul>
       <form class="d-flex" role="search" v-if="!usa_link_status">
         <InputText v-model="search" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light w-50 " style="margin-right:5px;"/>
-        <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)">
+        <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)" dropdown>
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">
                     <img :alt="slotProps.value.label" :src="slotProps.value.img" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" style="width: 18px" />
@@ -116,7 +116,7 @@
                 </span>
             </template>
             <template #option="slotProps">
-              <a :href="slotProps.option.link">
+              <a :href="slotProps.option.link" class="w-100">
 
                 <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" style="width: 22px" />
 
@@ -201,7 +201,7 @@ const searchInput = (event:any)=>{
     router.push('/');
 
   }else{
-    search_word = event.target._value.replaceAll(' ','-');
+    search_word = event.target._value.trimStart().replaceAll(' ','-');
     router.push(search_link + search_word);
 
   }
@@ -210,7 +210,6 @@ const search_placeholder = store.getSearch;
 let usa_link_status = ref(false);
 const usa_search = store.getUsaSearch;
 watch(() => router.currentRoute.value.fullPath, () => {
-  console.log("router.currentRoute.value",router.currentRoute.value)
   let link = router.currentRoute.value.fullPath;
   link = link.split('/')[1];
   if(link == 'usa'){
@@ -235,7 +234,7 @@ const searchInputUsa = (event:any)=>{
     router.push('/usa/stock');
 
   }else{
-    search_word = event.target._value.replaceAll(' ','-');
+    search_word = event.target._value.trimStart().replaceAll(' ','-');
     router.push(search_link + search_word);
   }
   
@@ -249,3 +248,4 @@ const searchInputUsa = (event:any)=>{
 
 
 </script>
+

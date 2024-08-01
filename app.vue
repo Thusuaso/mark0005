@@ -23,3 +23,6 @@ const lang = store.getLang;
 
 
 </script>
+<style>
+
+</style>
