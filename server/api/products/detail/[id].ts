@@ -118,10 +118,9 @@ where mo.urunid = '${productId}' and mp.yayinla=1
 								const data = {
 									'detail': detail?.recordset,
 									'photos': photos?.recordset,
-																'sizes': sizes?.recordset,
-									
-																'suggested':suggested?.recordset,
-																'except':photosExceptFirst?.recordset
+									'sizes': sizes?.recordset,
+									'suggested':suggested?.recordset,
+									'except':photosExceptFirst?.recordset
 								}
 							   await resolve(data)
 							});
