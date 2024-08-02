@@ -226,7 +226,7 @@ if(link == 'usa'){
 }else{
   usa_link_status.value = false;
 }
-
+const test = '';
 const searchInputUsa = (event:any)=>{
   const search_link = store.getUsaSearch.usa_search_link;
   let search_word = '';
