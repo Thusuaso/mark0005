@@ -47,6 +47,7 @@
         </div>
     </div>
     <h3 class="header mb-3 mt-3">{{ product.onerilenurun_title }}</h3>
+    {{ suggested }}
     <div class="row m-auto text-center">
         <div class="col-sm-3" v-for="sug in suggested" :key="sug.id">
             <ProductsCard :link="sug.link" :image="sug.image" :text="sug.name" />

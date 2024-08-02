@@ -19,7 +19,7 @@ const navbar_link = store.getNavbarLinks;
 const footer = store.getFooter;
 const lang = store.getLang;
 
-
+const test = '';
 
 
 </script>
