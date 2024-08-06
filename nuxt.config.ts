@@ -76,4 +76,9 @@ export default defineNuxtConfig({
   sitemap: {
     sources: ['/api/sitemap'],
   },
+  runtimeConfig: {
+    public: {
+      gtagId: 'G-1VBK9JFP48',
+    }
+  }
 })
