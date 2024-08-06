@@ -103,15 +103,15 @@
         "news":{
             "header":"NUEVO",
             "items":[
-              {"id":1,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-33-b.jpeg","name":"mekmar_news_1"},
-              {"id":2,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-66-b.jpeg","name":"mekmar_news_2"},
-              {"id":3,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-77-b.jpeg","name":"mekmar_news_3"},
-              {"id":4,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-88-b.jpeg","name":"mekmar_news_4"},
-              {"id":5,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-55-b.jpeg","name":"mekmar_news_5"},
-              {"id":6,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-44-b.jpeg","name":"mekmar_news_6"},
-              {"id":7,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-99-b.jpeg","name":"mekmar_news_7"},
-              {"id":8,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-22-b.jpeg","name":"mekmar_news_8"},
-              {"id":9,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-11-b.jpeg","name":"mekmar_news_9"}
+              {"id":1,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-1-b.webp","name":"mekmar_news_1"},
+              {"id":2,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-2-b.webp","name":"mekmar_news_2"},
+              {"id":3,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-3-b.webp","name":"mekmar_news_3"},
+              {"id":4,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-4-b.webp","name":"mekmar_news_4"},
+              {"id":5,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-5-b.webp","name":"mekmar_news_5"},
+              {"id":6,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-6-b.webp","name":"mekmar_news_6"},
+              {"id":7,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-7-b.webp","name":"mekmar_news_7"},
+              {"id":8,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-8-b.webp","name":"mekmar_news_8"},
+              {"id":9,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-9-b.webp","name":"mekmar_news_9"}
 
             ]
         },
@@ -123,8 +123,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export@mekmar.com",
                      "whatsapp" : "+90 542 660 8087",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
                      "id"  : 1,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
                   },
@@ -133,8 +133,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export1@mekmar.com",
                      "whatsapp" : "+90 542 660 8085",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
                      "id" : 2,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
                   },
@@ -143,8 +143,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export2@mekmar.com",
                      "whatsapp" : "+90 542 660 8084",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
                      "id" : 3,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
                   }
@@ -153,22 +153,22 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.webp"}
           ],
           "slide2":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp"}
           ],
           "slide3":[
-            {"id":1,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Mármol Imperial de Carrara","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.jpg"},
-            {"id":2,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.jpg"},
-            {"id":3,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Mystic Brown","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.jpg"},
-            {"id":4,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Bañera Model 106","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.jpg"}
+            {"id":1,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Mármol Imperial de Carrara","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"},
+            {"id":3,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Losa de Cuarzo Mystic Brown","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp"},
+            {"id":4,"link":"/es/fabrication","title":"AGREGADO RECIENTEMENTE","name":"Bañera Model 106","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp"}
           ]
     },
     "categories":[
@@ -212,8 +212,8 @@
                  "job" : "Especialista En Ventas",
                  "email" : "export@mekmar.com",
                  "whatsapp" : "+90 542 660 8087",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.jpg",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
                  "id"  : 1,
                  "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
               },
@@ -222,8 +222,8 @@
                  "job" : "Especialista En Ventas",
                  "email" : "export1@mekmar.com",
                  "whatsapp" : "+90 542 660 8085",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.jpg",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
                  "id" : 2,
                  "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
               },
@@ -232,8 +232,8 @@
                  "job" : "Especialista En Ventas",
                  "email" : "export2@mekmar.com",
                  "whatsapp" : "+90 542 660 8084",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.jpg",
+                 "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
                  "id" : 3,
                  "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
               }
@@ -250,7 +250,9 @@
             "example":"Ejemplo:",
                         "choose_country":"Elige País",
             "search_country":"Buscar un País",
-            "general_field":"Por favor complete todas las entradas"
+            "general_field":"Por favor complete todas las entradas",
+            "send":"ENVIAR"
+
 
         }
     },

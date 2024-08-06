@@ -69,7 +69,7 @@
         </div>
 
 
-        <button type="submit" class="btn btn-success w-100" :disabled="button_status" @click="sendMail">Send</button>
+        <button type="submit" class="btn btn-success w-100" :disabled="button_status" @click="sendMail">{{ form.send }}</button>
     </div>
 </template>
 <script lang="ts" setup>

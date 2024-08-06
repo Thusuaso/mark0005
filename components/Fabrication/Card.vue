@@ -13,7 +13,7 @@
                         <img class="lazyload" :src="img.image" />
 
                         <div class="card_title">
-                            <p>{{ img.title }}</p>
+                            {{ img.title }}
                         </div>
                     </div>
                 </div>

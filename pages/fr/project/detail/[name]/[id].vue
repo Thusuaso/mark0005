@@ -8,7 +8,7 @@
                 <div class="customContainer ">
                                 <div class="customElement">
                                     <img :src="image.ImageLink" :alt="image.name" style="cursor: pointer" @click="imageClick(index)" />
-                                    <p class="card_title">{{ image.name }}</p>
+                                    <div class="card_title">{{ image.name }}</div>
 
                                 </div>
                         </div>
