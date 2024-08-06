@@ -4,13 +4,14 @@ export default defineNuxtConfig({
   app: {
   head: {
 
-    title:'Mekmar',
+    title:'Mekmar Marble and Natural Stone Turkish Natural Stone Supplier/Manufacturer Universally For 18 Years',
     charset: 'utf-8',
     meta: [
       
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      { name: 'description', content: 'Mekmar Marble' },
-      {name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA'}
+      { name: 'description', content: "Mekmar has been existing as a producer and supplier in the field of natural stone for 18 years. He continues to work intensively on natural stones such as marble, travertine and limestone. Buyer satisfaction is ensured by carrying out works in accordance with the user's wishes in the fields of landscaping and design. It offers a wide range of products, including steps, risers, slabs and mosaics products. It has a high color palette such as beige marble, white marble and gray marble." },
+      { name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA' },
+      { name:"keywords",content:"Marble, Travertine, Natural Stone, Limestone, Beige,Interior Design" }
 
     ],
 
@@ -23,6 +24,7 @@ export default defineNuxtConfig({
       link: [
         {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
         {rel:"icon",href:"https://cdn.mekmarimage.com/logo/mekmar-up-icon.png"},
+        {rel:"canonical",href:'https://www.mekmar.com'}
 
     ],
     style: [
