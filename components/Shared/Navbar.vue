@@ -179,7 +179,7 @@ const langs = ref([
   {'name':'France','link':'/fr',"status":"fr","img":"https://cdn.mekmarimage.com/logo/fr-flag.png",code:'FR'},
   {'name':'Spanish','link':'/es',"status":"es","img":"https://cdn.mekmarimage.com/logo/es-flag.png",code:'ES'},
   {'name':'Russian','link':'/ru',"status":"ru","img":"https://cdn.mekmarimage.com/logo/ru-flag.png",code:'RU'},
-  // {'name':'Arabic','link':'/ar',"status":"ar","img":"https://cdn.mekmarimage.com/logo/ar-flag.png",code:'AR'},
+  {'name':'Arabic','link':'/ar',"status":"ar","img":"https://cdn.mekmarimage.com/logo/ar-logo.png",code:'AR'},
 
 ]);
 const store = useStore();
