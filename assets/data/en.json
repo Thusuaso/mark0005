@@ -173,17 +173,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/product/marble/1","name":"MARBLE","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.jpg"},
-        {"id":2,"link":"/product/travertine/2","name":"TRAVERTINE","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.jpg"},
-        {"id":3,"link":"/product/limestone/3","name":"LIMESTONE","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.jpg"},
-        {"id":4,"link":"/product/mosaics/4","name":"MOSAIC","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.jpg"},
-        {"id":5,"link":"/product/outdoor/5","name":"OUTDOOR","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.jpg"},
-        {"id":6,"link":"/product/bath-and-kitchen/6","name":"BATH & KITCHEN","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.jpg"},
-        {"id":7,"link":"/product/slabs/7","name":"SLABS","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.jpg"},
-        {"id":8,"link":"/product/quartz/8","name":"QUARTZ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.jpg"},
-        {"id":9,"link":"/product/by-products/9","name":"BY PRODUCTS","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.jpg"},
-        {"id":11,"link":"/product/installation-materials/11","name":"INSTALLATION MATERIALS","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.jpg"},
-        {"id":18,"link":"/product/plasterboard/18","name":"PLASTERBOARD","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.jpg"}
+        {"id":1,"link":"/product/marble/1","name":"MARBLE","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.webp"},
+        {"id":2,"link":"/product/travertine/2","name":"TRAVERTINE","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.webp"},
+        {"id":3,"link":"/product/limestone/3","name":"LIMESTONE","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.webp"},
+        {"id":4,"link":"/product/mosaics/4","name":"MOSAIC","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.webp"},
+        {"id":5,"link":"/product/outdoor/5","name":"OUTDOOR","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.webp"},
+        {"id":6,"link":"/product/bath-and-kitchen/6","name":"BATH & KITCHEN","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.webp"},
+        {"id":7,"link":"/product/slabs/7","name":"SLABS","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.webp"},
+        {"id":8,"link":"/product/quartz/8","name":"QUARTZ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.webp"},
+        {"id":9,"link":"/product/by-products/9","name":"BY PRODUCTS","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.webp"},
+        {"id":11,"link":"/product/installation-materials/11","name":"INSTALLATION MATERIALS","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.webp"},
+        {"id":18,"link":"/product/plasterboard/18","name":"PLASTERBOARD","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.webp"}
     
       ],
       "about" : {
@@ -261,19 +261,19 @@
             {   "id":1,
                 "header":"FACTORIES THAT WE WORK",
               "images":[
-              {"id":1,"title":"Beige Marble Epoxy Line","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.jpg"},
-              {"id":2,"title":"Bianco Ibiza Factory","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.jpg"},
-              {"id":3,"title":"Groove Process for Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.jpg"},
-              {"id":4,"title":"CNC Cutting Angled Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.jpg"}
+              {"id":1,"title":"Beige Marble Epoxy Line","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.webp"},
+              {"id":2,"title":"Bianco Ibiza Factory","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.webp"},
+              {"id":3,"title":"Groove Process for Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.webp"},
+              {"id":4,"title":"CNC Cutting Angled Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.webp"}
             ]},
             {
                 "id":2,
               "header":"QUARRIES THAT WE WORK",
               "images":[
-                {"id":1,"title":"Bianco Ibiza Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.jpg"},
-                {"id":2,"title":"Turkish Calacatta Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.jpg"},
-                {"id":3,"title":"Classic Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.jpg"},
-                {"id":4,"title":"Picasso Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.jpg"}
+                {"id":1,"title":"Bianco Ibiza Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.webp"},
+                {"id":2,"title":"Turkish Calacatta Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.webp"},
+                {"id":3,"title":"Classic Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.webp"},
+                {"id":4,"title":"Picasso Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.webp"}
     
               ]
             },
@@ -281,10 +281,10 @@
                 "id":3,
               "header":"OUR USA WEREHOUSE",
               "images":[
-                {"id":1,"title":"Sample Area","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.jpg"},
-                {"id":2,"title":"Available Stocks","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.jpg"},
-                {"id":3,"title":"Special Orders","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.jpg"},
-                {"id":4,"title":"Container Entered","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.jpg"}
+                {"id":1,"title":"Sample Area","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.webp"},
+                {"id":2,"title":"Available Stocks","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.webp"},
+                {"id":3,"title":"Special Orders","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.webp"},
+                {"id":4,"title":"Container Entered","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.webp"}
     
               ]
             }
@@ -642,7 +642,8 @@
       "usa_stock_main_menu":{
         "name":"CHECK OUR USA STOCKS",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.jpg",
-        "link":"/usa/stock"
+        "link":"/usa/stock",
+        "alt":"usa_stock_mekmar"
       },
       "filtered_header":{
         "category":"CATEGORIES",

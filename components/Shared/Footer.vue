@@ -50,7 +50,7 @@
                     <div class="personalContainerLimited">
                         <div class="personalCardGrid">
                             <div class="personalCardColumnOne">
-                                <img :src="item.image" />
+                                <img :src="item.image" :alt="item.name + '-mekmar'"/>
                             </div>
                             <div class="personalCardColumnTwo">
        
