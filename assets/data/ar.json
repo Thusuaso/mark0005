@@ -638,7 +638,8 @@
       "usa_stock_main_menu":{
         "name":"تحقق من مخزوننا في الولايات المتحدة الأمريكية",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.webp",
-        "link":"/ar/usa/stock"
+        "link":"/ar/usa/stock",
+        "alt":"usa_stock_mekmar"
       },
       "filtered_header":{
         "category":"فئات",

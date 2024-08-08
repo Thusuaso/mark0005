@@ -657,7 +657,8 @@
       "usa_stock_main_menu":{
         "name":"CONSULTEZ NOTRE NOS STOCKS USA",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.webp",
-        "link":"/fr/usa/stock"
+        "link":"/fr/usa/stock",
+        "alt":"usa_stock_mekmar"
       },
       "filtered_header":{
         "category":"CATÉGORIES",

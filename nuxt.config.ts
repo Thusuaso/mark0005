@@ -49,7 +49,8 @@ export default defineNuxtConfig({
     "@element-plus/nuxt",
     '@primevue/nuxt-module',
     "@vee-validate/nuxt",
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    "@nuxtjs/robots"
   ],
 
   css: [
@@ -90,5 +91,11 @@ export default defineNuxtConfig({
             'Cache-Control': 'max-age=31536000'
         }
     }
-}
+  },
+  robots: {
+    // provide simple disallow rules for all robots `user-agent: *`
+    disallow: ['/videos', '/fr/videos','/es/videos','/ru/videos','/ar/videos'],
+    sitemap:'https://mekmar.com/sitemap.xml'
+  }
+
 })

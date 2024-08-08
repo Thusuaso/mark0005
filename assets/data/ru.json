@@ -662,7 +662,8 @@
       "usa_stock_main_menu":{
         "name":"ПРОВЕРЬТЕ НАШИ АКЦИИ В США",
         "img":"https://cdn.mekmarimage.com/logo/warehouse.webp",
-        "link":"/ru/usa/stock"
+        "link":"/ru/usa/stock",
+        "alt":"usa_stock_mekmar"
       },
       "filtered_header":{
         "category":"КАТЕГОРИИ",
