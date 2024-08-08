@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
       { name: 'description', content: "Mekmar produces tile,slab,mosaic,sink,etc made from marble,travertine,limestone with cross/vein cut in white,beige,grey,black colors and exports worldwide" },
-      { name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA' },
+      // { name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA' },
       { name:"keywords",content:"Marble, Travertine, Natural Stone, Limestone, Beige,Interior Design" }
 
     ],
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     ],
     
       link: [
-        {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
+        // {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
         {rel:"icon",href:"https://cdn.mekmarimage.com/logo/mekmar-up-icon.png"},
         {rel:"canonical",href:'https://www.mekmar.com'}
 
@@ -57,6 +57,7 @@ export default defineNuxtConfig({
 
     "bootstrap/dist/css/bootstrap.min.css",
     "@fancyapps/ui/dist/fancybox/fancybox.css",
+    "~/assets/icons/font/bootstrap-icons.min.css"
   ],
 
   "overrides": { "vue": "3.3.13" },
@@ -82,5 +83,12 @@ export default defineNuxtConfig({
     public: {
       gtagId: 'G-1VBK9JFP48',
     }
-  }
+  },
+  vite: {
+    server: {
+        headers: {
+            'Cache-Control': 'max-age=31536000'
+        }
+    }
+}
 })
