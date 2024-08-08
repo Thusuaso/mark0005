@@ -2,7 +2,7 @@
   <div class=" container row m-auto text-center">
     <div class="col-sm-2 fs-1 text-decoration-none fw-light" >
       <NuxtLink class="text-decoration-none fw-light" :to="selectedLang.link" style="color:#1357bc;">
-        <img class="logo_mekmar" src="https://cdn.mekmarimage.com/logo/Mekmar%20Logo%20b%C3%BCy%C3%BCk%20yaz%C4%B1l%C4%B1-01.png" alt="mekmar-logo"/>
+        <img class="logo_mekmar" src="https://cdn.mekmarimage.com/logo/Mekmar-Logo-b%C3%BCy%C3%BCk-yaz%C4%B1l%C4%B1-01.webp" alt="mekmar-logo"/>
       </NuxtLink>
     </div>
     <div class="col-sm-10" >
