@@ -11,6 +11,14 @@
             <ul class="about-page-description">
                 <li class="about-page-description" v-for="item in about.items_2" :key="item.id">{{ item.value }}</li>
             </ul>
+            <br/>
+            <ul class="row m-auto text-center">
+                    <li class="col-2" v-for="social of about.socials" style="list-style-type: none;">
+                        <a :href="social.link" target="_blank" style="color: #1357bc;">
+                            <i :class="social.icon" class="text-decoration-none" ></i>
+                        </a>
+                    </li>
+                </ul>
         </div>
         <div class="col-sm-6">
             <figure class="image is-16by9">

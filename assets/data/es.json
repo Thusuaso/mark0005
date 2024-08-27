@@ -92,13 +92,13 @@
                 { "id" : 4, "value" :  "Suministramos soluciones naturales para proyectos arquitectónicos." }
             ],
             "socials":[
-                {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"fab fa-facebook-square fa-lg"},
-                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fa-brands fa-x-twitter"},
-                {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"fab fa-youtube fa-lg"},
-                {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"fab fa-instagram fa-lg"},
-                {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"fab fa-pinterest fa-lg"}
-        
-            ]
+              {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
+              {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
+              {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
+              {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
+              {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
+      
+          ]
         },
         "news":{
             "header":"NUEVO",
@@ -202,7 +202,15 @@
           { "id" : 3, "value" : "Proporcione los mejores elementos de diseño para crear el espacio habitable perfecto." }
        ],   
        "sub_link_title":"Si desea ver el perfil de nuestra empresa en formato PDF, haga clic aquí:",
-       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf"
+       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf",
+       "socials":[
+        {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
+        {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
+        {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
+        {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
+        {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
+
+    ]
       },
       "contact":{
         "header":"CONTACTO",

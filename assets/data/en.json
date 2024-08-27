@@ -93,11 +93,11 @@
                 { "id" : 4, "value" :  "We supply natural solutions for architectural projects." }
             ],
             "socials":[
-                {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"fab fa-facebook-square fa-lg"},
-                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"fa-brands fa-x-twitter"},
-                {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"fab fa-youtube fa-lg"},
-                {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"fab fa-instagram fa-lg"},
-                {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"fab fa-pinterest fa-lg"}
+                {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
+                {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
+                {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
+                {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
+                {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
         
             ]
         },
@@ -203,7 +203,15 @@
           { "id" : 3, "value" : "Providing the best design elements to create the ideal living space." }
        ],   
        "sub_link_title":"If you want to check our company profile as PDF, clik here:",
-       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf"
+       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf",
+       "socials":[
+        {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
+        {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
+        {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
+        {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
+        {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
+
+    ]
       },
       "contact":{
         "header":"CONTACT",
