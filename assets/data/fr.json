@@ -166,10 +166,11 @@
             {"id":4,"link":"/fr/fabrication","title":"SCÈNES DE PRODUCTION","name":"Fabrication","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp"}
           ],
           "slide3":[
-            {"id":1,"link":"/fr/fabrication","title":"NOUVELLEMENT AJOUTÉ","name":"Marbre Impérial de Carrare","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
-            {"id":2,"link":"/fr/fabrication","title":"NOUVELLEMENT AJOUTÉ","name":"Quartz Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"},
-            {"id":3,"link":"/fr/fabrication","title":"NOUVELLEMENT AJOUTÉ","name":"Quartz Brun Mystique","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp"},
-            {"id":4,"link":"/fr/fabrication","title":"NOUVELLEMENT AJOUTÉ","name":"Modèle de Baignoire 106","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp"}
+            {"id":1,"link":"/fr/product/detail/Turkish-Statuario-Marble-Slab/991","title":"NOUVELLEMENT AJOUTÉ","name":"Dalle de Marbre Statuario Turc","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp"},
+            {"id":2,"link":"/fr/product/detail/Imperial-Carrara-Marble/979","title":"NOUVELLEMENT AJOUTÉ","name":"Marbre Impérial de Carrare","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
+            {"id":3,"link":"/fr/product/detail/Astoria-Quartz/976","title":"NOUVELLEMENT AJOUTÉ","name":"Quartz Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"},
+            {"id":4,"link":"/fr/product/detail/Mystic-Brown-Quartz/975","title":"NOUVELLEMENT AJOUTÉ","name":"Quartz Brun Mystique","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp"}
+    
           ]
     },
     "categories":[

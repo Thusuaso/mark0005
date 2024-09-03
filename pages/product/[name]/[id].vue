@@ -72,7 +72,7 @@
         <div class="col-sm-9">
             <div class="row m-auto text-align">
                 <div class="col-sm-4" v-for="product in products" :key="product.Id">
-                    <LazyProductsCard :text="product.name" :image="product.image" :link="product.link" />
+                    <ProductsCards :text="product.name" :image="product.image" :link="product.link" />
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
     </div>
 </template>
 <script setup lang="ts">
-
+import ProductsCards from '~/components/Products/Card.vue';
 
 import { useStore } from '~/store/index';
 import {ref} from 'vue';

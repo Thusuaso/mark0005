@@ -166,10 +166,13 @@
             {"id":4,"link":"/ar/fabrication","title":"مشاهد من الإنتاج","name":"تلفيق/ar","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp"}
           ],
           "slide3":[
-            {"id":1,"link":"/ar/product/detail/Imperial-Carrara-Marble/979","title":"مضاف حديثا","name":"رخام كرارا الإمبراطوري","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
-            {"id":2,"link":"/ar/product/detail/Astoria-Quartz/976","title":"مضاف حديثا","name":"أستوريا كوارتز","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"},
-            {"id":3,"link":"/ar/product/detail/Mystic-Brown-Quartz/975","title":"مضاف حديثا","name":"الكوارتز البني الصوفي","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp"},
-            {"id":4,"link":"/ar/product/detail/Bathtub-Model-106/974","title":"مضاف حديثا","name":"حوض استحمام موديل 106/ar","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-974-1.webp"}
+
+
+            {"id":1,"link":"/ar/product/detail/Turkish-Statuario-Marble-Slab/991","title":"تمت إضافتها حديثًا","name":"بلاطة رخام ستاتاريو تركية","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp"},
+
+            {"id":2,"link":"/ar/product/detail/Imperial-Carrara-Marble/979","title":"تمت إضافتها حديثًا","name":"رخام كرارا الإمبراطوري","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
+            {"id":3,"link":"/ar/product/detail/Astoria-Quartz/976","title":"تمت إضافتها حديثًا","name":"أستوريا كوارتز","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"},
+            {"id":4,"link":"/ar/product/detail/Mystic-Brown-Quartz/975","title":"تمت إضافتها حديثًا","name":"الكوارتز البني الصوفي","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-975-1.webp"}
           ]
     },
     "categories":[
