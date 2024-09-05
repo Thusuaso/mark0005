@@ -1,6 +1,6 @@
 <template>
 
-  <SharedNavbar :navbar="navbar" :navbar_link="navbar_link" />
+  <SharedNavbar :navbar="navbar" :navbar_link="navbar_link"/>
   <div class="mt-4 container">
     <NuxtLayout>
       <NuxtPage />
@@ -19,7 +19,6 @@ const navbar_link = store.getNavbarLinks;
 const footer = store.getFooter;
 const lang = store.getLang;
 
-const test = '';
 
 
 </script>
