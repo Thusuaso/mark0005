@@ -13,8 +13,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <InputText v-model="search" v-if="!usa_link_status" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)" class="text-dark bg-light " style="margin-right:5px;width:10%;"/>
-      <InputText v-model="search_usa" v-else :placeholder="usa_search.usa_search" @keydown.prevent.enter="searchInputUsa($event)" class="text-dark bg-light  " style="margin-right:5px;width:10%;"/>
+      <InputText v-model="search" v-if="!usa_link_status" :placeholder="search_placeholder" @keydown.prevent.enter="searchInput($event)"
+        @blur="searchInput($event)" 
+      class="text-dark bg-light search_custom" />
+      <InputText v-model="search_usa" v-else :placeholder="usa_search.usa_search" @keydown.prevent.enter="searchInputUsa($event)" 
+      @blur="searchInputUsa($event)" 
+      class="text-dark bg-light  search_custom"/>
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -232,5 +236,18 @@ const searchInputUsa = (event:any)=>{
 *{
   font-size:1vw;
 }
+.search_custom{
+  margin-right:5px;width:10%;
+}
+
+@media screen and (max-width:576px) {
+  *{
+    font-size:16px;
+  }
+  .search_custom{
+    width:60%;
+  }
+}
+
 </style>
 

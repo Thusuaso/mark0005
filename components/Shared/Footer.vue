@@ -5,12 +5,14 @@
                 <h3 class="header">{{ footer.about.header }}</h3>
                 <p :class="
                 lang == 'en' ? 'about-description-en':'' ||
-                lang == 'ar' ? 'about-description-ar':''
+                lang == 'ar' ? 'about-description-ar':'' ||
+                lang=='ru' ? 'about-description-ru':''
                 ">{{ footer.about.description }}</p>
                 <ul>
                     <li v-for="item of footer.about.items" :key="item.id" :class="
                         lang == 'en' ? 'about-description-en':'' || 
-                        lang == 'ar' ? 'about-description-ar':''
+                        lang == 'ar' ? 'about-description-ar':'' ||
+                        lang=='ru' ? 'about-description-ru':''
                         
                         ">{{ item.value }}
                     </li>
