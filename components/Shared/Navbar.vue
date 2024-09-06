@@ -185,7 +185,7 @@ const searchInput = (event:any)=>{
     router.push('/');
 
   }else{
-    search_word = event.target._value.trimStart().replaceAll(' ','-');
+    search_word = event.target._value.trimStart();
     router.push(search_link + search_word);
 
   }
@@ -218,7 +218,7 @@ const searchInputUsa = (event:any)=>{
     router.push('/usa/stock');
 
   }else{
-    search_word = event.target._value.trimStart().replaceAll(' ','-');
+    search_word = event.target._value.trimStart();
     router.push(search_link + search_word);
   }
   

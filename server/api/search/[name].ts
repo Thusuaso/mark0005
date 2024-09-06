@@ -6,7 +6,7 @@ select mp.Id,mp.urunid,mp.kategori_id,mp.urunadi_en as name_en,mp.urunadi_fr as 
     (select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mp.urunid order by mf.sira) as image,
     TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
 
-    from MekmarCom_Products mp where mp.anahtarlar_en like '%' + '${name?.replaceAll('-',' ')}' +'%' and mp.yayinla=1
+    from MekmarCom_Products mp where mp.anahtarlar_en like '%' + '${name?.replaceAll('%20',' ')}' +'%' and mp.yayinla=1
     order by mp.kategori_id
     
     
