@@ -1,6 +1,6 @@
 <template>
     <div class="row m-auto text-center">
-        <div class="col-sm-3">
+        <div class="col-sm-3 customFilter" >
             <h3 class="header mt-3">CATEGORIES</h3>
 
                 <ol class="list-group list-group-numbered">
@@ -32,3 +32,10 @@
     const products = control.lang_category_products(store.getSearchProducts.products,store.getLang);
     const categories_f = control.lang_filter(store.getSearchProducts.categories_f,store.getLang);
 </script>
+<style scoped>
+@media screen and (max-width:576px) {
+    .customFilter{
+        display: none;
+    }
+}
+</style>
