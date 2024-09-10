@@ -25,7 +25,7 @@
                     </MazTabsContentItem>
                     <MazTabsContentItem :tab="3" class="maz-py-5">
                         <div class=" m-auto text-center">
-                            <ProductsDetailSize v-for="size in sizes" :key="size" :size="size.ebat" :unit="size_control(size.birim)"
+                            <ProductsDetailSize v-for="size in sizes" :key="size" :size="size.ebat" :unit="detail.birim"
                                 :price="size.fiyat" />
 
                         </div>

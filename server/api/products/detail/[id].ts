@@ -3,7 +3,7 @@ export default defineEventHandler(async (event) => {
     const productId = getRouterParam(event,'id');
     const productDetailSql = `
         select 
-
+	mp.birim,
 	mp.Id,
 	mp.urunid,
 	mp.kategori_id,
