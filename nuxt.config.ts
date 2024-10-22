@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       link: [
         // {rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"},
         {rel:"icon",href:"https://cdn.mekmarimage.com/logo/mekmar-up-icon.png"},
-        {rel:"canonical",href:'https://www.mekmar.com'}
+        // {rel:"canonical",href:'https://www.mekmar.com'}
 
     ],
     style: [
@@ -76,10 +76,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-07-16",
   override:true,
-  site: {
-    url: 'https://www.mekmar.com',
-    trailingSlash: true
-  },
+  // site: {
+  //   url: 'https://www.mekmar.com',
+  //   trailingSlash: true
+  // },
   sitemap: {
     sources: ['/api/sitemap'],
   },
