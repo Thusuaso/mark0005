@@ -309,68 +309,70 @@
         "title_2":"VÍDEOS DE PRODUCCIÓN",
         "title_3":"VÍDEOS INFORMATIVOS",
         "projects":[
-          {"id":27,"name":"Vídeos del proyecto | PROYECTO DÚO - FRANCIA","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
-          {"id":26,"name":"Vídeos del proyecto | Proyecto Gebing - Alemania","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+          {"id":27,"name":"Vídeos del Proyecto | Proyecto DÚO en Francia","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+          {"id":26,"name":"Vídeos del Proyecto | Proyecto Gebing en Alemania","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
 
-          {"id":1,"name":"Vídeos del proyecto | PROYECTO SAN - CROACIA","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
-          {"id":2,"name":"Vídeos del proyecto | Proyecto Al Mahruqi en Omán","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
-          {"id":3,"name":"Vídeos del proyecto | Proyecto de muro en Australia","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
-          {"id":4,"name":"Vídeos del proyecto | Proyecto HOGA en Rumania","url":"https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z","queue":"4"},
-          {"id":5,"name":"Vídeos del proyecto | Proyecto MTT en Turquía","url":"https://www.youtube.com/embed/Wg2VMMDhuHE?si=0w-xVWwFr9WwMiU2","queue":"5"},
-          {"id":6,"name":"Vídeos del proyecto | Proyecto Eisland en EE.UU.","url":"https://www.youtube.com/embed/leerUVEjwLM?si=fRJrzxa6L5TbmA5N","queue":"6"},
-          {"id":7,"name":"Vídeos del proyecto | Proyecto Nader en República Dominicana","url":"https://www.youtube.com/embed/GpzReJf4AIE?si=wyL7TgBzLPQVgQTC","queue":"7"},
-          {"id":8,"name":"Vídeos del proyecto | Proyecto Homayoun en EE.UU.","url":"https://www.youtube.com/embed/u8OlcbiFFU4?si=0iXTAXetqi192aNq","queue":"8"},
-          {"id":9,"name":"Vídeos del proyecto | Proyecto Litoral en Mauricio","url":"https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6","queue":"9"},
-          {"id":10,"name":"Vídeos del proyecto | Proyecto Mansour en Australia","url":"https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3","queue":"10"},
-          {"id":11,"name":"Vídeos del proyecto | Proyecto MBI en Ghana","url":"https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK","queue":"11"},
-          {"id":12,"name":"Vídeos del proyecto | Proyecto Andersen en Países Bajos","url":"https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0","queue":"12"},
+          {"id":1,"name":"Vídeos del Proyecto | Proyecto SAN en Croacia","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
+          {"id":2,"name":"Vídeos del Proyecto | Proyecto Al Mahruqi en Omán","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
+          {"id":3,"name":"Vídeos del Proyecto | Proyecto de Muro en Australia","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
+          {"id":4,"name":"Vídeos del Proyecto | Proyecto HOGA en Rumania","url":"https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z","queue":"4"},
+          {"id":5,"name":"Vídeos del Proyecto | Proyecto MTT en Turquía","url":"https://www.youtube.com/embed/Wg2VMMDhuHE?si=0w-xVWwFr9WwMiU2","queue":"5"},
+          {"id":6,"name":"Vídeos del Proyecto | Proyecto Eisland en EE.UU.","url":"https://www.youtube.com/embed/leerUVEjwLM?si=fRJrzxa6L5TbmA5N","queue":"6"},
+          {"id":7,"name":"Vídeos del Proyecto | Proyecto Nader en República Dominicana","url":"https://www.youtube.com/embed/GpzReJf4AIE?si=wyL7TgBzLPQVgQTC","queue":"7"},
+          {"id":8,"name":"Vídeos del Proyecto | Proyecto Homayoun en EE.UU.","url":"https://www.youtube.com/embed/u8OlcbiFFU4?si=0iXTAXetqi192aNq","queue":"8"},
+          {"id":9,"name":"Vídeos del Proyecto | Proyecto Litoral en Mauricio","url":"https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6","queue":"9"},
+          {"id":10,"name":"Vídeos del Proyecto | Proyecto Mansour en Australia","url":"https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3","queue":"10"},
+          {"id":11,"name":"Vídeos del Proyecto | Proyecto MBI en Ghana","url":"https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK","queue":"11"},
+          {"id":12,"name":"Vídeos del Proyecto | Proyecto Andersen en Países Bajos","url":"https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0","queue":"12"},
           
-        {"id":13,"name":"Vídeos del proyecto | Proyecto Kirry en Francia","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"13"},
+        {"id":13,"name":"Vídeos del Proyecto | Proyecto Kirry en Francia","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"13"},
 
-        {"id":14,"name":"Vídeos del proyecto | Proyecto Adams en Bahamas","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"14"},
-        {"id":15,"name":"Vídeos del proyecto | Proyecto Beauchamp en Vietnam","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"15"},
-        {"id":16,"name":"Vídeos del proyecto | Proyecto Jackson en España","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"16"},
-        {"id":17,"name":"Vídeos del proyecto | Proyecto Hotel Verdi en Malta","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
-        {"id":18,"name":"Vídeos del proyecto | Proyecto Al Sabouni en Kuwait","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
-        {"id":19,"name":"Vídeos del proyecto | Proyecto Besse en Suiza","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"19"},
-        {"id":20,"name":"Project Videos | Classic Vein Cut Travertine Filled Honed Filled Polished","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
-        {"id":21,"name":"Project Videos | Pablo Vein Cut Travertine","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
-        {"id":22,"name":"Project Videos | Mina Rustic Travertine","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
-        {"id":23,"name":"Project Videos | Alawadhi Villa Project in Kuwait","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
-        {"id":24,"name":"Marble Fountain / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Architectural solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
+        {"id":14,"name":"Vídeos del Proyecto | Proyecto Adams en Bahamas","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"14"},
+        {"id":15,"name":"Vídeos del Proyecto | Proyecto Beauchamp en Vietnam","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"15"},
+        {"id":16,"name":"Vídeos del Proyecto | Proyecto Jackson en España","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"16"},
+        {"id":17,"name":"Vídeos del Proyecto | Proyecto Hotel Verdi en Malta","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
+        {"id":18,"name":"Vídeos del Proyecto | Proyecto Al Sabouni en Kuwait","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
+        {"id":19,"name":"Vídeos del Proyecto | Proyecto Besse en Suiza","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"19"},
+        {"id":20,"name":"Vídeos del Proyecto | Proyecto Al Greishi en Kuwait","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
+        {"id":21,"name":"Vídeos del Proyecto | Travertino Corte Veta Pablo","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
+        {"id":22,"name":"Vídeos del Proyecto | Travertino Rústico Mina","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
+        {"id":23,"name":"Vídeos del Proyecto | Alawadhi Villa Proyecto en Kuwait","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"}
+
 
   
         ],
         "production":[
+
+          {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Vídeos de Producción de Mekmar | Proyecto de Mármol Gris Océano","queue":"1"},
+          {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Vídeos de Producción de Mekmar | Cara Partida","queue":"2"},
+          {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Vídeos de Producción de Mekmar | Acabado Biselado","queue":"3"},
+          {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Vídeos de Producción de Mekmar | Proyecto de Arco de Travertino en Dubai","queue":"4"},
+          {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Vídeos de Producción de Mekmar | Control de Producción de Pedidos","queue":"5"},
+          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Vídeos de Producción de Mekmar | Productos Personalizados/Varias Selecciones","queue":"6"},
+          {"id":24,"name":"Marble Fountain / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
+          {"id":25,"name":"Architectural Solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
           {"id":2,
-            "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-            "name": "Vídeos de producción de Mekmar | Fuente",
-            "queue": "1"
-          },
-          {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Vídeos de producción de Mekmar | Proyecto de mármol gris océano","queue":"1"},
-          {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Vídeos de producción de Mekmar | Cara partida","queue":"2"},
-          {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Vídeos de producción de Mekmar | Acabado biselado","queue":"3"},
-          {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Vídeos de producción de Mekmar | Proyecto de arco de travertino en Dubai","queue":"4"},
-          {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Vídeos de producción de Mekmar | Control de producción de pedidos","queue":"5"},
-          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Vídeos de producción de Mekmar | Productos personalizados/varias selecciones","queue":"6"}
+          "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
+          "name": "Vídeos de Producción de Mekmar | Fuente",
+          "queue": "1"
+        }
         ],
         "informative":[
-          {"id":1,"name":"Tipos de Entrega: INCOTERMS","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
-        {"id":2,"name":"Corte de vena versus corte transversal","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
-        {"id":3,"name":"¿Cuáles son las diferencias entre las piedras?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
-        {"id":4,"name":"Diferentes opciones de superficie en travertino","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
-        {"id":5,"name":"Diferentes opciones de bordes en baldosas de piedra natural","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
-        {"id":6,"name":"Diferentes opciones de superficies en mármol y piedra caliza","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"6"},
-        {"id":7,"name":"Mármol beige | ¿Cuál es la diferencia y cómo seleccionarlos?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"7"},
-        {"id":8,"name":"Cómo afectan los tratamientos superficiales al color de la piedra","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"8"}
+          {"id":1,"name":"Tipos de Entrega: Incoterms","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
+        {"id":2,"name":"Corte de Vena Versus Corte Transversal","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
+        {"id":3,"name":"¿Cuáles Son Las Diferencias Entre Las Piedras?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
+        {"id":4,"name":"Diferentes Opciones de Superficie en Travertino","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
+        {"id":5,"name":"Diferentes Opciones de Bordes en Baldosas de Piedra Natural","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
+        {"id":6,"name":"Diferentes Opciones de Superficies en Mármol y Piedra Caliza","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"6"},
+        {"id":7,"name":"Mármol Beige | ¿Cuál es la Diferencia y Cómo Seleccionarlos?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"7"},
+        {"id":8,"name":"Cómo Afectan Los Tratamientos Superficiales al Color de La Piedra","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"8"}
   
         ],
         "informative_fr":[
           {"id":1,"name":"Les Differentes Surface Sur Le Travertin","url":"https://www.youtube.com/embed/fMTPX9B5jB0","queue":"6"},
           {"id":2,"name":"Différentes options de bord sur les carreaux en pierre naturelle","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
           {"id":3,"name":"Quelles sont les différences entre les pierres ?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
-          {"id":4,"name":"Types de Chargement: INCOTERMS","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
+          {"id":4,"name":"Types de Chargement: Incoterms","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
           {"id":5,"name":"Coupe Veineuse vs Coupe Croisée","url":"https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI","queue":11}
   
         ]

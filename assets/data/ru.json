@@ -307,10 +307,10 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
-          {"id":27,"name":"Видео проекта | ПРОЕКТ ДУО – ФРАНЦИЯ","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+          {"id":27,"name":"Видео проекта | ПРОЕКТ ДУО в ФРАНЦИЯ","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
 
-          {"id":26,"name":"Видео проекта | Проект Гебинг – Германия","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
-          {"id":1,"name":"Видео проекта | САН ПРОЕКТ - ХОРВАТИЯ","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
+          {"id":26,"name":"Видео проекта | Проект Гебинг в Германия","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+          {"id":1,"name":"Видео проекта | САН ПРОЕКТ в ХОРВАТИЯ","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"Видео проекта | Проект Аль-Махруки в Омане","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
           {"id":3,"name":"Видео проекта | Проект стены в Австралии","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
           {"id":4,"name":"Видео проекта | Проект HOGA в Румынии","url":"https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z","queue":"4"},
@@ -323,35 +323,38 @@
           {"id":11,"name":"Видео проекта | Проект MBI в Гане","url":"https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK","queue":"11"},
           {"id":12,"name":"Видео проекта | Проект Андерсен в Нидерландах","url":"https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0","queue":"12"},
           
-        {"id":13,"name":"Видео проекта | Проект Кирри во Франции","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"13"},
+        {"id":13,"name":"Видео проекта | Проект Кирри в Франции","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"13"},
 
-        {"id":14,"name":"Project Videos | Adams Project in Bahamas","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"14"},
-        {"id":15,"name":"Project Videos | Beauchamp Project in Vietnam","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"15"},
-        {"id":16,"name":"Project Videos | Jackson Project in Spain","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"16"},
-        {"id":17,"name":"Project Videos | Hotel Verdi Project in Malta","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
-        {"id":18,"name":"Project Videos | Al Sabouni Project in Kuwait","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
+        {"id":14,"name":"Видео проекта | Проект Адамс в Багамах","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"14"},
+        {"id":15,"name":"Видео проекта | Проект Бошан в Вьетнаме","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"15"},
+        {"id":16,"name":"Видео проекта | Проект Джексона в Испании","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"16"},
+        {"id":17,"name":"Видео проекта | Проект отеля Verdi в Мальте","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
+        {"id":18,"name":"Видео проекта | Проект Аль-Сабуни в Кувейте","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
         {"id":19,"name":"Видео проекта | Проект Besse в Швейцарии","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"19"},
-        {"id":20,"name":"Видео проекта | Классическая прожилковая огранка Травертин Заполненный Хонингованный Заполненный Полированный","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
-        {"id":21,"name":"Видео проекта | Травертин Pablo Vein Cut","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
+        {"id":20,"name":"Видео проекта | Проект Аль-Грейши в Кувейте","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
+        {"id":21,"name":"Видео проекта | Травертин Пабло Вырез Вены","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
         {"id":22,"name":"Видео проекта | Мина Рустик Травертин","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
-        {"id":23,"name":"Видео проекта | Проект виллы Алавадхи в Кувейте","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
-        {"id":24,"name":"Мраморный фонтан / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Архитектурные решения от Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
+        {"id":23,"name":"Видео проекта | Проект виллы Алавадхи в Кувейте","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"}
+
 
   
         ],
         "production":[
-          {"id":2,
-            "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-            "name": "Видео производства Мекмара | Фонтан",
-            "queue": "1"
-          },
+
           {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Видео производства Мекмара | Проект «Океанский серый мрамор»","queue":"1"},
           {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Видео производства Мекмара | Разделенное лицо","queue":"2"},
           {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Видео производства Мекмара | Скошенная отделка","queue":"3"},
           {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Видео производства Мекмара | Проект травертиновой арки в Дубае","queue":"4"},
           {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Видео производства Мекмара | Заказать производственный контроль","queue":"5"},
-          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Видео производства Мекмара | Товары на заказ / Различные варианты","queue":"6"}
+          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Видео производства Мекмара | Товары на заказ / Различные варианты","queue":"6"},
+          {"id":24,"name":"Мраморный фонтан / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
+          {"id":25,"name":"Архитектурные решения от Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
+          {"id":2,
+          "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
+          "name": "Видео производства Мекмара | Фонтан",
+          "queue": "1"
+        }
+
         ],
         "informative":[
           {"id":1,"name":"Виды поставки: ИНКОТЕРМС","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},

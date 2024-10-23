@@ -305,11 +305,13 @@
 
         "title_3":"INFORMATIVE VIDEOS",
         "projects":[
-          {"id":27,"name":"Project Videos | DUO PROJECT - FRANCE","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+          {"id":28,"name":"Project Videos | Lily Project in Ghana","url":"https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS","queue":"28"},
 
-          {"id":26,"name":"Project Videos | Gebing Project - Germany","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+          {"id":27,"name":"Project Videos | DUO Project in France","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
 
-          {"id":1,"name":"Project Videos | SAN PROJECT - CROATIA","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
+          {"id":26,"name":"Project Videos | Gebing Project in Germany","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+
+          {"id":1,"name":"Project Videos | San Project - Croatia","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"Project Videos | Al Mahruqi Project in Oman","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
           {"id":3,"name":"Project Videos | Wall Project in Australia","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
           {"id":4,"name":"Project Videos | HOGA Project in Romania","url":"https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z","queue":"4"},
@@ -330,43 +332,44 @@
         {"id":17,"name":"Project Videos | Hotel Verdi Project in Malta","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
         {"id":18,"name":"Project Videos | Al Sabouni Project in Kuwait","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
         {"id":19,"name":"Project Videos | Besse Project in Switzerland","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"19"},
-        {"id":20,"name":"Project Videos | Classic Vein Cut Travertine Filled Honed Filled Polished","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
+        {"id":20,"name":"Project Videos | Al Greishi Project in Kuwait","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
         {"id":21,"name":"Project Videos | Pablo Vein Cut Travertine","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
         {"id":22,"name":"Project Videos | Mina Rustic Travertine","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
-        {"id":23,"name":"Project Videos | Alawadhi Villa Project in Kuwait","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
-        {"id":24,"name":"Marble Fountain / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"Architectural solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"}
+        {"id":23,"name":"Project Videos | Alawadhi Villa Project in Kuwait","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"}
+
   
         ],
         "production":[
-          {"id":2,
-            "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-            "name": "Mekmar Production Videos | Fountain",
-            "queue": "1"
-          },
+          {"id":24,"name":"Marble Fountain / Fontaine en Marbre","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
+          {"id":25,"name":"Architectural solutions from Mekmar","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
           {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"Mekmar Production Videos | Ocean Grey Marble Project","queue":"1"},
           {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"Mekmar Production Videos | Splitface","queue":"2"},
           {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"Mekmar Production Videos | Bevelled Finish","queue":"3"},
           {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"Mekmar Production Videos | Travertine Arch Project in Dubai","queue":"4"},
           {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"Mekmar Production Videos | Order Production Control","queue":"5"},
-          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Mekmar Production Videos | Custom Products / Various Selections","queue":"6"}
+          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"Mekmar Production Videos | Custom Products / Various Selections","queue":"6"},
+          {"id":2,
+          "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
+          "name": "Mekmar Production Videos | Fountain",
+          "queue": "1"
+        }
         ],
         "informative":[
-          {"id":1,"name":"Types of Delivery: INCOTERMS","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
+          {"id":1,"name":"Types of Delivery: Incoterms","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
         {"id":2,"name":"Vein Cut vs Cross Cut","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
-        {"id":3,"name":"What are the differences between stones?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
+        {"id":3,"name":"What Are The Differences Between Stones?","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
         {"id":4,"name":"Different Surface Options On Travertine","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
         {"id":5,"name":"Different Edge Options on Natural Stone Tiles","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
         {"id":6,"name":"Different Surface Options On Marble & Limestone","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"6"},
-        {"id":7,"name":"Beige Marble | What is the difference and how to select them?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"7"},
+        {"id":7,"name":"Beige Marble | What Is The Difference And How To Select Them?","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"7"},
         {"id":8,"name":"How The Surface Treatments Affect The Stone Color","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"8"}
   
         ],
         "informative_fr":[
           {"id":1,"name":"Les Differentes Surface Sur Le Travertin","url":"https://www.youtube.com/embed/fMTPX9B5jB0","queue":"6"},
-          {"id":2,"name":"Différentes options de bord sur les carreaux en pierre naturelle","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
-          {"id":3,"name":"Quelles sont les différences entre les pierres ?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
-          {"id":4,"name":"Types de Chargement: INCOTERMS","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
+          {"id":2,"name":"Différentes Options De Bord Sur Les Carreaux En Pierre Naturelle","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
+          {"id":3,"name":"Quelles Sont Les Différences Entre Les Pierres ?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
+          {"id":4,"name":"Types de Chargement: Incoterms","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
           {"id":5,"name":"Coupe Veineuse vs Coupe Croisée","url":"https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI","queue":11}
   
         ]

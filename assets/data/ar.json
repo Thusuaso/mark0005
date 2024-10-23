@@ -308,6 +308,12 @@
 
         "title_3":"مقاطع فيديو إعلامية",
         "projects":[
+
+          {"id":28,"name":"فيديوهات المشروع | مشروع زنبق في غانا","url":"https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS","queue":"28"},
+
+          {"id":27,"name":"فيديوهات المشروع | مشروع الثنائي - فرنسا","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
+          {"id":26,"name":"فيديوهات المشروع | مشروع جيبينج - ألمانيا","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
+
           {"id":1,"name":"فيديوهات المشروع | مشروع سان - كرواتيا","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
           {"id":2,"name":"فيديوهات المشروع | مشروع المحروقي في عمان","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
           {"id":3,"name":"فيديوهات المشروع | مشروع الجدار في أستراليا","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
@@ -332,24 +338,25 @@
         {"id":20,"name":"فيديوهات المشروع | الحجر الجيري الكلاسيكي المقطوع بالعرق مملوء ومملوء ومصقول","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
         {"id":21,"name":"فيديوهات المشروع | بابلو فين قطع الحجر الجيري","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
         {"id":22,"name":"فيديوهات المشروع | مينا ريفي الترافرتين","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
-        {"id":23,"name":"فيديوهات المشروع | مشروع فيلا العوضي في الكويت","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"},
-        {"id":24,"name":"نافورة الرخام","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"},
-        {"id":25,"name":"الحلول المعمارية من مكمار","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
-        {"id":26,"name":"فيديوهات المشروع | مشروع جيبينج - ألمانيا","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"}
+        {"id":23,"name":"فيديوهات المشروع | مشروع فيلا العوضي في الكويت","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"}
+
   
         ],
         "production":[
-          {"id":2,
-            "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-            "name": "فيديوهات مكمار للإنتاج | نافورة",
-            "queue": "1"
-          },
+
           {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"فيديوهات مكمار للإنتاج | مشروع رخام المحيط الرمادي","queue":"1"},
           {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"فيديوهات مكمار للإنتاج | وجه الانقسام","queue":"2"},
           {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"فيديوهات مكمار للإنتاج | الانتهاء من مشطوف","queue":"3"},
           {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"فيديوهات مكمار للإنتاج | مشروع قوس الترافرتين في دبي","queue":"4"},
           {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"فيديوهات مكمار للإنتاج | أمر مراقبة الإنتاج","queue":"5"},
-          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"فيديوهات مكمار للإنتاج | منتجات مخصصة / اختيارات مختلفة","queue":"6"}
+          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"فيديوهات مكمار للإنتاج | منتجات مخصصة / اختيارات مختلفة","queue":"6"},
+          {"id":2,
+          "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
+          "name": "فيديوهات مكمار للإنتاج | نافورة",
+          "queue": "1"
+        },
+        {"id":25,"name":"الحلول المعمارية من مكمار","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
+        {"id":24,"name":"نافورة الرخام","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"}
         ],
         "informative":[
           {"id":1,"name":"أنواع التسليم: مصطلحات التجارة الدولية","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
