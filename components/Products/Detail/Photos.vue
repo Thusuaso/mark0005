@@ -1,5 +1,5 @@
 <template>
-        <Galleria v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="photos" :responsiveOptions="responsiveOptions" :numVisible="7"
+        <!-- <Galleria v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="photos" :responsiveOptions="responsiveOptions" :numVisible="7"
              :circular="true" :fullScreen="true" :showItemNavigators="true" :showThumbnails="false">
             <template #item="slotProps">
                 <img class="galleria-img" :src="slotProps.item.imagePath" :alt="slotProps.item.name"  />
@@ -13,7 +13,23 @@
             <div v-for="(image, index) of except_photo" :key="index" class="col-sm-4 mb-2">
                 <img class="product_detail_photo" :src="image.imagePath" :alt="image.name"  @click="imageClick(index)" />
             </div>
-        </div>
+        </div> -->
+        <div class="row">
+        <SharedFancybox :options="{
+        Carousel: {
+            transition: 'slide'
+        }
+    }">
+            <a class="fancybox col-sm-4 mb-2" v-for="img of except_photo" :key="img.Id" :href="img.imagePath"
+                data-fancybox="gallery">
+                <div class="customContainer ">
+                    <div class="customElement">
+                        <img class="lazyload" :src="img.imagePath" />
+                    </div>
+                </div>
+            </a>
+        </SharedFancybox>
+    </div>
 
         
 </template>
