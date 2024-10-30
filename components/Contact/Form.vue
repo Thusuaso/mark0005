@@ -34,7 +34,6 @@
                     color="secondary"
                     :countrySelectorDisplayName="false"
                     class="text-black"
-                    :error="!isRequiredPhone(phoneNumber)"
                     
                 >
                 <template #selector-flag="{ countryCode }">
@@ -58,13 +57,13 @@
             <label for="exampleInputEmail1" class="form-label">{{ form.phone }}</label>
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                 v-model="model.phone"> -->
-            <div id="emailHelp" class="form-text" v-if="!isRequiredPhone(phoneNumber)">{{ form.field_3 }}</div>
-            <div id="emailHelp" class="form-text" v-if="isRequiredPhone(phoneNumber)" style="height:20px;"></div>
+            <!-- <div id="emailHelp" class="form-text" v-if="!isRequiredPhone(phoneNumber)">{{ form.field_3 }}</div>
+            <div id="emailHelp" class="form-text" v-if="isRequiredPhone(phoneNumber)" style="height:20px;"></div> -->
 
         </div>
         <div class="form-floating mb-3">
             <Textarea  class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                style="height: 100px" v-model="model.description" :invalid="!isRequiredMessage(model.description)"></Textarea >
+                style="height: 160px" v-model="model.description" :invalid="!isRequiredMessage(model.description)"></Textarea >
             <label for="floatingTextarea2">{{ form.message }}</label>
         </div>
 
@@ -77,7 +76,7 @@ import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput';
 import { Form, Field, ErrorMessage } from 'vee-validate';
 import 'maz-ui/styles'
 import { ref } from 'vue';
-  let phoneNumber = ref()
+  let phoneNumber = ref('')
   const countryCode = ref('FR')
 const props = defineProps({
     form: {
@@ -113,7 +112,7 @@ function isRequiredMail(value:any) {
   }else{
     return false;
   }
-}
+};
 function isRequiredName(value:any){
     if(value == null || value == '' || value == ' '|| value == undefined){
         return false;
@@ -134,10 +133,14 @@ function isRequiredPhone(value:any){
     }else{
         return true;
     }
-}
+};
 const inputPhoneNumber = (event:any)=>{
     phone_is_valid.value = event.isValid;
-    model.value.phone = event.countryCode + ' ' + event.formatInternational;
+    if(!event.isValid){
+        model.value.phone = 'Herhangi bir telefon numarası girilmemiştir.';
+    }else{
+        model.value.phone = event.countryCode + ' ' + event.formatInternational;
+    }
 };
 
 
@@ -147,7 +150,7 @@ function sendMail() {
     const { $toast } = useNuxtApp();
     let toasted = $toast;
 
-    if(isRequiredMail(model.value.email) && isRequiredName(model.value.name) && isRequiredMessage(model.value.description) && phone_is_valid.value){
+    if(isRequiredMail(model.value.email) && isRequiredName(model.value.name) && isRequiredMessage(model.value.description)){
         toasted.success('Success');
         button_status.value = true;
         const { data: status } = useFetch('/api/sendMail', {
@@ -162,7 +165,7 @@ function sendMail() {
                 'phone': '',
                 'description': ''
             };
-            phoneNumber = ref();
+            phoneNumber = ref('');
             setTimeout(() => {
                 button_status.value = false;
 
