@@ -111,6 +111,34 @@
     padding:5px;
 }
 
+.customElement .card_title_3 {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    background-color: rgba(123, 122, 122, 0.5);
+    font-size: 16px;
+    text-wrap:wrap;
+    padding:5px;
+    animation: card_title_color_change 3s infinite alternate-reverse;
+
+}
+
+
+
+@keyframes card_title_color_change {
+    from{
+        background-color: #0087cc;
+    }
+    to{
+        background-color: #63b32e;
+    }
+}
+
 
 
 

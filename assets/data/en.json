@@ -166,11 +166,11 @@
             {"id":4,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp"}
           ],
           "slide3":[
-            {"id":1,"link":"/product/detail/Apple-Cream-Marble/993","title":"NEWLY ADDED","name":"APPLE CREAM MARBLE","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
+            {"id":1,"link":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf","title":"CATALOG","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
 
-            {"id":2,"link":"/product/detail/Turkish-Statuario-Marble-Slab/991","title":"NEWLY ADDED","name":"Turkish Statuario Marble Slab","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp"},
-            {"id":3,"link":"/product/detail/Imperial-Carrara-Marble/979","title":"NEWLY ADDED","name":"Imperial Carrara Marble","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
-            {"id":4,"link":"/product/detail/Astoria-Quartz/976","title":"NEWLY ADDED","name":"Astoria Quartz","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"}
+            {"id":2,"link":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf","title":"NEWLY ADDED","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp"},
+            {"id":3,"link":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf","title":"NEWLY ADDED","name":"","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
+            {"id":4,"link":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf","title":"NEWLY ADDED","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"}
           ]
     },
     "categories":[

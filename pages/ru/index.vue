@@ -8,16 +8,27 @@
         <div class="customElement">
             
                 <img class="lazyload" :src="usastock.img" :alt="usastock.alt" loading="lazy"/>
-                <div class="card_title" style="font-size:16px;">
+                <div class="card_title_3" style="font-size:16px;">
                     {{ usastock.name }}
                 </div>
         </div>
       </a>
 
-    </div>
+      </div>
+      <div class="customContainer mb-2">
+          <a href="https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf" target="_blank">
+          <div class="customElement">
+              
+                  <img class="lazyload" src="https://cdn.mekmarimage.com/galleria-project_photos/CATALOG%20PHOTO%20MAIN.webp" alt="online-catalog" loading="lazy"/>
+                  <div class="card_title" style="font-size:18px;">
+                    ОНЛАЙН-КАТАЛОГ
+                  </div>
+          </div>
+        </a>
+
+      </div>
       <CategoriesSlides :slides="slides.slide1" />
       <CategoriesSlides :slides="slides.slide2" />
-      <CategoriesSlides :slides="slides.slide3" />
     </div>
     <div class="col-sm-9">
       <div class="row m-auto">
