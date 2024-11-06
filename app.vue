@@ -1,7 +1,7 @@
 <template>
 
   <SharedNavbar :navbar="navbar" :navbar_link="navbar_link"/>
-  <div class="mt-4 container">
+  <div class="mt-2 container">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

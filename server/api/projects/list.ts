@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
 		mcp.CountryName_Es,
 		mcp.CountryName_Ru,
 		mcp.CountryName_Ar,
-		(TRIM('/project/detail/' + LOWER(REPLACE(RTRIM(mcp.ProjectName),' ','-')) +'/'+ TRIM(STR(mcp.ID)))) as Link
+		(TRIM('/projects/detail/' + LOWER(REPLACE(RTRIM(mcp.ProjectName),' ','-')) +'/'+ TRIM(STR(mcp.ID)))) as Link
 		from MekmarCom_Projects mcp 
 		`;
         (await api).query(sql, (err: any, projects: any) => {

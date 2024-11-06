@@ -79,7 +79,7 @@ where mpi.ProjectId='${id}'
 	mp.CountryName_Ru,
 	mp.CountryName_Ar,
 	mp.Image,
-	(TRIM('/project/detail/' + LOWER(REPLACE(RTRIM(mp.ProjectName),' ','-')) +'/'+ TRIM(STR(mp.ID)))) as Link
+	(TRIM('/projects/detail/' + LOWER(REPLACE(RTRIM(mp.ProjectName),' ','-')) +'/'+ TRIM(STR(mp.ID)))) as Link
 
 
 from MekmarCom_Projects_Suggested mps

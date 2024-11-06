@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ header }}</h3>
+    <h3 class="header">{{ header }}</h3>
         <!-- <div class="row text-center overflow-x-scroll" style="height:250px;">
         <div class="col-3" v-for="vid in videos" :key="vid.id" >
             <iframe :src="vid.url" frameborder="0"
@@ -11,12 +11,16 @@
         </div>
 
     </div> -->
-    <MazCarousel>
+    <MazCarousel
+    no-scroll-btn
+    >
 
     <MazCard
+
       v-for="vid in videos" :key="vid.id"
       style="min-width: 400px;text-align:center;"
-      noScrollBtn
+
+
     >
 
     <template #default>

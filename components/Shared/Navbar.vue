@@ -1,5 +1,5 @@
 <template>
-  <div class=" container row m-auto text-center">
+  <div class=" container row m-auto text-center" >
     <div class="col-sm-3 fs-1 text-decoration-none fw-light" >
       <NuxtLink class="text-decoration-none fw-light" :to="selectedLang.link" style="color:#1357bc;">
         <img class="logo_mekmar" src="https://cdn.mekmarimage.com/logo/Mekmar-Logo-b%C3%BCy%C3%BCk-yaz%C4%B1l%C4%B1-01.webp" alt="mekmar-logo"/>
@@ -7,7 +7,7 @@
     </div>
     <div class="col-sm-9"  >
 
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg " style="padding-top:17px;">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
