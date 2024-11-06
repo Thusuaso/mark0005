@@ -41,7 +41,7 @@ const { link, image, text,country } = props;
 
 .customElement {
     width: 100%;
-    height: 250px;
+    height: 244px;
     position: relative;
 }
 
@@ -60,7 +60,7 @@ const { link, image, text,country } = props;
 
 .customElement img {
     width: 100%;
-    height: 250px;
+    height: 244px;
     object-fit: fill;
     box-shadow: 1px 1px 8px black;
     transition: all 1s ease-in-out;
