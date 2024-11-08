@@ -7,6 +7,19 @@ export default defineEventHandler(async (event) => {
         TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
 
         from MekmarCom_Products mp where mp.anahtarlar_en like '%' + '${name?.replaceAll('_',' ')}' +'%' and mp.yayinla=1
+        and mp.kategori_id in (
+            1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                18
+        )
         order by mp.kategori_id
     
     
