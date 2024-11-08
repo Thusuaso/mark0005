@@ -30,11 +30,11 @@
                     id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;"></textarea>
             </div>
             <div class="row m-auto text-center">
-                <h3 class="header " style="margin-bottom:6px;">{{ suggested_header }}</h3>
+                <h3 class="header custom_header" style="margin-bottom:6px;">{{ suggested_header }}</h3>
 
                 <div class="col-sm-6" v-for="suggested in suggesteds" :key="suggested.id">
                     <ProjectsCard :link="suggested.link" :image="suggested.Image" :text="suggested.name"
-                        :country="suggested.country" />
+                        :country="suggested.country" style="border:3px solid gray;"/>
                 </div>
             </div>
         </div>
@@ -98,3 +98,17 @@ const imageClick = (index:any) => {
 const suggested_header = store.getProjectsSuggestedHeader;
 
 </script>
+<style scoped>
+.custom_header{
+    color:gray;
+    animation:custom_header_color 6s 2s infinite ;
+}
+@keyframes custom_header_color {
+    40%{
+        color:#63b32e;
+    }
+    80%{
+        color:#0087cc;
+    }
+}
+</style>
