@@ -49,7 +49,7 @@
             <h3 class="header mb-3">{{ usa_header }}</h3>
             <div class="row m-auto text-center">
                 <div class="col-sm-4" v-for="product of products" :key="product?.ID">
-                    <UsaCard :text="product?.name" :image="product?.image" :link="product?.link" :price="product.Fiyat" :stock="product.Stok_Sqft"/>
+                    <UsaCard :text="product?.name" :image="product?.image" :link="product?.link" :price="product.Fiyat" :stock="product.Stok_Sqft" :size="product.Size"/>
                 </div>
             </div>
 

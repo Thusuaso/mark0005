@@ -7,7 +7,7 @@
                 </div>
                 <img class="lazyload" :src="image" />
                 <div class="card_title" style="font-size:16px;">
-                    ${{ price }} / {{ stock }} sqft
+                    ${{ price }} / {{ stock }} sqft / {{ size }}
                 </div>
             </a>
         </div>
@@ -34,9 +34,13 @@ const props = defineProps({
     stock:{
         type:Number,
         required:true
+    },
+    size:{
+        type:String,
+        required:true
     }
 });
-const { link, image, text,price,stock } = props;
+const { link, image, text,price,stock,size } = props;
 </script>
 <style scoped>
 .customContainer {
