@@ -3,12 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build --max_old_space_size=8048",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "node .output/server/index.mjs NODE_OPTIONS=--max_old_space_size=8192"
+    "start": "node .output/server/index.mjs --max_old_space_size=8048"
   },
   "dependencies": {
     "@element-plus/nuxt": "^1.0.9",
