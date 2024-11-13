@@ -1,4 +1,9 @@
 <template>
+  <a class="customBannerA" href="https://www.mekmar.com/product/detail/Valencia-Travertine/948" >
+    <div class="customBanner m-auto text-center" style="">
+      Please check our brand new quarry! With 22 years of experience, Mekmar offers: Philadelphia Travertine!
+    </div>
+  </a>
 
   <SharedNavbar :navbar="navbar" :navbar_link="navbar_link"/>
   <div class="mt-2 container">
@@ -22,6 +27,28 @@ const lang = store.getLang;
 
 
 </script>
-<style>
+<style scoped>
+.customBannerA{
+  text-decoration: none;
+}
+.customBanner{
+  width:86%;background-color: red;color:white;text-decoration: none;
+  animation: card_title_color_change 3s infinite alternate-reverse;
 
+}
+
+.customBannerA:hover .customBanner{
+  color:#990000;
+}
+
+
+
+  @keyframes card_title_color_change {
+    from{
+        background-color: #0087cc;
+    }
+    to{
+        background-color: #63b32e;
+    }
+}
 </style>
