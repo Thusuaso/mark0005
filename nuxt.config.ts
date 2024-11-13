@@ -76,10 +76,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-07-16",
   override:true,
-  // site: {
-  //   url: 'https://www.mekmar.com',
-  //   trailingSlash: true
-  // },
+  site: {
+    url: 'https://www.mekmar.com',
+    trailingSlash: true
+  },
   sitemap: {
     sources: ['/api/sitemap'],
   },
@@ -91,7 +91,7 @@ export default defineNuxtConfig({
   vite: {
     server: {
         headers: {
-            'Cache-Control': 'max-age=31536000'
+            'Cache-Control': 'max-age=50000000'
         }
     }
   },

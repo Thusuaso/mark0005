@@ -265,375 +265,375 @@ export default defineSitemapEventHandler(async (e) => {
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Light-Marble/451',
+        _path: '/product/detail/emperador-light-marble/451',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Blanco-Ivory-Marble/274',
+        _path: '/product/detail/blanco-ivory-marble/274',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Turkish-Lilac-Marble/395',
+        _path: '/product/detail/turkish-lilac-marble/395',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Cloudy-Grey-Marble/941',
+        _path: '/product/detail/cloudy-grey-marble/941',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Imperial-Carrara-Marble/979',
+        _path: '/product/detail/imperial-carrara-marble/979',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Palisandro-Marble/942',
+        _path: '/product/detail/palisandro-marble/942',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Marble/229',
+        _path: '/product/detail/bianco-ibiza-marble/229',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Alaska-Grey-Marble/954',
+        _path: '/product/detail/alaska-grey-marble/954',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Diana-Royal-Marble-/437',
+        _path: '/product/detail/diana-royal-marble-/437',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Giallo-Marble/687',
+        _path: '/product/detail/calacatta-giallo-marble/687',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Nero-Marquina-Marble-/483',
+        _path: '/product/detail/nero-marquina-marble-/483',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Crema-Marfil-Marble/477',
+        _path: '/product/detail/crema-marfil-marble/477',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Solaris-Blue-Marble/681',
+        _path: '/product/detail/solaris-blue-marble/681',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Dolomite-White-Marble/540',
+        _path: '/product/detail/dolomite-white-marble/540',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Grey-Marble/244',
+        _path: '/product/detail/tundra-grey-marble/244',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Lucid-Grey-Marble/940',
+        _path: '/product/detail/lucid-grey-marble/940',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ocean-Grey-Marble/585',
+        _path: '/product/detail/ocean-grey-marble/585',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone-Tumbled/750',
+        _path: '/product/detail/bluestone-tumbled/750',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Storm-Grey-Marble/619',
+        _path: '/product/detail/storm-grey-marble/619',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Armani-Brown-Marble/957',
+        _path: '/product/detail/armani-brown-marble/957',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Turkish-Calacatta-Marble/686',
+        _path: '/product/detail/turkish-calacatta-marble/686',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Gold-Marble/685',
+        _path: '/product/detail/calacatta-gold-marble/685',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone-Natural/749',
+        _path: '/product/detail/bluestone-natural/749',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Salome-Marble/785',
+        _path: '/product/detail/salome-marble/785',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Puffin-Grey-Marble/545',
+        _path: '/product/detail/puffin-grey-marble/545',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Sofita-Beige-Marble/292',
+        _path: '/product/detail/sofita-beige-marble/292',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Savannah-Grey-Marble/761',
+        _path: '/product/detail/savannah-grey-marble/761',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Oasis-Grey-Marble/688',
+        _path: '/product/detail/oasis-grey-marble/688',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Asgrey-Marble/684',
+        _path: '/product/detail/asgrey-marble/684',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone-Sandblasted-/746',
+        _path: '/product/detail/bluestone-sandblasted-/746',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Cappuccino-Light-Marble/230',
+        _path: '/product/detail/cappuccino-light-marble/230',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Dark-Marble/218',
+        _path: '/product/detail/emperador-dark-marble/218',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Mende-White-Line-Marble/754',
+        _path: '/product/detail/mende-white-line-marble/754',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Siena-Gold-Marble-/672',
+        _path: '/product/detail/siena-gold-marble-/672',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Carrara-White-Marble/475',
+        _path: '/product/detail/carrara-white-marble/475',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Tiger-Marble/217',
+        _path: '/product/detail/emperador-tiger-marble/217',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Coffee-Royal-Marble/476',
+        _path: '/product/detail/coffee-royal-marble/476',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Antique-Marble/786',
+        _path: '/product/detail/bianco-ibiza-antique-marble/786',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Burdur-Beige-Marble/389',
+        _path: '/product/detail/burdur-beige-marble/389',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Blue-Marble/242',
+        _path: '/product/detail/tundra-blue-marble/242',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone/537',
+        _path: '/product/detail/bluestone/537',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ottoman-Beige-Marble/312',
+        _path: '/product/detail/ottoman-beige-marble/312',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Latte-Cream-Marble-/435',
+        _path: '/product/detail/latte-cream-marble-/435',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Beige-Marble/275',
+        _path: '/product/detail/emperador-beige-marble/275',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Pasha-White-Marble/696',
+        _path: '/product/detail/pasha-white-marble/696',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Toros-Black-Marble/279',
+        _path: '/product/detail/toros-black-marble/279',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Equator-White-Marble/396',
+        _path: '/product/detail/equator-white-marble/396',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Botticino-Cream-Marble-Antique/336',
+        _path: '/product/detail/botticino-cream-marble-antique/336',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone-Antique/647',
+        _path: '/product/detail/bluestone-antique/647',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Basalt/579',
+        _path: '/product/detail/basalt/579',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Light-Marble/487',
+        _path: '/product/detail/tundra-light-marble/487',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Royal-Beige-Marble/237',
+        _path: '/product/detail/royal-beige-marble/237',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Afyon-Sugar-Marble/420',
+        _path: '/product/detail/afyon-sugar-marble/420',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Adranos-White-Marble/288',
+        _path: '/product/detail/adranos-white-marble/288',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Rosso-Alicante-Marble/486',
+        _path: '/product/detail/rosso-alicante-marble/486',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Sandblasted-Marble/401',
+        _path: '/product/detail/bianco-ibiza-sandblasted-marble/401',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Cappuccino-Medium-Marble/241',
+        _path: '/product/detail/cappuccino-medium-marble/241',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Marble-Bamboo/748',
+        _path: '/product/detail/bianco-ibiza-marble-bamboo/748',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Rosso-Levanto-Marble/536',
+        _path: '/product/detail/rosso-levanto-marble/536',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Pietra-Grey-Marble/485',
+        _path: '/product/detail/pietra-grey-marble/485',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Leonardo-Vein-Cut-Travertine/879',
+        _path: '/product/detail/leonardo-vein-cut-travertine/879',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Silver-Vein-Cut-Travertine/201',
+        _path: '/product/detail/silver-vein-cut-travertine/201',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Vein-Cut-Travertine-Honed/41',
+        _path: '/product/detail/classic-vein-cut-travertine-honed/41',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Walnut-Vein-Cut-Travertine/39',
+        _path: '/product/detail/walnut-vein-cut-travertine/39',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Vein-Cut-Travertine/46',
+        _path: '/product/detail/noche-vein-cut-travertine/46',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Yellow-Vein-Cut-Travertine/390',
+        _path: '/product/detail/yellow-vein-cut-travertine/390',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Vein-Cut-Travertine-Natural/547',
+        _path: '/product/detail/classic-vein-cut-travertine-natural/547',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Vein-Cut-Travertine-Polished/546',
+        _path: '/product/detail/classic-vein-cut-travertine-polished/546',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Mina-Rustic-Vein-Cut-Travertine/973',
+        _path: '/product/detail/mina-rustic-vein-cut-travertine/973',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Leonardo-Cross-Cut-Travertine/891',
+        _path: '/product/detail/leonardo-cross-cut-travertine/891',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Travertine/33',
+        _path: '/product/detail/classic-travertine/33',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Valencia-Travertine/948',
+        _path: '/product/detail/valencia-travertine/948',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Silver-Grey-Travertine/43',
+        _path: '/product/detail/silver-grey-travertine/43',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Yellow-Gold-Travertine/34',
+        _path: '/product/detail/yellow-gold-travertine/34',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Travertine/37',
+        _path: '/product/detail/noche-travertine/37',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Travertine-Pattern-Set/801',
+        _path: '/product/detail/noche-travertine-pattern-set/801',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Red-Travertine/40',
+        _path: '/product/detail/red-travertine/40',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Walnut-Travertine/45',
+        _path: '/product/detail/walnut-travertine/45',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Rustic-Travertine/416',
+        _path: '/product/detail/noche-rustic-travertine/416',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Natural-Pattern-Set-Travertine/42',
+        _path: '/product/detail/classic-natural-pattern-set-travertine/42',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Pattern-Set-Travertine/49',
+        _path: '/product/detail/classic-pattern-set-travertine/49',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Scabos-Pattern-Set-Travertine/236',
+        _path: '/product/detail/scabos-pattern-set-travertine/236',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Silver-Grey-Pattern-Set-Travertine/120',
+        _path: '/product/detail/silver-grey-pattern-set-travertine/120',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Gold-Travertine-Pattern-Set/119',
+        _path: '/product/detail/gold-travertine-pattern-set/119',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Volcano-Pattern-Set-Travertine/48',
+        _path: '/product/detail/volcano-pattern-set-travertine/48',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Walnut-Pattern-Set-Travertine/698',
+        _path: '/product/detail/walnut-pattern-set-travertine/698',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ivory-Rustic-Pattern-Set-Travertine/588',
+        _path: '/product/detail/ivory-rustic-pattern-set-travertine/588',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tuscany-Mix-Pattern-Set-Travertine/760',
+        _path: '/product/detail/tuscany-mix-pattern-set-travertine/760',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Mina-Rustic-Pattern-Set-Travertine/206',
+        _path: '/product/detail/mina-rustic-pattern-set-travertine/206',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Scott-Rustic-Pattern-Set-Travertine/210',
+        _path: '/product/detail/scott-rustic-pattern-set-travertine/210',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Storm-Noche-Pattern-Set-Travertine/693',
+        _path: '/product/detail/storm-noche-pattern-set-travertine/693',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Travertine-Pillowed-Pattern-Set/381',
+        _path: '/product/detail/classic-travertine-pillowed-pattern-set/381',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Yellow-Antique-Travertine/391',
+        _path: '/product/detail/yellow-antique-travertine/391',
         modifiedAt: new Date(),
       },
       {
