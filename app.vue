@@ -1,5 +1,5 @@
 <template>
-  <a class="customBannerA" href="https://www.mekmar.com/product/detail/Valencia-Travertine/948" >
+  <a class="customBannerA" href="https://www.mekmar.com/product/detail/Philadelphia-Travertine/948" >
     <div class="customBanner m-auto text-center" style="">
       Please check travertine tile from brand new quarry! With 22 years of experience, Mekmar offers: Philadelphia Travertine!
     </div>
@@ -34,6 +34,7 @@ const lang = store.getLang;
 .customBanner{
   width:86%;background-color: red;color:white;text-decoration: none;
   animation: card_title_color_change 3s infinite alternate-reverse;
+  border-radius: 3px;
 
 }
 
