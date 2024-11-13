@@ -1,7 +1,7 @@
 <template>
   <a class="customBannerA" href="https://www.mekmar.com/product/detail/Valencia-Travertine/948" >
     <div class="customBanner m-auto text-center" style="">
-      Please check our brand new quarry! With 22 years of experience, Mekmar offers: Philadelphia Travertine!
+      Please check travertine tile from brand new quarry! With 22 years of experience, Mekmar offers: Philadelphia Travertine!
     </div>
   </a>
 
