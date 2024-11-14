@@ -38,11 +38,13 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'node-server',
-    // prerender: {
-    //   crawlLinks: true,
-    //   routes: ['/', 'sitemap.xml'],
-    //   failOnError: false,
-    // },
+    prerender: {
+      crawlLinks: true,
+      // routes: ['/', 'sitemap.xml'],
+      routes: ['/'],
+
+      failOnError: false,
+    },
   },
 
   devtools: { enabled: true },
@@ -83,6 +85,12 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ['/api/sitemap'],
+    defaults: {
+      lastmod: new Date().toISOString(),
+      priority: 0.5,
+      changefreq: 'weekly'
+    },
+    cacheMaxAgeSeconds: 3600
   },
   runtimeConfig: {
     public: {

@@ -913,147 +913,147 @@ export default defineSitemapEventHandler(async (e) => {
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-105/663',
+        _path: '/product/detail/farmer-sink-model-105/663',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-38/76',
+        _path: '/product/detail/vessel-sink-model-38/76',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-2/27',
+        _path: '/product/detail/vessel-sink-model-2/27',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-1/25',
+        _path: '/product/detail/vessel-sink-model-1/25',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-103/661',
+        _path: '/product/detail/vessel-sink-model-103/661',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-106/664',
+        _path: '/product/detail/vessel-sink-model-106/664',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-109/667',
+        _path: '/product/detail/vessel-sink-model-109/667',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-102/660',
+        _path: '/product/detail/vessel-sink-model-102/660',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-110/668',
+        _path: '/product/detail/vessel-sink-model-110/668',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-113/751',
+        _path: '/product/detail/vessel-sink-model-113/751',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-37/75',
+        _path: '/product/detail/vessel-sink-model-37/75',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-112/695',
+        _path: '/product/detail/vessel-sink-model-112/695',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-104/662',
+        _path: '/product/detail/vessel-sink-model-104/662',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-7/54',
+        _path: '/product/detail/vessel-sink-model-7/54',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-5/52',
+        _path: '/product/detail/vessel-sink-model-5/52',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-8/55',
+        _path: '/product/detail/vessel-sink-model-8/55',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-34/72',
+        _path: '/product/detail/vessel-sink-model-34/72',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-21/63',
+        _path: '/product/detail/vessel-sink-model-21/63',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-11/58',
+        _path: '/product/detail/vessel-sink-model-11/58',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-22/64',
+        _path: '/product/detail/vessel-sink-model-22/64',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-9/56',
+        _path: '/product/detail/vessel-sink-model-9/56',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-24/66',
+        _path: '/product/detail/vessel-sink-model-24/66',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-23/65',
+        _path: '/product/detail/vessel-sink-model-23/65',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-26/883',
+        _path: '/product/detail/vessel-sink-model-26/883',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-14/61',
+        _path: '/product/detail/vessel-sink-model-14/61',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-28/69',
+        _path: '/product/detail/vessel-sink-model-28/69',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Vessel-Sink-Model-36/74',
+        _path: '/product/detail/vessel-sink-model-36/74',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-44/80',
+        _path: '/product/detail/farmer-sink-model-44/80',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-40/903',
+        _path: '/product/detail/farmer-sink-model-40/903',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-46/81',
+        _path: '/product/detail/farmer-sink-model-46/81',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-53/78',
+        _path: '/product/detail/farmer-sink-model-53/78',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-49/82',
+        _path: '/product/detail/farmer-sink-model-49/82',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-50/83',
+        _path: '/product/detail/farmer-sink-model-50/83',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-42/77',
+        _path: '/product/detail/farmer-sink-model-42/77',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Farmer-Sink-Model-56/936',
+        _path: '/product/detail/farmer-sink-model-56/936',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-101/920',
+        _path: '/product/detail/shower-tray-model-101/920',
         modifiedAt: new Date(),
       },
       {
