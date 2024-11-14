@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
 		mp.urunadi_ru as name_ru,
 		mp.urunadi_ar as name_ar,
     (select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mp.urunid order by mf.sira) as image,
-    TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en),' ','-') + '/' + TRIM(STR(mp.urunid))) as link
+    TRIM('/product/detail/' + TRIM(REPLACE(LOWER(mp.urunadi_en),' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
 
     from MekmarCom_Products mp 
 	inner join MekmarCom_ProductAreas mpa on mpa.UrunId = mp.urunid
