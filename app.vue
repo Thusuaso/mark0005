@@ -1,29 +1,52 @@
 <template>
-  <a class="customBannerA" href="https://www.mekmar.com/product/detail/philadelphia-travertine/948" v-show="lang=='en'">
-    <div class="customBanner m-auto text-center" style="" >
-      Please check the brand new travertine selection! With 22 years of experience, <strong>Mekmar</strong> offers: <strong>Philadelphia Travertine!</strong>
+  <div class="row container m-auto text-center">
+    <div class="col-sm-12">
+      <a class="customBannerA " href="https://www.mekmar.com/product/detail/philadelphia-travertine/948" v-show="lang=='en'">
+      <div class="customBanner" style="" >
+        Please check the brand new travertine selection! With 22 years of experience, <strong>Mekmar</strong> offers: <strong>Philadelphia Travertine!</strong>
+      </div>
+    </a>
     </div>
-  </a>
-  <a class="customBannerA" href="https://www.mekmar.com/fr/product/detail/philadelphia-travertine/948" v-show="lang=='fr'">
-    <div class="customBanner m-auto text-center" style="" >
+
+  </div>
+  <div class="row container m-auto text-center">
+    <div class="col-sm-12">
+      <a class="customBannerA" href="https://www.mekmar.com/fr/product/detail/philadelphia-travertine/948" v-show="lang=='fr'">
+    <div class="container customBanner m-auto text-center" style="" >
       Veuillez consulter la toute nouvelle sélection de travertin ! Avec 22 ans d'expérience, <strong>Mekmar</strong> vous propose : <strong>Philadelphia Travertin!</strong>
     </div>
   </a>
-  <a class="customBannerA" href="https://www.mekmar.com/es/product/detail/philadelphia-travertine/948" v-show="lang=='es'">
-    <div class="customBanner m-auto text-center" style="" >
+    </div>
+  </div>
+  <div class="row container m-auto text-center">
+    <div class="col-sm-12">
+      <a class="customBannerA" href="https://www.mekmar.com/es/product/detail/philadelphia-travertine/948" v-show="lang=='es'">
+    <div class="container customBanner m-auto text-center" style="" >
       ¡Consulte la nueva selección de travertino! Con 22 años de experiencia, <strong>Mekmar</strong> ofrece: <strong>¡Travertino Filadelfia!</strong>    
     </div>
   </a>
-  <a class="customBannerA" href="https://www.mekmar.com/ru/product/detail/philadelphia-travertine/948" v-show="lang=='ru'">
-    <div class="customBanner m-auto text-center" style="" >
+    </div>
+  </div>
+  <div class="container row m-auto text-center">
+    <div class="col-sm-12">
+      <a class="customBannerA" href="https://www.mekmar.com/ru/product/detail/philadelphia-travertine/948" v-show="lang=='ru'">
+    <div class="container customBanner m-auto text-center" style="" >
       Пожалуйста, ознакомьтесь с новым выбором травертина! Имея 22-летний опыт работы, <strong>Mekmar</strong> предлагает: <strong>Филадельфийский травертин!</strong>
     </div>
   </a>
-  <a class="customBannerA" href="https://www.mekmar.com/ar/product/detail/philadelphia-travertine/948" v-show="lang=='ar'">
-    <div class="customBanner m-auto text-center" style="" >
-      يرجى التحقق من اختيار الحجر الجيري الجديد! مع 22 عامًا من الخبرة، تقدم <strong>مكمار</strong>: <strong>فيلادلفيا ترافرتين!</strong>
     </div>
-  </a>
+  </div>
+  <div class="container row m-auto text-center">
+    <div class="col-sm-12">
+      <a class="customBannerA" href="https://www.mekmar.com/ar/product/detail/philadelphia-travertine/948" v-show="lang=='ar'">
+        <div class="container customBanner m-auto text-center" style="" >
+          يرجى التحقق من اختيار الحجر الجيري الجديد! مع 22 عامًا من الخبرة، تقدم <strong>مكمار</strong>: <strong>فيلادلفيا ترافرتين!</strong>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
 
   <SharedNavbar :navbar="navbar" :navbar_link="navbar_link"/>
   <div class="mt-2 container">
@@ -52,10 +75,9 @@ const lang = store.getLang;
   text-decoration: none;
 }
 .customBanner{
-  width:86%;background-color: red;color:white;text-decoration: none;
+  width:100%;background-color: red;color:white;text-decoration: none;
   animation: card_title_color_change 3s infinite alternate-reverse;
   border-radius: 3px;
-
 }
 
 .customBannerA:hover .customBanner{
