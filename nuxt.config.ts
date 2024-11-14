@@ -39,9 +39,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'node-server',
     prerender: {
-      crawlLinks: true,
-      // routes: ['/', 'sitemap.xml'],
-      routes: ['/'],
+      // crawlLinks: true,
+      routes: ['/', 'sitemap.xml'],
+      // routes: ['/'],
 
       failOnError: false,
     },
