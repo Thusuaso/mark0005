@@ -1057,527 +1057,527 @@ export default defineSitemapEventHandler(async (e) => {
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-102/921',
+        _path: '/product/detail/shower-tray-model-102/921',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-62/85',
+        _path: '/product/detail/shower-tray-model-62/85',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-66/86',
+        _path: '/product/detail/shower-tray-model-66/86',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-70/87',
+        _path: '/product/detail/shower-tray-model-70/87',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-63/84',
+        _path: '/product/detail/shower-tray-model-63/84',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Shower-Tray-Model-64/890',
+        _path: '/product/detail/shower-tray-model-64/890',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Marble-Countertop/398',
+        _path: '/product/detail/bianco-ibiza-marble-countertop/398',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Travertine-Countertop/400',
+        _path: '/product/detail/classic-travertine-countertop/400',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Beige-Marble-Countertop/399',
+        _path: '/product/detail/beige-marble-mountertop/399',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Marble-Countertop/397',
+        _path: '/product/detail/emperador-marble-countertop/397',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-56/88',
+        _path: '/product/detail/bathtub-model-56/88',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-57/89',
+        _path: '/product/detail/bathtub-model-57/89',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-101/932',
+        _path: '/product/detail/bathtub-model-101/932',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-102/933',
+        _path: '/product/detail/bathtub-model-102/933',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-103/934',
+        _path: '/product/detail/bathtub-model-103/934',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-104/935',
+        _path: '/product/detail/bathtub-model-104/935',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-105/937',
+        _path: '/product/detail/bathtub-model-105/937',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bathtub-Model-106/974',
+        _path: '/product/detail/bathtub-model-106/974',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Ibiza-Marble-Slab/109',
+        _path: '/product/detail/bianco-ibiza-marble-Slab/109',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Vein-Cut-Travertine-Slab/102',
+        _path: '/product/detail/classic-vein-cut-travertine-slab/102',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Travertine-Slab/101',
+        _path: '/product/detail/classic-travertine-slab/101',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Limestone-Slab/462',
+        _path: '/product/detail/classic-limestone-slab/462',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Royal-Beige-Marble-Slab/379',
+        _path: '/product/detail/royal-beige-marble-slab/379',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Turkish-Lilac-Marble-Slab/365',
+        _path: '/product/detail/turkish-lilac-marble-slab/365',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Black-Eagle-White-Marble-Slab/581',
+        _path: '/product/detail/black-eagle-white-marble-slab/581',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Baiyulan-Beige-Marble-Slab/586',
+        _path: '/product/detail/baiyulan-beige-marble-slab/586',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Puffin-Grey-Vein-Cut-Marble-Slab/590',
+        _path: '/product/detail/puffin-grey-vein-cut-marble-Slab/590',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Puffin-Grey-Marble-Slabs/592',
+        _path: '/product/detail/puffin-grey-marble-slabs/592',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ocean-Grey-Marble-Slab/596',
+        _path: '/product/detail/ocean-grey-marble-slab/596',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bluestone-Slab/646',
+        _path: '/product/detail/bluestone-slab/646',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Light-Marble-Slab/674',
+        _path: '/product/detail/tundra-light-marble-slab/674',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Blue-River-Marble-Slab/915',
+        _path: '/product/detail/blue-river-marble-slab/915',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Latte-Cream-Marble-Slab/675',
+        _path: '/product/detail/latte-cream-marble-slab/675',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Crema-Marfil-Marble-Slab/694',
+        _path: '/product/detail/crema-marfil-marble-slab/694',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Pasha-White-Marble-Slab/631',
+        _path: '/product/detail/pasha-white-marble-slab/631',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Giallo-Marble-Slab/939',
+        _path: '/product/detail/calacatta-giallo-marble-slab/939',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Savannah-Grey-Marble-Slab/583',
+        _path: '/product/detail/savannah-grey-marble-slab/583',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Afyon-Sugar-Marble-Slab/597',
+        _path: '/product/detail/afyon-sugar-marble-slab/597',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Astan-Grey-Marble-Slab/914',
+        _path: '/product/detail/astan-grey-marble-slab/914',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Equator-White-Marble-Slab/403',
+        _path: '/product/detail/equator-white-marble-slab/403',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Storm-Grey-Marble-Slab/676',
+        _path: '/product/detail/storm-grey-marble-slab/676',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Lilac-Dark-Marble-Slab/917',
+        _path: '/product/detail/lilac-dark-marble-slab/917',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Sugar-Violet-Marble-Slab/840',
+        _path: '/product/detail/sugar-violet-marble-slab/840',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Verde-Guatemala-Marble-Slab/938',
+        _path: '/product/detail/verde-guatemala-marble-slab/938',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Pasha-Vita-Marble-Slab/632',
+        _path: '/product/detail/pasha-vita-marble-slab/632',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Light-Marble-Slab/460',
+        _path: '/product/detail/emperador-light-marble-slab/460',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Blanco-Ivory-Marble-Slab/375',
+        _path: '/product/detail/blanco-ivory-marble-slab/375',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Persian-Silver-Travertine-Slab/580',
+        _path: '/product/detail/persian-silver-travertine-slab/580',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Platinum-White-Marble-Slabs/591',
+        _path: '/product/detail/platinum-white-marble-slabs/591',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Rosso-Alicante-Marble-Slab/679',
+        _path: '/product/detail/rosso-alicante-marble-slab/679',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Oasis-River-Marble-Slab/673',
+        _path: '/product/detail/oasis-river-marble-slab/673',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Toros-Black-Marble-Slab/593',
+        _path: '/product/detail/toros-black-marble-slab/593',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Massa-Blanca-Marble-Slab/680',
+        _path: '/product/detail/massa-blanca-marble-slab/680',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Dark-Marble-Slab/248',
+        _path: '/product/detail/emperador-dark-marble-slab/248',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Coffee-Royal-Marble-Slab/533',
+        _path: '/product/detail/coffee-royal-marble-slab/533',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Silver-Vein-Cut-Travertine-Slab/394',
+        _path: '/product/detail/silver-vein-cut-travertine-slab/394',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Solaris-Blue-Marble-Slab/682',
+        _path: '/product/detail/solaris-blue-marble-slab/682',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Asgrey-Marble-Slab/683',
+        _path: '/product/detail/asgrey-marble-slab/683',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Burdur-Beige-Marble-Slab/691',
+        _path: '/product/detail/burdur-beige-marble-slab/691',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Gold-Travertine-Slab/762',
+        _path: '/product/detail/gold-travertine-slab/762',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Diana-Royal-Marble-Slab/532',
+        _path: '/product/detail/diana-royal-marble-slab/532',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Silver-Grey-Travertine-Slab/266',
+        _path: '/product/detail/silver-grey-travertine-slab/266',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Red-Travertine-Slab/107',
+        _path: '/product/detail/red-travertine-slab/107',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Grey-Marble-Slab/454',
+        _path: '/product/detail/tundra-grey-marble-slab/454',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Cappuccino-Light-Marble-Slab/692',
+        _path: '/product/detail/cappuccino-light-marble-slab/692',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Cappucino-Medium-Marble-Slab/376',
+        _path: '/product/detail/cappucino-medium-marble-slab/376',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Mende-White-Marble-Slab/699',
+        _path: '/product/detail/mende-white-marble-slab/699',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Travertine-Slab/252',
+        _path: '/product/detail/noche-travertine-slab/252',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Imperial-Brown-Marble-Slab/584',
+        _path: '/product/detail/imperial-brown-marble-slab/584',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Olive-Maroon-Marble-Slab/629',
+        _path: '/product/detail/olive-maroon-marble-slab/629',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Sofita-Beige-Marble-Slab/465',
+        _path: '/product/detail/sofita-beige-marble-slab/465',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ottoman-Beige-Marble-Slab/238',
+        _path: '/product/detail/ottoman-beige-marble-slab/238',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Turkish-Calacatta-Marble-Slab/442',
+        _path: '/product/detail/turkish-calacatta-marble-slab/442',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Gold-Marble-Slab/670',
+        _path: '/product/detail/calacatta-gold-marble-slab/670',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Nero-Marquina-Marble-Slabs/594',
+        _path: '/product/detail/nero-marquina-marble-slabs/594',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Olive-Brown-Marble-Slab/763',
+        _path: '/product/detail/olive-brown-marble-slab/763',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Pietra-Grey-Marble-Slab/648',
+        _path: '/product/detail/pietra-grey-marble-slab/648',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Dolomite-White-Marble-Slab/463',
+        _path: '/product/detail/dolomite-white-marble-slab/463',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Salome-Marble-Slab/655',
+        _path: '/product/detail/salome-marble-slab/655',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Rosso-Levanto-Marble-Slab/443',
+        _path: '/product/detail/rosso-levanto-marble-Slab/443',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Adranos-White-Marble-Slab/377',
+        _path: '/product/detail/adranos-white-marble-slab/377',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Perla-Limestone-Slab/755',
+        _path: '/product/detail/perla-limestone-slab/755',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Fantasy-White-Marble-Slab/794',
+        _path: '/product/detail/fantasy-white-marble-slab/794',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Carrara-White-Marble-Slab/419',
+        _path: '/product/detail/carrara-white-marble-slab/419',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Emperador-Beige-Marble-Slab/795',
+        _path: '/product/detail/emperador-beige-marble-slab/795',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Jerusalem-Limestone-Slab/455',
+        _path: '/product/detail/jerusalem-limestone-slab/455',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Leonardo-Vein-Cut-Travertine-Slab/796',
+        _path: '/product/detail/leonardo-vein-cut-travertine-slab/796',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Siena-Gold-Marble-Slab/671',
+        _path: '/product/detail/siena-gold-marble-slab/671',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Classic-Vein-Cut-Resin-Travertine-Slab/106',
+        _path: '/product/detail/classic-vein-cut-resin-travertine-slab/106',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Onyx-Cross-Cut-Slab/656',
+        _path: '/product/detail/onyx-cross-cut-slab/656',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Onyx-Honey-Comb-Slab/657',
+        _path: '/product/detail/onyx-honey-comb-slab/657',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Onyx-Vein-Cut-Slab/658',
+        _path: '/product/detail/onyx-vein-cut-slab/658',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Tundra-Blue-Marble-Slab/254',
+        _path: '/product/detail/tundra-blue-marble-slab/254',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Bianco-Venato-Marble-Slab/110',
+        _path: '/product/detail/bianco-venato-marble-slab/110',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Noche-Vein-Cut-Travertine-Slab/479',
+        _path: '/product/detail/noche-vein-cut-travertine-slab/479',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Yellow-Vein-Cut-Travertine-Slab/269',
+        _path: '/product/detail/yellow-vein-cut-travertine-slab/269',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Golden-River-Marble-Slab/439',
+        _path: '/product/detail/golden-river-marble-slab/439',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Palisandro-Marble-Slab/943',
+        _path: '/product/detail/palisandro-marble-slab/943',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Turkish-Moca-Cream-Limestone-Slab/950',
+        _path: '/product/detail/turkish-moca-cream-limestone-slab/950',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Elsa-Quartz-Slab/701',
+        _path: '/product/detail/elsa-quartz-slab/701',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Galaxy-Quartz-Slab/702',
+        _path: '/product/detail/galaxy-quartz-slab/702',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Gereme-Quartz-Slab/703',
+        _path: '/product/detail/gereme-quartz-slab/703',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Efesus-Quartz-Slab/704',
+        _path: '/product/detail/efesus-quartz-slab/704',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Karia-Quartz-Slab/705',
+        _path: '/product/detail/karia-quartz-slab/705',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Magnolia-Quartz-Slab/706',
+        _path: '/product/detail/magnolia-quartz-slab/706',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Truva-Grey-Quartz-Slab/707',
+        _path: '/product/detail/truva-grey-quartz-slab/707',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Venato-Quartz-Slab/708',
+        _path: '/product/detail/venato-quartz-slab/708',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Irlana-Quartz-Slab/709',
+        _path: '/product/detail/irlana-quartz-slab/709',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Helene-Quartz-Slab/851',
+        _path: '/product/detail/helene-quartz-slab/851',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Artistic-Black-Quartz-Slab/764',
+        _path: '/product/detail/artistic-black-quartz-slab/764',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Erin-Quartz-Slab/765',
+        _path: '/product/detail/calacatta-erin-quartz-slab/765',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Lea-Quartz-Slab/766',
+        _path: '/product/detail/calacatta-lea-quartz-slab/766',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Sue-Quartz-Slab/767',
+        _path: '/product/detail/calacatta-sue-quartz-slab/767',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Vela-Quartz-Slab/768',
+        _path: '/product/detail/calacatta-vela-quartz-slab/768',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Calacatta-Mina-Quartz-Slab/910',
+        _path: '/product/detail/calacatta-mina-quartz-slab/910',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Fantasy-Quartz-Slab/772',
+        _path: '/product/detail/fantasy-quartz-slab/772',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Ice-White-Quartz-Slab/773',
+        _path: '/product/detail/ice-white-quartz-slab/773',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Idea-Quartz-Slab/774',
+        _path: '/product/detail/idea-quartz-slab/774',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Magnet-Quartz-Slab/776',
+        _path: '/product/detail/magnet-quartz-slab/776',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Naris-Quartz-Slab/777',
+        _path: '/product/detail/naris-quartz-slab/777',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Night-Quartz-Slab/778',
+        _path: '/product/detail/night-quartz-slab/778',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Kafkas-Quartz-Slab/909',
+        _path: '/product/detail/kafkas-quartz-slab/909',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Peak-Quartz-Slab/779',
+        _path: '/product/detail/peak-quartz-slab/779',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Regnis-Quartz-Slab/780',
+        _path: '/product/detail/regnis-quartz-slab/780',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Riyana-Quartz-Slab/781',
+        _path: '/product/detail/riyana-quartz-slab/781',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Alya-Quartz-Slab/889',
+        _path: '/product/detail/alya-quartz-slab/889',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Scarlet-Quartz-Slab/782',
+        _path: '/product/detail/scarlet-quartz-slab/782',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Versatile-Quartz-Slab/783',
+        _path: '/product/detail/versatile-quartz-slab/783',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Mystral-Grey-Quartz-Slab/898',
+        _path: '/product/detail/mystral-grey-quartz-slab/898',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Polar-Breeze-Quartz-Slab/899',
+        _path: '/product/detail/polar-breeze-quartz-slab/899',
         modifiedAt: new Date(),
       },
       {
-        _path: '/product/detail/Gloria-Quartz-Slab/900',
+        _path: '/product/detail/gloria-quartz-slab/900',
         modifiedAt: new Date(),
       },
       {
