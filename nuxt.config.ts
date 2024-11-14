@@ -38,11 +38,11 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'node-server',
-    prerender: {
-      crawlLinks: true,
-      routes: ['/', 'sitemap.xml'],
-      failOnError: false,
-    },
+    // prerender: {
+    //   crawlLinks: true,
+    //   routes: ['/', 'sitemap.xml'],
+    //   failOnError: false,
+    // },
   },
 
   devtools: { enabled: true },
