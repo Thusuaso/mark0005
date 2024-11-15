@@ -6,7 +6,7 @@
             <div class="col-6">
                 <span v-if="!store.getAuthStatus"><a href="#" class="text-decoration-none text-light" 
                     type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    >{{ get_price }}</a></span><span v-else>${{ price }}  / {{ unit }}</span>
+                    >{{ get_price }}</a></span><span v-else>${{ price }}/{{ unit }}</span>
             </div>
 
         </div>
