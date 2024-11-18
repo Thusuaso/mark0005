@@ -5970,7 +5970,7 @@ export default defineSitemapEventHandler(async (e) => {
         modifiedAt: new Date(),
       },
       {
-        _path: '/fr/fr/product/filter/category/4/color/brown/5',
+        _path: '/fr/product/filter/category/4/color/brown/5',
         modifiedAt: new Date(),
       },
       {
@@ -5994,7 +5994,7 @@ export default defineSitemapEventHandler(async (e) => {
         modifiedAt: new Date(),
       },
       {
-        _path: 'v/product/filter/category/5/color/beige/4',
+        _path: '7fr/product/filter/category/5/color/beige/4',
         modifiedAt: new Date(),
       },
       {
