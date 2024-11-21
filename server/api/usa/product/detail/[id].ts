@@ -33,7 +33,9 @@ export default defineEventHandler(async(event)=>{
 			u.kutudetay_es,
 			u.kasadetay_es,
 			u.surface_es,
-			u.edge_es
+			u.edge_es,
+			u.Surface,
+			u.Edge
 
             from DepoUrunKartTB k,DepoUrunKart_MekmarSiteTB u
 			where MekmarSite=1 and u.UrunId=k.ID and k.ID='${id}'

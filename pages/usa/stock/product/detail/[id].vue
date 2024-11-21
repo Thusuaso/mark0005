@@ -45,7 +45,7 @@
             </div>
             <div class="row m-auto text-center">
                 <div class="col-sm-6">
-                    <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.surface }}: </span><span>{{ detail.surface }} & {{ detail.edge }}</span></p>
+                    <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.surface }}: </span><span>{{ detail.Surface }} & {{ detail.Edge }}</span></p>
 
                 </div>
                 <div class="col-sm-6">
