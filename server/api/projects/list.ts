@@ -20,7 +20,7 @@ export default defineEventHandler(async (event) => {
 		mcp.CountryName_Ar,
 		(TRIM('/projects/detail/' + LOWER(REPLACE(RTRIM(mcp.ProjectName),' ','-')) +'/'+ TRIM(STR(mcp.ID)))) as Link
 		from MekmarCom_Projects mcp 
-		order by mcp.Queue desc
+		order by mcp.Queue
 		`;
         (await api).query(sql, (err: any, projects: any) => {
             resolve(projects.recordset);
