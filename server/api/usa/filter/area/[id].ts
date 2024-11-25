@@ -25,7 +25,7 @@ export default defineEventHandler(async(event)=>{
 			Select ku.UrunId from DepoUrunKart_Urun_KullanimTB ku,
 			DepoUrunKart_UsaKullanimAlanTB kd
 			where kd.Id=ku.KullanimId and kd.Id='${id}'
-			)
+			) and ms.StockSqft >0
             order by ms.StockSqft desc
     `;
     const usageAreaSql = `

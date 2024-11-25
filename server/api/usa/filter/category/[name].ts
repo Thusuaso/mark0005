@@ -21,7 +21,7 @@ export default defineEventHandler(async(event)=>{
 
             from DepoUrunKartTB k,DepoUrunKart_MekmarSiteTB u,MekmarCom_StockListYeni ms,KategoriTB kt,UrunKartTB uk
 			where MekmarSite=1 and u.UrunId=k.ID and u.TurkeyStock=0 and ms.SkuNo = k.SkuNo and uk.ID = k.UrunKartID
-            and u.Yayinla=1 and  kt.ID = uk.KategoriID and kt.KategoriAdi='${name}'
+            and u.Yayinla=1 and  kt.ID = uk.KategoriID and kt.KategoriAdi='${name}' and ms.StockSqft >0
             order by ms.StockSqft desc
     `;
     const usageAreaSql = `
