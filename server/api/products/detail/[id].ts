@@ -102,7 +102,7 @@ order by me.sira
 	mp.urunadi_ar as name_ar,
 	(select top 1 mf.imagePath from MekmarCom_Fotolar mf where mf.urunid = mo.onerilenurunid order by mf.sira) as image,
 	(select top 1 mf.name from MekmarCom_Fotolar mf where mf.urunid = mo.onerilenurunid order by mf.sira) as imageName,
-	TRIM('/product/detail/' + TRIM(REPLACE(mp.urunadi_en,' ','-')) + '/' + TRIM(STR(mp.urunid))) as link
+    TRIM('/product/detail/' + TRIM(REPLACE(REPLACE(LOWER(mp.urunadi_en),' ','-'),'ı','i')) + '/' + TRIM(STR(mp.urunid))) as link
 
 	 
 from MekmarCom_OnerilenUrunler mo
