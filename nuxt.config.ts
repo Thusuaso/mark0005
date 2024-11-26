@@ -107,36 +107,7 @@ export default defineNuxtConfig({
   robots: {
     // provide simple disallow rules for all robots `user-agent: *`
     disallow: [
-      '/videos', 
-      '/fr/videos',
-      '/es/videos',
-      '/ru/videos',
-      '/ar/videos',
-      '/fabrication',
-      '/fr/fabrication',
-      '/es/fabrication',
-      '/ru/fabrication',
-      '/ar/fabrication',
-      '/contact',
-      '/fr/contact',
-      '/es/contact',
-      '/ru/contact',
-      '/ar/contact',
-      '/search/*',
-      '/fr/search/*',
-      '/es/search/*',
-      '/ru/search/*',
-      '/ar/search/*',
-      '/usa/faq',
-      '/fr/usa/faq',
-      '/es/usa/faq',
-      '/ru/usa/faq',
-      '/ar/usa/faq',
-      '/usa/contact',
-      '/fr/usa/contact',
-      '/es/usa/contact',
-      '/ru/usa/contact',
-      '/ar/usa/contact',
+      
     ],
     sitemap:'https://mekmar.com/sitemap.xml'
   }
