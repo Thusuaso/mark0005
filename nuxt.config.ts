@@ -107,7 +107,17 @@ export default defineNuxtConfig({
   robots: {
     // provide simple disallow rules for all robots `user-agent: *`
     disallow: [
-      
+      '/videos', 
+      '/fr/videos',
+      '/es/videos',
+      '/ru/videos',
+      '/ar/videos',
+      '/search/*',
+      '/fr/search/*',
+      '/es/search/*',
+      '/ru/search/*',
+      '/ar/search/*',
+
     ],
     sitemap:'https://mekmar.com/sitemap.xml'
   }
