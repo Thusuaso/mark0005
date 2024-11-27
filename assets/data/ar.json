@@ -308,6 +308,7 @@
 
         "title_3":"مقاطع فيديو إعلامية",
         "projects":[
+          {"id":28,"name":"فيديوهات المشروع | مشروع دورهام في أستراليا","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
 
           {"id":28,"name":"فيديوهات المشروع | مشروع زنبق في غانا","url":"https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS","queue":"28"},
 

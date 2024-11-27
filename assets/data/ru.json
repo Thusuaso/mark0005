@@ -307,6 +307,8 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
+          {"id":28,"name":"Видео проекта | Даремский проект в Австралии","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
+
           {"id":27,"name":"Видео проекта | ПРОЕКТ ДУО в ФРАНЦИЯ","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
 
           {"id":26,"name":"Видео проекта | Проект Гебинг в Германия","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},

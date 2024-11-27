@@ -309,6 +309,8 @@
         "title_2":"VÍDEOS DE PRODUCCIÓN",
         "title_3":"VÍDEOS INFORMATIVOS",
         "projects":[
+          {"id":28,"name":"Vídeos del Proyecto | Proyecto Durham en Australia","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
+
           {"id":27,"name":"Vídeos del Proyecto | Proyecto DÚO en Francia","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
           {"id":26,"name":"Vídeos del Proyecto | Proyecto Gebing en Alemania","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
 
