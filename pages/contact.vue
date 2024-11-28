@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ contact.header }}</h3>
+    <h1 class="header mb-3">{{ contact.header }}</h1>
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-4 m-auto text-center" v-for="item in contact.items" :key="item.id">
             <ContactPersonal :image="item.image" :name="item.name" :job="item.job" :email="item.email"

@@ -3,7 +3,7 @@
     <div class="row m-auto text-center">
         <div class="col-sm-3 filter-custom">
             <div class="container border mb-3">
-                <h3 class="header mt-3">{{category_header}}</h3>
+                <h1 class="header mt-3">{{category_header}}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="category in category_f" :key="category.Id">
@@ -12,7 +12,7 @@
                 </ol>
             </div>
             <div class="container border mb-3">
-                <h3 class="header mt-3">{{color_header}}</h3>
+                <h1 class="header mt-3">{{color_header}}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="color in color_f" :key="color.Id">
@@ -21,7 +21,7 @@
                 </ol>
             </div>
             <div class="container border mb-3">
-                <h3 class="header mt-3">{{ area_header }}</h3>
+                <h1 class="header mt-3">{{ area_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="area in area_f" :key="area.Id">

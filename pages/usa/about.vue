@@ -1,5 +1,5 @@
 <template>
-                <h3 class="header mb-3">{{usa.about_header}}</h3>
+                <h1 class="header mb-3">{{usa.about_header}}</h1>
 
     <div class="row m-auto">
         <div class="col-sm-12">

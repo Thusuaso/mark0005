@@ -2,7 +2,7 @@
     <div class="row m-auto text-center">
         <div class="col-sm-3 filter-custom">
             <div class="container border mb-3">
-                <h3 class="header mt-3">{{ category_header }}</h3>
+                <h1 class="header mt-3">{{ category_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="category in category_f" :key="category.Id">
@@ -12,7 +12,7 @@
             </div>
             <div class="container border mb-3"
                 v-if="category_id == 1 || category_id == 2 || category_id == 3 || category_id == 4 || category_id == 5 || category_id == 6 || category_id == 7 || category_id == 8 || category_id == 9 || category_id == 10 || category_id ==11">
-                <h3 class="header mt-3">{{ color_header }}</h3>
+                <h1 class="header mt-3">{{ color_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="color in color_f" :key="color.Id">
@@ -22,7 +22,7 @@
             </div>
             <div class="container border mb-3"
                 v-if="category_id == 1 || category_id == 2 || category_id == 3 || category_id == 4|| category_id ==8">
-                <h3 class="header mt-3">{{ finish_header }}</h3>
+                <h1 class="header mt-3">{{ finish_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="finish in finish_f" :key="finish.Id">
@@ -31,7 +31,7 @@
                 </ol>
             </div>
             <div class="container border mb-3" v-if="category_id == 2">
-                <h3 class="header mt-3">{{ edge_header }}</h3>
+                <h1 class="header mt-3">{{ edge_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="edge in edge_f" :key="edge.Id">
@@ -40,7 +40,7 @@
                 </ol>
             </div>
             <div class="container border mb-3" v-if="category_id == 4 || category_id == 7">
-                <h3 class="header mt-3">{{ material_header }}</h3>
+                <h1 class="header mt-3">{{ material_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="material in material_f" :key="material.Id">
@@ -49,7 +49,7 @@
                 </ol>
             </div>
             <div class="container border mb-3" v-if="category_id == 2">
-                <h3 class="header mt-3">{{ style_header }}</h3>
+                <h1 class="header mt-3">{{ style_header }}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="style in style_f" :key="style.Id">
@@ -59,7 +59,7 @@
             </div>
             <div class="container border mb-3"
                 v-if="category_id == 5 || category_id == 6 || category_id == 9 || category_id == 11 || category_id ==18">
-                <h3 class="header mt-3">{{type_header}}</h3>
+                <h1 class="header mt-3">{{type_header}}</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="type in type_f" :key="type.Id">

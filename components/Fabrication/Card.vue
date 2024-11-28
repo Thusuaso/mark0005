@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ item.header }}</h3>
+    <h1 class="header mb-3">{{ item.header }}</h1>
     <div class="row">
         <SharedFancybox :options="{
         Carousel: {

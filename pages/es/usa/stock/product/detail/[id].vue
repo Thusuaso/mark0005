@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{header.toUpperCase()}}</h3>
+    <h1 class="header mb-3">{{header.toUpperCase()}}</h1>
     <div class="row m-auto text-center">
         <div class="col-sm-5">
             <SharedFancybox :options="{

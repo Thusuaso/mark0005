@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ project_name.toUpperCase() }}</h3>
+    <h1 class="header mb-3">{{ project_name.toUpperCase() }}</h1>
     <div class="row m-auto text-center">
         <div class="col-sm-6">
             <div class="row m-auto text-center">

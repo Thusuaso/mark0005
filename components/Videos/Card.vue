@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header">{{ header }}</h3>
+    <h1 class="header">{{ header }}</h1>
         <!-- <div class="row text-center overflow-x-scroll" style="height:250px;">
         <div class="col-3" v-for="vid in videos" :key="vid.id" >
             <iframe :src="vid.url" frameborder="0"

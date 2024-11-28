@@ -15,7 +15,7 @@
         <img :src="slotProps.data.imagePath" :alt="slotProps.data.title" class="w-100 " height="230" />
     </div>
 </div>
-<div class="mb-3 font-medium text-center">{{ slotProps.data.title }}</div>
+<h1 class="mb-3 font-medium text-center fs-6">{{ slotProps.data.title }}</h1>
 
         </div>
       </a>  

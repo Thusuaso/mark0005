@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{faq_header}}</h3>
+    <h1 class="header mb-3">{{faq_header}}</h1>
     <div class="row m-auto text-center">
         <div class="col-sm-12">
             <div v-for="faq of faqs" :key="faq">

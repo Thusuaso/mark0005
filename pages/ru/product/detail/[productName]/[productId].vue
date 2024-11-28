@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ controlString_2(detail.name).toUpperCase() }}</h3>
+    <h1 class="header mb-3">{{ controlString_2(detail.name).toUpperCase() }}</h1>
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-6 mt-3">
             <ProductsDetailGalleries :photos="photos" />

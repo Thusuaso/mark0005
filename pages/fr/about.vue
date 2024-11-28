@@ -1,5 +1,5 @@
 <template>
-    <h3 class="header mb-3">{{ about.header }}</h3>
+    <h1 class="header mb-3">{{ about.header }}</h1>
     <div class="row m-auto text-center">
         <div class="col-sm-6">
             <h3 class="subheader">{{ about.title_1 }}</h3>

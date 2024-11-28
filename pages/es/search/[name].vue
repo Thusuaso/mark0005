@@ -1,7 +1,7 @@
 <template>
     <div class="row m-auto text-center">
         <div class="col-sm-3 customFilter">
-            <h3 class="header mt-3">CATEGORIES</h3>
+            <h1 class="header mt-3">CATEGORIES</h1>
 
                 <ol class="list-group list-group-numbered">
                     <div class="list-group-div" v-for="category in categories_f" :key="category.Id">
