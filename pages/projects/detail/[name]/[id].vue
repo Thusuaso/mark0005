@@ -26,10 +26,12 @@
                 allowfullscreen></iframe>
             <img v-else
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
-                  class="iframe-video"3
+                  class="iframe-video"
                 />
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
-                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;"></textarea>
+                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:left;line-height: 1.5;background-color:white;text-indent: 20px"></textarea>
+
+
 
             <div class="row m-auto text-center ">
                 <h3 class="custom_header header" style="font-weight: bold" >{{ suggested_header }}</h3>
@@ -116,6 +118,11 @@ const suggested_header = store.getProjectsSuggestedHeader;
     80%{
         color:#0087cc;
     }
-}
+};
+
+
+
+
+
 
 </style>
