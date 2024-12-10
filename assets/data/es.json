@@ -16,7 +16,8 @@
         "usaabout":"SOBRE",
         "usafaq":"FAQ",
         "usacontact":"CONTACTO",
-        "usastock":"EXISTENCIAS EEUU"
+        "usastock":"EXISTENCIAS EEUU",
+        "faq":"FAQ"
     },
     "navbar_link":{
         "home":"/es",
@@ -78,7 +79,8 @@
         ],
         "usaabout":"/es/usa/about",
         "usafaq":"/es/usa/faq",
-        "usacontact":"/es/usa/contact"
+        "usacontact":"/es/usa/contact",
+        "faq":"/es/faq"
     },
     "footer":{
         "about":{

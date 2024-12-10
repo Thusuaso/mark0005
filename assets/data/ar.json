@@ -16,7 +16,8 @@
         "usaabout":"عن",
         "usafaq":"التعليمات",
         "usacontact":"اتصال",
-        "usastock":"مخزون"
+        "usastock":"مخزون",
+        "faq":"التعليمات"
     },
     "navbar_link":{
         "home":"/ar",
@@ -79,7 +80,8 @@
         ],
         "usaabout":"/ar/usa/about",
         "usafaq":"/ar/usa/faq",
-        "usacontact":"/ar/usa/contact"
+        "usacontact":"/ar/usa/contact",
+        "faq":"/ar/faq"
     },
     "footer":{
         "about":{

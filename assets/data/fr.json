@@ -17,7 +17,8 @@
         "usaabout":"À PROPOS",
         "usafaq":"FAQ",
         "usacontact":"CONTACT",
-        "usastock":"ACTION"
+        "usastock":"ACTION",
+        "faq":"FAQ"
     },
     "navbar_link":{
         "home":"/fr",
@@ -79,7 +80,8 @@
         ],
         "usaabout":"/fr/usa/about",
         "usafaq":"/fr/usa/faq",
-        "usacontact":"/fr/usa/contact"
+        "usacontact":"/fr/usa/contact",
+        "faq":"/fr/faq"
     },
     "footer":{
         "about":{

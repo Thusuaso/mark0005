@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container row m-auto">
         <h1 class="header mb-2">FREQUENTLY ASKED QUESTIONS</h1>
         <h5 class="subheader_faq "><b>Q: What are the main differences between travertine, marble, and limestone?</b></h5>
         <ul class="description_font" style="margin:0px;">
@@ -137,7 +137,7 @@
         <h5 class="subheader_faq"><b>Pavers</b></h5>
         <ul style="margin:0px;" class="description_font">
             <li>
-                <h5 class="subheader_faq"><b>Q:What are the advantages of using natural stone pavers?</b></h5>
+                <h5 class="subheader_faq"><b>Q: What are the advantages of using natural stone pavers?</b></h5>
                 <ul class="description_font_2" style="margin:0px;">
                     <li>
                         Durability and longevity.

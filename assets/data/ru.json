@@ -16,7 +16,8 @@
         "usaabout":"О",
         "usafaq":"FAQ",
         "usacontact":"КОНТАКТ",
-        "usastock":"ЗАПАС"
+        "usastock":"ЗАПАС",
+        "faq":"Чзв"
     },
     "navbar_link":{
         "home":"/ru",
@@ -78,7 +79,8 @@
         ],
         "usaabout":"/ru/usa/about",
         "usafaq":"/ru/usa/faq",
-        "usacontact":"/ru/usa/contact"
+        "usacontact":"/ru/usa/contact",
+        "faq":"/ru/faq"
     },
     "footer":{
         "about":{
