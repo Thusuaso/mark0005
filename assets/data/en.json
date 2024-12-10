@@ -16,7 +16,8 @@
         "usaabout":"ABOUT",
         "usafaq":"FAQ",
         "usacontact":"CONTACT",
-        "usastock":"STOCK"
+        "usastock":"STOCK",
+        "faq":"FAQ"
     },
     "navbar_link":{
         "home":"/",
@@ -79,7 +80,8 @@
         ],
         "usaabout":"/usa/about",
         "usafaq":"/usa/faq",
-        "usacontact":"/usa/contact"
+        "usacontact":"/usa/contact",
+        "faq":"/faq"
     },
     "footer":{
         "about":{
@@ -670,4 +672,5 @@
         "finish":"FINISHES"
 
       }
+
 }

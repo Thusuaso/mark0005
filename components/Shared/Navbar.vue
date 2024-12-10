@@ -70,6 +70,9 @@
               <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.about">{{ navbar.about }}</NuxtLink>
             </li>
             <li >
+              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.faq">{{ navbar.faq }}</NuxtLink>
+            </li>
+            <li >
               <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.catalog" target="_blank">{{ navbar.catalog }}</NuxtLink>
             </li>
 
