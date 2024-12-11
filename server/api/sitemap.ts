@@ -15735,6 +15735,112 @@ export default defineSitemapEventHandler(async (e) => {
         _path: '/ar/product/filter/category/18/type/plasterboard/31',
         modifiedAt: new Date(),
       },
+      {
+        _path: '/projects/detail/ahly-project/1064',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/fr/projects/detail/ahly-project/1064',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/es/projects/detail/ahly-project/1064',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ru/projects/detail/ahly-project/1064',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ar/projects/detail/ahly-project/1064',
+        modifiedAt: new Date(),
+      },
+
+      {
+        _path: '/projects/detail/arsea-project/1065',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/fr/projects/detail/arsea-project/1065',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/es/projects/detail/arsea-project/1065',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ru/projects/detail/arsea-project/1065',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ar/projects/detail/arsea-project/1065',
+        modifiedAt: new Date(),
+      },
+
+      {
+        _path: '/projects/detail/art-project-2/1066',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/fr/projects/detail/art-project-2/1066',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/es/projects/detail/art-project-2/1066',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ru/projects/detail/art-project-2/1066',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ar/projects/detail/art-project-2/1066',
+        modifiedAt: new Date(),
+      },
+
+
+      
+      {
+        _path: '/projects/detail/b-mart-project/1067',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/fr/projects/detail/b-mart-project/1067',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/es/projects/detail/b-mart-project/1067',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ru/projects/detail/b-mart-project/1067',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ar/projects/detail/b-mart-project/1067',
+        modifiedAt: new Date(),
+      },
+
+      {
+        _path: '/faq',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/fr/faq',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/es/faq',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ru/faq',
+        modifiedAt: new Date(),
+      },
+      {
+        _path: '/ar/faq',
+        modifiedAt: new Date(),
+      }
 
 
 
