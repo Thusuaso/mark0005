@@ -120,6 +120,9 @@ export default defineNuxtConfig({
 
     ],
     sitemap:'https://mekmar.com/sitemap.xml'
+  },
+  static: {
+    prefix: false
   }
 
 })

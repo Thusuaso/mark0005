@@ -105,15 +105,15 @@
         "news":{
             "header":"NUEVO",
             "items":[
-              {"id":1,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-1-b.webp","name":"mekmar_news_1"},
-              {"id":2,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-2-b.webp","name":"mekmar_news_2"},
-              {"id":3,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-3-b.webp","name":"mekmar_news_3"},
-              {"id":4,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-4-b.webp","name":"mekmar_news_4"},
-              {"id":5,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-5-b.webp","name":"mekmar_news_5"},
-              {"id":6,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-6-b.webp","name":"mekmar_news_6"},
-              {"id":7,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-7-b.webp","name":"mekmar_news_7"},
-              {"id":8,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-8-b.webp","name":"mekmar_news_8"},
-              {"id":9,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-9-b.webp","name":"mekmar_news_9"}
+              {"id":1,"image":"/image/news/news-1-b.webp","name":"mekmar_suppliers_news_1"},
+              {"id":2,"image":"/image/news/news-2-b.webp","name":"mekmar_suppliers_news_2"},
+              {"id":3,"image":"/image/news/news-3-b.webp","name":"mekmar_suppliers_news_3"},
+              {"id":4,"image":"/image/news/news-4-b.webp","name":"mekmar_suppliers_news_4"},
+              {"id":5,"image":"/image/news/news-5-b.webp","name":"mekmar_suppliers_news_5"},
+              {"id":6,"image":"/image/news/news-6-b.webp","name":"mekmar_suppliers_news_6"},
+              {"id":7,"image":"/image/news/news-7-b.webp","name":"mekmar_suppliers_news_7"},
+              {"id":8,"image":"/image/news/news-8-b.webp","name":"mekmar_suppliers_news_8"},
+              {"id":9,"image":"/image/news/news-9-b.webp","name":"mekmar_suppliers_news_9"}
 
             ]
         },
@@ -125,8 +125,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export@mekmar.com",
                      "whatsapp" : "+90 542 660 8087",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+                     "image" : "/image/personel/gizem-yeni.webp",
+                     "webp" : "/image/personel/gizem-yeni.webp",
                      "id"  : 1,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
                   },
@@ -135,8 +135,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export1@mekmar.com",
                      "whatsapp" : "+90 542 660 8085",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+                     "image" : "/image/personel/ozlem-yeni-2.webp",
+                     "webp" : "/image/personel/ozlem-yeni-2.webp",
                      "id" : 2,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
                   },
@@ -145,8 +145,8 @@
                      "job" : "Especialista En Ventas",
                      "email" : "export2@mekmar.com",
                      "whatsapp" : "+90 542 660 8084",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+                     "image" : "/image/personel/hakan-yeni.webp",
+                     "webp" : "/image/personel/hakan-yeni.webp",
                      "id" : 3,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
                   }
@@ -155,16 +155,16 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.webp"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.webp"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.webp"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.webp"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp","macPath":"/image/slides/slide_1/ilkSlide/Mekmar_Quarry_Image_04-1.webp"}
           ],
           "slide2":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.webp"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.webp"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.webp"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp"}
           ],
           "slide3":[
             {"id":1,"link":"/es/product/detail/Apple-Cream-Marble/993","title":"AGREGADO RECIENTEMENTE","name":"MÁRMOL CREMA DE MANZANA","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
@@ -179,17 +179,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/es/product/marble/1","name":"MÁRMOL","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.webp"},
-        {"id":2,"link":"/es/product/travertine/2","name":"TRAVERTINO","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.webp"},
-        {"id":3,"link":"/es/product/limestone/3","name":"LIMESTONE","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.webp"},
-        {"id":4,"link":"/es/product/mosaics/4","name":"MOSAICO","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.webp"},
-        {"id":5,"link":"/es/product/outdoor/5","name":"PRODUCTOS DEL EXTERIOR","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.webp"},
-        {"id":6,"link":"/es/product/bath-and-kitchen/6","name":"SALLE DE BAIN & CUISNE","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.webp"},
-        {"id":7,"link":"/es/product/slabs/7","name":"PLAQUES","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.webp"},
-        {"id":8,"link":"/es/product/quartz/8","name":"QUARTZ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.webp"},
-        {"id":9,"link":"/es/product/by-products/9","name":"PAR PRODUITS","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.webp"},
-        {"id":11,"link":"/es/product/installation-materials/11","name":"MATÉRIAUX D'INSTALLATION","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.webp"},
-        {"id":18,"link":"/es/product/plasterboard/18","name":"PLAQUES DE PLÂTRE","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.webp"}
+        {"id":1,"link":"/es/product/marble/1","name":"MÁRMOL","image":"/image/categories/marble-4.webp"},
+        {"id":2,"link":"/es/product/travertine/2","name":"TRAVERTINO","image":"/image/categories/travertine-category.webp"},
+        {"id":3,"link":"/es/product/limestone/3","name":"LIMESTONE","image":"/image/categories/limestone-2.webp"},
+        {"id":4,"link":"/es/product/mosaics/4","name":"MOSAICO","image":"/image/categories/mosaic-2.webp"},
+        {"id":5,"link":"/es/product/outdoor/5","name":"PRODUCTOS DEL EXTERIOR","image":"/image/categories/outdoor-category.webp"},
+        {"id":6,"link":"/es/product/bath-and-kitchen/6","name":"SALLE DE BAIN & CUISNE","image":"/image/categories/bath-2.webp"},
+        {"id":7,"link":"/es/product/slabs/7","name":"PLAQUES","image":"/image/categories/slabs-2.webp"},
+        {"id":8,"link":"/es/product/quartz/8","name":"QUARTZ","image":"/image/categories/quartz-category.webp"},
+        {"id":9,"link":"/es/product/by-products/9","name":"PAR PRODUITS","image":"/image/categories/by-products-2.webp"},
+        {"id":11,"link":"/es/product/installation-materials/11","name":"MATÉRIAUX D'INSTALLATION","image":"/image/categories/installation-2.webp"},
+        {"id":18,"link":"/es/product/plasterboard/18","name":"PLAQUES DE PLÂTRE","image":"/image/categories/plasterboard-category.webp"}
     
       ],
       "about" : {
@@ -671,7 +671,7 @@
       "usa_search_link":"/usa/search/",
       "usa_stock_main_menu":{
         "name":"CONSULTA NUESTRAS ACCIONES EUA",
-        "img":"https://cdn.mekmarimage.com/logo/warehouse.webp",
+        "img":"/image/warehouse.webp",
         "link":"/es/usa/stock",
         "alt":"usa_stock_mekmar"
       },

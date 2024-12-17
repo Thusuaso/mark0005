@@ -105,15 +105,15 @@
         "news":{
             "header":"NEWS",
             "items":[
-              {"id":1,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-1-b.webp","name":"mekmar_news_1"},
-              {"id":2,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-2-b.webp","name":"mekmar_news_2"},
-              {"id":3,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-3-b.webp","name":"mekmar_news_3"},
-              {"id":4,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-4-b.webp","name":"mekmar_news_4"},
-              {"id":5,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-5-b.webp","name":"mekmar_news_5"},
-              {"id":6,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-6-b.webp","name":"mekmar_news_6"},
-              {"id":7,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-7-b.webp","name":"mekmar_news_7"},
-              {"id":8,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-8-b.webp","name":"mekmar_news_8"},
-              {"id":9,"image":"https://cdn.mekmarimage.com/news/big/newsBig/news-9-b.webp","name":"mekmar_news_9"}
+              {"id":1,"image":"/image/news/news-1-b.webp","name":"mekmar_suppliers_news_1"},
+              {"id":2,"image":"/image/news/news-2-b.webp","name":"mekmar_suppliers_news_2"},
+              {"id":3,"image":"/image/news/news-3-b.webp","name":"mekmar_suppliers_news_3"},
+              {"id":4,"image":"/image/news/news-4-b.webp","name":"mekmar_suppliers_news_4"},
+              {"id":5,"image":"/image/news/news-5-b.webp","name":"mekmar_suppliers_news_5"},
+              {"id":6,"image":"/image/news/news-6-b.webp","name":"mekmar_suppliers_news_6"},
+              {"id":7,"image":"/image/news/news-7-b.webp","name":"mekmar_suppliers_news_7"},
+              {"id":8,"image":"/image/news/news-8-b.webp","name":"mekmar_suppliers_news_8"},
+              {"id":9,"image":"/image/news/news-9-b.webp","name":"mekmar_suppliers_news_9"}
 
             ]
         },
@@ -125,8 +125,8 @@
                      "job" : "специалист по продажам",
                      "email" : "export@mekmar.com",
                      "whatsapp" : "+90 542 660 8087",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+                     "image" : "/image/personel/gizem-yeni.webp",
+                     "webp" : "/image/personel/gizem-yeni.webp",
                      "id"  : 1,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
                   },
@@ -135,8 +135,8 @@
                      "job" : "специалист по продажам",
                      "email" : "export1@mekmar.com",
                      "whatsapp" : "+90 542 660 8085",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+                     "image" : "/image/personel/ozlem-yeni-2.webp",
+                     "webp" : "/image/personel/ozlem-yeni-2.webp",
                      "id" : 2,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
                   },
@@ -145,8 +145,8 @@
                      "job" : "специалист по продажам",
                      "email" : "export2@mekmar.com",
                      "whatsapp" : "+90 542 660 8084",
-                     "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
-                     "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+                     "image" : "/image/personel/hakan-yeni.webp",
+                     "webp" : "/image/personel/hakan-yeni.webp",
                      "id" : 3,
                      "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
                   }
@@ -155,16 +155,16 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_01-1.jpg"},
-            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_02-1.jpg"},
-            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_03-1.jpg"},
-            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/Mekmar_Quarry_Image_04-1.jpg"}
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.jpg"}
           ],
           "slide2":[
-            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_01-1.jpg"},
-            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_02-1-1.jpg"},
-            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_03-1.jpg"},
-            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.webp","macPath":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/Mekmar_Factory_Image_04-1-1.jpg"}
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.jpg"}
           ],
           "slide3":[
             {"id":1,"link":"/ru/product/detail/Apple-Cream-Marble/993","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"ЯБЛОЧНЫЙ КРЕМ МРАМОРНЫЙ","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
@@ -175,17 +175,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"https://cdn.mekmarimage.com/menu/categories/marble-4.webp"},
-        {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"https://cdn.mekmarimage.com/menu/categories/travertine-category.webp"},
-        {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"https://cdn.mekmarimage.com/menu/categories/limestone-2.webp"},
-        {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"https://cdn.mekmarimage.com/menu/categories/mosaic-2.webp"},
-        {"id":5,"link":"/ru/product/outdoor/5","name":"НАРУЖНЫЙ","image":"https://cdn.mekmarimage.com/menu/categories/outdoor-category.webp"},
-        {"id":6,"link":"/ru/product/bath-and-kitchen/6","name":"ВАННА И КУХНЯ","image":"https://cdn.mekmarimage.com/menu/categories/bath-2.webp"},
-        {"id":7,"link":"/ru/product/slabs/7","name":"ПЛИТЫ","image":"https://cdn.mekmarimage.com/menu/categories/slabs-2.webp"},
-        {"id":8,"link":"/ru/product/quartz/8","name":"КВАРЦ","image":"https://cdn.mekmarimage.com/menu/categories/quartz-category.webp"},
-        {"id":9,"link":"/ru/product/by-products/9","name":"ПО ПРОДУКЦИИ","image":"https://cdn.mekmarimage.com/menu/categories/by-products-2.webp"},
-        {"id":11,"link":"/ru/product/installation-materials/11","name":"МОНТАЖНЫЕ МАТЕРИАЛЫ","image":"https://cdn.mekmarimage.com/menu/categories/installation-2.webp"},
-        {"id":18,"link":"/ru/product/plasterboard/18","name":"ГИПСОКАРТОН","image":"https://cdn.mekmarimage.com/menu/categories/plasterboard-category.webp"}
+        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"/image/categories/marble-4.webp"},
+        {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"/image/categories/travertine-category.webp"},
+        {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"/image/categories/limestone-2.webp"},
+        {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"/image/categories/mosaic-2.webp"},
+        {"id":5,"link":"/ru/product/outdoor/5","name":"НАРУЖНЫЙ","image":"/image/categories/outdoor-category.webp"},
+        {"id":6,"link":"/ru/product/bath-and-kitchen/6","name":"ВАННА И КУХНЯ","image":"/image/categories/bath-2.webp"},
+        {"id":7,"link":"/ru/product/slabs/7","name":"ПЛИТЫ","image":"/image/categories/slabs-2.webp"},
+        {"id":8,"link":"/ru/product/quartz/8","name":"КВАРЦ","image":"/image/categories/quartz-category.webp"},
+        {"id":9,"link":"/ru/product/by-products/9","name":"ПО ПРОДУКЦИИ","image":"/image/categories/by-products-2.webp"},
+        {"id":11,"link":"/ru/product/installation-materials/11","name":"МОНТАЖНЫЕ МАТЕРИАЛЫ","image":"/image/categories/installation-2.webp"},
+        {"id":18,"link":"/ru/product/plasterboard/18","name":"ГИПСОКАРТОН","image":"/image/categories/plasterboard-category.webp"}
     
       ],
       "about" : {
@@ -677,7 +677,7 @@
       "usa_search_link":"/usa/search/",
       "usa_stock_main_menu":{
         "name":"ПРОВЕРЬТЕ НАШИ АКЦИИ В США",
-        "img":"https://cdn.mekmarimage.com/logo/warehouse.webp",
+        "img":"/image/warehouse.webp",
         "link":"/ru/usa/stock",
         "alt":"usa_stock_mekmar"
       },

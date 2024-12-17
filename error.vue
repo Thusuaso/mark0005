@@ -17,7 +17,7 @@
     const router = useRouter();
     const lang = useCookie('language');
     let page = ref('/');
-    let timer = ref(2000);
+    let timer = ref(3000);
 
     setTimeout(() => {  
         if(lang.value.trim() == 'en'){
