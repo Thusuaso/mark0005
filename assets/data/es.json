@@ -277,19 +277,19 @@
             {   "id":1,
                 "header":"FABRICAS EN LAS QUE TRABAJAMOS",
               "images":[
-              {"id":1,"title":"Línea Epoxi Mármol Beige","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.webp"},
-              {"id":2,"title":"Fábrica Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.webp"},
-              {"id":3,"title":"Proceso de Ranurado Para Escaleras","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.webp"},
-              {"id":4,"title":"Escaleras en Ángulo de Corte CNC","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.webp"}
+              {"id":1,"title":"Línea Epoxi Mármol Beige","image":"/image/fabrication/fab_1/Mekmar_Factory_1.webp"},
+              {"id":2,"title":"Fábrica Bianco Ibiza","image":"/image/fabrication/fab_1/Mekmar_Factory_4.webp"},
+              {"id":3,"title":"Proceso de Ranurado Para Escaleras","image":"/image/fabrication/fab_1/Mekmar_Factory_2.webp"},
+              {"id":4,"title":"Escaleras en Ángulo de Corte CNC","image":"/image/fabrication/fab_1/Mekmar_Factory_3.webp"}
             ]},
             {
                 "id":2,
               "header":"CANTERAS QUE TRABAJAMOS",
               "images":[
-                {"id":1,"title":"Cantera de Mármol Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.webp"},
-                {"id":2,"title":"Cantera Turca de Mármol Calacatta","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.webp"},
-                {"id":3,"title":"Cantera de Travertino Clásica","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.webp"},
-                {"id":4,"title":"Cantera de Travertino Picasso","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.webp"}
+                {"id":1,"title":"Cantera de Mármol Bianco Ibiza","image":"/image/fabrication/fab_2/Mekmar_Quarry_1.webp"},
+                {"id":2,"title":"Cantera Turca de Mármol Calacatta","image":"/image/fabrication/fab_2/Mekmar_Quarry_2.webp"},
+                {"id":3,"title":"Cantera de Travertino Clásica","image":"/image/fabrication/fab_2/Mekmar_Quarry_3.webp"},
+                {"id":4,"title":"Cantera de Travertino Picasso","image":"/image/fabrication/fab_2/Mekmar_Quarry_4.webp"}
     
               ]
             },
@@ -297,10 +297,10 @@
                 "id":3,
               "header":"NUESTRO ALMACEN EN EE. UU.",
               "images":[
-                {"id":1,"title":"Área de Muestra","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.webp"},
-                {"id":2,"title":"Las Existencias Disponibles","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.webp"},
-                {"id":3,"title":"Órdenes Especiales","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.webp"},
-                {"id":4,"title":"Entrada de Contenedores","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.webp"}
+                {"id":1,"title":"Área de Muestra","image":"/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"},
+                {"id":2,"title":"Las Existencias Disponibles","image":"/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"},
+                {"id":3,"title":"Órdenes Especiales","image":"/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"},
+                {"id":4,"title":"Entrada de Contenedores","image":"/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"}
     
               ]
             }

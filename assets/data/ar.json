@@ -275,19 +275,19 @@
             {   "id":1,
                 "header":"المصانع التي نعمل بها",
               "images":[
-              {"id":1,"title":"خط إيبوكسي رخام بيج","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.webp"},
-              {"id":2,"title":"مصنع بيانكو إيبيزا","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.webp"},
-              {"id":3,"title":"عملية الأخدود للسلالم","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.webp"},
-              {"id":4,"title":"CNC قطع السلالم الزاوية","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.webp"}
+              {"id":1,"title":"خط إيبوكسي رخام بيج","image":"/image/fabrication/fab_1/Mekmar_Factory_1.webp"},
+              {"id":2,"title":"مصنع بيانكو إيبيزا","image":"/image/fabrication/fab_1/Mekmar_Factory_4.webp"},
+              {"id":3,"title":"عملية الأخدود للسلالم","image":"/image/fabrication/fab_1/Mekmar_Factory_2.webp"},
+              {"id":4,"title":"CNC قطع السلالم الزاوية","image":"/image/fabrication/fab_1/Mekmar_Factory_3.webp"}
             ]},
             {
                 "id":2,
               "header":"المحاجر التي نعمل بها",
               "images":[
-                {"id":1,"title":"بيانكو إيبيزا محجر الرخام","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.webp"},
-                {"id":2,"title":"محجر رخام كالكوتا التركي","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.webp"},
-                {"id":3,"title":"محجر الحجر الجيري الكلاسيكي","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.webp"},
-                {"id":4,"title":"محجر بيكاسو الترافرتين","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.webp"}
+                {"id":1,"title":"بيانكو إيبيزا محجر الرخام","image":"/image/fabrication/fab_2/Mekmar_Quarry_1.webp"},
+                {"id":2,"title":"محجر رخام كالكوتا التركي","image":"/image/fabrication/fab_2/Mekmar_Quarry_2.webp"},
+                {"id":3,"title":"محجر الحجر الجيري الكلاسيكي","image":"/image/fabrication/fab_2/Mekmar_Quarry_3.webp"},
+                {"id":4,"title":"محجر بيكاسو الترافرتين","image":"/image/fabrication/fab_2/Mekmar_Quarry_4.webp"}
     
               ]
             },
@@ -295,10 +295,10 @@
                 "id":3,
               "header":"مستودعنا في الولايات المتحدة الأمريكية",
               "images":[
-                {"id":1,"title":"منطقة العينة","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.webp"},
-                {"id":2,"title":"الأسهم المتاحة","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.webp"},
-                {"id":3,"title":"الطلبات الخاصة","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.webp"},
-                {"id":4,"title":"مدخل الحاوية","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.webp"}
+                {"id":1,"title":"منطقة العينة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"},
+                {"id":2,"title":"الأسهم المتاحة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"},
+                {"id":3,"title":"الطلبات الخاصة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"},
+                {"id":4,"title":"مدخل الحاوية","image":"/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"}
     
               ]
             }

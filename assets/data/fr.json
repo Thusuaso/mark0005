@@ -274,19 +274,19 @@
             {   "id":1,
                 "header":"USINES QUE NOUS TRAVAILLONS",
               "images":[
-              {"id":1,"title":"Ligne Epoxy En Marbre Beige","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.webp"},
-              {"id":2,"title":"Usine Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.webp"},
-              {"id":3,"title":"Processus de Rainure Pour Les Escaliers","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.webp"},
-              {"id":4,"title":"Escaliers Inclinés Découpés CNC","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.webp"}
+              {"id":1,"title":"Ligne Epoxy En Marbre Beige","image":"/image/fabrication/fab_1/Mekmar_Factory_1.webp"},
+              {"id":2,"title":"Usine Bianco Ibiza","image":"/image/fabrication/fab_1/Mekmar_Factory_4.webp"},
+              {"id":3,"title":"Processus de Rainure Pour Les Escaliers","image":"/image/fabrication/fab_1/Mekmar_Factory_2.webp"},
+              {"id":4,"title":"Escaliers Inclinés Découpés CNC","image":"/image/fabrication/fab_1/Mekmar_Factory_3.webp"}
             ]},
             {
                 "id":2,
               "header":"CARRIÈRES QUE NOUS TRAVAILLONS",
               "images":[
-                {"id":1,"title":"Carrière de Marbre Bianco Ibiza","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.webp"},
-                {"id":2,"title":"Carrière de Marbre Turc Calacatta","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.webp"},
-                {"id":3,"title":"Carrière de Travertin Classique","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.webp"},
-                {"id":4,"title":"Carrière de Travertin Picasso","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.webp"}
+                {"id":1,"title":"Carrière de Marbre Bianco Ibiza","image":"/image/fabrication/fab_2/Mekmar_Quarry_1.webp"},
+                {"id":2,"title":"Carrière de Marbre Turc Calacatta","image":"/image/fabrication/fab_2/Mekmar_Quarry_2.webp"},
+                {"id":3,"title":"Carrière de Travertin Classique","image":"/image/fabrication/fab_2/Mekmar_Quarry_3.webp"},
+                {"id":4,"title":"Carrière de Travertin Picasso","image":"/image/fabrication/fab_2/Mekmar_Quarry_4.webp"}
     
               ]
             },
@@ -294,10 +294,10 @@
                 "id":3,
               "header":"NOTRE MAISON AUX ÉTATS-UNIS",
               "images":[
-                {"id":1,"title":"Zone D'échantillonnage","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.webp"},
-                {"id":2,"title":"Stocks Disponibles","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.webp"},
-                {"id":3,"title":"Commandes Spéciales","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.webp"},
-                {"id":4,"title":"Entrée du Conteneur","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.webp"}
+                {"id":1,"title":"Zone D'échantillonnage","image":"/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"},
+                {"id":2,"title":"Stocks Disponibles","image":"/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"},
+                {"id":3,"title":"Commandes Spéciales","image":"/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"},
+                {"id":4,"title":"Entrée du Conteneur","image":"/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"}
     
               ]
             }

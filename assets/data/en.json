@@ -272,19 +272,19 @@
             {   "id":1,
                 "header":"FACTORIES THAT WE WORK",
               "images":[
-              {"id":1,"title":"Beige Marble Epoxy Line","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_1.webp"},
-              {"id":2,"title":"Bianco Ibiza Factory","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_4.webp"},
-              {"id":3,"title":"Groove Process for Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_2.webp"},
-              {"id":4,"title":"CNC Cutting Angled Stairs","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ikinciSlideBig/Mekmar_Factory_3.webp"}
+              {"id":1,"title":"Beige Marble Epoxy Line","image":"/image/fabrication/fab_1/Mekmar_Factory_1.webp"},
+              {"id":2,"title":"Bianco Ibiza Factory","image":"/image/fabrication/fab_1/Mekmar_Factory_4.webp"},
+              {"id":3,"title":"Groove Process for Stairs","image":"/image/fabrication/fab_1/Mekmar_Factory_2.webp"},
+              {"id":4,"title":"CNC Cutting Angled Stairs","image":"/image/fabrication/fab_1/Mekmar_Factory_3.webp"}
             ]},
             {
                 "id":2,
               "header":"QUARRIES THAT WE WORK",
               "images":[
-                {"id":1,"title":"Bianco Ibiza Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_1.webp"},
-                {"id":2,"title":"Turkish Calacatta Marble Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_2.webp"},
-                {"id":3,"title":"Classic Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_3.webp"},
-                {"id":4,"title":"Picasso Travertine Quarry","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ilkSlide/ilkSlideBig/Mekmar_Quarry_4.webp"}
+                {"id":1,"title":"Bianco Ibiza Marble Quarry","image":"/image/fabrication/fab_2/Mekmar_Quarry_1.webp"},
+                {"id":2,"title":"Turkish Calacatta Marble Quarry","image":"/image/fabrication/fab_2/Mekmar_Quarry_2.webp"},
+                {"id":3,"title":"Classic Travertine Quarry","image":"/image/fabrication/fab_2/Mekmar_Quarry_3.webp"},
+                {"id":4,"title":"Picasso Travertine Quarry","image":"/image/fabrication/fab_2/Mekmar_Quarry_4.webp"}
     
               ]
             },
@@ -292,10 +292,10 @@
                 "id":3,
               "header":"OUR USA WEREHOUSE",
               "images":[
-                {"id":1,"title":"Sample Area","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_1.webp"},
-                {"id":2,"title":"Available Stocks","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_2.webp"},
-                {"id":3,"title":"Special Orders","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_3.webp"},
-                {"id":4,"title":"Container Entrance","image":"https://cdn.mekmarimage.com/newMekmarDonenFotolar/ucuncuSlide/ucuncuSlideBig/Mekmar_Warehouse_4.webp"}
+                {"id":1,"title":"Sample Area","image":"/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"},
+                {"id":2,"title":"Available Stocks","image":"/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"},
+                {"id":3,"title":"Special Orders","image":"/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"},
+                {"id":4,"title":"Container Entrance","image":"/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"}
     
               ]
             }
