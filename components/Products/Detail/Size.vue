@@ -11,7 +11,7 @@
 
         </div>
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false" >
   <div class="modal-dialog modal-dialog-centered w-100 modal-lg" >
     <div class="modal-content w-100" >
       <div class="modal-header">

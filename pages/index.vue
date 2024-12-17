@@ -19,7 +19,7 @@
           <a href="https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf" target="_blank">
           <div class="customElement">
               
-                  <img class="lazyload" src="https://cdn.mekmarimage.com/galleria-project_photos/CATALOG%20PHOTO%20MAIN.webp" alt="online-catalog" loading="lazy"/>
+                  <img class="lazyload" src="/image/catalog_image.webp" alt="online-catalog"/>
                   <div class="card_title" style="font-size:18px;">
                       ONLINE CATALOG
                   </div>
