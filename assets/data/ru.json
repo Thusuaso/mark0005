@@ -175,17 +175,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
-        {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"/image/categories/travertine-category.webp"},
-        {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"/image/categories/limestone-2.webp"},
-        {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"/image/categories/mosaic-2.webp"},
-        {"id":5,"link":"/ru/product/outdoor/5","name":"НАРУЖНЫЙ","image":"/image/categories/outdoor-category.webp"},
-        {"id":6,"link":"/ru/product/bath-and-kitchen/6","name":"ВАННА И КУХНЯ","image":"/image/categories/bath-2.webp"},
-        {"id":7,"link":"/ru/product/slabs/7","name":"ПЛИТЫ","image":"/image/categories/slabs-2.webp"},
-        {"id":8,"link":"/ru/product/quartz/8","name":"КВАРЦ","image":"/image/categories/quartz-category.webp"},
-        {"id":9,"link":"/ru/product/by-products/9","name":"ПО ПРОДУКЦИИ","image":"/image/categories/by-products-2.webp"},
-        {"id":11,"link":"/ru/product/installation-materials/11","name":"МОНТАЖНЫЕ МАТЕРИАЛЫ","image":"/image/categories/installation-2.webp"},
-        {"id":18,"link":"/ru/product/plasterboard/18","name":"ГИПСОКАРТОН","image":"/image/categories/plasterboard-category.webp"}
+        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"/image/categories/marble-category-main-photo-mekmar.com.webp"},
+        {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"/image/categories/travertine-category-main-photo-mekmar.webp"},
+        {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"/image/categories/limestone-category-main-photo-mekmar.webp"},
+        {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"/image/categories/mosaic-category-main-photo-mekmar.webp"},
+        {"id":5,"link":"/ru/product/outdoor/5","name":"НАРУЖНЫЙ","image":"/image/categories/outdoor-category-main-photo-mekmar.webp"},
+        {"id":6,"link":"/ru/product/bath-and-kitchen/6","name":"ВАННА И КУХНЯ","image":"/image/categories/bath-and-kitchen-category-main-photo-mekmar.webp"},
+        {"id":7,"link":"/ru/product/slabs/7","name":"ПЛИТЫ","image":"/image/categories/slabs-category-main-photo-mekmar.webp"},
+        {"id":8,"link":"/ru/product/quartz/8","name":"КВАРЦ","image":"/image/categories/quartz-category-main-photo-mekmar.webp"},
+        {"id":9,"link":"/ru/product/by-products/9","name":"ПО ПРОДУКЦИИ","image":"/image/categories/by-products-category-main-photo-mekmar.webp"},
+        {"id":11,"link":"/ru/product/installation-materials/11","name":"МОНТАЖНЫЕ МАТЕРИАЛЫ","image":"/image/categories/installation-materials-category-main-photo-mekmar.webp"},
+        {"id":18,"link":"/ru/product/plasterboard/18","name":"ГИПСОКАРТОН","image":"/image/categories/plasterboard-category-main-photo-mekmar.webp"}
     
       ],
       "about" : {

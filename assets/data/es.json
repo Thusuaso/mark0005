@@ -179,17 +179,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/es/product/marble/1","name":"MÁRMOL","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
-        {"id":2,"link":"/es/product/travertine/2","name":"TRAVERTINO","image":"/image/categories/travertine-category.webp"},
-        {"id":3,"link":"/es/product/limestone/3","name":"LIMESTONE","image":"/image/categories/limestone-2.webp"},
-        {"id":4,"link":"/es/product/mosaics/4","name":"MOSAICO","image":"/image/categories/mosaic-2.webp"},
-        {"id":5,"link":"/es/product/outdoor/5","name":"PRODUCTOS DEL EXTERIOR","image":"/image/categories/outdoor-category.webp"},
-        {"id":6,"link":"/es/product/bath-and-kitchen/6","name":"SALLE DE BAIN & CUISNE","image":"/image/categories/bath-2.webp"},
-        {"id":7,"link":"/es/product/slabs/7","name":"PLAQUES","image":"/image/categories/slabs-2.webp"},
-        {"id":8,"link":"/es/product/quartz/8","name":"QUARTZ","image":"/image/categories/quartz-category.webp"},
-        {"id":9,"link":"/es/product/by-products/9","name":"PAR PRODUITS","image":"/image/categories/by-products-2.webp"},
-        {"id":11,"link":"/es/product/installation-materials/11","name":"MATÉRIAUX D'INSTALLATION","image":"/image/categories/installation-2.webp"},
-        {"id":18,"link":"/es/product/plasterboard/18","name":"PLAQUES DE PLÂTRE","image":"/image/categories/plasterboard-category.webp"}
+        {"id":1,"link":"/es/product/marble/1","name":"MÁRMOL","image":"/image/categories/marble-category-main-photo-mekmar.com.webp"},
+        {"id":2,"link":"/es/product/travertine/2","name":"TRAVERTINO","image":"/image/categories/travertine-category-main-photo-mekmar.webp"},
+        {"id":3,"link":"/es/product/limestone/3","name":"LIMESTONE","image":"/image/categories/limestone-category-main-photo-mekmar.webp"},
+        {"id":4,"link":"/es/product/mosaics/4","name":"MOSAICO","image":"/image/categories/mosaic-category-main-photo-mekmar.webp"},
+        {"id":5,"link":"/es/product/outdoor/5","name":"PRODUCTOS DEL EXTERIOR","image":"/image/categories/outdoor-category-main-photo-mekmar.webp"},
+        {"id":6,"link":"/es/product/bath-and-kitchen/6","name":"SALLE DE BAIN & CUISNE","image":"/image/categories/bath-and-kitchen-category-main-photo-mekmar.webp"},
+        {"id":7,"link":"/es/product/slabs/7","name":"PLAQUES","image":"/image/categories/slabs-category-main-photo-mekmar.webp"},
+        {"id":8,"link":"/es/product/quartz/8","name":"QUARTZ","image":"/image/categories/quartz-category-main-photo-mekmar.webp"},
+        {"id":9,"link":"/es/product/by-products/9","name":"PAR PRODUITS","image":"/image/categories/by-products-category-main-photo-mekmar.webp"},
+        {"id":11,"link":"/es/product/installation-materials/11","name":"MATÉRIAUX D'INSTALLATION","image":"/image/categories/installation-materials-category-main-photo-mekmar.webp"},
+        {"id":18,"link":"/es/product/plasterboard/18","name":"PLAQUES DE PLÂTRE","image":"/image/categories/plasterboard-category-main-photo-mekmar.webp"}
     
       ],
       "about" : {

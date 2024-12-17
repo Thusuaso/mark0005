@@ -178,17 +178,17 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/ar/product/marble/1","name":"رخام","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
-        {"id":2,"link":"/ar/product/travertine/2","name":"الترافرتين","image":"/image/categories/travertine-category.webp"},
-        {"id":3,"link":"/ar/product/limestone/3","name":"حجر الكلس","image":"/image/categories/limestone-2.webp"},
-        {"id":4,"link":"/ar/product/mosaics/4","name":"فسيفساء","image":"/image/categories/mosaic-2.webp"},
-        {"id":5,"link":"/ar/product/outdoor/5","name":"في الخارج","image":"/image/categories/outdoor-category.webp"},
-        {"id":6,"link":"/ar/product/bath-and-kitchen/6","name":"الحمام والمطبخ","image":"/image/categories/bath-2.webp"},
-        {"id":7,"link":"/ar/product/slabs/7","name":"ألواح","image":"/image/categories/slabs-2.webp"},
-        {"id":8,"link":"/ar/product/quartz/8","name":"كوارتز","image":"/image/categories/quartz-category.webp"},
-        {"id":9,"link":"/ar/product/by-products/9","name":"حسب المنتجات","image":"/image/categories/by-products-2.webp"},
-        {"id":11,"link":"/ar/product/installation-materials/11","name":"مواد التثبيت","image":"/image/categories/installation-2.webp"},
-        {"id":18,"link":"/ar/product/plasterboard/18","name":"الجصي","image":"/image/categories/plasterboard-category.webp"}
+        {"id":1,"link":"/ar/product/marble/1","name":"رخام","image":"/image/categories/marble-category-main-photo-mekmar.com.webp"},
+        {"id":2,"link":"/ar/product/travertine/2","name":"الترافرتين","image":"/image/categories/travertine-category-main-photo-mekmar.webp"},
+        {"id":3,"link":"/ar/product/limestone/3","name":"حجر الكلس","image":"/image/categories/limestone-category-main-photo-mekmar.webp"},
+        {"id":4,"link":"/ar/product/mosaics/4","name":"فسيفساء","image":"/image/categories/mosaic-category-main-photo-mekmar.webp"},
+        {"id":5,"link":"/ar/product/outdoor/5","name":"في الخارج","image":"/image/categories/outdoor-category-main-photo-mekmar.webp"},
+        {"id":6,"link":"/ar/product/bath-and-kitchen/6","name":"الحمام والمطبخ","image":"/image/categories/bath-and-kitchen-category-main-photo-mekmar.webp"},
+        {"id":7,"link":"/ar/product/slabs/7","name":"ألواح","image":"/image/categories/slabs-category-main-photo-mekmar.webp"},
+        {"id":8,"link":"/ar/product/quartz/8","name":"كوارتز","image":"/image/categories/quartz-category-main-photo-mekmar.webp"},
+        {"id":9,"link":"/ar/product/by-products/9","name":"حسب المنتجات","image":"/image/categories/by-products-category-main-photo-mekmar.webp"},
+        {"id":11,"link":"/ar/product/installation-materials/11","name":"مواد التثبيت","image":"/image/categories/installation-materials-category-main-photo-mekmar.webp"},
+        {"id":18,"link":"/ar/product/plasterboard/18","name":"الجصي","image":"/image/categories/plasterboard-category-main-photo-mekmar.webp"}
     
       ],
       "about" : {
