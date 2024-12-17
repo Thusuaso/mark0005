@@ -8,7 +8,7 @@
   <Carousel  class="carousel-custom" :value="slides" :numVisible="1" :numScroll="1" :autoplayInterval="3000" orientation="horizontal"  :circular="true" :showIndicators="false" :showNavigators="false">
     <template #item="slotProps">
       <a :href="slotProps.data.link" class="text-decoration-none text-secondary">
-        <div class=" rounded   categories-slide">
+        <div class="rounded categories-slide">
 
 <div class="">
     <div class="relative mx-auto ">

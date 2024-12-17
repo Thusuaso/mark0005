@@ -178,7 +178,7 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/ar/product/marble/1","name":"رخام","image":"/image/categories/marble-4.webp"},
+        {"id":1,"link":"/ar/product/marble/1","name":"رخام","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
         {"id":2,"link":"/ar/product/travertine/2","name":"الترافرتين","image":"/image/categories/travertine-category.webp"},
         {"id":3,"link":"/ar/product/limestone/3","name":"حجر الكلس","image":"/image/categories/limestone-2.webp"},
         {"id":4,"link":"/ar/product/mosaics/4","name":"فسيفساء","image":"/image/categories/mosaic-2.webp"},
@@ -658,7 +658,7 @@
       "search_link":"/ar/search/",
       "usa_stock_main_menu":{
         "name":"تحقق من مخزوننا في الولايات المتحدة الأمريكية",
-        "img":"/image/warehouse.webp",
+        "img":"/image/usa-atlanta-stock-items-mekmar.com.webp",
         "link":"/ar/usa/stock",
         "alt":"usa_stock_mekmar"
       },

@@ -177,7 +177,7 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/fr/product/marble/1","name":"MARBRE","image":"/image/categories/marble-4.webp"},
+        {"id":1,"link":"/fr/product/marble/1","name":"MARBRE","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
         {"id":2,"link":"/fr/product/travertine/2","name":"TRAVERTIN","image":"/image/categories/travertine-category.webp"},
         {"id":3,"link":"/fr/product/limestone/3","name":"CALCAIRE","image":"/image/categories/limestone-2.webp"},
         {"id":4,"link":"/fr/product/mosaics/4","name":"MOSAÏQUE","image":"/image/categories/mosaic-2.webp"},
@@ -676,7 +676,7 @@
       "usa_search_link":"/usa/search/",
       "usa_stock_main_menu":{
         "name":"CONSULTEZ NOTRE NOS STOCKS USA",
-        "img":"/image/warehouse.webp",
+        "img":"/image/usa-atlanta-stock-items-mekmar.com.webp",
         "link":"/fr/usa/stock",
         "alt":"usa_stock_mekmar"
       },

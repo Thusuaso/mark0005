@@ -175,7 +175,7 @@
           ]
     },
     "categories":[
-        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"/image/categories/marble-4.webp"},
+        {"id":1,"link":"/ru/product/marble/1","name":"МРАМОР","image":"/image/categories/marble-categories-main-photo-mekmar.com.webp"},
         {"id":2,"link":"/ru/product/travertine/2","name":"ТРАВЕРТИН","image":"/image/categories/travertine-category.webp"},
         {"id":3,"link":"/ru/product/limestone/3","name":"ИЗВЕСТНЯК","image":"/image/categories/limestone-2.webp"},
         {"id":4,"link":"/ru/product/mosaics/4","name":"МОЗАИКА","image":"/image/categories/mosaic-2.webp"},
@@ -677,7 +677,7 @@
       "usa_search_link":"/usa/search/",
       "usa_stock_main_menu":{
         "name":"ПРОВЕРЬТЕ НАШИ АКЦИИ В США",
-        "img":"/image/warehouse.webp",
+        "img":"/image/usa-atlanta-stock-items-mekmar.com.webp",
         "link":"/ru/usa/stock",
         "alt":"usa_stock_mekmar"
       },
