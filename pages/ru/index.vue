@@ -7,7 +7,7 @@
         <a :href="usastock.link">
         <div class="customElement">
             
-                <img class="lazyload" :src="usastock.img" :alt="usastock.alt"/>
+                <img  :src="usastock.img" :alt="usastock.alt"/>
                 <div class="card_title_3" style="font-size:16px;">
                     {{ usastock.name }}
                 </div>
@@ -19,7 +19,7 @@
           <a href="https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf" target="_blank">
           <div class="customElement">
               
-                  <img class="lazyload" src="/image/online-catalog-main-photo-mekmar.webp" alt="online-catalog" loading="lazy"/>
+                  <img  src="/image/online-catalog-main-photo-mekmar.webp" alt="online-catalog" loading="lazy"/>
                   <div class="card_title" style="font-size:18px;">
                     ОНЛАЙН-КАТАЛОГ
                   </div>
