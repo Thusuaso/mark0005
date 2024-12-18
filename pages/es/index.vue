@@ -7,7 +7,7 @@
         <a :href="usastock.link">
         <div class="customElement">
             
-                <img class="lazyload" :src="usastock.img" :alt="usastock.alt" loading="lazy"/>
+                <img class="lazyload" :src="usastock.img" :alt="usastock.alt" />
                 <div class="card_title_3" style="font-size:14px;">
                     {{ usastock.name }}
                 </div>

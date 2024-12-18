@@ -155,16 +155,16 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.jpg"},
-            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.jpg"},
-            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.jpg"},
-            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.jpg"}
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Мраморные карьеры","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ КАРЬЕНОВ","name":"Травертиновые карьеры","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.jpg"}
           ],
           "slide2":[
-            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.jpg"},
-            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.jpg"},
-            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.jpg"},
-            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.jpg"}
+            {"id":1,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.jpg"},
+            {"id":2,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.jpg"},
+            {"id":3,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.jpg"},
+            {"id":4,"link":"/ru/fabrication","title":"СЦЕНЫ ИЗ ПРОИЗВОДСТВА","name":"Изготовление","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.jpg"}
           ],
           "slide3":[
             {"id":1,"link":"/ru/product/detail/Apple-Cream-Marble/993","title":"НЕДАВНО ДОБАВЛЕННЫЕ","name":"ЯБЛОЧНЫЙ КРЕМ МРАМОРНЫЙ","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
@@ -309,6 +309,8 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
+          {"id":29,"name":"Видеоролики проекта | Проект Рэндольф в Гане","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
+
           {"id":28,"name":"Видео проекта | Даремский проект в Австралии","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
 
           {"id":27,"name":"Видео проекта | ПРОЕКТ ДУО в ФРАНЦИЯ","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},

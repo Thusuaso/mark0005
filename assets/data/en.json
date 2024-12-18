@@ -156,16 +156,16 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Marble Quarries","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp"},
-            {"id":2,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Marble Quarries","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp"},
-            {"id":3,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Travertine Quarries","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp"},
-            {"id":4,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Travertine Quarries","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp"}
+            {"id":1,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Marble Quarries","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp"},
+            {"id":2,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Marble Quarries","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp"},
+            {"id":3,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Travertine Quarries","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp"},
+            {"id":4,"link":"/fabrication","title":"SCENES FROM QUARRIES","name":"Travertine Quarries","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp"}
           ],
           "slide2":[
-            {"id":1,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp"},
-            {"id":2,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp"},
-            {"id":3,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp"},
-            {"id":4,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp"}
+            {"id":1,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp"},
+            {"id":2,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp"},
+            {"id":3,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp"},
+            {"id":4,"link":"/fabrication","title":"SCENES FROM PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"}
           ],
           "slide3":[
             {"id":1,"link":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf","title":"CATALOG","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
@@ -307,6 +307,8 @@
 
         "title_3":"INFORMATIVE VIDEOS",
         "projects":[
+          {"id":29,"name":"Project Videos | Randolph Project in Ghana","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
+
           {"id":28,"name":"Project Videos | Durham Project in Australia","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
 
           {"id":28,"name":"Project Videos | Lily Project in Ghana","url":"https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS","queue":"28"},

@@ -155,16 +155,16 @@
     },
     "slides":{
         "slide1":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_01-1.webp"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_02-1.webp"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp","macPath":"/image/slides/slide_1/Mekmar_Quarry_Image_03-1.webp"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/Mekmar_Quarry_Image_04-1.webp","macPath":"/image/slides/slide_1/ilkSlide/Mekmar_Quarry_Image_04-1.webp"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Mármol","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE CANTERAS","name":"Canteras de Travertino","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp","macPath":"/image/slides/slide_1/ilkSlide/scenes-from-quarries-mekmar.com-4.webp"}
           ],
           "slide2":[
-            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_01-1.webp"},
-            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_02-1-1.webp"},
-            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_03-1.webp"},
-            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp","macPath":"/image/slides/slide_2/Mekmar_Factory_Image_04-1-1.webp"}
+            {"id":1,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp"},
+            {"id":2,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp"},
+            {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp"},
+            {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"}
           ],
           "slide3":[
             {"id":1,"link":"/es/product/detail/Apple-Cream-Marble/993","title":"AGREGADO RECIENTEMENTE","name":"MÁRMOL CREMA DE MANZANA","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
@@ -311,6 +311,8 @@
         "title_2":"VÍDEOS DE PRODUCCIÓN",
         "title_3":"VÍDEOS INFORMATIVOS",
         "projects":[
+          {"id":29,"name":"Vídeos del Proyecto | Proyecto Randolph en Ghana","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
+
           {"id":28,"name":"Vídeos del Proyecto | Proyecto Durham en Australia","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
 
           {"id":27,"name":"Vídeos del Proyecto | Proyecto DÚO en Francia","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
