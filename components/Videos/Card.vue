@@ -1,5 +1,5 @@
 <template>
-    <h1 class="header">{{ header }}</h1>
+    <h1 class="header" style="margin-bottom:10px;">{{ header }}</h1>
         <!-- <div class="row text-center overflow-x-scroll" style="height:250px;">
         <div class="col-3" v-for="vid in videos" :key="vid.id" >
             <iframe :src="vid.url" frameborder="0"
@@ -11,7 +11,21 @@
         </div>
 
     </div> -->
-    <MazCarousel
+
+    <div class="scrollmenu">
+        <a v-for="vid in videos" :key="vid.id">
+            <iframe :src="vid.url" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen ></iframe>
+            <p class="videosTitle">
+                {{ vid.name }}
+            </p>
+
+        </a>
+        
+    </div>
+
+    <!-- <MazCarousel
     no-scroll-btn
     >
 
@@ -39,7 +53,7 @@
 
 
     </MazCard>
-  </MazCarousel>
+  </MazCarousel> -->
 
 </template>
 <script lang="ts" setup>
@@ -60,5 +74,19 @@ const props = defineProps({
 const { videos, header } = props;
 </script>
 <style scoped>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
 
 </style>
