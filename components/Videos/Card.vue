@@ -17,7 +17,7 @@
             <iframe :src="vid.url" frameborder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen ></iframe>
-            <p class="videosTitle">
+            <p style="margin:0px auto;margin-bottom:-5px;">
                 {{ vid.name }}
             </p>
 
@@ -75,7 +75,7 @@ const { videos, header } = props;
 </script>
 <style scoped>
 div.scrollmenu {
-    background: linear-gradient(360deg, rgba(182,180,180,1) 0%, rgba(176,179,181,1) 28%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(87,87,87,1) 14%, rgba(107,107,107,1) 26%, rgba(209,209,209,1) 100%);
     overflow: auto;
   white-space: nowrap;
 }
