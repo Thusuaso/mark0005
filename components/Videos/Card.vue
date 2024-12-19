@@ -75,8 +75,8 @@ const { videos, header } = props;
 </script>
 <style scoped>
 div.scrollmenu {
-  background: linear-gradient(360deg, rgba(42,42,45,1) 0%, rgba(114,116,120,1) 50%, rgba(250,250,250,1) 100%);
-  overflow: auto;
+    background: linear-gradient(360deg, rgba(182,180,180,1) 0%, rgba(176,179,181,1) 28%, rgba(255,255,255,1) 100%);
+    overflow: auto;
   white-space: nowrap;
 }
 
@@ -86,6 +86,8 @@ div.scrollmenu div {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+}
+.videosTitle{
 }
 
 
