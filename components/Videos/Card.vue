@@ -13,7 +13,7 @@
     </div> -->
 
     <div class="scrollmenu">
-        <a v-for="vid in videos" :key="vid.id">
+        <div v-for="vid in videos" :key="vid.id">
             <iframe :src="vid.url" frameborder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen ></iframe>
@@ -21,7 +21,7 @@
                 {{ vid.name }}
             </p>
 
-        </a>
+        </div>
         
     </div>
 
@@ -75,12 +75,12 @@ const { videos, header } = props;
 </script>
 <style scoped>
 div.scrollmenu {
-  background-color: #333;
+  background: linear-gradient(360deg, rgba(42,42,45,1) 0%, rgba(114,116,120,1) 50%, rgba(250,250,250,1) 100%);
   overflow: auto;
   white-space: nowrap;
 }
 
-div.scrollmenu a {
+div.scrollmenu div {
   display: inline-block;
   color: white;
   text-align: center;
