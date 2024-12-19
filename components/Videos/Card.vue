@@ -15,7 +15,7 @@
     <div class="scrollmenu">
         <a v-for="vid in videos" :key="vid.id">
             <iframe :src="vid.url" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen ></iframe>
             <p class="videosTitle">
                 {{ vid.name }}
