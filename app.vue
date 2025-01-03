@@ -75,7 +75,7 @@ const lang = store.getLang;
   text-decoration: none;
 }
 .customBanner{
-  width:100%;background-color: red;color:white;text-decoration: none;
+  width:99%;background-color: red;color:white;text-decoration: none;
   animation: card_title_color_change 3s infinite alternate-reverse;
   border-radius: 3px;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="container row m-auto" style="width:99%;">
 
         <VideosCard :videos="videos.projects" :header="videos.title_1" />
         <VideosCard :videos="videos.production" :header="videos.title_2" />

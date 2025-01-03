@@ -1,6 +1,6 @@
 <template>
     <h1 class="header mb-3">{{ project_name.toUpperCase() }}</h1>
-    <div class="row m-auto text-center">
+    <div class="row m-auto text-center container">
         <div class="col-sm-6">
             <div class="row m-auto text-center">
 

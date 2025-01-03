@@ -1,6 +1,6 @@
 <template>
     <h1 class="header mb-3">{{ project_header }}</h1>
-    <div class="row m-auto text-center">
+    <div class="container row m-auto text-center">
         <div class="col-sm-3" v-for="project in projects" :key="project.id">
             <ProjectsCard :link="project.link" :image="project.Image" :text="project.name" :country="project.country" />
         </div>

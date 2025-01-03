@@ -1,6 +1,6 @@
 <template>
     <h1 class="header mb-3">{{ item.header }}</h1>
-    <div class="row">
+    <div class="row container">
         <SharedFancybox :options="{
         Carousel: {
             transition: 'slide'
