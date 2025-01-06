@@ -24,16 +24,16 @@
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
                   class="iframe-video"
                 />
-            <div class="form-floating " style="margin-bottom:6px;">
+            <div class="form-floating " >
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
-                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;background-color:white;"></textarea>
+                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;background-color:white;margin-top:7px;"></textarea>
 
             </div>
-            <div class="row m-auto text-center">
-                <h3 class="custom_header header " style="margin-bottom:6px;">{{ suggested_header }}</h3>
+            <div class="row m-auto text-center" style="margin-top:5px;">
+                <h3 class="custom_header header " style="font-weight: bold;margin-top:2px;">{{ suggested_header }}</h3>
 
                 <div class="col-sm-6" v-for="suggested in suggesteds" :key="suggested.id">
-                    <ProjectsCard :link="suggested.link" :image="suggested.Image" :text="suggested.name"
+                    <ProjectsCardSuggested :link="suggested.link" :image="suggested.Image" :text="suggested.name"
                         :country="suggested.country" style="border:3px solid gray;"/>
                 </div>
             </div>
