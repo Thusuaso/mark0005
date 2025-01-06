@@ -78,6 +78,34 @@
         </div>
 
     </div>
+    <div class="row m-auto text-center" v-if="category_id == 1">
+        <div class="col-sm-12">
+            <h3 class="header">What Are Marble Tiles?</h3>
+                <p class="description" style="text-align: justify;">
+                Marble tiles are natural stone tiles made from marble, a metamorphic rock formed when limestone undergoes extreme pressure and heat. Known for their unique veining and rich color variations, each marble tile is distinct and visually stunning. Their crystalline structure allows them to be polished to a high gloss, adding to their luxurious appeal. Available in various finishes like polished, honed, tumbled, sanblasted and bush bushhammered, marble tiles offer versatility in design. They are widely used in flooring, wall cladding, countertops, and bathrooms, adding elegance to residential and commercial spaces. Marble tiles are heat-resistant, making them suitable for kitchens, fireplaces, and outdoor applications. Proper sealing and maintenance help protect them from stains and etching. Their timeless beauty and durability make them a long-term investment in any project. As a natural, eco-friendly material, marble is a sustainable choice for enhancing the aesthetics and value of a space.
+            </p>
+
+
+
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 2">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Travertine?</h3>
+            <p class="description" style="text-align: justify;">
+                Travertine is a natural stone formed through the rapid precipitation of calcium carbonate in mineral springs, particularly hot springs. It is a type of limestone with a porous structure, often characterized by its warm, earthy tones like beige, cream, tan, and rust. Travertine’s unique texture and natural pits give it a rustic charm, though these can be filled for a smoother finish. Available in finishes such as honed, polished, brushed, or tumbled, travertine is versatile for various design styles. It is commonly used in flooring, wall cladding, patios, pool surrounds, and bathroom surfaces due to its slip-resistant properties. Travertine tiles are durable and can withstand weathering, making them ideal for both indoor and outdoor applications. Proper sealing is essential to protect travertine from staining and moisture absorption. Its timeless appeal and natural warmth make travertine a popular choice for achieving classic and elegant spaces. As an eco-friendly material, travertine contributes to sustainable and aesthetically pleasing designs.
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 3">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Limestone?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Limestone tiles are crafted from a sedimentary rock that forms over millions of years from the accumulation of organic materials such as shells and marine sediments. Renowned for their soft, neutral colors like cream, beige, gray, and white, limestone tiles create a calming and natural aesthetic for your decorations. Their subtle patterns and smooth textures make them a versatile choice for both modern and classic architectural designs. Limestone tiles are commonly used for flooring, wall cladding, and outdoor paving, offering a blend of beauty and functionality. They are particularly valued for their ability to stay cool underfoot, making them ideal for warm climates and outdoor areas. Although softer than other natural stones, limestone is durable enough for residential and commercial applications when properly maintained. Regular sealing is recommended to protect it from moisture and staining, especially in wet or high-traffic areas. Limestone tiles are an eco-friendly and timeless choice, enhancing spaces with their understated elegance and natural appeal.
+            </p>
+        </div>
+    </div>
 </template>
 <script setup lang="ts">
 import ProductsCards from '~/components/Products/Card.vue';
@@ -86,11 +114,15 @@ import { useStore } from '~/store/index';
 import {ref} from 'vue';
 const router = useRouter();
 const store = useStore();
-
+let textContinuesBoolean = ref(false);
 await $fetch('/api/products/' + router.currentRoute._value.params.id)
     .then(async res => {
         await store.setCategoriesDetail(res);
     });
+
+const textContinueClick = ()=>{
+    textContinuesBoolean.value = !textContinuesBoolean.value;
+};
 
 
 import control from '~/lang/control';
@@ -114,3 +146,14 @@ const material_header = filtered_header.material;
 const type_header = filtered_header.type;
 const finish_header = filtered_header.finish;
 </script>
+
+<style scoped>
+    .text_continue{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .text_continue_reset{
+        clear: both;
+    }
+</style>

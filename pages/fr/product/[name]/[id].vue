@@ -77,6 +77,38 @@
         </div>
 
     </div>
+    <div class="row m-auto text-center" v-if="category_id == 1">
+        <div class="col-sm-12">
+            <h3 class="header">Que Sont Les Carreaux de Marbre ?</h3>
+                <p class="description" style="text-align: justify;">
+                    Les carreaux de marbre sont des carreaux de pierre naturelle fabriqués à partir de marbre, une roche métamorphique formée lorsque le calcaire subit une pression et une chaleur extrêmes. Connus pour leurs veines uniques et leurs riches variations de couleurs, chaque carreau de marbre est distinct et visuellement époustouflant. Leur structure cristalline leur permet d’être polis jusqu’à obtenir un brillant élevé, ajoutant ainsi à leur attrait luxueux. Disponibles dans diverses finitions comme polies, aiguisées, polies, sablées et bouchardées, les carreaux de marbre offrent une polyvalence de conception. Ils sont largement utilisés dans les revêtements de sol, les revêtements muraux, les comptoirs et les salles de bains, ajoutant de l'élégance aux espaces résidentiels et commerciaux. Les carreaux de marbre résistent à la chaleur, ce qui les rend adaptés aux cuisines, aux cheminées et aux applications extérieures. Une étanchéité et un entretien adéquats aident à les protéger des taches et de la gravure. Leur beauté intemporelle et leur durabilité en font un investissement à long terme dans tout projet. En tant que matériau naturel et respectueux de l'environnement, le marbre est un choix durable pour rehausser l'esthétique et la valeur d'un espace.
+
+                </p>
+
+
+
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 2">
+        <div class="col-sm-12">
+            <h3 class="header">Qu’est-ce Que le Travertin ?</h3>
+            <p class="description" style="text-align: justify;">
+                Le travertin est une pierre naturelle formée par la précipitation rapide du carbonate de calcium dans les sources minérales, en particulier les sources chaudes. C'est un type de calcaire à structure poreuse, souvent caractérisé par ses tons chauds et terreux comme le beige, la crème, le beige et la rouille. La texture unique du travertin et ses creux naturels lui confèrent un charme rustique, même s'ils peuvent être remplis pour une finition plus lisse. Disponible dans des finitions telles que adoucie, polie, brossée ou polie, le travertin est polyvalent pour différents styles de design. Il est couramment utilisé dans les revêtements de sol, les revêtements muraux, les patios, les abords de piscines et les surfaces de salles de bains en raison de ses propriétés antidérapantes. Les carreaux de travertin sont durables et peuvent résister aux intempéries, ce qui les rend idéaux pour les applications intérieures et extérieures. Une bonne étanchéité est essentielle pour protéger le travertin des taches et de l’absorption de l’humidité. Son attrait intemporel et sa chaleur naturelle font du travertin un choix populaire pour créer des espaces classiques et élégants. En tant que matériau écologique, le travertin contribue à des conceptions durables et esthétiques.
+
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 3">
+        <div class="col-sm-12">
+            <h3 class="header">
+                Qu’est-ce Que le Calcaire ?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Les carreaux de calcaire sont fabriqués à partir d'une roche sédimentaire qui se forme sur des millions d'années à partir de l'accumulation de matières organiques telles que des coquillages et des sédiments marins. Réputés pour leurs couleurs douces et neutres comme le crème, le beige, le gris et le blanc, les carreaux de pierre calcaire créent une esthétique apaisante et naturelle pour vos décorations. Leurs motifs subtils et leurs textures douces en font un choix polyvalent pour les conceptions architecturales modernes et classiques. Les carreaux de pierre calcaire sont couramment utilisés pour les revêtements de sol, les revêtements muraux et les pavages extérieurs, offrant un mélange de beauté et de fonctionnalité. Ils sont particulièrement appréciés pour leur capacité à rester frais sous les pieds, ce qui les rend idéaux pour les climats chauds et les espaces extérieurs. Bien que plus douce que les autres pierres naturelles, la pierre calcaire est suffisamment durable pour des applications résidentielles et commerciales lorsqu’elle est correctement entretenue. Un scellement régulier est recommandé pour le protéger de l’humidité et des taches, en particulier dans les zones humides ou à fort trafic. Les carreaux de pierre calcaire sont un choix écologique et intemporel, valorisant les espaces par leur élégance discrète et leur attrait naturel.
+
+            </p>
+        </div>
+    </div>
 </template>
 <script setup lang="ts">
 

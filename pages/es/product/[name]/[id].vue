@@ -77,6 +77,38 @@
         </div>
 
     </div>
+    <div class="row m-auto text-center" v-if="category_id == 1">
+        <div class="col-sm-12">
+            <h3 class="header">¿Qué Son Las Baldosas de Mármol?</h3>
+                <p class="description" style="text-align: justify;">
+                    Las baldosas de mármol son baldosas de piedra natural hechas de mármol, una roca metamórfica que se forma cuando la piedra caliza sufre presión y calor extremos. Conocidas por sus vetas únicas y sus ricas variaciones de color, cada loseta de mármol es distinta y visualmente impresionante. Su estructura cristalina les permite pulirse hasta obtener un alto brillo, lo que aumenta su atractivo lujoso. Disponibles en varios acabados, como pulido, pulido, pulido, pulido y abujardado, las baldosas de mármol ofrecen versatilidad en el diseño. Se utilizan ampliamente en pisos, revestimientos de paredes, encimeras y baños, agregando elegancia a espacios residenciales y comerciales. Las baldosas de mármol son resistentes al calor, lo que las hace adecuadas para cocinas, chimeneas y aplicaciones al aire libre. El sellado y el mantenimiento adecuados ayudan a protegerlos de las manchas y el grabado. Su belleza y durabilidad atemporales los convierten en una inversión a largo plazo en cualquier proyecto. Como material natural y ecológico, el mármol es una opción sostenible para realzar la estética y el valor de un espacio.
+
+            </p>
+
+
+
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 2">
+        <div class="col-sm-12">
+            <h3 class="header">¿Qué Es El Travertino?</h3>
+            <p class="description" style="text-align: justify;">
+                El travertino es una piedra natural que se forma mediante la rápida precipitación de carbonato de calcio en manantiales minerales, particularmente en aguas termales. Es un tipo de piedra caliza con una estructura porosa, a menudo caracterizada por sus tonos cálidos y terrosos como el beige, el crema, el tostado y el óxido. La textura única del travertino y sus hoyos naturales le dan un encanto rústico, aunque se pueden rellenar para obtener un acabado más suave. Disponible en acabados como pulido, cepillado o pulido, el travertino es versátil para varios estilos de diseño. Se usa comúnmente en pisos, revestimientos de paredes, patios, alrededores de piscinas y superficies de baños debido a sus propiedades antideslizantes. Las baldosas de travertino son duraderas y pueden resistir la intemperie, lo que las hace ideales para aplicaciones tanto en interiores como en exteriores. Un sellado adecuado es esencial para proteger el travertino de las manchas y la absorción de humedad. Su atractivo atemporal y su calidez natural hacen del travertino una opción popular para lograr espacios clásicos y elegantes. Como material ecológico, el travertino contribuye a diseños sostenibles y estéticamente agradables.
+
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 3">
+        <div class="col-sm-12">
+            <h3 class="header">
+                ¿Qué Es La Piedra Caliza?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Las baldosas de piedra caliza se elaboran a partir de una roca sedimentaria que se forma a lo largo de millones de años a partir de la acumulación de materiales orgánicos como conchas y sedimentos marinos. Reconocidos por sus colores suaves y neutros como crema, beige, gris y blanco, los azulejos de piedra caliza crean una estética relajante y natural para sus decoraciones. Sus patrones sutiles y texturas suaves los convierten en una opción versátil para diseños arquitectónicos tanto modernos como clásicos. Las baldosas de piedra caliza se utilizan comúnmente para pisos, revestimientos de paredes y pavimentos exteriores, y ofrecen una combinación de belleza y funcionalidad. Son particularmente valorados por su capacidad para mantenerse frescos bajo los pies, lo que los hace ideales para climas cálidos y áreas al aire libre. Aunque es más blanda que otras piedras naturales, la piedra caliza es lo suficientemente duradera para aplicaciones residenciales y comerciales cuando se mantiene adecuadamente. Se recomienda sellar regularmente para protegerlo de la humedad y las manchas, especialmente en áreas húmedas o de mucho tráfico. Las baldosas de piedra caliza son una opción ecológica y atemporal, que realzan los espacios con su discreta elegancia y atractivo natural.
+
+            </p>
+        </div>
+    </div>
 </template>
 <script setup lang="ts">
 

@@ -34,14 +34,14 @@ const { link, image, text,country } = props;
 <style scoped>
 .customContainer {
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin: 0px auto;
     margin-bottom: 25px;
 }
 
 .customElement {
     width: 100%;
-    height: 244px;
+    height: 300px;
     position: relative;
 }
 
@@ -60,9 +60,9 @@ const { link, image, text,country } = props;
 
 .customElement img {
     width: 100%;
-    height: 244px;
+    height: 300px;
     object-fit: fill;
-    box-shadow: 1px 1px 8px black;
+    box-shadow: 1px 1px 8px gray;
     transition: all 1s ease-in-out;
 }
 
