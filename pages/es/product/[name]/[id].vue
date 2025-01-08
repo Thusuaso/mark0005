@@ -79,9 +79,9 @@
     </div>
     <div class="row m-auto text-center" v-if="category_id == 1">
         <div class="col-sm-12">
-            <h3 class="header">¿Qué Son Las Baldosas de Mármol?</h3>
+            <h3 class="header" style="font-weight: bold;">Qué Es El Mármol?</h3>
                 <p class="description" style="text-align: justify;">
-                    Las baldosas de mármol son baldosas de piedra natural hechas de mármol, una roca metamórfica que se forma cuando la piedra caliza sufre presión y calor extremos. Conocidas por sus vetas únicas y sus ricas variaciones de color, cada loseta de mármol es distinta y visualmente impresionante. Su estructura cristalina les permite pulirse hasta obtener un alto brillo, lo que aumenta su atractivo lujoso. Disponibles en varios acabados, como pulido, pulido, pulido, pulido y abujardado, las baldosas de mármol ofrecen versatilidad en el diseño. Se utilizan ampliamente en pisos, revestimientos de paredes, encimeras y baños, agregando elegancia a espacios residenciales y comerciales. Las baldosas de mármol son resistentes al calor, lo que las hace adecuadas para cocinas, chimeneas y aplicaciones al aire libre. El sellado y el mantenimiento adecuados ayudan a protegerlos de las manchas y el grabado. Su belleza y durabilidad atemporales los convierten en una inversión a largo plazo en cualquier proyecto. Como material natural y ecológico, el mármol es una opción sostenible para realzar la estética y el valor de un espacio.
+                    Las <strong >baldosas de mármol</strong> son baldosas de <strong > piedra natural </strong> hechas de <strong > mármol</strong>, una roca metamórfica que se forma cuando la <strong > piedra caliza </strong> sufre una presión y un calor extremos. Conocidas por sus vetas únicas y sus ricas variaciones de color, cada baldosa de mármol es distinta y visualmente impresionante. Su estructura cristalina les permite pulirse hasta obtener un alto brillo, lo que aumenta su atractivo lujoso para sus diseños <strong> de interiores </strong> y <strong> exteriores. </strong>Disponibles en varios acabados como<strong> pulido, apomazado, pulido, pulido </strong>y <strong> abujardado, las baldosas de mármol </strong>ofrecen versatilidad en el diseño. Se utilizan ampliamente en<strong> pisos, revestimientos de paredes, encimeras</strong> y<strong> baños </strong>agregando elegancia a espacios<strong> residenciales </strong>y<strong> comerciales</strong>. Las baldosas de mármol son resistentes al calor, lo que las hace adecuadas para <strong>cocinas, chimeneas</strong>y <strong>aplicaciones en exteriores</strong> así como <strong>decoraciones de interiores</strong>. Un sellado y mantenimiento adecuados ayudan a protegerlos de las manchas y el grabado. Su belleza y durabilidad atemporales los convierten en una inversión a largo plazo en cualquier proyecto. Como material natural y ecológico, el mármol es una opción sostenible para mejorar la estética y el valor de sus decoraciones <strong> interiores </strong> y <strong> exteriores.</strong>
 
             </p>
 
@@ -106,6 +106,19 @@
             <p class="description" style="text-align: justify;">
                 Las baldosas de piedra caliza se elaboran a partir de una roca sedimentaria que se forma a lo largo de millones de años a partir de la acumulación de materiales orgánicos como conchas y sedimentos marinos. Reconocidos por sus colores suaves y neutros como crema, beige, gris y blanco, los azulejos de piedra caliza crean una estética relajante y natural para sus decoraciones. Sus patrones sutiles y texturas suaves los convierten en una opción versátil para diseños arquitectónicos tanto modernos como clásicos. Las baldosas de piedra caliza se utilizan comúnmente para pisos, revestimientos de paredes y pavimentos exteriores, y ofrecen una combinación de belleza y funcionalidad. Son particularmente valorados por su capacidad para mantenerse frescos bajo los pies, lo que los hace ideales para climas cálidos y áreas al aire libre. Aunque es más blanda que otras piedras naturales, la piedra caliza es lo suficientemente duradera para aplicaciones residenciales y comerciales cuando se mantiene adecuadamente. Se recomienda sellar regularmente para protegerlo de la humedad y las manchas, especialmente en áreas húmedas o de mucho tráfico. Las baldosas de piedra caliza son una opción ecológica y atemporal, que realzan los espacios con su discreta elegancia y atractivo natural.
 
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 4">
+        <div class="col-sm-12">
+            <h3 class="header">Qué son los mosaicos?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Los mosaicos de mármol y travertino son azulejos decorativos elaborados a partir de piedras naturales, concretamente mármol, travertino y piedra caliza. Estos mosaicos se diseñan meticulosamente organizando pequeños trozos de piedra en patrones o formas intrincados, lo que los convierte en una opción popular para agregar elegancia y sofisticación a diversas decoraciones interiores y exteriores.
+
+Los mosaicos de mármol son apreciados por su acabado pulido, durabilidad y atractivo lujoso, y a menudo muestran patrones de vetas atemporales en tonos de blanco, gris o negro. Los mosaicos de travertino y piedra caliza, por otro lado, ofrecen un encanto más rústico con sus tonos terrosos y su característica textura porosa, creando un ambiente cálido y natural para sus diseños arquitectónicos interiores y exteriores.
+
+Ideales para salpicaduras, baños, cocinas y paredes destacadas, los mosaicos de mármol, travertino y piedra caliza combinan estilo con funcionalidad. Son la mejor opción para propietarios y diseñadores que buscan realzar sus diseños elegantes con una combinación de belleza clásica y practicidad moderna.
             </p>
         </div>
     </div>
@@ -144,3 +157,11 @@ const material_header = filtered_header.material;
 const type_header = filtered_header.type;
 const finish_header = filtered_header.finish;
 </script>
+
+<style scoped>
+    strong{
+        font-weight: bold;
+        font-style: italic;
+        color:#1e58c4;
+    }
+</style>

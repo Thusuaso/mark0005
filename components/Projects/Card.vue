@@ -34,9 +34,11 @@ const { link, image, text,country } = props;
 <style scoped>
 .customContainer {
     width: 100%;
-    height: 300px;
+    height: 319px;
     margin: 0px auto;
     margin-bottom: 25px;
+    border:10px solid #bcbcbc;
+    box-shadow: 2px 2px 5px #5b5b5b;
 }
 
 .customElement {

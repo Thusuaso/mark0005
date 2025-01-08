@@ -80,10 +80,10 @@
     </div>
     <div class="row m-auto text-center" v-if="category_id == 1">
         <div class="col-sm-12">
-            <h3 class="header">What Are Marble Tiles?</h3>
+            <h3 class="header" style="font-weight: bold;">What Is Marble ?</h3>
                 <p class="description" style="text-align: justify;">
-                Marble tiles are natural stone tiles made from marble, a metamorphic rock formed when limestone undergoes extreme pressure and heat. Known for their unique veining and rich color variations, each marble tile is distinct and visually stunning. Their crystalline structure allows them to be polished to a high gloss, adding to their luxurious appeal. Available in various finishes like polished, honed, tumbled, sanblasted and bush bushhammered, marble tiles offer versatility in design. They are widely used in flooring, wall cladding, countertops, and bathrooms, adding elegance to residential and commercial spaces. Marble tiles are heat-resistant, making them suitable for kitchens, fireplaces, and outdoor applications. Proper sealing and maintenance help protect them from stains and etching. Their timeless beauty and durability make them a long-term investment in any project. As a natural, eco-friendly material, marble is a sustainable choice for enhancing the aesthetics and value of a space.
-            </p>
+                    <strong >Marble tiles</strong> are <strong > natural stone </strong>tiles made from<strong > marble</strong>, a metamorphic rock formed when<strong > limestone </strong> undergoes extreme pressure and heat. Known for their unique veining and rich color variations, each<strong > marble </strong>tile is distinct and visually stunning. Their crystalline structure allows them to be polished to a high gloss, adding to their luxurious appeal to your<strong > interior </strong>and <strong >exterior designs. </strong>Available in various finishes like<strong> polished, honed, tumbled, sanblasted </strong>and <strong > bushhammered, marble tiles </strong>offer versatility in design. They are widely used in<strong > flooring, wall cladding, countertops</strong> and<strong> bathrooms </strong>adding elegance to<strong> residential </strong>and<strong > commercial spaces</strong>. Marble tiles are heat-resistant, making them suitable for<strong > kitchens, fireplaces </strong>and <strong>outdoor applications </strong>as well as<strong > inside decorations</strong>. Proper sealing and maintenance help protect them from stains and etching. Their timeless beauty and durability make them a long-term investment in any project. As a natural, eco-friendly material, marble is a sustainable choice for enhancing the aesthetics and value of a your<strong > inside </strong>and<strong > outside decorations.</strong>
+                </p>
 
 
 
@@ -103,6 +103,19 @@
             </h3>
             <p class="description" style="text-align: justify;">
                 Limestone tiles are crafted from a sedimentary rock that forms over millions of years from the accumulation of organic materials such as shells and marine sediments. Renowned for their soft, neutral colors like cream, beige, gray, and white, limestone tiles create a calming and natural aesthetic for your decorations. Their subtle patterns and smooth textures make them a versatile choice for both modern and classic architectural designs. Limestone tiles are commonly used for flooring, wall cladding, and outdoor paving, offering a blend of beauty and functionality. They are particularly valued for their ability to stay cool underfoot, making them ideal for warm climates and outdoor areas. Although softer than other natural stones, limestone is durable enough for residential and commercial applications when properly maintained. Regular sealing is recommended to protect it from moisture and staining, especially in wet or high-traffic areas. Limestone tiles are an eco-friendly and timeless choice, enhancing spaces with their understated elegance and natural appeal.
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 4">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Mosaics?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Marble and travertine mosaics are decorative tiles crafted from natural stones, specifically marble, travertine and limestone. These mosaics are meticulously designed by arranging small pieces of stone into intricate patterns or shapes, making them a popular choice for adding elegance and sophistication to various interior and exterior decorations.
+
+Marble mosaics are prized for their polished finish, durability, and luxurious appeal, often showcasing timeless veining patterns in shades of white, gray, or black. Travertine and limestone mosaics, on the other hand, offer a more rustic charm with their earthy tones and characteristic porous texture, creating a warm and natural ambiance for your inside and outside architectural designs.
+
+Ideal for backsplashes, bathrooms, kitchens, and feature walls, marble, travertine and limestone mosaics combine style with functionality. They are a top choice for homeowners and designers seeking to enhance their elegant designs with a blend of classical beauty and modern practicality.
             </p>
         </div>
     </div>
@@ -155,5 +168,10 @@ const finish_header = filtered_header.finish;
     }
     .text_continue_reset{
         clear: both;
+    }
+    strong{
+        font-weight: bold;
+        font-style: italic;
+        color:#1e58c4;
     }
 </style>

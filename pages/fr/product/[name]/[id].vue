@@ -79,9 +79,9 @@
     </div>
     <div class="row m-auto text-center" v-if="category_id == 1">
         <div class="col-sm-12">
-            <h3 class="header">Que Sont Les Carreaux de Marbre ?</h3>
+            <h3 class="header" style="font-weight: bold;">Qu'est-ce Que Le Marbre ?</h3>
                 <p class="description" style="text-align: justify;">
-                    Les carreaux de marbre sont des carreaux de pierre naturelle fabriqués à partir de marbre, une roche métamorphique formée lorsque le calcaire subit une pression et une chaleur extrêmes. Connus pour leurs veines uniques et leurs riches variations de couleurs, chaque carreau de marbre est distinct et visuellement époustouflant. Leur structure cristalline leur permet d’être polis jusqu’à obtenir un brillant élevé, ajoutant ainsi à leur attrait luxueux. Disponibles dans diverses finitions comme polies, aiguisées, polies, sablées et bouchardées, les carreaux de marbre offrent une polyvalence de conception. Ils sont largement utilisés dans les revêtements de sol, les revêtements muraux, les comptoirs et les salles de bains, ajoutant de l'élégance aux espaces résidentiels et commerciaux. Les carreaux de marbre résistent à la chaleur, ce qui les rend adaptés aux cuisines, aux cheminées et aux applications extérieures. Une étanchéité et un entretien adéquats aident à les protéger des taches et de la gravure. Leur beauté intemporelle et leur durabilité en font un investissement à long terme dans tout projet. En tant que matériau naturel et respectueux de l'environnement, le marbre est un choix durable pour rehausser l'esthétique et la valeur d'un espace.
+                    Les <strong>carreaux en marbre</strong> sont des carreaux de <strong>pierre naturelle</strong> fabriqués à partir de<strong> marbre</strong>, une roche métamorphique formée lorsque le<strong> calcaire </strong> subit une pression et une chaleur extrêmes. Connus pour leurs veines uniques et leurs riches variations de couleurs, chaque carrelage en marbre est distinct et visuellement époustouflant. Leur structure cristalline leur permet d'être polis jusqu'à obtenir un brillant élevé, ajoutant ainsi leur attrait luxueux à vos designs <strong>intérieurs</strong> et <strong>extérieurs. </strong>Disponibles dans diverses finitions telles que <strong>polies, aiguisées, polies, sablées </strong>et <strong>bouchardées, les carreaux de marbre </strong>offrent une polyvalence de conception. Ils sont largement utilisés dans les <strong> revêtements de sol, les revêtements muraux, les comptoirs</strong> et les <strong> salles de bains </strong>, ajoutant de l'élégance aux <strong> espaces résidentiels </strong>et<strong> commerciaux</strong>. Les carreaux de marbre sont résistants à la chaleur, ce qui les rend adaptés aux <strong>cuisines, cheminées </strong>et aux <strong>applications extérieures</strong> ainsi qu'aux <strong>décorations intérieures</strong>. Une étanchéité et un entretien adéquats aident à les protéger des taches et de la gravure. Leur beauté intemporelle et leur durabilité en font un investissement à long terme dans tout projet. En tant que matériau naturel et respectueux de l'environnement, le marbre est un choix durable pour rehausser l'esthétique et la valeur de vos décorations<strong> intérieures </strong>et<strong> extérieures.</strong>
 
                 </p>
 
@@ -106,6 +106,19 @@
             <p class="description" style="text-align: justify;">
                 Les carreaux de calcaire sont fabriqués à partir d'une roche sédimentaire qui se forme sur des millions d'années à partir de l'accumulation de matières organiques telles que des coquillages et des sédiments marins. Réputés pour leurs couleurs douces et neutres comme le crème, le beige, le gris et le blanc, les carreaux de pierre calcaire créent une esthétique apaisante et naturelle pour vos décorations. Leurs motifs subtils et leurs textures douces en font un choix polyvalent pour les conceptions architecturales modernes et classiques. Les carreaux de pierre calcaire sont couramment utilisés pour les revêtements de sol, les revêtements muraux et les pavages extérieurs, offrant un mélange de beauté et de fonctionnalité. Ils sont particulièrement appréciés pour leur capacité à rester frais sous les pieds, ce qui les rend idéaux pour les climats chauds et les espaces extérieurs. Bien que plus douce que les autres pierres naturelles, la pierre calcaire est suffisamment durable pour des applications résidentielles et commerciales lorsqu’elle est correctement entretenue. Un scellement régulier est recommandé pour le protéger de l’humidité et des taches, en particulier dans les zones humides ou à fort trafic. Les carreaux de pierre calcaire sont un choix écologique et intemporel, valorisant les espaces par leur élégance discrète et leur attrait naturel.
 
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center" v-if="category_id == 4">
+        <div class="col-sm-12">
+            <h3 class="header">Qu’est-ce que les mosaïques ?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Les mosaïques de marbre et de travertin sont des carreaux décoratifs fabriqués à partir de pierres naturelles, notamment de marbre, de travertin et de calcaire. Ces mosaïques sont méticuleusement conçues en disposant de petits morceaux de pierre selon des motifs ou des formes complexes, ce qui en fait un choix populaire pour ajouter de l'élégance et de la sophistication à diverses décorations intérieures et extérieures.
+
+Les mosaïques de marbre sont appréciées pour leur finition polie, leur durabilité et leur attrait luxueux, présentant souvent des motifs veinés intemporels dans des tons de blanc, de gris ou de noir. Les mosaïques de travertin et de calcaire, quant à elles, offrent un charme plus rustique avec leurs tons terreux et leur texture poreuse caractéristique, créant une ambiance chaleureuse et naturelle pour vos conceptions architecturales intérieures et extérieures.
+
+Idéales pour les dosserets, les salles de bains, les cuisines et les murs décoratifs, les mosaïques de marbre, de travertin et de pierre calcaire allient style et fonctionnalité. Ils constituent un choix de premier ordre pour les propriétaires et les designers qui cherchent à rehausser leurs créations élégantes avec un mélange de beauté classique et de fonctionnalité moderne.
             </p>
         </div>
     </div>
@@ -144,3 +157,11 @@ const material_header = filtered_header.material;
 const type_header = filtered_header.type;
 const finish_header = filtered_header.finish;
 </script>
+
+<style scoped>
+    strong{
+        font-weight: bold;
+        font-style: italic;
+        color:#1e58c4;
+    }
+</style>
