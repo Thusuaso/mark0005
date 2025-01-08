@@ -8,7 +8,6 @@
                 The page you’re looking for doesn’t exist.
             </p>
             <ProgressBar mode="indeterminate" style="height: 6px"></ProgressBar>
-
         </div>
     </div>
     </div>
