@@ -37,17 +37,502 @@
     text-decoration: none;
     margin: 0px auto;
     padding: 0px;
-    line-height: 35px;
+    line-height: 32px;
 }
-.about-description-ru {
-    font-size: 14px;
+.about-description-fr {
+    font-size: 16px;
     text-align: justify;
     vertical-align: top;
     text-decoration: none;
     margin: 0px auto;
     padding: 0px;
-    line-height: 27px;
+    line-height: 24.5px;
 }
+.about-description-es {
+    font-size: 16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 24.6px;
+}
+.about-description-ru {
+    font-size: 16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 24.5px;
+}
+.about-description-ar {
+    font-size: 16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 40px;
+}
+
+.about-value-en{
+    font-size:16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 32px;
+}
+.about-value-fr{
+    font-size:16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 24.5px;
+}
+.about-value-es{
+    font-size:16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 24.5px;
+}
+.about-value-ru{
+    font-size:16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 23.5px;
+}
+.about-value-ar{
+    font-size:16px;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px;
+    line-height: 40px;
+}
+
+/*footer about us desc breakpoints*/
+/* @media (min-width: 576px) { 
+    .about-description-en {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14.5px;
+    }
+    .about-value-en{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14.5px;
+    }
+
+ } */
+
+@media (min-width: 768px) {
+    .about-description-en {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14.5px;
+    }
+    .about-value-en{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14.5px;
+    }
+    .about-description-fr {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14px;
+    }
+    .about-value-fr{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14px;
+    }
+    .about-description-es {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14px;
+    }
+    .about-value-es{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 14px;
+    }
+    .about-description-ru {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 13px;
+    }
+    .about-value-ru{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height:13px;
+    }
+    .about-description-ar {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+    .about-value-ar{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+  }
+
+@media (min-width: 992px) { 
+    .about-description-en {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+    .about-value-en{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+    .about-description-fr {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 17px;
+    }
+    .about-value-fr{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 17px;
+    }
+    .about-description-es {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+    .about-value-es{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 20px;
+    }
+    .about-description-ru {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 18.5px;
+    }
+    .about-value-ru{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height:18.5px;
+    }
+    .about-description-ar {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 25px;
+    }
+    .about-value-ar{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+
+ }
+
+@media (min-width: 1200px) { 
+    .about-description-en {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+    .about-value-en{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+
+
+    .about-description-fr {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 23px;
+    }
+    .about-value-fr{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 23px;
+    }
+
+
+
+
+    .about-description-es {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 21.5px;
+    }
+    .about-value-es{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 21.5px;
+    }
+    .about-description-ru {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 21px;
+    }
+    .about-value-ru{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 21px;
+    }
+
+
+    .about-description-ar {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 32.5px;
+    }
+    .about-value-ar{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 32px;
+    }
+
+ }
+
+@media (min-width: 1400px) { 
+    .about-description-en {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 32px;
+    }
+    .about-description-fr {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+    .about-description-es {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.6px;
+    }
+    .about-description-ru {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+
+    .about-value-ru{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 23.5px;
+    }
+    .about-description-ar {
+        font-size: 16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 40px;
+    }
+    
+    .about-value-en{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 32px;
+    }
+    .about-value-fr{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+    .about-value-es{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 24.5px;
+    }
+
+    .about-value-ar{
+        font-size:16px;
+        text-align: justify;
+        vertical-align: top;
+        text-decoration: none;
+        margin: 0px auto;
+        padding: 0px;
+        line-height: 40px;
+    }
+ }
+
+
+
+
 
 .about-page-description {
     font-size: 14px;
@@ -339,15 +824,7 @@
 .contact-personal:hover{
     color:#1357bc
 }
-.about-description-ar{
-    font-size: 16px;
-    text-align: justify;
-    vertical-align: top;
-    text-decoration: none;
-    margin: 0px auto;
-    padding: 0px;
-    line-height: 40px;
-}
+
 .galleria-img{
     width: 900px; display: block;
 }

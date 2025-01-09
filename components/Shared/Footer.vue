@@ -6,17 +6,25 @@
                 <p :class="
                 lang == 'en' ? 'about-description-en':'' ||
                 lang == 'ar' ? 'about-description-ar':'' ||
-                lang=='ru' ? 'about-description-ru':''
+                lang=='ru' ? 'about-description-ru':'' || 
+                lang == 'fr'? 'about-description-fr':'' ||
+                lang == 'es'? 'about-description-es':'' 
+                
                 ">{{ footer.about.description }}</p>
-                <ul>
+                <ul v-if="lang!= 'ru'">
                     <li v-for="item of footer.about.items" :key="item.id" :class="
-                        lang == 'en' ? 'about-description-en':'' || 
-                        lang == 'ar' ? 'about-description-ar':'' ||
-                        lang=='ru' ? 'about-description-ru':''
+                        lang == 'en' ? 'about-value-en':'' || 
+                        lang == 'ar' ? 'about-value-ar':'' ||
+                        lang=='ru' ? 'about-value-ru':'' || 
+                        lang == 'fr'? 'about-value-fr':'' ||
+                        lang == 'es'? 'about-value-es':'' 
                         
                         ">{{ item.value }}
                     </li>
                 </ul>
+                <div v-else>
+                    <p class="about-value-ru" v-for="item of footer.about.items" :key="item.id">{{ item.value }}</p>
+                </div>
                 <ul class="row m-auto text-center">
                     <li class="col-2" v-for="social of footer.about.socials" style="list-style-type: none;">
                         <a :href="social.link" target="_blank" style="color: #1357bc;">
