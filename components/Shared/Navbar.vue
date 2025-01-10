@@ -91,7 +91,7 @@
         <li class="nav-item">
           <NuxtLink class="nav-link" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.usa }}
           </a>
@@ -111,7 +111,7 @@
 
           </ul>
           
-        </li>
+        </li> -->
 
       </ul>
       <form class="d-flex" role="search" >
