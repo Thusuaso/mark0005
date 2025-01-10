@@ -28,9 +28,10 @@
         </a>
 
       </div>
+      <CategoriesSlides :slides="slides.slide3" />
+
       <CategoriesSlides :slides="slides.slide1" />
       <CategoriesSlides :slides="slides.slide2" />
-      <CategoriesSlides :slides="slides.slide3" />
 
       
     </div>
