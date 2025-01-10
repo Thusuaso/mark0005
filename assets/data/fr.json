@@ -168,12 +168,11 @@
             {"id":4,"link":"/fr/fabrication","title":"SCÈNES DE PRODUCTION","name":"Fabrication","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"}
           ],
           "slide3":[
-            {"id":1,"link":"/fr/product/detail/Apple-Cream-Marble/993","title":"NOUVELLEMENT AJOUTÉ","name":"MARBRE À LA CRÈME DE POMME","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"},
+            {"id":1,"link":"https://www.mekmar.com/fr/product/detail/bianco-ibiza-sandblasted-marble-paver/996","title":"NOUVELLEMENT AJOUTÉ","name":"","imagePath":"https://cdn.mekmarimage.com/products/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp","macPath":"https://cdn.mekmarimage.com/products/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp"},
 
-            {"id":2,"link":"/fr/product/detail/Turkish-Statuario-Marble-Slab/991","title":"NOUVELLEMENT AJOUTÉ","name":"Dalle de Marbre Statuario Turc","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-991-1.webp"},
-            {"id":3,"link":"/fr/product/detail/Imperial-Carrara-Marble/979","title":"NOUVELLEMENT AJOUTÉ","name":"Marbre Impérial de Carrare","imagePath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp","macPath":"https://cdn.mekmarimage.com/products/mekmar-979-1.webp"},
-            {"id":4,"link":"/fr/product/detail/Astoria-Quartz/976","title":"NOUVELLEMENT AJOUTÉ","name":"Quartz Astoria","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-976-1.webp"}
-    
+            {"id":2,"link":"https://www.mekmar.com/fr/product/detail/snow-black-marble-splitface/995","title":"NOUVELLEMENT AJOUTÉ","name":"","imagePath":"https://cdn.mekmarimage.com/products/Snow-black-splitface-marble-tile1.webp","macPath":"https://cdn.mekmarimage.com/products/Snow-black-splitface-marble-tile1.webp"},
+            {"id":3,"link":"https://www.mekmar.com/fr/product/detail/snow-black-marble/994","title":"NOUVELLEMENT AJOUTÉ","name":"","imagePath":"https://cdn.mekmarimage.com/products/Snow-black-marble-tile1.webp","macPath":"https://cdn.mekmarimage.com/products/Snow-black-marble-tile1.webp"},
+            {"id":4,"link":"https://www.mekmar.com/fr/product/detail/apple-cream-marble/993","title":"NOUVELLEMENT AJOUTÉ","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"}
           ]
     },
     "categories":[
