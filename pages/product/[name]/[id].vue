@@ -1,6 +1,6 @@
 <template>
 
-    <div class="row m-auto text-center">
+    <div class="row m-auto text-center ">
         <div class="col-sm-3 filter-custom">
             <div class="container border mb-3">
                 <h1 class="header mt-3">{{ category_header }}</h1>
@@ -78,7 +78,7 @@
         </div>
 
     </div>
-    <div class="row m-auto text-center" v-if="category_id == 1">
+    <div class="row m-auto text-center " v-if="category_id == 1">
         <div class="col-sm-12">
             <h3 class="header" style="font-weight: bold;">What Is Marble ?</h3>
                 <p class="description" style="text-align: justify;">
@@ -89,33 +89,37 @@
 
         </div>
     </div>
-    <div class="row m-auto text-center" v-if="category_id == 2">
+    <div class="row m-auto text-center " v-if="category_id == 2">
         <div class="col-sm-12">
             <h3 class="header">What Is Travertine?</h3>
             <p class="description" style="text-align: justify;">
-                Travertine is a natural stone formed through the rapid precipitation of calcium carbonate in mineral springs, particularly hot springs. It is a type of limestone with a porous structure, often characterized by its warm, earthy tones like beige, cream, tan, and rust. Travertine’s unique texture and natural pits give it a rustic charm, though these can be filled for a smoother finish. Available in finishes such as honed, polished, brushed, or tumbled, travertine is versatile for various design styles. It is commonly used in flooring, wall cladding, patios, pool surrounds, and bathroom surfaces due to its slip-resistant properties. Travertine tiles are durable and can withstand weathering, making them ideal for both indoor and outdoor applications. Proper sealing is essential to protect travertine from staining and moisture absorption. Its timeless appeal and natural warmth make travertine a popular choice for achieving classic and elegant spaces. As an eco-friendly material, travertine contributes to sustainable and aesthetically pleasing designs.
+                <strong> Travertine </strong> is a natural stone formed through the rapid precipitation of calcium carbonate in mineral springs, particularly hot springs. It is a type of <strong> limestone </strong> with a porous structure, often characterized by its warm, earthy tones like beige, cream, tan, and rust. Travertine’s unique texture and natural pits give it a rustic charm, though these can be filled for a smoother finish. Available in finishes such as <strong> honed</strong>, <strong> polished</strong>,<strong> brushed</strong> or <strong> tumbled</strong>, <strong> travertine </strong> is versatile for various <strong> architectural design </strong>styles. It is commonly used in <strong> flooring</strong>, <strong> wall cladding</strong>, <strong> patios</strong>, <strong>pool surrounds</strong> and <strong>bathroom surfaces</strong> due to its <strong>slip-resistant</strong> properties. <strong>Travertine tiles</strong> are durable and can withstand weathering, making them ideal for both <strong>indoor</strong> and <strong>outdoor</strong> applications. <strong>Proper sealing</strong> is essential to protect <strong>travertine</strong> from staining and moisture absorption. Its timeless appeal and natural warmth make <strong>travertine</strong> a popular choice for achieving classic and elegant <strong>interior</strong> and <strong>exterior decorations</strong>. As an eco-friendly material, travertine contributes to sustainable and aesthetically pleasing home décor ideas and designs for the <strong>architects</strong>, <strong>designers</strong> and final users.
             </p>
         </div>
     </div>
-    <div class="row m-auto text-center" v-if="category_id == 3">
+    <div class="row m-auto text-center " v-if="category_id == 3">
         <div class="col-sm-12">
             <h3 class="header">What Is Limestone?
             </h3>
             <p class="description" style="text-align: justify;">
-                Limestone tiles are crafted from a sedimentary rock that forms over millions of years from the accumulation of organic materials such as shells and marine sediments. Renowned for their soft, neutral colors like cream, beige, gray, and white, limestone tiles create a calming and natural aesthetic for your decorations. Their subtle patterns and smooth textures make them a versatile choice for both modern and classic architectural designs. Limestone tiles are commonly used for flooring, wall cladding, and outdoor paving, offering a blend of beauty and functionality. They are particularly valued for their ability to stay cool underfoot, making them ideal for warm climates and outdoor areas. Although softer than other natural stones, limestone is durable enough for residential and commercial applications when properly maintained. Regular sealing is recommended to protect it from moisture and staining, especially in wet or high-traffic areas. Limestone tiles are an eco-friendly and timeless choice, enhancing spaces with their understated elegance and natural appeal.
+                <strong>Limestone tiles</strong> are crafted from a sedimentary rock that forms over millions of years from the accumulation of organic materials such as shells and marine sediments. Renowned for their soft, neutral colors like cream, beige, gray, and white, <strong>limestone tiles</strong> create a calming and natural aesthetic for your <strong>interior</strong> and <strong>exterior decorations</strong>. Their subtle patterns and smooth textures make them a versatile choice for both <strong>modern</strong> and <strong>classic architectural designs</strong>. <strong>Limestone tiles</strong> are commonly used for <strong>flooring</strong>, <strong>wall cladding</strong> and <strong>outdoor paving</strong>, offering a blend of beauty and functionality. They are particularly valued for their ability to stay cool underfoot, making them ideal for <strong>warm climates</strong> and <strong>outdoor areas</strong>. Available in finishes such as <strong>honed</strong>, <strong>brushed</strong>, <strong>tumbled</strong>, <strong>sandblasted</strong> and <strong>bushhammered</strong>; <strong>limestone</strong> is a top choice for various <strong>architectural designs</strong>. It is commonly used in <strong>flooring</strong>, <strong>wall cladding</strong>, <strong>patios</strong>, <strong>pool surrounds</strong>, and <strong>bathroom surface</strong> due to its <strong>slip-resistant</strong> properties. Although softer than other natural stones, limestone is durable enough for <strong>residential</strong> and <strong>commercial applications</strong> when properly maintained. Regular sealing is recommended to protect it from moisture and staining, especially in wet or high-traffic areas. <strong>Limestone tiles</strong> are an eco-friendly and timeless choice for <strong>architects</strong> and <strong>designers</strong>, enhancing spaces with their understated elegance and natural appeal.            
+            
             </p>
         </div>
     </div>
-    <div class="row m-auto text-center" v-if="category_id == 4">
+    <div class="row m-auto text-center " v-if="category_id == 4">
         <div class="col-sm-12">
-            <h3 class="header">What Is Mosaics?
-            </h3>
+            <h3 class="header">What Is Natural Stone Mosaic?</h3>
             <p class="description" style="text-align: justify;">
-                Marble and travertine mosaics are decorative tiles crafted from natural stones, specifically marble, travertine and limestone. These mosaics are meticulously designed by arranging small pieces of stone into intricate patterns or shapes, making them a popular choice for adding elegance and sophistication to various interior and exterior decorations.
-
-Marble mosaics are prized for their polished finish, durability, and luxurious appeal, often showcasing timeless veining patterns in shades of white, gray, or black. Travertine and limestone mosaics, on the other hand, offer a more rustic charm with their earthy tones and characteristic porous texture, creating a warm and natural ambiance for your inside and outside architectural designs.
-
-Ideal for backsplashes, bathrooms, kitchens, and feature walls, marble, travertine and limestone mosaics combine style with functionality. They are a top choice for homeowners and designers seeking to enhance their elegant designs with a blend of classical beauty and modern practicality.
+                <strong>Marble</strong>, <strong>travertine</strong> and <strong>limestone mosaics</strong> are <strong>decorative tiles</strong> crafted from <strong>natural stones</strong> to add sophisticated looks to <strong>interior</strong> and <strong>exterior designs</strong>. These <strong>mosaics</strong> are meticulously designed by arranging small pieces of stone into intricate patterns or shapes, making them a popular choice for adding elegance to various <strong>architectural decorations</strong>. <strong>Marble mosaics</strong> are prized for their <strong>polished finish</strong>, durability, and luxurious appeal, often showcasing timeless veining patterns in shades of white, gray, or black. <strong>Travertine</strong> and <strong>limestone mosaics</strong>, on the other hand, offer a more rustic charm with their earthy tones and characteristic porous texture, creating a warm and natural ambiance for your <strong>inside</strong> and <strong>outside decorations</strong>. Ideal for <strong>backsplashes</strong>, <strong>bathrooms</strong>, <strong>kitchens</strong>, and <strong>feature walls</strong>, <strong>marble</strong>, <strong>travertine</strong> and <strong>limestone mosaics</strong> combine style with functionality. <strong>Natural stone mosaics</strong> are a top choice for <strong>homeowners</strong> and <strong>designers</strong> seeking to enhance their <strong>elegant designs</strong> with a blend of classical beauty and modern practicality. Mosaics can offer a colorful decorations ideas for  <strong>residential</strong> and <strong>commercial projects</strong>.
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center " v-if="category_id == 5">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Outdoor Stone Products?</h3>
+            <p class="description" style="text-align: justify;">
+                <strong>Outdoor stone products</strong> are natural or manufactured stone materials specifically designed for use in <strong>exterior applications</strong>. These products are crafted to withstand varying weather conditions, including rain, sun exposure, frost, and heavy foot traffic, making them durable and versatile solutions for <strong>outdoor spaces</strong>. Common outdoor stone products include <strong>pavers</strong>, <strong></strong>tiles, <strong>coping</strong>, <strong>cladding</strong>, and <strong>landscaping stones</strong>, made from materials like <strong>travertine</strong>, <strong>marble</strong>, <strong>granite</strong>, <strong>limestone</strong>, and <strong>slate</strong>. They are frequently used for creating <strong>patios</strong>, <strong>pathways</strong>, <strong>pool surrounds</strong>, <strong>garden walls</strong>, <strong>facades</strong>, and other <strong>outdoor features</strong>. Known for their natural beauty, <strong>slip resistance</strong>, and low maintenance, <strong>outdoor stone products</strong> add a timeless aesthetic while enhancing the functionality and value of <strong>exterior areas</strong>. <strong>Marble</strong> and <strong>travertine</strong>, in particular, are highly sought-after for <strong>outdoor projects</strong> due to their natural beauty and enduring strength. <strong>Marble</strong> offers a luxurious, polished look, perfect for sophisticated outdoor spaces such as <strong>patios</strong> and <strong>garden pathways</strong>. <strong>Travertine</strong>, with its rustic texture and <strong>slip-resistant</strong> surface, is ideal for <strong>pool surrounds</strong>, <strong>walkways</strong>, and <strong>outdoor staircases</strong>, ensuring safety without compromising style. Both materials are naturally resistant to heat, making them an excellent choice for sunny environments. When properly sealed and maintained, <strong>marble</strong>, <strong>travertine</strong> and <strong>limestone outdoor</strong> products can last for decades, maintaining their charm and enhancing the value of any property.
             </p>
         </div>
     </div>
