@@ -19,7 +19,7 @@
         <div class="col-sm-6 mt-2">
                         <iframe v-if="video" class="iframe-video" :src="video" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                allowfullscreen style="height:523px;margin-bottom:9px;text-wrap:balance;text-align:left;line-height: 1.5;background-color:white;text-indent: 20px;margin-top:7px;"></iframe>
             <img v-else
                   src="https://cdn.mekmarimage.com/galleria-project_photos/project-gif.gif"
                   class="iframe-video"
