@@ -125,6 +125,26 @@
             </p>
         </div>
     </div>
+    <div class="row m-auto text-center " v-if="category_id == 6">
+        <div class="col-sm-12">
+            <h3 class="header">Qué Son Los Productos De Baño y Cocina?</h3>
+            <p class="description" style="text-align: justify;">
+                El <strong>Baño</strong> y la <strong>Cocina</strong> son las zonas más elegidas para decorar con elegancia la <strong>piedra natural</strong>. Transforme sus espacios de <strong>baño</strong> y <strong>cocina</strong> con la belleza y durabilidad atemporales de los productos de <strong>piedra natural</strong> elaborados a partir de <strong>mármol</strong>, <strong>travertino</strong> y <strong>piedra caliza</strong>. Estos exquisitos materiales aportan un toque de lujo y sofisticación, combinando atractivo estético con funcionalidad práctica.
+                El <strong>mármol</strong> es la <strong>piedra natural</strong> más habitual para decorar tus <strong>baños</strong> y <strong>cocinas</strong> con sus elegantes vetas y su acabado pulido, y añade un toque lujoso a <strong>encimeras</strong>, <strong>salpicaderos</strong>, <strong>tocadores</strong> y <strong>platos de ducha</strong>. Sus patrones únicos garantizan que no haya dos piezas iguales, lo que hace que su espacio sea verdaderamente único. Si bien el <strong>travertino</strong> es conocido por sus tonos terrosos y su superficie texturizada, proporciona un encanto rústico pero refinado. Es un material ideal para <strong>lavabos</strong>, <strong>bañeras</strong>, <strong>revestimientos de paredes</strong> y <strong>suelos</strong>, creando un ambiente cálido y acogedor. . Como otra opción de <strong>piedra natural</strong> para un diseño artístico, la <strong>piedra caliza</strong> tiene texturas sutiles y brillos en aplicaciones como <strong>platos de ducha</strong>, lavabos y <strong>platos de ducha</strong>. <strong>islas de cocina</strong> al mismo tiempo que complementan a la perfección diseños modernos y tradicionales. Mientras que las <strong>encimeras</strong> duraderas y resistentes al calor hacen que cocinar sea un placer, los elegantes <strong>fregaderos</strong> y <strong>bañeras</strong> de piedra convierten las rutinas diarias en experiencias lujosas. Los <strong>platos de ducha</strong> y <strong>bañeras</strong> de piedra, diseñados para ofrecer estilo y funcionalidad, realzan el atractivo de cualquier baño <strong>residencial</strong> y <strong>comercial</strong>. con su apariencia elegante y perfecta para la decoración de su baño y cocina.
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center " v-if="category_id == 7">
+        <div class="col-sm-12">
+            <h3 class="header">Qué Son Los Productos De Losa?
+            </h3>
+            <p class="description" style="text-align: justify;">
+                Las exquisitas losas de piedra natural de <strong>mármol</strong>, <strong>travertino</strong> y <strong>caliza</strong> son una de las mejores opciones para conseguir superficies impresionantes. Mejore sus espacios con <strong>losas de piedra natural</strong> de primera calidad hechas de <strong>mármol</strong>, <strong>travertino</strong> y <strong>piedra caliza</strong>. Perfectas para una amplia gama de superficies, estas losas son ideales para crear lujosas <strong>encimeras de cocina</strong>, elegantes <strong>tocadores de baño</strong>, <strong>pisos</strong> duraderos y <strong>suelos</strong> llamativos <strong>revestimiento de paredes</strong>.
+
+                Ya sea diseñando elegantes <strong>paredes de ducha</strong>, <strong>encimeras de muebles</strong> personalizados o superficies de <strong>patios al aire libre</strong>, nuestras <strong>losas de piedra natural</strong> brindan una belleza atemporal y versatilidad inigualable. Cada losa se selecciona cuidadosamente por sus patrones, colores y texturas únicos, lo que garantiza que sus superficies sean tan distintivas como su estilo. Con su durabilidad y elegancia <strong>natural</strong>, el <strong>mármol</strong> ofrece una sofisticación pulida, el <strong>travertino</strong> añade encanto rústico y la <strong>piedra caliza</strong> crea un Aspecto sutil y refinado. Estas <strong>losas</strong> son aptas tanto para espacios <strong>residenciales</strong> como <strong>comerciales</strong>, transformando <strong>cocinas</strong>, <strong>baños</strong> , <strong>salas de estar</strong>, <strong>oficinas</strong> e incluso <strong>áreas al aire libre</strong> en impresionantes obras de arte. Explore nuestra colección para encontrar la <strong>losa de piedra natural</strong> perfecta para sus <strong>diseños arquitectónicos</strong> y cree superficies que resistan el paso del tiempo y al mismo tiempo agreguen una elegancia inigualable a cada rincón de su espacio.
+            </p>
+        </div>
+    </div>
 </template>
 <script setup lang="ts">
 

@@ -123,6 +123,25 @@
             </p>
         </div>
     </div>
+    <div class="row m-auto text-center " v-if="category_id == 6">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Bath & Kitchen Products?</h3>
+            <p class="description" style="text-align: justify;">
+                <strong>Bath</strong> and <strong>Kitchen</strong> are the most popular areas choosen to be decorated with <strong>natural stone</strong> elegance. Transform your <strong>bath</strong> and <strong>kitchen</strong> spaces with the timeless beauty and durability of <strong>natural stone</strong> products crafted from <strong>marble</strong>, <strong>travertine</strong>, and <strong>limestone</strong>. These exquisite materials bring a touch of luxury and sophistication, combining aesthetic appeal with practical functionality. <strong>Marble</strong> is the most common <strong>natural stone</strong> to decorate your <strong>baths</strong> and <strong>kitchens</strong> with its elegant veining and polished finish, and it adds a luxurious touch to <strong>countertops</strong>, <strong>backsplashes</strong>, <strong>vanities</strong>, and <strong>shower trays</strong>. Its unique patterns ensure no two pieces are alike, making your space truly one-of-a-kind. While <strong>travertine</strong> is known for its earthy tones and textured surface, it provides a rustic yet refined charm. It is an ideal material for <strong>sinks</strong>, <strong>bathtubs</strong>, <strong>wall cladding</strong>, and <strong>flooring</strong>, creating a warm and inviting atmosphere. As another choice of <strong>natural stone</strong> for an artistic design, <strong>limestone</strong> has subtle textures and shines in applications such as <strong>shower trays</strong>, sinks, and <strong>kitchen islands</strong> while seamlessly complementing modern and traditional designs. While durable and heat-resistant <strong>countertops</strong> make cooking a pleasure, elegant <strong>stone sinks</strong> and <strong>bathtubs</strong> turn daily routines into luxurious experiences. <strong>Stone shower trays</strong> and <strong>bathtubs</strong>, designed for both style and function, enhance the appeal of any <strong>residential</strong> and <strong>commercial</strong> bathrooms with their sleek and seamless appearance for your bath and kitchen decorations.
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center " v-if="category_id == 7">
+        <div class="col-sm-12">
+            <h3 class="header">What Is Slab Products?</h3>
+            <p class="description" style="text-align: justify;">
+                Exquisite <strong>marble</strong>, <strong>travertine</strong> and <strong>limestone natural stone slabs</strong> are one of the best choices for stunning surfaces. Enhance your spaces with premium <strong>natural stone slabs</strong> made from <strong>marble</strong>, <strong>travertine</strong>, and <strong>limestone</strong>. Perfect for a wide range of surfaces, these slabs are ideal for creating luxurious <strong>kitchen countertops</strong>, elegant <strong>bathroom vanities</strong>, durable <strong>flooring</strong>, and striking <strong>wall cladding</strong>. Whether designing sleek <strong>shower walls</strong>, custom <strong>furniture tops</strong> or <strong>outdoor patio</strong> surfaces, our <strong>natural stone slabs</strong> provide timeless beauty and unmatched versatility. Each slab is carefully selected for its unique patterns, colors, and textures, ensuring your surfaces are as distinctive as your style. With their durability and <strong>natural</strong> elegance, <strong>marble</strong> offers a polished sophistication, <strong>travertine</strong> adds rustic charm, and <strong>limestone</strong> creates a subtle, refined look. These <strong>slabs</strong> are suitable for both <strong>residential</strong> and <strong>commercial</strong> spaces, transforming <strong>kitchens</strong>, <strong>bathrooms</strong>, <strong>living rooms</strong>, <strong>offices</strong>, and even <strong>outdoor areas</strong> into stunning works of art. Explore our collection to find the perfect <strong>natural stone slab</strong> for your <strong>architectural designs</strong> and create surfaces that stand the test of time while adding unmatched elegance to every corner of your space.
+            </p>
+        </div>
+    </div>
+
+
+
 </template>
 <script setup lang="ts">
 import ProductsCards from '~/components/Products/Card.vue';

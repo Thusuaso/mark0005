@@ -125,6 +125,26 @@
             </p>
         </div>
     </div>
+    <div class="row m-auto text-center " v-if="category_id == 6">
+        <div class="col-sm-12">
+            <h3 class="header">Qu'est-ce Que Les Produits Pour Le Bain Et La Cuisine ?</h3>
+            <p class="description" style="text-align: justify;">
+                La <strong>salle de bain</strong> et la <strong>cuisine</strong> sont les zones les plus populaires choisies pour être décorées avec l'élégance de la <strong>pierre naturelle</strong>. Transformez vos espaces <strong>de salle de bain</strong> et de <strong>cuisine</strong> avec la beauté intemporelle et la durabilité des produits en <strong>pierre naturelle</strong> fabriqués à partir de <strong>marbre</strong>, <strong >travertin</strong> et <strong>calcaire</strong>. Ces matériaux exquis apportent une touche de luxe et de sophistication, alliant attrait esthétique et fonctionnalité pratique. Le <strong>Marbre</strong> est la <strong>pierre naturelle</strong> la plus courante pour décorer vos <strong>salles de bains</strong> et <strong>cuisines</strong> avec ses veines élégantes et sa finition polie, et il ajoute une touche luxueuse aux <strong>comptoirs</strong>, aux <strong>dosserets</strong>, aux <strong>vanités</strong> et aux <strong>receveurs de douche</strong>. Ses motifs uniques garantissent qu'il n'y a pas deux pièces identiques, rendant votre espace vraiment unique en son genre.
+                Bien que le <strong>travertin</strong> soit connu pour ses tons terreux et sa surface texturée, il offre un charme rustique mais raffiné. C'est un matériau idéal pour les <strong>éviers</strong>, les <strong>baignoires</strong>, les <strong>revêtements muraux</strong> et les <strong>sols</strong>, créant une atmosphère chaleureuse et accueillante. . Autre choix de <strong>pierre naturelle</strong> pour une conception artistique, la <strong>calcaire</strong> présente des textures et des brillances subtiles dans des applications telles que les <strong>receveurs de douche</strong>, les éviers et les <strong>pierres naturelles</strong>. <strong>îlots de cuisine</strong> tout en complétant parfaitement les designs modernes et traditionnels. Tandis que les <strong>comptoirs</strong> durables et résistants à la chaleur font de la cuisine un plaisir, les <strong>éviers en pierre</strong> et les <strong>baignoires</strong> élégants transforment les routines quotidiennes en expériences luxueuses. Les <strong>receveurs de douche en pierre</strong> et les <strong>baignoires</strong>, conçus à la fois pour le style et la fonctionnalité, rehaussent l'attrait de toutes les salles de bains <strong>résidentielles</strong> et <strong>commerciales</strong>. avec leur aspect élégant et homogène pour vos décorations de salle de bain et de cuisine.
+
+            </p>
+        </div>
+    </div>
+    <div class="row m-auto text-center " v-if="category_id == 7">
+        <div class="col-sm-12">
+            <h3 class="header">Qu'est-ce Que Les Produits En Plaque ?</h3>
+            <p class="description" style="text-align: justify;">
+                Les superbes dalles de <strong>marbre</strong>, de <strong>travertin</strong> et de <strong>pierre naturelle calcaire</strong> sont l'un des meilleurs choix pour des surfaces époustouflantes. Améliorez vos espaces avec des <strong>dalles en pierre naturelle</strong> de qualité supérieure en <strong>marbre</strong>, <strong>travertin</strong> et <strong>calcaire</strong>. Parfaites pour une large gamme de surfaces, ces dalles sont idéales pour créer des <strong>comptoirs de cuisine</strong> luxueux, des <strong>vanités de salle de bains</strong> élégantes, des <strong>revêtements de sol</strong> durables et des <strong >revêtement mural</strong>. Qu'il s'agisse de concevoir des <strong>murs de douche</strong> élégants, des <strong>dessus de meubles</strong> personnalisés ou des surfaces de <strong>terrasse extérieure</strong>, nos <strong>dalles en pierre naturelle</strong> offrent une beauté intemporelle et une polyvalence inégalée.
+                Chaque dalle est soigneusement sélectionnée pour ses motifs, couleurs et textures uniques, garantissant que vos surfaces sont aussi distinctives que votre style. Avec leur durabilité et leur élégance <strong>naturelle</strong>, le <strong>marbre</strong> offre une sophistication polie, le <strong>travertin</strong> ajoute un charme rustique et le <strong>calcaire</strong> crée un look subtil et raffiné. Ces <strong>dalles</strong> conviennent aussi bien aux espaces <strong>résidentiels</strong> que <strong>commerciaux</strong>, transformant les <strong>cuisines</strong>, les <strong>salles de bains</strong> , <strong>salons</strong>, <strong>bureaux</strong> et même <strong>espaces extérieurs</strong> en de superbes œuvres d'art. Explorez notre collection pour trouver la <strong>dalle de pierre naturelle</strong> parfaite pour vos <strong>conceptions architecturales</strong> et créez des surfaces qui résistent à l'épreuve du temps tout en ajoutant une élégance inégalée à chaque coin de votre espace.
+
+            </p>
+        </div>
+    </div>
 </template>
 <script setup lang="ts">
 
