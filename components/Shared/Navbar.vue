@@ -33,7 +33,7 @@
              
           <ul class="dropdown-menu">
 
-            <div class="row m-auto text-center" style="width:550px;">
+            <div class="row m-auto text-center" style="width:570px;">
               <div class="col-4" style="border-right: 1px solid gray">
                 <h3 class="header border-bottom">{{ navbar.categories }}</h3>
                 <li v-for="item in navbar_link.categories" :key="item.id" >
