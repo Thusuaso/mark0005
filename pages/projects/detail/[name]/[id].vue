@@ -29,7 +29,7 @@
                   class="iframe-video"
                 />
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
-                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:left;line-height: 1.5;background-color:white;text-indent: 20px;margin-top:7px;"></textarea>
+                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: 1.5;background-color:white;text-indent: 20px;margin-top:7px;"></textarea>
 
 
 

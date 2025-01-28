@@ -26,7 +26,7 @@
                 />
             <div class="form-floating " >
                 <textarea class="form-control text-justify" placeholder="Leave a comment here"
-                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;background-color:white;margin-top:7px;"></textarea>
+                    id="floatingTextareaDisabled" disabled v-model="description" style="height:250px;margin-bottom:6px;text-wrap:balance;text-align:justify;line-height: normal;background-color:white;margin-top:7px;text-indent: 20px;"></textarea>
 
             </div>
             <div class="row m-auto text-center" style="margin-top:5px;">

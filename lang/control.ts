@@ -47,15 +47,15 @@ const project = {
     lang_project_detail_name(payload: any, lang: any) {
         let name = '';
         if (lang == 'en') {
-            name = payload.ProjectName + '-' + payload.CountryName;
+            name = payload.ProjectName + ' - ' + payload.CountryName;
         }else if (lang == 'fr') {
-            name = payload.ProjectName_Fr + '-' + payload.CountryName_Fr;
+            name = payload.ProjectName_Fr + ' - ' + payload.CountryName_Fr;
         }else if (lang == 'es') {
-            name = payload.ProjectName_Es+ '-' + payload.CountryName_Es;
+            name = payload.ProjectName_Es+ ' - ' + payload.CountryName_Es;
         }else if (lang == 'ru') {
-            name = payload.ProjectName_Ru + '-' + payload.CountryName_Ru;
+            name = payload.ProjectName_Ru + ' - ' + payload.CountryName_Ru;
         }else if (lang == 'ar') {
-            name = payload.ProjectName_Ar + '-' + payload.CountryName_Ar;
+            name = payload.ProjectName_Ar + ' - ' + payload.CountryName_Ar;
         };
 
         
