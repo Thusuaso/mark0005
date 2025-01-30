@@ -10,6 +10,15 @@
     vertical-align: top;
     text-decoration: none;
 }
+.header_project{
+    font-size:18px;
+    color: #1e58c4;
+    font-weight: bold;
+    margin:0px auto;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
 
 .subheader{
     font-size: 14px;
