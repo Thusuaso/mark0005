@@ -1,7 +1,7 @@
 <template>
     <div class="customContainer">
         <div class="customElement">
-            <a :href="link" target="_blank">
+            <a :href="link">
                 <img class="lazyload" :src="image" :alt="text"/>
                 <div class="card_title" style="font-size:16px;" >
                     {{ text }}
@@ -11,6 +11,7 @@
     </div>
 </template>
 <script lang="ts" setup>
+import {useStore} from '~/store/index';
 const props = defineProps({
     link: {
         type: String,
@@ -26,6 +27,9 @@ const props = defineProps({
     }
 });
 const { link, image, text } = props;
+const store = useStore();
+
+
 </script>
 <style scoped>
 .customContainer {

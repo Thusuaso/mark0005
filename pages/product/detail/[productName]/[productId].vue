@@ -1,4 +1,17 @@
 <template>
+    <!-- <Breadcrumb :home="home" :model="store.getBreadcrumb">
+        <template #item="{ item, props }">
+            <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+                <a :href="href" v-bind="props.action" @click="navigate">
+                    <span :class="[item.icon, 'text-color']" />
+                    <span class="text-primary font-semibold">{{ item.label }}</span>
+                </a>
+            </router-link>
+            <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+                <span class="text-color">{{ item.label }}</span>
+            </a>
+        </template>
+    </Breadcrumb> -->
     <h1 class="header mb-3">{{ detail.name.toUpperCase() }}</h1>
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-6 mt-3">
@@ -55,6 +68,7 @@
 </template>
 <script setup lang="ts">
 
+
 import { useStore } from '~/store/index';
 import control from '~/lang/control';
 import { ref,onMounted } from 'vue';
@@ -70,6 +84,7 @@ await $fetch('/api/products/detail/' + router.currentRoute._value.params.product
 
 
     });
+
 const detail = control.product_detail(store.getProductDetail.detail[0], store.getLang);
 const photos = store.getProductDetail.photos;
 const except_photo = store.getProductDetail.except;
@@ -85,6 +100,14 @@ const tabs = [
 const variation = control.lang_project_variation(store.getVariation, detail?.kategori_id);
 const application = control.lang_application(store.getApplication,detail?.kategori_id);
 const specification = control.lang_specification(store.getSpecification, detail?.kategori_id);
+
+const home = ref({
+    label: 'Home',
+    route:'/'
+});
+store.setBreadcrumb(store.getNowBreadCrumb);
+
+
 function controlString(value:any) {
     if (value) {
         return value.toUpperCase();

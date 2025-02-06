@@ -37,11 +37,16 @@ export const useStore = defineStore('store', {
         product_color_detail:[],
         filtered_header:{},
         usa_search:'',
-        usa_search_link:''
+        usa_search_link:'',
+        breadcrumb:ref([]),
+        now_breadcrumb:{},
 
 
   }),
   getters: {
+      getNowBreadCrumb(state){
+        return state.now_breadcrumb;
+      },
       getNavbar(state) {
           return state.navbar;
       },
@@ -147,6 +152,9 @@ export const useStore = defineStore('store', {
             'usa_search_link':state.usa_search_link
         }
         return data;
+      },
+      getBreadcrumb(state){
+        return state.breadcrumb;
       }
 
       
@@ -154,6 +162,15 @@ export const useStore = defineStore('store', {
 
   },
   actions: {
+    setNowBreadCrumb(payload:any){
+        this.now_breadcrumb = payload;
+    },
+    setBreadcrumb(payload:any){
+        this.breadcrumb.push(payload);
+    },
+    setResetBreadcrumb(){
+        this.breadcrumb = [];
+    },
     setMainStorage(payload:any) {
           this.navbar = payload.navbar;
           this.navbar_links = payload.navbar_link;

@@ -69,6 +69,19 @@
             </div>
         </div>
         <div class="col-sm-9">
+            <Breadcrumb :home="home" :model="store.getBreadcrumb">
+                <template #item="{ item, props }">
+                    <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+                        <a :href="href" v-bind="props.action" @click="navigate">
+                            <span :class="[item.icon, 'text-color']" />
+                            <span class="text-primary font-semibold">{{ item.label }}</span>
+                        </a>
+                    </router-link>
+                    <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+                        <span class="text-color">{{ item.label }}</span>
+                    </a>
+                </template>
+            </Breadcrumb>
             <div class="row m-auto text-align">
                 <div class="col-sm-4" v-for="product in products" :key="product.Id">
                     <ProductsCard :text="product.name" :image="product.image" :link="product.link" />
@@ -198,7 +211,11 @@ await $fetch('/api/products/' + router.currentRoute._value.params.id)
         await store.setCategoriesDetail(res);
     });
 
-
+    const home = ref({
+    label: 'Maison',
+    route:'/fr'
+});
+store.setResetBreadcrumb();
 import control from '~/lang/control';
 const products = control.lang_category_products(store.getCategoriesDetail.products,store.getLang);
 const category_f = control.lang_filter(store.getCategoriesDetail.category_f, store.getLang);

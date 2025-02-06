@@ -110,3 +110,8 @@ hash.split('#').forEach(x=>{
 });
 
 </script>
+<style scoped>
+    strong{
+        margin-left: 0.5px;
+    }
+</style>

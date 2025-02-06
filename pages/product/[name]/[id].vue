@@ -70,7 +70,22 @@
             </div>
         </div>
         <div class="col-sm-9">
+            <!-- <Breadcrumb :home="home" :model="store.getBreadcrumb">
+                <template #item="{ item, props }">
+                    <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+                        <a :href="href" v-bind="props.action" @click="navigate">
+                            <span :class="[item.icon, 'text-color']" />
+                            <span class="text-primary font-semibold">{{ item.label }}</span>
+                        </a>
+                    </router-link>
+                    <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+                        <span class="text-color">{{ item.label }}</span>
+                    </a>
+                </template>
+            </Breadcrumb> -->
+
             <div class="row m-auto text-align">
+
                 <div class="col-sm-4" v-for="product in products" :key="product.Id">
                     <ProductsCards :text="product.name" :image="product.image" :link="product.link" />
                 </div>
@@ -181,6 +196,7 @@ import ProductsCards from '~/components/Products/Card.vue';
 
 import { useStore } from '~/store/index';
 import {ref} from 'vue';
+
 const router = useRouter();
 const store = useStore();
 let textContinuesBoolean = ref(false);
@@ -192,7 +208,12 @@ await $fetch('/api/products/' + router.currentRoute._value.params.id)
 const textContinueClick = ()=>{
     textContinuesBoolean.value = !textContinuesBoolean.value;
 };
-
+const home = ref({
+    label: 'Home',
+    route:'/'
+});
+store.setResetBreadcrumb();
+store.setNowBreadCrumb({'label':router.currentRoute._value.params.name,'route':router.currentRoute._value.fullPath});
 
 import control from '~/lang/control';
 const products = control.lang_category_products(store.getCategoriesDetail.products,store.getLang);
