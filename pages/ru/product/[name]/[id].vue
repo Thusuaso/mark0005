@@ -150,7 +150,7 @@
     </div>
     <div class="row m-auto text-center " v-if="category_id == 7">
         <div class="col-sm-12">
-            <h3 class="header">Что такое плитные изделия?
+            <h3 class="header">Что такое плита из натурального камня?
             </h3>
             <p class="description" style="text-align: justify;">
                 Изысканный <strong>мрамор</strong>, <strong>травертин</strong> и <strong>плиты из натурального камня из известняка</strong> — один из лучших вариантов для создания потрясающих поверхностей. Украсьте свое пространство премиальными <strong>плитами из натурального камня</strong> из <strong>мрамора</strong>, <strong>травертина</strong> и <strong>известняка</strong>. Эти плиты идеально подходят для самых разных поверхностей. Они идеально подходят для создания роскошных <strong>кухонных столешниц</strong>, элегантных <strong>туалетов в ванной</strong>, прочных <strong>полов</strong> и ярких <strong>облицовка стен</strong>.

@@ -149,7 +149,7 @@
     </div>
     <div class="row m-auto text-center " v-if="category_id == 7">
         <div class="col-sm-12">
-            <h3 class="header">Qué Son Los Productos De Losa?
+            <h3 class="header">¿Qué Es La Losa De Piedra Natural?
             </h3>
             <p class="description" style="text-align: justify;">
                 Las exquisitas losas de piedra natural de <strong>mármol</strong>, <strong>travertino</strong> y <strong>caliza</strong> son una de las mejores opciones para conseguir superficies impresionantes. Mejore sus espacios con <strong>losas de piedra natural</strong> de primera calidad hechas de <strong>mármol</strong>, <strong>travertino</strong> y <strong>piedra caliza</strong>. Perfectas para una amplia gama de superficies, estas losas son ideales para crear lujosas <strong>encimeras de cocina</strong>, elegantes <strong>tocadores de baño</strong>, <strong>pisos</strong> duraderos y <strong>suelos</strong> llamativos <strong>revestimiento de paredes</strong>.
