@@ -166,12 +166,13 @@
             {"id":3,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp"},
             {"id":4,"link":"/es/fabrication","title":"ESCENAS DE PRODUCCION","name":"Fabricación","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"}
           ],
-          "slide3":[
-            {"id":1,"link":"https://www.mekmar.com/es/product/detail/bianco-ibiza-sandblasted-marble-paver/996","title":"RECIÉN AÑADIDO","name":"","imagePath":"https://cdn.mekmarimage.com/products/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp","macPath":"https://cdn.mekmarimage.com/products/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp"},
 
-            {"id":2,"link":"https://www.mekmar.com/es/product/detail/snow-black-marble-splitface/995","title":"RECIÉN AÑADIDO","name":"","imagePath":"https://cdn.mekmarimage.com/products/Snow-black-splitface-marble-tile1.webp","macPath":"https://cdn.mekmarimage.com/products/Snow-black-splitface-marble-tile1.webp"},
-            {"id":3,"link":"https://www.mekmar.com/es/product/detail/snow-black-marble/994","title":"RECIÉN AÑADIDO","name":"","imagePath":"https://cdn.mekmarimage.com/products/Snow-black-marble-tile1.webp","macPath":"https://cdn.mekmarimage.com/products/Snow-black-marble-tile1.webp"},
-            {"id":4,"link":"https://www.mekmar.com/es/product/detail/apple-cream-marble/993","title":"RECIÉN AÑADIDO","name":"","imagePath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp","macPath":"https://cdn.mekmarimage.com/products/Mekmar-993-1.webp"}
+          "slide3":[
+            {"id":1,"link":"https://www.mekmar.com/es/product/detail/bianco-ibiza-sandblasted-marble-paver/996","title":"RECIÉN AÑADIDO","name":"","imagePath":"/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp","macPath":"/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp"},
+
+            {"id":2,"link":"https://www.mekmar.com/es/product/detail/snow-black-marble-splitface/995","title":"RECIÉN AÑADIDO","name":"","imagePath":"/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp","macPath":"/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp"},
+            {"id":3,"link":"https://www.mekmar.com/es/product/detail/snow-black-marble/994","title":"RECIÉN AÑADIDO","name":"","imagePath":"/image/slides/slide_3/Snow-black-marble-tile1.webp","macPath":"/image/slides/slide_3/Snow-black-marble-tile1.webp"},
+            {"id":4,"link":"https://www.mekmar.com/es/product/detail/apple-cream-marble/993","title":"RECIÉN AÑADIDO","name":"","imagePath":"/image/slides/slide_3/Mekmar-993-1.webp","macPath":"/image/slides/slide_3/Mekmar-993-1.webp"}
           ]
     },
     "categories":[
