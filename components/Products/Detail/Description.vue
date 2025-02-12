@@ -41,7 +41,7 @@
             <hr/>
 
             <h3 class="subheader"  v-if="hash_ != '#'">{{ hash_header }}</h3>
-            <p class="description text-break" v-if="hash_ != '#'">
+            <p class=" text-break" style="text-align: left;word-break: keep-all;white-space:wrap;" v-if="hash_ != '#'">
                 <a href="" class="text-decoration-none" v-for="hash in hash_.substring(1,hash_.length).split('#')"> <strong>#{{ hash.trim() }}</strong></a>
             </p>
         </div>
@@ -114,7 +114,6 @@ hash.split('#').forEach(x=>{
     strong {
         text-align: left;
         font-style: italic;
-        margin:0px;
         padding:0px;
         margin-right:6px;
         /* white-space: nowrap; */
