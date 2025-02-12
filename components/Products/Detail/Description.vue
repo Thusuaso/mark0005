@@ -116,8 +116,9 @@ hash.split('#').forEach(x=>{
         font-style: italic;
         padding:0px;
         margin-right:6px;
-        /* white-space: nowrap; */
-        /* white-space:nowrap; */
+        white-space: pre;
         word-wrap: normal;
+        resize: none;
+        box-sizing: border-box;
     }
 </style>
