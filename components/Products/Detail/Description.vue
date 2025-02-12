@@ -42,7 +42,7 @@
 
             <h3 class="subheader"  v-if="hash_ != '#'">{{ hash_header }}</h3>
             <p class="description text-break" v-if="hash_ != '#'">
-                <a href="" class="text-decoration-none " v-for="hash in hash_.substring(1,hash_.length).split('#')"> <strong>#{{ hash.trim() }}</strong></a>
+                <a href="" class="text-decoration-none text-break" v-for="hash in hash_.substring(1,hash_.length).split('#')"> <strong>#{{ hash.trim() }}</strong></a>
             </p>
         </div>
 
