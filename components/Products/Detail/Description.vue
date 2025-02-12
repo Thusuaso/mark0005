@@ -2,16 +2,16 @@
     <div class="row m-auto text-center mt-3 mb-2">
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ code_header }}</div>
-                <div class="col-6 ">{{ code }}</div>
+                <div class="col-6 ">{{ code_header }}:</div>
+                <div class="col-6 ">{{ code }} </div>
 
             </div>
 
         </div>
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ stone_header }}</div>
-                <div class="col-6 ">{{ stone.toUpperCase() }}</div>
+                <div class="col-6 ">{{ stone_header }}:</div>
+                <div class="col-6 ">{{ stone.toUpperCase() }} </div>
 
             </div>
         </div>
@@ -19,7 +19,7 @@
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-7 ">{{ country_header }}</div>
+                <div class="col-7 ">{{ country_header }}:</div>
                 <div class="col-4 ">{{ country }}</div>
 
             </div>
@@ -28,7 +28,7 @@
         <div class="col-sm-6">
 
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ variation_header }}</div>
+                <div class="col-6 ">{{ variation_header }}:</div>
                 <div class="col-6">{{ variation }}</div>
 
             </div>
@@ -41,7 +41,7 @@
             <hr/>
 
             <h3 class="subheader"  v-if="hash_ != '#'">{{ hash_header }}</h3>
-            <p class="text-break" style="white-space:wrap;text-align:left;" v-if="hash_ != '#'">
+            <p class="text-break description"  v-if="hash_ != '#'">
                 <a href="" class="text-decoration-none" v-for="hash in hash_.substring(1,hash_.length).split('#')"> <strong>#{{ hash.trim() }}</strong></a>
             </p>
         </div>
@@ -116,9 +116,9 @@ hash.split('#').forEach(x=>{
         font-style: italic;
         padding:0px;
         margin-right:6px;
-        white-space: pre;
+        /* white-space: pre;
         word-wrap: normal;
         resize: none;
-        box-sizing: border-box;
+        box-sizing: border-box; */
     }
 </style>

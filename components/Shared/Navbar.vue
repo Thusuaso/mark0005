@@ -22,11 +22,11 @@
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <NuxtLink class="nav-link" tag="a" :to="navbar_link.home">{{ navbar.home }}</NuxtLink>
+          <NuxtLink class="nav-link" style="font-weight: bold;" tag="a" :to="navbar_link.home">{{ navbar.home }}</NuxtLink>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" style="font-weight: bold;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.product }}
           </a>
             
@@ -48,7 +48,7 @@
                 </li>
               </div>
               <div class="col-4" >
-                <h3 class="header border-bottom">{{ navbar.areas }}</h3>
+                <h3 class="header border-bottom" c>{{ navbar.areas }}</h3>
 
                 <li v-for="item in navbar_link.areas" :key="item.id">
               <NuxtLink  class="dropdown-item" tag="a" :to="item.link">{{ item.title }}</NuxtLink>
@@ -62,34 +62,34 @@
           
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" style="font-weight: bold;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.info }}
           </a>
           <ul class="dropdown-menu">
             <li >
-              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.about">{{ navbar.about }}</NuxtLink>
+              <NuxtLink style="font-weight: bold;" class="dropdown-item" tag="a" :to="navbar_link.about">{{ navbar.about }}</NuxtLink>
             </li>
             <li >
-              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.faq">{{ navbar.faq }}</NuxtLink>
+              <NuxtLink style="font-weight: bold;" class="dropdown-item" tag="a" :to="navbar_link.faq">{{ navbar.faq }}</NuxtLink>
             </li>
             <li >
-              <NuxtLink  class="dropdown-item" tag="a" :to="navbar_link.catalog" target="_blank">{{ navbar.catalog }}</NuxtLink>
+              <NuxtLink style="font-weight: bold;" class="dropdown-item" tag="a" :to="navbar_link.catalog" target="_blank">{{ navbar.catalog }}</NuxtLink>
             </li>
 
           </ul>
           
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" tag="a" :to="navbar_link.fabrication">{{ navbar.fabrication}}</NuxtLink>
+          <NuxtLink class="nav-link" style="font-weight: bold;" tag="a" :to="navbar_link.fabrication">{{ navbar.fabrication}}</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" tag="a" :to="navbar_link.videos">{{ navbar.videos}}</NuxtLink>
+          <NuxtLink class="nav-link" style="font-weight: bold;" tag="a" :to="navbar_link.videos">{{ navbar.videos}}</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" tag="a" :to="navbar_link.project">{{ navbar.project}}</NuxtLink>
+          <NuxtLink class="nav-link" style="font-weight: bold;" tag="a" :to="navbar_link.project">{{ navbar.project}}</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
+          <NuxtLink class="nav-link" style="font-weight: bold;" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
