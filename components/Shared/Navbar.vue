@@ -689,7 +689,7 @@ const searchInputUsa = (event:any)=>{
     width:60%;
   }
 }
-.custom_navbar_css_en{
+/* .custom_navbar_css_en{
   margin-left:7px;
 }
 .custom_navbar_css_font_en{
@@ -714,6 +714,6 @@ const searchInputUsa = (event:any)=>{
 }
 .custom_navbar_css_font_ar{
   font-size:18px;
-}
+} */
 </style>
 
