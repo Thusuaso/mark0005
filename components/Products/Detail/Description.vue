@@ -2,16 +2,16 @@
     <div class="row m-auto text-center mt-3 mb-2">
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ code_header }}:</div>
-                <div class="col-6 ">{{ code }} </div>
+                <div class="col-6 " style="font-size: 14px;">{{ code_header }}:</div>
+                <div class="col-6 " style="font-size: 14px;">{{ code }} </div>
 
             </div>
 
         </div>
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ stone_header }}:</div>
-                <div class="col-6 ">{{ stone.toUpperCase() }} </div>
+                <div class="col-6 " style="font-size: 14px;">{{ stone_header }}:</div>
+                <div class="col-6 " style="font-size: 14px;">{{ stone.toUpperCase() }} </div>
 
             </div>
         </div>
@@ -19,8 +19,8 @@
     <div class="row m-auto text-center mb-3">
         <div class="col-sm-6">
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-7 ">{{ country_header }}:</div>
-                <div class="col-4 ">{{ country }}</div>
+                <div class="col-7 " style="font-size: 14px;">{{ country_header }}:</div>
+                <div class="col-4 " style="font-size: 14px;">{{ country }}</div>
 
             </div>
 
@@ -28,20 +28,20 @@
         <div class="col-sm-6">
 
             <div class="row m-auto text-center bg-secondary bg-gradient text-light">
-                <div class="col-6 ">{{ variation_header }}:</div>
-                <div class="col-6">{{ variation }}</div>
+                <div class="col-6 " style="font-size: 14px;">{{ variation_header }}:</div>
+                <div class="col-6" style="font-size: 14px;">{{ variation }}</div>
 
             </div>
         </div>
     </div>
     <div class="row m-auto text-center">
         <div class="col-sm-12">
-            <h3 class="subheader">{{ desc_header }}</h3>
-            <p class="description">{{ desc }}</p>
+            <h3 class="subheader" style="font-weight: bold;font-size:14px;">{{ desc_header }}</h3>
+            <p class="description" style="font-size:14px;">{{ desc }}</p>
             <hr/>
 
-            <h3 class="subheader"  v-if="hash_ != '#'">{{ hash_header }}</h3>
-            <p class="text-break description"  v-if="hash_ != '#'">
+            <h3 class="subheader" style="font-weight: bold;font-size:14px;"  v-if="hash_ != '#'">{{ hash_header }}</h3>
+            <p class="text-break description" style="font-size:14px;"  v-if="hash_ != '#'">
                 <a href="" class="text-decoration-none" v-for="hash in hash_.substring(1,hash_.length).split('#')"> <strong>#{{ hash.trim() }}</strong></a>
             </p>
         </div>
