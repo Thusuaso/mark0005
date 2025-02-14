@@ -92,8 +92,8 @@
         <li class="nav-item custom_navbar_css_en">
           <NuxtLink class="nav-link custom_navbar_css_font_en" style="font-weight: bold;" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown custom_navbar_css_en">
+          <a class="nav-link dropdown-toggle custom_navbar_css_font_en" style="font-weight: bold;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.usa }}
           </a>
           <ul class="dropdown-menu">
@@ -112,7 +112,7 @@
 
           </ul>
           
-        </li> -->
+        </li> 
 
       </ul>
       <form class="d-flex" role="search" >
@@ -238,8 +238,8 @@
         <li class="nav-item custom_navbar_css_es">
           <NuxtLink class="nav-link custom_navbar_css_font_es" style="font-weight: bold;" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <li class="nav-item dropdown custom_navbar_css_es">
+          <a class="nav-link dropdown-toggle custom_navbar_css_font_es" href="#" style="font-weight: bold;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.usa }}
           </a>
           <ul class="dropdown-menu">
@@ -258,7 +258,7 @@
 
           </ul>
           
-        </li> -->
+        </li> 
 
       </ul>
       <form class="d-flex" role="search" >
@@ -384,8 +384,8 @@
         <li class="nav-item custom_navbar_css_ru">
           <NuxtLink class="nav-link custom_navbar_css_font_ru" style="font-weight: bold;" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown custom_navbar_css_ru">
+          <a class="nav-link dropdown-toggle custom_navbar_css_font_ru" href="#" style="font-weight: bold;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.usa }}
           </a>
           <ul class="dropdown-menu">
@@ -404,7 +404,7 @@
 
           </ul>
           
-        </li> -->
+        </li> 
 
       </ul>
       <form class="d-flex" role="search" >
@@ -530,8 +530,8 @@
         <li class="nav-item custom_navbar_css_ar">
           <NuxtLink class="nav-link custom_navbar_css_font_ar" style="font-weight: bold;" tag="a" :to="navbar_link.contact">{{ navbar.contact}}</NuxtLink>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown custom_navbar_css_ar">
+          <a class="nav-link dropdown-toggle custom_navbar_css_font_ar" href="#" style="font-weight: bold;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ navbar.usa }}
           </a>
           <ul class="dropdown-menu">
@@ -550,7 +550,7 @@
 
           </ul>
           
-        </li> -->
+        </li>
 
       </ul>
       <form class="d-flex" role="search" >
@@ -689,31 +689,32 @@ const searchInputUsa = (event:any)=>{
     width:60%;
   }
 }
-/* .custom_navbar_css_en{
-  margin-left:7px;
+  .custom_navbar_css_en{
+  margin-left:0px;
 }
 .custom_navbar_css_font_en{
-  font-size:18px;
-}
-
-.custom_navbar_css_es{
-  margin-left:1px;
-}
-.custom_navbar_css_font_es{
-  font-size:18px;
-}
-.custom_navbar_css_ru{
-  margin-left:13px;
-}
-.custom_navbar_css_font_ru{
   font-size:14px;
 }
 
+
+.custom_navbar_css_es{
+  margin-left:0px;
+}
+.custom_navbar_css_font_es{
+  font-size:14px;
+}
+.custom_navbar_css_ru{
+  margin-left:0px;
+}
+.custom_navbar_css_font_ru{
+  font-size:13px;
+}
+
 .custom_navbar_css_ar{
-  margin-left:40px;
+  margin-left:26px;
 }
 .custom_navbar_css_font_ar{
-  font-size:18px;
-} */
+  font-size:16px;
+}  
 </style>
 
