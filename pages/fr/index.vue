@@ -3,7 +3,7 @@
 <template>
   <div class="row m-auto">
     <div class="col-sm-3 mt-0 filter-custom">
-      <!-- <div class="customContainer mb-2">
+      <div class="customContainer mb-2">
         <a :href="usastock.link">
         <div class="customElement">
             
@@ -15,7 +15,7 @@
       </a>
       
 
-    </div> -->
+    </div>
     <div class="customContainer mb-2">
           <a href="https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf" target="_blank">
           <div class="customElement">
@@ -28,7 +28,7 @@
         </a>
 
       </div>
-      <CategoriesSlides :slides="slides.slide3" />
+      <!-- <CategoriesSlides :slides="slides.slide3" /> -->
 
       <CategoriesSlides :slides="slides.slide1" />
       <CategoriesSlides :slides="slides.slide2" />
