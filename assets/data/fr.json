@@ -309,6 +309,8 @@
         "title_2":"VIDÉOS DE RÉALISATION",
         "title_3":"VIDÉOS INFORMATIVES",
         "projects":[
+          {"id":29,"name":"Vidéos du Projet | Projet DGCELL en Guyane","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},
+
           {"id":29,"name":"Vidéos du Projet | Projet Randolph au Ghana","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
 
           {"id":28,"name":"Vidéos du Projet | Projet Durham au Australie","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},

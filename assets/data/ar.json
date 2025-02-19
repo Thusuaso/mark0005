@@ -309,6 +309,8 @@
 
         "title_3":"مقاطع فيديو إعلامية",
         "projects":[
+          {"id":29,"name":"فيديوهات المشروع | مشروع DGCELL في غيانا","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},
+
           {"id":29,"name":"فيديوهات المشروع | مشروع راندولف في غانا","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
 
           {"id":28,"name":"فيديوهات المشروع | مشروع دورهام في أستراليا","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
