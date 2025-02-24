@@ -44,7 +44,12 @@
                 </div>
             </div>
             <div class="row m-auto text-center">
-                <div class="col-sm-6">
+                <div class="col-sm-6" v-if="detail.Edge == '' || detail.Edge == null || detail.Edge == undefined || detail.Edge == ' '">
+                    <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.surface }}: </span><span>{{ detail.Surface }}</span></p>
+
+                </div>
+
+                <div class="col-sm-6" v-else>
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.surface }}: </span><span>{{ detail.Surface }} & {{ detail.Edge }}</span></p>
 
                 </div>
