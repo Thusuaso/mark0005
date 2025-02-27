@@ -26,7 +26,7 @@
         "fabrication":"/es/fabrication",
         "videos":"/es/videos",
         "project":"/es/projects",
-        "catalog":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf",
+        "catalog":"https://cdn.mekmarimage.com/category/catalog-2025.pdf",
         "usastock":"/es/usa/stock",
         "categories":[
             {"id":1,"title":"Marmol","link":"/es/product/marble/1"},

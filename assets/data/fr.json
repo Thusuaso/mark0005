@@ -27,7 +27,7 @@
         "fabrication":"/fr/fabrication",
         "videos":"/fr/videos",
         "project":"/fr/projects",
-        "catalog":"https://cdn.mekmarimage.com/category/Mekmar-Catalog.pdf",
+        "catalog":"https://cdn.mekmarimage.com/category/catalog-2025.pdf",
         "usastock":"/fr/usa/stock",
         "categories":[
             {"id":1,"title":"Marbre","link":"/fr/product/marble/1"},
