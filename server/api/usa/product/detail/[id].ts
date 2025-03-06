@@ -35,7 +35,8 @@ export default defineEventHandler(async(event)=>{
 			u.surface_es,
 			u.edge_es,
 			u.Surface,
-			u.Edge
+			u.Edge,
+			u.hashtags
 
             from DepoUrunKartTB k,DepoUrunKart_MekmarSiteTB u
 			where MekmarSite=1 and u.UrunId=k.ID and k.ID='${id}'

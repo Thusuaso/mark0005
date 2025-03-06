@@ -83,11 +83,11 @@
                 {{ usa.delivery_terms_desc }} consectetur adipisicing elit. Nam illum neque et accusantium repellat iste.
             </p>
             <hr style="margin-top:7px;margin-bottom:7px;"/>
-            <div class="header" style="font-weight: bold;font-size:14px;margin:0px;">
+            <div class="header" style="font-weight: bold;font-size:14px;margin:0px;" v-if="detail.hashtags.length >0">
                 HASTAGS
             </div>
-                <p class="text-break description" style="font-size:14px;margin:0px;">
-                    <a href="" class="text-decoration-none"  v-for="hash in detail.anahtarlar_en.trim().substring(0,detail.anahtarlar_en.length).split(',')"><strong>#{{ hash.trim() }}</strong></a>
+                <p class="text-break description" style="font-size:14px;margin:0px;" v-if="detail.hashtags.length >0">
+                    <a href="" class="text-decoration-none"  v-for="hash in detail.hashtags.trim().substring(0,detail.hashtags.length).split(',')"><strong>#{{ hash.trim() }}</strong></a>
 
                 </p>
 
