@@ -19,9 +19,9 @@
             </a>
                         </SharedFancybox>
         </div>
-        <div class="col-sm-7">
+        <div class="col-sm-7" style="margin-top:10px;">
 
-            <div class="row m-auto text-center">
+            <div class="row text-center" style="margin-bottom:-10px;">
                 <div class="col-sm-6">
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.sku }}: </span><span>{{ detail.SkuNo }}</span></p>
                 </div>
@@ -35,7 +35,7 @@
                 </div> 
 
             </div>
-            <div class="row m-auto text-center">
+            <div class="row  text-center" style="margin-bottom:-10px;">
                 <div class="col-sm-6">
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.sale_price }}: </span><span>${{ detail.Fiyat }}/sqft</span></p>
                 </div>
@@ -43,7 +43,7 @@
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.in_stock }}: </span><span>{{ detail.Stok_Sqft }} {{ usa.available }}</span></p>
                 </div>
             </div>
-            <div class="row m-auto text-center">
+            <div class="row  text-center" style="margin-bottom:-10px;">
                 <div class="col-sm-6" v-if="detail.Edge == '' || detail.Edge == null || detail.Edge == undefined || detail.Edge == ' ' || detail.Edge== 'NULL'">
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.surface }}: </span><span>{{ detail.Surface }}</span></p>
 
@@ -59,7 +59,7 @@
                 </div>
 
             </div>
-            <div class="row m-auto text-center">
+            <div class="row  text-center" style="margin-bottom:-10px;">
                 <div class="col-sm-6">
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.per_box }}: </span><span>{{ detail.box_detail }}</span></p>
                 </div>
@@ -69,23 +69,31 @@
                 </div>
 
             </div>
-            <hr/>
-            <div class="header mb-3">
-        {{ usa.description }}
+            <div class="header" style="font-weight: bold;font-size:14px;margin:0px;margin-top:2px;">
+                {{ usa.description }}
             </div>
-            <p class="description">
+            <p class="description" style="font-size:14px;margin:0px;">
                 {{ detail.description }}
             </p>
-            <hr/>
-            <div class="header mb-3">
+            <hr style="margin-top:7px;margin-bottom:7px;"/>
+            <div class="header" style="font-weight: bold;font-size:14px;margin:0px;">
                 {{ usa.delivery_terms }}
             </div>
-            <p class="description">
-                {{ usa.delivery_terms_desc }}
+            <p class="description" style="font-size:14px;margin:0px;">
+                {{ usa.delivery_terms_desc }} consectetur adipisicing elit. Nam illum neque et accusantium repellat iste.
             </p>
+            <hr style="margin-top:7px;margin-bottom:7px;"/>
+            <div class="header" style="font-weight: bold;font-size:14px;margin:0px;">
+                HASTAGS
+            </div>
+                <p class="text-break description" style="font-size:14px;margin:0px;">
+                    <a href="" class="text-decoration-none"  v-for="hash in detail.anahtarlar_en.trim().substring(0,detail.anahtarlar_en.length).split(',')"><strong>#{{ hash.trim() }}</strong></a>
+
+                </p>
+
         </div>
     </div>
-    <hr/>
+    <hr style="margin-top:25px;"/>
     <div class="row m-auto text-center">
         <SharedFancybox :options="{
         Carousel: {
@@ -123,3 +131,15 @@
     };
     const first_photo = photos[0].image;
 </script>
+<style scoped>
+    strong {
+        text-align: left;
+        font-style: italic;
+        padding:0px;
+        margin-right:6px;
+        /* white-space: pre;
+        word-wrap: normal;
+        resize: none;
+        box-sizing: border-box; */
+    } 
+</style>

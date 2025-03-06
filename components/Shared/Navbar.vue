@@ -128,7 +128,7 @@
             <template #option="slotProps">
               <a :href="slotProps.option.link" class="w-100">
 
-                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="22px" height="22px"/>
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="100%" height="22px"/>
 
               </a>
 
@@ -712,7 +712,7 @@
             <template #option="slotProps">
               <a :href="slotProps.option.link" class="w-100">
 
-                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="22px" height="22px"/>
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="100%" height="22px"/>
 
               </a>
 
