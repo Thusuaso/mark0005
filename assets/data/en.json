@@ -307,6 +307,8 @@
 
         "title_3":"INFORMATIVE VIDEOS",
         "projects":[
+          {"id":29,"name":"Project Videos | TMRP Project in the USA","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},
+
           {"id":29,"name":"Project Videos | DGCELL Project in Guyana","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},
 
           {"id":29,"name":"Project Videos | Randolph Project in Ghana","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
@@ -675,6 +677,70 @@
         "material":"MATERIALS",
         "finish":"FINISHES"
 
-      }
+      },
+      "catalog":[
+        {"id":1,"name":"1.webp"},
+        {"id":2,"name":"2.webp"},
+        {"id":3,"name":"3.webp"},
+        {"id":4,"name":"4.webp"},
+        {"id":5,"name":"5.webp"},
+        {"id":6,"name":"6.webp"},
+        {"id":7,"name":"7.webp"},
+        {"id":8,"name":"8.webp"},
+        {"id":9,"name":"9.webp"},
+        {"id":10,"name":"10.webp"},
+        {"id":11,"name":"11.webp"},
+        {"id":12,"name":"12.webp"},
+        {"id":13,"name":"13.webp"},
+        {"id":14,"name":"14.webp"},
+        {"id":15,"name":"15.webp"},
+        {"id":16,"name":"16.webp"},
+        {"id":17,"name":"17.webp"},
+        {"id":18,"name":"18.webp"},
+        {"id":19,"name":"19.webp"},
+        {"id":20,"name":"20.webp"},
+        {"id":21,"name":"21.webp"},
+        {"id":22,"name":"22.webp"},
+        {"id":23,"name":"23.webp"},
+        {"id":24,"name":"24.webp"},
+        {"id":25,"name":"25.webp"},
+        {"id":26,"name":"26.webp"},
+        {"id":27,"name":"27.webp"},
+        {"id":28,"name":"28.webp"},
+        {"id":29,"name":"29.webp"},
+        {"id":30,"name":"30.webp"},
+        {"id":31,"name":"31.webp"},
+        {"id":32,"name":"32.webp"},
+        {"id":33,"name":"33.webp"},
+        {"id":34,"name":"34.webp"},
+        {"id":35,"name":"35.webp"},
+        {"id":36,"name":"36.webp"},
+        {"id":37,"name":"37.webp"},
+        {"id":38,"name":"38.webp"},
+        {"id":39,"name":"39.webp"},
+        {"id":40,"name":"40.webp"},
+        {"id":41,"name":"41.webp"},
+        {"id":42,"name":"42.webp"},
+        {"id":43,"name":"43.webp"},
+        {"id":44,"name":"44.webp"},
+        {"id":45,"name":"45.webp"},
+        {"id":46,"name":"46.webp"},
+        {"id":47,"name":"47.webp"},
+        {"id":48,"name":"48.webp"},
+        {"id":49,"name":"49.webp"},
+        {"id":50,"name":"50.webp"},
+        {"id":51,"name":"51.webp"},
+        {"id":52,"name":"52.webp"},
+        {"id":53,"name":"53.webp"},
+        {"id":54,"name":"54.webp"},
+        {"id":55,"name":"55.webp"},
+        {"id":56,"name":"56.webp"},
+        {"id":57,"name":"57.webp"},
+        {"id":58,"name":"58.webp"},
+        {"id":59,"name":"59.webp"}
+
+
+
+      ]
 
 }

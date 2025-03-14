@@ -40,6 +40,7 @@ export const useStore = defineStore('store', {
         usa_search_link:'',
         breadcrumb:ref([]),
         now_breadcrumb:{},
+        catalog:[]
 
 
   }),
@@ -155,6 +156,9 @@ export const useStore = defineStore('store', {
       },
       getBreadcrumb(state){
         return state.breadcrumb;
+      },
+      getCatalog(state){
+        return state.catalog;
       }
 
       
@@ -198,6 +202,7 @@ export const useStore = defineStore('store', {
           this.filtered_header = payload.filtered_header;
            this.usa_search = payload.usa_search;
            this.usa_search_link = payload.usa_search_link;
+           this.catalog = payload.catalog
       },
       setProjects(payload: any) {
           this.projects = control.lang_project(payload,this.lang);
@@ -232,6 +237,7 @@ export const useStore = defineStore('store', {
       setProductColorDetail(payload:any){
         this.product_color_detail = payload;
       },
+
 
   },
 })
