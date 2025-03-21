@@ -254,9 +254,10 @@ const project = {
         let data = {};
         if(lang=='en'){
             data = {'name':payload.urunadi_en,'description':payload.aciklama_en,
-                'renk':payload.renk_en,
-                'box_detail':payload.kutudetay_en,
-                'crate_detail':payload.kasadetay_en,
+                    'renk':payload.renk_en,
+                    'box_detail':payload.kutudetay_en,
+                    'crate_detail':payload.kasadetay_en,
+                    'hashtags':payload.hashtags,
                 ...payload};
 
         } else if(lang=='fr'){
@@ -264,6 +265,8 @@ const project = {
                 'renk':payload.renk_fr,
                 'box_detail':payload.kutudetay_fr,
                 'crate_detail':payload.kasadetay_fr,
+                'hashtags':payload.hashtags_fr,
+
                 
                 ...payload};
 
@@ -272,6 +275,8 @@ const project = {
                 'renk':payload.renk_es,
                 'box_detail':payload.kutudetay_es,
                 'crate_detail':payload.kasadetay_es,
+                'hashtags':payload.hashtags_es,
+
                 ...payload};
 
         }else{
