@@ -309,6 +309,8 @@
 
         "title_3":"مقاطع فيديو إعلامية",
         "projects":[
+          {"id":29,"name":"فيديوهات المشروع | مشروع SYD في المملكة العربية السعودية","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
+
           {"id":29,"name":"فيديوهات المشروع | مشروع TMRP في الولايات المتحدة الأمريكية","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},
 
           {"id":29,"name":"فيديوهات المشروع | مشروع DGCELL في غيانا","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},

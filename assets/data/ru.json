@@ -310,6 +310,8 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
+          {"id":29,"name":"Видеоролики проекта | Проект SYD в Саудовской Аравии","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
+
           {"id":29,"name":"Видеоролики проекта | Проект TMRP в США","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},
 
           {"id":29,"name":"Видео проекта | Проект DGCELL в Гайане","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},
