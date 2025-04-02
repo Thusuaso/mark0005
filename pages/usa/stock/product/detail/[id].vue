@@ -80,7 +80,7 @@
                 {{ usa.delivery_terms }}
             </div>
             <p class="description" style="font-size:14px;margin:0px;">
-                {{ usa.delivery_terms_desc }} consectetur adipisicing elit. Nam illum neque et accusantium repellat iste.
+                {{ usa.delivery_terms_desc }} 
             </p>
             <hr style="margin-top:7px;margin-bottom:7px;"/>
             <div class="header" style="font-weight: bold;font-size:14px;margin:0px;" v-if="detail.hashtags.length >0">
