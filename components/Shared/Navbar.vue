@@ -119,7 +119,7 @@
         <Select v-model="selectedLang" :options="langs" optionLabel="name"  class="w-full md:w-50" @change="changeLang($event)" dropdown>
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">
-                    <img :alt="slotProps.value.name" :src="slotProps.value.img" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" width="18px" height="18px"/>
+                    <img :alt="slotProps.value.name" :src="slotProps.value.img" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" width="25px" height="18px"/>
                 </div>
                 <span v-else>
                     {{ slotProps.placeholder }}
@@ -128,7 +128,7 @@
             <template #option="slotProps">
               <a :href="slotProps.option.link" class="w-100">
 
-                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="100%" height="22px"/>
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="25px" height="22px"/>
 
               </a>
 
