@@ -24,7 +24,7 @@
     import control from '~/lang/control';
     const store = useStore();
     const router = useRouter();
-
+    console.log("store.getLang",store.getLang)
     await $fetch('/api/search/' + router.currentRoute._value.params.name)
     .then(async res=>{
         await store.setSearchProductList(res);

@@ -25,7 +25,7 @@
     const store = useStore();
     const router = useRouter();
 
-    await $fetch('/api/search/' + router.currentRoute._value.params.name)
+    await $fetch('/api/search/ru/' + router.currentRoute._value.params.name)
     .then(async res=>{
         await store.setSearchProductList(res);
     });
