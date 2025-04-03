@@ -126,9 +126,9 @@
                 </span>
             </template>
             <template #option="slotProps">
-              <a :href="slotProps.option.link" class="w-100">
+              <a :href="slotProps.option.link">
 
-                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="25px" height="22px"/>
+                <img :alt="slotProps.option.name" :src="slotProps.option.img" :class="`flag flag-${slotProps.option.code.toLowerCase()}`" width="25px" height="18px"/>
 
               </a>
 
