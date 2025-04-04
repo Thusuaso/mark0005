@@ -1,5 +1,5 @@
 <template>
-      <NuxtLoadingIndicator />
+      <NuxtLoadingIndicator color="black" :height="5"/>
 
     <div class="row m-auto text-center">
         <div class="col-sm-3 customFilter">
