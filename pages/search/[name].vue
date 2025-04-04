@@ -1,4 +1,6 @@
 <template>
+      <NuxtLoadingIndicator />
+
     <div class="row m-auto text-center">
         <div class="col-sm-3 customFilter">
             <h1 class="header mt-3">CATEGORIES</h1>
@@ -20,17 +22,23 @@
     </div>
 </template>
 <script setup lang="ts">
+    const { start, set, clear } = useLoadingIndicator()
+    start();
+    set(20);
+
     import { useStore } from '~/store/index';
     import control from '~/lang/control';
     const store = useStore();
     const router = useRouter();
-    console.log("store.getLang",store.getLang)
     await $fetch('/api/search/' + router.currentRoute._value.params.name)
     .then(async res=>{
         await store.setSearchProductList(res);
     });
+
     const products = control.lang_category_products(store.getSearchProducts.products,store.getLang);
     const categories_f = control.lang_filter(store.getSearchProducts.categories_f,store.getLang);
+    set(100);
+    clear();
 </script>
 
 <style scoped>
