@@ -310,6 +310,8 @@
         "title_3":"ИНФОРМАТИВНЫЕ ВИДЕО",
 
         "projects":[
+          {"id":29,"name":"Видеоролики проекта | АРТ-проект в Болгарии","url":"https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq","queue":"29"},
+
           {"id":29,"name":"Видеоролики проекта | Проект SYD в Саудовской Аравии","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
 
           {"id":29,"name":"Видеоролики проекта | Проект TMRP в США","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},

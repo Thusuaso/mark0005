@@ -309,6 +309,8 @@
         "title_2":"VIDÉOS DE RÉALISATION",
         "title_3":"VIDÉOS INFORMATIVES",
         "projects":[
+          {"id":29,"name":"Vidéos du Projet | Projet ART en Bulgarie","url":"https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq","queue":"29"},
+
           {"id":29,"name":"Vidéos du Projet | Projet SYD en Arabie Saoudite","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
 
           {"id":29,"name":"Vidéos du Projet | Projet TMRP aux États-Unis","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},
