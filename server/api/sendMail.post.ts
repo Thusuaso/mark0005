@@ -40,7 +40,7 @@ export default defineEventHandler(async (event) => {
     `
         const options = {
             from: 'goz@mekmar.com',
-            to: 'info@mekmar.com',
+            to: 'export@mekmar.com',
             subject: 'Mekmar.com Contact',
             html: html,
         };
