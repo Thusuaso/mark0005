@@ -31,9 +31,10 @@ export default defineEventHandler(async (event)=>{
 			count(*) as products,
 			TRIM('/usa/filter/area/' + TRIM(STR(k.Id)) + '/' + REPLACE(k.kullanim_en,' ','-')) as link
             from
-            DepoUrunKart_Urun_KullanimTB u,DepoUrunKart_UsaKullanimAlanTB k
+            DepoUrunKart_Urun_KullanimTB u,DepoUrunKart_UsaKullanimAlanTB k,MekmarCom_StockListYeni ms,
+			DepoUrunKartTB depo, DepoUrunKart_MekmarSiteTB dm
 			where
-			u.KullanimId=k.Id
+			u.KullanimId=k.Id and u.UrunId = depo.ID and depo.ID = dm.UrunId and depo.SkuNo = ms.SkuNo and ms.StockSqft >0 and depo.MekmarSite=1 and dm.Yayinla=1
 			group by k.Id,k.kullanim_en,kullanim_fr,kullanim_es
 			order by count(*) desc
     `;
@@ -43,9 +44,9 @@ export default defineEventHandler(async (event)=>{
             count(*) as products,
 			'/usa/filter/category/' + REPLACE(dbo.Get_KategoriAdi(d.UrunKartID),' ','-') as link
             from
-            DepoUrunKartTB d
+            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB m,MekmarCom_StockListYeni ms
             where
-            d.MekmarSite=1
+            d.MekmarSite=1 and m.Yayinla=1 and d.SkuNo = ms.SkuNo and ms.StockSqft >0 and m.UrunId = d.ID
             group by dbo.Get_KategoriAdi(d.UrunKartID)
             order by count(*) desc
     `;
@@ -57,10 +58,10 @@ export default defineEventHandler(async (event)=>{
             count(*) as products,
 			'/usa/filter/color/' + k.renk_en as link
             from
-            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB k
+            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB k,MekmarCom_StockListYeni ms
             where
             d.MekmarSite=1 and k.UrunId = d.ID
-            and k.Yayinla=1 and k.TurkeyStock = 0
+            and k.Yayinla=1 and k.TurkeyStock = 0 and d.SkuNo = ms.SkuNo and ms.StockSqft >0
             group by k.renk_en,k.renk_fr,k.renk_es
             order by count(*) desc
     `;
@@ -70,10 +71,10 @@ export default defineEventHandler(async (event)=>{
             '/usa/filter/size/' + m.LinkSize as link,
             count(*) as products
             from
-            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB m
+            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB m,MekmarCom_StockListYeni ms
             where
             d.MekmarSite=1 and m.UrunId = d.ID
-            and MosaicSize=0 and m.Yayinla=1
+            and MosaicSize=0 and m.Yayinla=1 and d.SkuNo = ms.SkuNo and ms.StockSqft >0
             group by m.Size,m.LinkSize 
             order by count(*) desc
     `;
@@ -83,10 +84,10 @@ select
             '/usa/filter/mosaic/size/' + m.LinkSize as link,
             count(*) as products
             from
-            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB m
+            DepoUrunKartTB d,DepoUrunKart_MekmarSiteTB m ,MekmarCom_StockListYeni ms
             where
             d.MekmarSite=1 and m.UrunId = d.ID
-            and MosaicSize=1 and m.Yayinla=1
+            and MosaicSize=1 and m.Yayinla=1 and d.SkuNo = ms.SkuNo and ms.StockSqft >0
             group by m.Size,m.LinkSize
             order by count(*) desc
     `;

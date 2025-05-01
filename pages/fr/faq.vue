@@ -9,18 +9,27 @@
         </ul>
         
         <h5 class="subheader_faq "><b>Q: Ces carreaux sont-ils adaptés à une utilisation en extérieur ?</b></h5>
-        <div class="description_font" >
-            Oui, les trois types peuvent être utilisés à l’extérieur, mais leur adéquation dépend de la finition et du climat. Le travertin et le calcaire sont populaires pour les patios et les plages de piscine en raison de leurs propriétés antidérapantes lorsqu'ils ne sont pas polis.
-        </div>
+        <ul class="description_font" >
+            <li>
+                Oui, les trois types peuvent être utilisés à l’extérieur, mais leur adéquation dépend de la finition et du climat. Le travertin et le calcaire sont populaires pour les patios et les plages de piscine en raison de leurs propriétés antidérapantes lorsqu'ils ne sont pas polis.
+
+            </li>
+        </ul>
 
         <h5 class="subheader_faq"><b>Q: Quelle est la durabilité de ces carreaux ?</b></h5>
-        <div class="description_font">
-            Le marbre est le plus dur et le plus durable, suivi du travertin et du calcaire. Cependant, tous nécessitent une bonne étanchéité pour conserver leur apparence et leur longévité.
-        </div>
+        <ul class="description_font">
+            <li>
+                Le marbre est le plus dur et le plus durable, suivi du travertin et du calcaire. Cependant, tous nécessitent une bonne étanchéité pour conserver leur apparence et leur longévité.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux ont-ils besoin d'être scellés ?</b></h5>
-        <div class="description_font">
-            Oui, le scellement est recommandé pour les trois types afin d’éviter les taches et de conserver leur beauté naturelle, en particulier dans les zones très humides ou à fort trafic.
-        </div>
+        <ul class="description_font">
+            <li>
+                Oui, le scellement est recommandé pour les trois types afin d’éviter les taches et de conserver leur beauté naturelle, en particulier dans les zones très humides ou à fort trafic.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Comment nettoyer et entretenir ces carreaux ?</b></h5>
             <ul class="description_font" style="margin:0px;">
                 <li>Utilisez un nettoyant au pH neutre.</li>
@@ -28,17 +37,26 @@
                 <li>Un rescellement régulier est recommandé pour protéger les carreaux.</li>
             </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils écologiques ?</b></h5>
-        <div class="description_font">
-            Oui, le travertin, le marbre et le calcaire sont des pierres naturelles ayant un impact environnemental minimal lors de l'extraction et de la production.
-        </div>
+        <ul class="description_font">
+            <li>
+                Oui, le travertin, le marbre et le calcaire sont des pierres naturelles ayant un impact environnemental minimal lors de l'extraction et de la production.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux peuvent-ils être utilisés avec un chauffage par le sol ?</b></h5>
-        <div class="description_font">
-            Oui, ils sont d’excellents conducteurs de chaleur et fonctionnent bien avec les systèmes de chauffage par le sol.
-        </div>
+        <ul class="description_font">
+            <li>
+                Oui, ils sont d’excellents conducteurs de chaleur et fonctionnent bien avec les systèmes de chauffage par le sol.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils glissants lorsqu'ils sont mouillés ?</b></h5>
-        <div class="description_font">
-            Le marbre poli peut être glissant lorsqu'il est mouillé, tandis que les finitions polies ou texturées en travertin et en calcaire offrent une meilleure résistance au glissement.
-        </div>
+        <ul class="description_font">
+            <li>
+                Le marbre poli peut être glissant lorsqu'il est mouillé, tandis que les finitions polies ou texturées en travertin et en calcaire offrent une meilleure résistance au glissement.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Quelles sont les options de couleurs disponibles ?</b></h5>
             <ul class="description_font" style="margin:0px;">
                 <li><b>Travertin:</b> Des tons terreux comme le beige, le bronzage et la crème.</li>
@@ -46,66 +64,80 @@
                 <li><b>Calcaire:</b> Nuances neutres de beige, de gris et de blancs doux.</li>
             </ul>
         <h5 class="subheader_faq"><b>Q: Comment choisir le carrelage adapté à mon projet ?</b></h5>
-        <div class="description_font">
-            Tenez compte de l’emplacement, des préférences de conception, de la durabilité et des exigences d’entretien. Pour obtenir de l’aide, consultez les experts Mekmar pour des conseils personnalisés.
-        </div>
+        <ul class="description_font">
+            <li>
+                Tenez compte de l’emplacement, des préférences de conception, de la durabilité et des exigences d’entretien. Pour obtenir de l’aide, consultez les experts Mekmar pour des conseils personnalisés.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils chers ?</b></h5>
-        <div class="description_font">
-            Les prix varient en fonction du type de pierre, de sa qualité et de sa finition. Le marbre a tendance à être le plus cher, suivi du travertin et du calcaire.
-        </div>
+        <ul class="description_font">
+            <li>
+                Les prix varient en fonction du type de pierre, de sa qualité et de sa finition. Le marbre a tendance à être le plus cher, suivi du travertin et du calcaire.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Q: Ces carreaux peuvent-ils être utilisés dans les salles de bains ?</b></h5>
-        <div class="description_font">
-            Oui, ils sont idéaux pour les salles de bains, mais nécessitent une bonne étanchéité pour résister à l’humidité et aux taches.
-        </div>
+        <ul class="description_font">
+            <li>
+                Oui, ils sont idéaux pour les salles de bains, mais nécessitent une bonne étanchéité pour résister à l’humidité et aux taches.
+
+            </li>
+        </ul>
         <h5 class="subheader_faq"><b>Carrelage de Sol</b></h5>
         <ul style="margin:0px;" class="description_font">
-            <li>
                 <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils adaptés aux zones à fort trafic ?</b></h5>
-                <div class="description_font_2">
-                    Oui, le marbre et le travertin sont excellents pour les zones à fort trafic avec une bonne étanchéité. Le calcaire convient mieux aux zones à trafic modéré en raison de sa nature plus tendre.
-                </div>
-            </li>
-            <li>
+                <ul class="description_font_2">
+                    <li>
+                        Oui, le marbre et le travertin sont excellents pour les zones à fort trafic avec une bonne étanchéité. Le calcaire convient mieux aux zones à trafic modéré en raison de sa nature plus tendre.
+
+                    </li>
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Puis-je utiliser du travertin, du marbre ou du calcaire pour les sols chauffants ?</b></h5>
-                <div class="description_font_2">
-                    Oui, ils sont d’excellents conducteurs de chaleur et se marient bien avec les systèmes de chauffage par le sol.
+                <ul class="description_font_2">
+                    <li>
+                        Oui, ils sont d’excellents conducteurs de chaleur et se marient bien avec les systèmes de chauffage par le sol.
 
-                </div>
-            </li>
-            <li>
+                    </li>
+
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils résistants aux rayures ?</b></h5>
-                <div class="description_font_2">
-                    Le marbre est plus résistant aux rayures que le travertin ou le calcaire, mais tous peuvent se rayer s'ils sont exposés à des matériaux abrasifs.
+                <ul class="description_font_2">
+                    <li>
+                        Le marbre est plus résistant aux rayures que le travertin ou le calcaire, mais tous peuvent se rayer s'ils sont exposés à des matériaux abrasifs.
 
-                </div>
-            </li>
+                    </li>
+
+                </ul>
         </ul>
         <h5 class="subheader_faq"><b>Carrelage Façade et Mur</b></h5>
         <ul style="margin:0px;" class="description_font">
-            <li>
                 <h5 class="subheader_faq"><b>Q: Le travertin, le marbre ou le calcaire peuvent-ils être utilisés pour les façades ?</b></h5>
-                <div class="description_font_2">
-                    Oui, ils sont couramment utilisés pour les façades. Le marbre offre un aspect luxueux, le travertin ajoute de la texture et le calcaire donne une sensation naturelle et intemporelle.
-                </div>
-            </li>
-            <li>
+                <ul class="description_font_2">
+                    <li>
+                        Oui, ils sont couramment utilisés pour les façades. Le marbre offre un aspect luxueux, le travertin ajoute de la texture et le calcaire donne une sensation naturelle et intemporelle.
+
+                    </li>
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils bons pour les murs d'accent ?</b></h5>
-                <div class="description_font_2">
-                    Absolument! Les murs d'accent en marbre créent une déclaration, tandis que le travertin et le calcaire ajoutent de la chaleur et de la texture.
+                <ul class="description_font_2">
+                    <li>
+                        Absolument! Les murs d'accent en marbre créent une déclaration, tandis que le travertin et le calcaire ajoutent de la chaleur et de la texture.
 
-                </div>
-            </li>
-            <li>
+                    </li>
+
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Ces carrelages muraux nécessitent-ils un entretien particulier ?</b></h5>
-                <div class="description_font_2">
-                    Pour les applications verticales, un dépoussiérage régulier et un nettoyage occasionnel avec un nettoyant au pH neutre suffisent. Le scellement aide à empêcher l’absorption de l’eau ou de la saleté.
+                <ul class="description_font_2">
+                    <li>
+                        Pour les applications verticales, un dépoussiérage régulier et un nettoyage occasionnel avec un nettoyant au pH neutre suffisent. Le scellement aide à empêcher l’absorption de l’eau ou de la saleté.
 
-                </div>
-            </li>
+                    </li>
+
+                </ul>
         </ul>
         <h5 class="subheader_faq"><b>Carrelage extérieur et paysager</b></h5>
         <ul class="description_font" style="margin:0px;">
-            <li>
                 <h5 class="subheader_faq"><b>Q: Quel type de carrelage convient le mieux à une utilisation en extérieur ?</b></h5>
                     <ul class="description_font_2" style="margin:0px;">
                         <li>
@@ -118,25 +150,25 @@
                             <b>Marbre: </b>Fonctionne mieux dans les espaces extérieurs couverts grâce à sa surface polie.
                         </li>
                     </ul>
-            </li>
-            <li>
                 <h5 class="subheader_faq"><b>Q: Comment ces carreaux se comportent-ils par temps glacial ?</b></h5>
-                <div class="description_font_2">
-                    Le travertin et le calcaire sont plus résistants aux cycles de gel et de dégel, à condition qu’ils soient correctement scellés. Le marbre peut se fissurer s’il n’est pas correctement entretenu dans les climats froids.
+                <ul class="description_font_2">
+                    <li>
+                        Le travertin et le calcaire sont plus résistants aux cycles de gel et de dégel, à condition qu’ils soient correctement scellés. Le marbre peut se fissurer s’il n’est pas correctement entretenu dans les climats froids.
 
-                </div>
-            </li>
-            <li>
+                    </li>
+
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Puis-je utiliser ces carreaux pour des aménagements de jardin ?</b></h5>
-                <div class="description_font_2">
-                    Oui, le travertin et le calcaire sont populaires pour l’aménagement paysager en raison de leurs tons terreux et de leur résistance au glissement.
+                <ul class="description_font_2">
+                    <li>
+                        Oui, le travertin et le calcaire sont populaires pour l’aménagement paysager en raison de leurs tons terreux et de leur résistance au glissement.
 
-                </div>
-            </li>
+                    </li>
+
+                </ul>
         </ul>
         <h5 class="subheader_faq"><b>Pavers</b></h5>
         <ul style="margin:0px;" class="description_font">
-            <li>
                 <h5 class="subheader_faq"><b>Q: Quels sont les avantages d’utiliser des pavés en pierre naturelle ?</b></h5>
                 <ul class="description_font_2" style="margin:0px;">
                     <li>
@@ -149,57 +181,62 @@
                         Heat-resistant, making them comfortable for barefoot areas.
                     </li>
                 </ul>
-            </li>
-            <li>
                 <h5 class="subheader_faq"><b>Q: Comment les pavés en travertin se comparent-ils aux pavés en béton ?</b></h5>
-                <div class="description_font_2">
-                    Les pavés en travertin sont plus durables, résistants à la chaleur et visuellement attrayants que le béton, mais leur coût est plus élevé.
-                </div>
-            </li>
-            <li>
+                <ul class="description_font_2">
+                    <li>
+                        Les pavés en travertin sont plus durables, résistants à la chaleur et visuellement attrayants que le béton, mais leur coût est plus élevé.
+
+                    </li>
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Les pavés nécessitent-ils une installation particulière ?</b></h5>
-                <div class="description_font_2">
-                    Les pavés en pierre naturelle nécessitent une base solide, un nivellement approprié et un scellement occasionnel pour assurer leur longévité.
-                </div>
-            </li>
+                <ul class="description_font_2">
+                    <li>
+                        Les pavés en pierre naturelle nécessitent une base solide, un nivellement approprié et un scellement occasionnel pour assurer leur longévité.
+
+                    </li>
+                </ul>
         </ul>
         <h5 class="subheader_faq"><b>Carrelage Mur et Façade</b></h5>
         <ul style="margin:0px;" class="description_font">
 
-            <li>
                 <h5 class="subheader_faq"><b>Q: Puis-je utiliser du travertin ou du calcaire pour un dosseret ?</b></h5>
-                <div class="description_font_2">
-                    Oui, ce sont d’excellents choix pour les dosserets de cuisine ou de salle de bain, ajoutant de la texture et du caractère.
-                </div>
-            </li>
-            <li>
+                <ul class="description_font_2">
+                    <li>
+                        Oui, ce sont d’excellents choix pour les dosserets de cuisine ou de salle de bain, ajoutant de la texture et du caractère.
+
+                    </li>
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Les carreaux muraux en marbre se tachent-ils facilement ?</b></h5>
-                <div class="description_font_2">
-                    Le marbre peut se tacher s’il est exposé à des substances acides, mais le scellement minimise ce risque.
-                </div>
-            </li>
+                <ul class="description_font_2">
+                    <li>
+                        Le marbre peut se tacher s’il est exposé à des substances acides, mais le scellement minimise ce risque.
+
+                    </li>
+                </ul>
         </ul>
         <h5 class="subheader_faq"><b>Questions d'entretien</b></h5>
         <ul style="margin:0px;" class="description_font">
-            <li>
                 <h5 class="subheader_faq"><b>Q: À quelle fréquence les carreaux extérieurs doivent-ils être scellés ?</b></h5>
-                <div class="description_font_2">
-                    Pour les applications extérieures, il est recommandé de resceller tous les 1 à 2 ans, en fonction des conditions météorologiques.
-                </div>
-            </li>
-            <li>
-                <h5 class="subheader_faq"><b>Q: Quelle est la meilleure façon de nettoyer le carrelage extérieur ?</b></h5>
-                <div class="description_font_2">
+                <ul class="description_font_2">
+                    <li>
+                        Pour les applications extérieures, il est recommandé de resceller tous les 1 à 2 ans, en fonction des conditions météorologiques.
 
-                    Utilisez un tuyau pour un nettoyage régulier et un nettoyant au pH neutre pour les saletés tenaces. Évitez le lavage sous pression car cela peut éroder les pierres plus tendres comme le travertin et le calcaire.
-                                    </div>
-            </li>
-            <li>
+                    </li>
+                </ul>
+                <h5 class="subheader_faq"><b>Q: Quelle est la meilleure façon de nettoyer le carrelage extérieur ?</b></h5>
+                <ul class="description_font_2">
+                    <li>
+                        Utilisez un tuyau pour un nettoyage régulier et un nettoyant au pH neutre pour les saletés tenaces. Évitez le lavage sous pression car cela peut éroder les pierres plus tendres comme le travertin et le calcaire.
+
+                    </li>
+                </ul>
                 <h5 class="subheader_faq"><b>Q: Ces carreaux sont-ils résistants à la mousse ou aux algues ?</b></h5>
-                <div class="description_font_2">
-                    Un nettoyage et un scellement réguliers empêchent la croissance de mousse et d’algues sur les surfaces extérieures.
-                    </div>
-            </li>
+                <ul class="description_font_2">
+                    <li>
+                        Un nettoyage et un scellement réguliers empêchent la croissance de mousse et d’algues sur les surfaces extérieures.
+
+                    </li>
+                </ul>
         </ul>
 
 
