@@ -309,6 +309,8 @@
 
         "title_3":"مقاطع فيديو إعلامية",
         "projects":[
+          {"id":29,"name":"فيديوهات المشروع | مشروع LSA في اليونان","url":"https://www.youtube.com/embed/LUoUosoqFmE?si=tNOhrlij3ZPkbP2_","queue":"29"},
+
           {"id":1,"name":"سمك الحجر واستخدامه","url":"https://www.youtube.com/embed/GWmSghUN2Oc?si=sPQer5erMGrSaaOA","queue":"1"},
 
           {"id":29,"name":"فيديوهات المشروع | مشروع الفن في بلغاريا","url":"https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq","queue":"29"},

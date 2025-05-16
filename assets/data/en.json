@@ -307,6 +307,8 @@
 
         "title_3":"INFORMATIVE VIDEOS",
         "projects":[
+          {"id":29,"name":"Project Videos | LSA Project in Greece","url":"https://www.youtube.com/embed/LUoUosoqFmE?si=tNOhrlij3ZPkbP2_","queue":"29"},
+
           {"id":29,"name":"Project Videos | ART Project in Bulgaria","url":"https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq","queue":"29"},
 
           {"id":29,"name":"Project Videos | SYD Project in the Saudi Arabia","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
