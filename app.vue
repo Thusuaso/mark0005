@@ -3,7 +3,7 @@
     <div class="col-sm-12">
       <a class="customBannerA " href="https://www.mekmar.com/product/detail/philadelphia-travertine/948" v-show="lang=='en'">
       <div class="customBanner" style="" >
-        Please check the brand new travertine selection! With 22 years of experience, <strong>Mekmar</strong> offers: <strong>Philadelphia Travertine!</strong>
+        Please check the brand new travertine selection! With 23 years of experience, <strong>Mekmar</strong> offers: <strong>Philadelphia Travertine!</strong>
       </div>
     </a>
     </div>
@@ -13,7 +13,7 @@
     <div class="col-sm-12">
       <a class="customBannerA" href="https://www.mekmar.com/fr/product/detail/philadelphia-travertine/948" v-show="lang=='fr'">
     <div class="container customBanner m-auto text-center" style="" >
-      Veuillez consulter la toute nouvelle sélection de travertin ! Avec 22 ans d'expérience, <strong>Mekmar</strong> vous propose : <strong>Philadelphia Travertin!</strong>
+      Veuillez consulter la toute nouvelle sélection de travertin ! Avec 23 ans d'expérience, <strong>Mekmar</strong> vous propose : <strong>Philadelphia Travertin!</strong>
     </div>
   </a>
     </div>
@@ -22,7 +22,7 @@
     <div class="col-sm-12">
       <a class="customBannerA" href="https://www.mekmar.com/es/product/detail/philadelphia-travertine/948" v-show="lang=='es'">
     <div class="container customBanner m-auto text-center" style="" >
-      ¡Consulte la nueva selección de travertino! Con 22 años de experiencia, <strong>Mekmar</strong> ofrece: <strong>¡Travertino Filadelfia!</strong>    
+      ¡Consulte la nueva selección de travertino! Con 23 años de experiencia, <strong>Mekmar</strong> ofrece: <strong>¡Travertino Filadelfia!</strong>    
     </div>
   </a>
     </div>
@@ -31,7 +31,7 @@
     <div class="col-sm-12">
       <a class="customBannerA" href="https://www.mekmar.com/ru/product/detail/philadelphia-travertine/948" v-show="lang=='ru'">
     <div class="container customBanner m-auto text-center" style="" >
-      Пожалуйста, ознакомьтесь с новым выбором травертина! Имея 22-летний опыт работы, <strong>Mekmar</strong> предлагает: <strong>Филадельфийский травертин!</strong>
+      Пожалуйста, ознакомьтесь с новым выбором травертина! Имея 23-летний опыт работы, <strong>Mekmar</strong> предлагает: <strong>Филадельфийский травертин!</strong>
     </div>
   </a>
     </div>
@@ -40,7 +40,7 @@
     <div class="col-sm-12">
       <a class="customBannerA" href="https://www.mekmar.com/ar/product/detail/philadelphia-travertine/948" v-show="lang=='ar'">
         <div class="container customBanner m-auto text-center" style="" >
-          يرجى التحقق من اختيار الحجر الجيري الجديد! مع 22 عامًا من الخبرة، تقدم <strong>مكمار</strong>: <strong>فيلادلفيا ترافرتين!</strong>
+          يرجى التحقق من اختيار الحجر الجيري الجديد! مع 23 عامًا من الخبرة، تقدم <strong>مكمار</strong>: <strong>فيلادلفيا ترافرتين!</strong>
         </div>
       </a>
     </div>
