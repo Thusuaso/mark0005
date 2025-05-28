@@ -59,6 +59,9 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/robots"
   ],
+  plugins:[
+    "~/plugins/ms_tag.client.ts"
+  ],
 
   css: [
     "~/assets/css/default.css",
