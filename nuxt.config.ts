@@ -128,13 +128,7 @@ export default defineNuxtConfig({
   static: {
     prefix: false
   },
-  scripts: {
-    registry: {
-      clarity: {
-        id: 'rqnl9u3tud'
-      }
-    }
-  }
+
 
 
 })
