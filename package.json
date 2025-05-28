@@ -13,6 +13,7 @@
   "dependencies": {
     "@element-plus/nuxt": "^1.0.9",
     "@fancyapps/ui": "^5.0.36",
+    "@microsoft/clarity": "^1.0.0",
     "@nuxtjs/robots": "^4.0.2",
     "@nuxtjs/sitemap": "^5.3.5",
     "@pinia/nuxt": "^0.5.1",

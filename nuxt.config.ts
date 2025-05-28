@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import Aura from '@primevue/themes/aura';
+
 export default defineNuxtConfig({
   app: {
   head: {
@@ -123,6 +124,7 @@ export default defineNuxtConfig({
   },
   static: {
     prefix: false
-  }
+  },
+
 
 })
