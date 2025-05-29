@@ -60,7 +60,6 @@ export default defineNuxtConfig({
     "@vee-validate/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
-    "nuxtjs-microsoft-clarity"
 
   ],
   plugins:[
@@ -132,15 +131,7 @@ export default defineNuxtConfig({
   static: {
     prefix: false
   },
-  microsoftClarity: {
-    id:'rqnl9u3tud'
-  },
-    publicRuntimeConfig: {
-    microsoftClarity: {
-         id:'rqnl9u3tud'
-
-    }
-  }
+ 
 
 
 
