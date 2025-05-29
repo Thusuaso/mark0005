@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import Aura from '@primevue/themes/aura';
+import Clarity from '@microsoft/clarity';
+
 
 export default defineNuxtConfig({
   app: {
@@ -57,7 +59,9 @@ export default defineNuxtConfig({
     '@primevue/nuxt-module',
     "@vee-validate/nuxt",
     "@nuxtjs/sitemap",
-    "@nuxtjs/robots"
+    "@nuxtjs/robots",
+    "nuxtjs-microsoft-clarity"
+
   ],
   plugins:[
     "~/plugins/ms_tag.ts"
@@ -128,6 +132,15 @@ export default defineNuxtConfig({
   static: {
     prefix: false
   },
+  microsoftClarity: {
+    id:'rqnl9u3tud'
+  },
+    publicRuntimeConfig: {
+    microsoftClarity: {
+         id:'rqnl9u3tud'
+
+    }
+  }
 
 
 
