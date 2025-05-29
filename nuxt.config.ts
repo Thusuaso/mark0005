@@ -60,7 +60,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots"
   ],
   plugins:[
-    "~/plugins/ms_tag.client.ts"
+    "~/plugins/ms_tag.ts"
   ],
 
   css: [
