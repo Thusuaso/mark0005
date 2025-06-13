@@ -242,8 +242,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <!-- <SharedLangDropdown /> -->
-              <Select
+              <SharedLangDropdown />
+              <!-- <Select
                 v-model="selectedLang"
                 :options="langs"
                 optionLabel="name"
@@ -276,7 +276,7 @@
                     />
                   </a>
                 </template>
-              </Select>
+              </Select> -->
             </form>
           </div>
         </div>
@@ -526,7 +526,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <Select
+              <SharedLangDropdown />
+
+              <!-- <Select
                 v-model="selectedLang"
                 :options="langs"
                 optionLabel="name"
@@ -559,7 +561,7 @@
                     />
                   </a>
                 </template>
-              </Select>
+              </Select> -->
             </form>
           </div>
         </div>
@@ -809,7 +811,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <Select
+              <SharedLangDropdown />
+
+              <!-- <Select
                 v-model="selectedLang"
                 :options="langs"
                 optionLabel="name"
@@ -842,7 +846,7 @@
                     />
                   </a>
                 </template>
-              </Select>
+              </Select> -->
             </form>
           </div>
         </div>
@@ -1092,7 +1096,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <Select
+              <SharedLangDropdown />
+
+              <!-- <Select
                 v-model="selectedLang"
                 :options="langs"
                 optionLabel="name"
@@ -1125,7 +1131,7 @@
                     />
                   </a>
                 </template>
-              </Select>
+              </Select> -->
             </form>
           </div>
         </div>
@@ -1375,7 +1381,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <Select
+              <SharedLangDropdown />
+
+              <!-- <Select
                 v-model="selectedLang"
                 :options="langs"
                 optionLabel="name"
@@ -1408,7 +1416,7 @@
                     />
                   </a>
                 </template>
-              </Select>
+              </Select> -->
             </form>
           </div>
         </div>
