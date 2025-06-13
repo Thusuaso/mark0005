@@ -1,691 +1,1364 @@
 {
-    "navbar":{
-        "home":"بيت",
-        "product":"منتجات",
-        "info":"معلومات",
-        "about":"عن",
-        "contact":"اتصال",
-        "fabrication":"تلفيق",
-        "videos":"أشرطة فيديو",
-        "project":"المشاريع",
-        "catalog":"فهرس",
-        "usa":"أَميرِكةأَمْريكا",
-        "categories":"فئات",
-        "colors":"الألوان",
-        "areas":"المناطق",
-        "usaabout":"عن",
-        "usafaq":"التعليمات",
-        "usacontact":"اتصال",
-        "usastock":"مخزون",
-        "faq":"التعليمات"
-    },
-    "navbar_link":{
-        "home":"/ar",
-        "about":"/ar/about",
-        "contact":"/ar/contact",
-        "fabrication":"/ar/fabrication",
-        "videos":"/ar/videos",
-        "project":"/ar/projects",
-        "catalog":"https://cdn.mekmarimage.com/category/catalog-2025.pdf",
-        "usastock":"/ar/usa/stock",
-        "categories":[
-            {"id":1,"title":"رخام","link":"/ar/product/marble/1"},
-            {"id":2,"title":"الحجر الجيري","link":"/ar/product/travertine/2"},
+  "navbar": {
+    "home": "بيت",
+    "product": "منتجات",
+    "info": "معلومات",
+    "about": "عن",
+    "contact": "اتصال",
+    "fabrication": "تلفيق",
+    "videos": "أشرطة فيديو",
+    "project": "المشاريع",
+    "catalog": "فهرس",
+    "usa": "أَميرِكةأَمْريكا",
+    "categories": "فئات",
+    "colors": "الألوان",
+    "areas": "المناطق",
+    "usaabout": "عن",
+    "usafaq": "التعليمات",
+    "usacontact": "اتصال",
+    "usastock": "مخزون",
+    "faq": "التعليمات"
+  },
+  "navbar_link": {
+    "home": "/ar",
+    "about": "/ar/about",
+    "contact": "/ar/contact",
+    "fabrication": "/ar/fabrication",
+    "videos": "/ar/videos",
+    "project": "/ar/projects",
+    "catalog": "https://cdn.mekmarimage.com/category/catalog-2025.pdf",
+    "usastock": "/ar/usa/stock",
+    "categories": [
+      { "id": 1, "title": "رخام", "link": "/ar/product/marble/1" },
+      { "id": 2, "title": "الحجر الجيري", "link": "/ar/product/travertine/2" },
 
-            {"id":3,"title":"حجر الكلس","link":"/ar/product/limestone/3"},
-            {"id":4,"title":"الفسيفساء","link":"/ar/product/mosaics/4"},
-            {"id":5,"title":"في الخارج","link":"/ar/product/outdoor/5"},
-            {"id":6,"title":"حمام ومطبخ","link":"/ar/product/bath-and-kitchen/6"},
-            {"id":7,"title":"ألواح","link":"/ar/product/slabs/7"},
-            {"id":8,"title":"كوارتز","link":"/ar/product/quartz/8"},
-            {"id":9,"title":"ثانوية","link":"/ar/product/by-product/9"},
-            {"id":10,"title":"مواد التثبيت","link":"/ar/product/installation-materials/11"},
-            {"id":11,"title":"الجصي","link":"/ar/product/plasterboard/18"}
-            
-
-        ],
-        "colors":[
-            {"id":1,"title":"أبيض","link":"/ar/product/color/white/1"},
-            {"id":2,"title":"رمادي","link":"/ar/product/color/grey/2"},
-            {"id":3,"title":"أسود","link":"/ar/product/color/black/3"},
-            {"id":4,"title":"اللون البيج","link":"/ar/product/color/beige/4"},
-            {"id":5,"title":"بني","link":"/ar/product/color/brown/5"},
-            {"id":6,"title":"أصفر","link":"/ar/product/color/yellow/6"},
-            {"id":7,"title":"أخضر","link":"/ar/product/color/green/7"},
-            {"id":8,"title":"أزرق","link":"/ar/product/color/blue/8"},
-            {"id":9,"title":"أحمر/وردي/أرجواني","link":"/ar/product/color/red-pink-purple/9"},
-            {"id":10,"title":"متعدد الألوان","link":"/ar/product/color/multicolor/10"}
-
-
-
-
-        ],
-        "areas":[
-            {"id":1,"title":"غرفة المعيشة","link":"/ar/product/area/living-room/1"},
-            {"id":2,"title":"مطبخ","link":"/ar/product/area/kitchen/2"},
-            {"id":3,"title":"حمام","link":"/ar/product/area/bathroom/3"},
-            {"id":4,"title":"منظر جمالي","link":"/ar/product/area/landscape/4"},
-            {"id":5,"title":"كراج","link":"/ar/product/area/garage/5"},
-            {"id":6,"title":"حمام سباحة","link":"/ar/product/area/pool/6"},
-            {"id":7,"title":"مظهر زائف","link":"/ar/product/area/facede/7"},
-            {"id":8,"title":"حائط","link":"/ar/product/area/wall/8"},
-            {"id":9,"title":"أرضية","link":"/ar/product/area/floor/9"}
-
-            
-        ],
-        "info":[
-            {"id":1,"title":"عن","link":"/ar/about"},
-            {"id":2,"title":"اتصال","link":"/ar/contact"}
-
-        ],
-        "usaabout":"/ar/usa/about",
-        "usafaq":"/ar/usa/faq",
-        "usacontact":"/ar/usa/contact",
-        "faq":"/ar/faq"
-    },
-    "footer":{
-        "about":{
-            "header":"معلومات عنا",
-            "description":"تقوم شركة MEKMAR بإنتاج وتوريد أفضل منتجات الحجر الطبيعي وعالية الجودة منذ عام 2002. ونحن نهدف إلى الحصول على أفضل جودة وأفضل خدمة وأعلى مستوى من رضا العملاء حتى تسليم المنتجات. يقوم فريق المبيعات ذو الخبرة لدينا بإطلاعك على خطوات الدفع والإنتاج والشحنات بخطوات.",
-            "items":[
-                
-                {"id" : 1, "value" : "نحن نقدم خدمة الشحن في جميع أنحاء العالم لمدة 23 عاما."},
-                { "id"  :2, "value" : "نحن ننتج جميع أنواع الحجر الطبيعي من البلاطة إلى الفسيفساء." }  ,
-                { "id" : 3, "value" : "نحن نتحكم في 30.000 متر مربع من المنتج شهريًا." },
-                { "id" : 4, "value" :  "نحن نقدم الحلول الطبيعية للمشاريع المعمارية." }
-            ],
-            "socials":[
-              {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
-              {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
-              {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
-              {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
-              {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
-      
-          ]
-        },
-        "news":{
-            "header":"أخبار",
-            "items":[
-              {"id":1,"image":"/image/news/news-1-b.webp","name":"mekmar_suppliers_news_1"},
-              {"id":2,"image":"/image/news/news-2-b.webp","name":"mekmar_suppliers_news_2"},
-              {"id":3,"image":"/image/news/news-3-b.webp","name":"mekmar_suppliers_news_3"},
-              {"id":4,"image":"/image/news/news-4-b.webp","name":"mekmar_suppliers_news_4"},
-              {"id":5,"image":"/image/news/news-5-b.webp","name":"mekmar_suppliers_news_5"},
-              {"id":6,"image":"/image/news/news-6-b.webp","name":"mekmar_suppliers_news_6"},
-              {"id":7,"image":"/image/news/news-7-b.webp","name":"mekmar_suppliers_news_7"},
-              {"id":8,"image":"/image/news/news-8-b.webp","name":"mekmar_suppliers_news_8"},
-              {"id":9,"image":"/image/news/news-9-b.webp","name":"mekmar_suppliers_news_9"}
-
-            ]
-        },
-        "personal":{
-            "header":"فريق مبيعات مكمار",
-            "items":[
-                {
-                    "name" : "Gizem",
-                     "job" : "أخصائي مبيعات",
-                     "email" : "export@mekmar.com",
-                     "whatsapp" : "+90 542 660 8087",
-                     "image" : "/image/personel/gizem-yeni.webp",
-                     "webp" : "/image/personel/gizem-yeni.webp",
-                     "id"  : 1,
-                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
-                  },
-                  {
-                    "name" : "Ozlem",
-                     "job" : "أخصائي مبيعات",
-                     "email" : "export1@mekmar.com",
-                     "whatsapp" : "+90 542 660 8085",
-                     "image" : "/image/personel/ozlem-yeni-2.webp",
-                     "webp" : "/image/personel/ozlem-yeni-2.webp",
-                     "id" : 2,
-                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
-                  },
-                  {
-                    "name" : "Hakan",
-                     "job" : "أخصائي مبيعات",
-                     "email" : "export2@mekmar.com",
-                     "whatsapp" : "+90 542 660 8084",
-                     "image" : "/image/personel/hakan-yeni.webp",
-                     "webp" : "/image/personel/hakan-yeni.webp",
-                     "id" : 3,
-                     "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
-                  }
-            ]
-        }
-    },
-    "slides":{
-        "slide1":[
-            {"id":1,"link":"/ar/fabrication","title":"مشاهد من المحاجر","name":"محاجر الرخام","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp"},
-            {"id":2,"link":"/ar/fabrication","title":"مشاهد من المحاجر","name":"محاجر الرخام","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp"},
-            {"id":3,"link":"/ar/fabrication","title":"مشاهد من المحاجر","name":"محاجر الترافرتين","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp"},
-            {"id":4,"link":"/ar/fabrication","title":"مشاهد من المحاجر","name":"محاجر الترافرتين","imagePath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp","macPath":"/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp"}
-          ],
-          "slide2":[
-            {"id":1,"link":"/ar/fabrication","title":"مشاهد من الإنتاج","name":"تلفيق","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp"},
-            {"id":2,"link":"/ar/fabrication","title":"مشاهد من الإنتاج","name":"تلفيق","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp"},
-            {"id":3,"link":"/ar/fabrication","title":"مشاهد من الإنتاج","name":"تلفيق","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp"},
-            {"id":4,"link":"/ar/fabrication","title":"مشاهد من الإنتاج","name":"تلفيق/ar","imagePath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp","macPath":"/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"}
-          ],
-
-          "slide3":[
-            {"id":1,"link":"https://www.mekmar.com/ar/product/detail/bianco-ibiza-sandblasted-marble-paver/996","title":"أضيفت حديثا","name":"","imagePath":"/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp","macPath":"/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp"},
-
-            {"id":2,"link":"https://www.mekmar.com/ar/product/detail/snow-black-marble-splitface/995","title":"أضيفت حديثا","name":"","imagePath":"/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp","macPath":"/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp"},
-            {"id":3,"link":"https://www.mekmar.com/ar/product/detail/snow-black-marble/994","title":"أضيفت حديثا","name":"","imagePath":"/image/slides/slide_3/Snow-black-marble-tile1.webp","macPath":"/image/slides/slide_3/Snow-black-marble-tile1.webp"},
-            {"id":4,"link":"https://www.mekmar.com/ar/product/detail/apple-cream-marble/993","title":"أضيفت حديثا","name":"","imagePath":"/image/slides/slide_3/Mekmar-993-1.webp","macPath":"/image/slides/slide_3/Mekmar-993-1.webp"}
-          ]
-    },
-    "categories":[
-        {"id":1,"link":"/ar/product/marble/1","name":"رخام","image":"/image/categories/marble-category-main-photo-mekmar.com.webp"},
-        {"id":2,"link":"/ar/product/travertine/2","name":"الترافرتين","image":"/image/categories/travertine-category-main-photo-mekmar.webp"},
-        {"id":3,"link":"/ar/product/limestone/3","name":"حجر الكلس","image":"/image/categories/limestone-category-main-photo-mekmar.webp"},
-        {"id":4,"link":"/ar/product/mosaics/4","name":"فسيفساء","image":"/image/categories/mosaic-category-main-photo-mekmar.webp"},
-        {"id":5,"link":"/ar/product/outdoor/5","name":"في الخارج","image":"/image/categories/outdoor-category-main-photo-mekmar.webp"},
-        {"id":6,"link":"/ar/product/bath-and-kitchen/6","name":"الحمام والمطبخ","image":"/image/categories/bath-and-kitchen-category-main-photo-mekmar.webp"},
-        {"id":7,"link":"/ar/product/slabs/7","name":"ألواح","image":"/image/categories/slabs-category-main-photo-mekmar.webp"},
-        {"id":8,"link":"/ar/product/quartz/8","name":"كوارتز","image":"/image/categories/quartz-category-main-photo-mekmar.webp"},
-        {"id":9,"link":"/ar/product/by-products/9","name":"حسب المنتجات","image":"/image/categories/by-products-category-main-photo-mekmar.webp"},
-        {"id":11,"link":"/ar/product/installation-materials/11","name":"مواد التثبيت","image":"/image/categories/installation-materials-category-main-photo-mekmar.webp"},
-        {"id":18,"link":"/ar/product/plasterboard/18","name":"الجصي","image":"/image/categories/plasterboard-category-main-photo-mekmar.webp"}
-    
-      ],
-      "about" : {
-        "header" : "معلومات عنا",
-        "title_1" : "مهمتنا",
-        "title_2" : "رؤيتنا",
-        "items_1" : [
-    
-           { "id" : 1, "value" : "استخدام الموارد الطبيعية بكفاءة؛ أن نكون شركة عالمية محترمة تراعي المجتمع والبيئة." },
-           { "id" : 2, "value" : "لضمان رضا جميع العملاء ومعاملة كل عميل بكرامة." },
-           { "id" : 3, "value" : "الحفاظ على صورة المورد/الشركة المصنعة للحجر الطبيعي التركي عالي الجودة من الدرجة الأولى على مستوى العالم." }
-        ],
-        "items_2" : [
-    
-          { "id" : 1, "value" : "توفير حلول الحجر الطبيعي من خلال برامج الرسم والعرض ثلاثية الأبعاد لمساعدة عملائنا في الحصول على منزل أحلامهم." },
-          { "id" : 2, "value" : "تطوير حلول الإنتاج ومراقبة الجودة والنقل لدينا لمدة 23 عامًا من خلال مضاعفة نطاق منتجاتنا وعدد العملاء." },
-          { "id" : 3, "value" : "توفير أفضل عناصر التصميم لخلق مساحة المعيشة المثالية." }
-       ],   
-       "sub_link_title":"إذا كنت تريد التحقق من الملف التعريفي لشركتنا بصيغة PDF، انقر هنا:",
-       "sub_link":"https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf",
-       "socials":[
-        {"id":1,"name":"facebook","link":"https://www.facebook.com/mekmar","icon":"bi bi-facebook"},
-        {"id":2,"name":"twitter","link":"https://twitter.com/MekmarMarble","icon":"bi bi-twitter-x"},
-        {"id":3,"name":"youtube","link":"https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA","icon":"bi bi-youtube"},
-        {"id":4,"name":"instagram","link":"https://www.instagram.com/mekmarnaturalstone/","icon":"bi bi-instagram"},
-        {"id":5,"name":"pinterest","link":"https://tr.pinterest.com/export10499/","icon":"bi bi-pinterest"}
-
-    ]
+      { "id": 3, "title": "حجر الكلس", "link": "/ar/product/limestone/3" },
+      { "id": 4, "title": "الفسيفساء", "link": "/ar/product/mosaics/4" },
+      { "id": 5, "title": "في الخارج", "link": "/ar/product/outdoor/5" },
+      {
+        "id": 6,
+        "title": "حمام ومطبخ",
+        "link": "/ar/product/bath-and-kitchen/6"
       },
-      "contact":{
-        "header":"اتصال",
-        "items":[
-            {
-                "name" : "Gizem",
-                 "job" : "أخصائي مبيعات",
-                 "email" : "export@mekmar.com",
-                 "whatsapp" : "+90 542 660 8087",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-                 "id"  : 1,
-                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608087"
-              },
-              {
-                "name" : "Ozlem",
-                 "job" : "أخصائي مبيعات",
-                 "email" : "export1@mekmar.com",
-                 "whatsapp" : "+90 542 660 8085",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
-                 "id" : 2,
-                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608085"
-              },
-              {
-                "name" : "Hakan",
-                 "job" : "أخصائي مبيعات",
-                 "email" : "export2@mekmar.com",
-                 "whatsapp" : "+90 542 660 8084",
-                 "image" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
-                 "webp" : "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
-                 "id" : 3,
-                 "watsappLink":"https://web.whatsapp.com/send?phone=905426608084"
-              }
-        ],
-        "form":{
-            "name":"اسم",
-            "email":"بريد إلكتروني",
-            "phone":"رقم التليفون",
-            "message":"رسالة",
-            "field_1":"حقل الاسم مطلوب، يرجى ملؤه",
-            "field_2":"حقل البريد مطلوب، يرجى ملؤه",
-            "field_3":"حقل الهاتف مطلوب، يرجى ملؤه",
-            "country":"الرقم الدولي",
-            "example":"مثال:",
-            "choose_country":"اختر البلد",
-            "search_country":"ابحث عن بلد",
-            "general_field":"يرجى ملء جميع المدخلات",
-            "send":"يرسل"
-
-        }
-    },
-    "fabrication":{
-
-        "items":[
-            {   "id":1,
-                "header":"المصانع التي نعمل بها",
-              "images":[
-              {"id":1,"title":"خط إيبوكسي رخام بيج","image":"/image/fabrication/fab_1/Mekmar_Factory_1.webp"},
-              {"id":2,"title":"مصنع بيانكو إيبيزا","image":"/image/fabrication/fab_1/Mekmar_Factory_4.webp"},
-              {"id":3,"title":"عملية الأخدود للسلالم","image":"/image/fabrication/fab_1/Mekmar_Factory_2.webp"},
-              {"id":4,"title":"CNC قطع السلالم الزاوية","image":"/image/fabrication/fab_1/Mekmar_Factory_3.webp"}
-            ]},
-            {
-                "id":2,
-              "header":"المحاجر التي نعمل بها",
-              "images":[
-                {"id":1,"title":"بيانكو إيبيزا محجر الرخام","image":"/image/fabrication/fab_2/Mekmar_Quarry_1.webp"},
-                {"id":2,"title":"محجر رخام كالكوتا التركي","image":"/image/fabrication/fab_2/Mekmar_Quarry_2.webp"},
-                {"id":3,"title":"محجر الحجر الجيري الكلاسيكي","image":"/image/fabrication/fab_2/Mekmar_Quarry_3.webp"},
-                {"id":4,"title":"محجر بيكاسو الترافرتين","image":"/image/fabrication/fab_2/Mekmar_Quarry_4.webp"}
-    
-              ]
-            },
-            {
-                "id":3,
-              "header":"مستودعنا في الولايات المتحدة الأمريكية",
-              "images":[
-                {"id":1,"title":"منطقة العينة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"},
-                {"id":2,"title":"الأسهم المتاحة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"},
-                {"id":3,"title":"الطلبات الخاصة","image":"/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"},
-                {"id":4,"title":"مدخل الحاوية","image":"/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"}
-    
-              ]
-            }
-        ]
+      { "id": 7, "title": "ألواح", "link": "/ar/product/slabs/7" },
+      { "id": 8, "title": "كوارتز", "link": "/ar/product/quartz/8" },
+      { "id": 9, "title": "ثانوية", "link": "/ar/product/by-product/9" },
+      {
+        "id": 10,
+        "title": "مواد التثبيت",
+        "link": "/ar/product/installation-materials/11"
       },
-      "videos":{
-        "title_1":"فيديوهات المشروع",
-        "title_2":"فيديوهات الإنتاج",
-
-        "title_3":"مقاطع فيديو إعلامية",
-        "projects":[
-          {"id":29,"name":"فيديوهات المشروع | مشروع LSA في اليونان","url":"https://www.youtube.com/embed/9Rb4nX_8rCc?si=SSha3lJsqQUmEhKk","queue":"29"},
-
-          {"id":1,"name":"سمك الحجر واستخدامه","url":"https://www.youtube.com/embed/GWmSghUN2Oc?si=sPQer5erMGrSaaOA","queue":"1"},
-
-          {"id":29,"name":"فيديوهات المشروع | مشروع الفن في بلغاريا","url":"https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq","queue":"29"},
-
-          {"id":29,"name":"فيديوهات المشروع | مشروع SYD في المملكة العربية السعودية","url":"https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8","queue":"29"},
-
-          {"id":29,"name":"فيديوهات المشروع | مشروع TMRP في الولايات المتحدة الأمريكية","url":"https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9","queue":"29"},
-
-          {"id":29,"name":"فيديوهات المشروع | مشروع DGCELL في غيانا","url":"https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh","queue":"29"},
-
-          {"id":29,"name":"فيديوهات المشروع | مشروع راندولف في غانا","url":"https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9","queue":"29"},
-
-          {"id":28,"name":"فيديوهات المشروع | مشروع دورهام في أستراليا","url":"https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX","queue":"28"},
-
-          {"id":28,"name":"فيديوهات المشروع | مشروع زنبق في غانا","url":"https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS","queue":"28"},
-
-          {"id":27,"name":"فيديوهات المشروع | مشروع الثنائي - فرنسا","url":"https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM","queue":"27"},
-          {"id":26,"name":"فيديوهات المشروع | مشروع جيبينج - ألمانيا","url":"https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM","queue":"26"},
-
-          {"id":1,"name":"فيديوهات المشروع | مشروع سان - كرواتيا","url":"https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV","queue":"1"},
-          {"id":2,"name":"فيديوهات المشروع | مشروع المحروقي في عمان","url":"https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS","queue":"2"},
-          {"id":3,"name":"فيديوهات المشروع | مشروع الجدار في أستراليا","url":"https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47","queue":"3"},
-          {"id":4,"name":"فيديوهات المشروع | مشروع HOGA في رومانيا","url":"https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z","queue":"4"},
-          {"id":5,"name":"فيديوهات المشروع | مشروع MTT في تركيا","url":"https://www.youtube.com/embed/Wg2VMMDhuHE?si=0w-xVWwFr9WwMiU2","queue":"5"},
-          {"id":6,"name":"فيديوهات المشروع | مشروع جزيرة في الولايات المتحدة الأمريكية","url":"https://www.youtube.com/embed/leerUVEjwLM?si=fRJrzxa6L5TbmA5N","queue":"6"},
-          {"id":7,"name":"فيديوهات المشروع | مشروع نادر في جمهورية الدومينيكان","url":"https://www.youtube.com/embed/GpzReJf4AIE?si=wyL7TgBzLPQVgQTC","queue":"7"},
-          {"id":8,"name":"فيديوهات المشروع | مشروع همايون في الولايات المتحدة الأمريكية","url":"https://www.youtube.com/embed/u8OlcbiFFU4?si=0iXTAXetqi192aNq","queue":"8"},
-          {"id":9,"name":"فيديوهات المشروع | المشروع الساحلي في موريشيوس","url":"https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6","queue":"9"},
-          {"id":10,"name":"فيديوهات المشروع | مشروع منصور في أستراليا","url":"https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3","queue":"10"},
-          {"id":11,"name":"فيديوهات المشروع | مشروع MBI في غانا","url":"https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK","queue":"11"},
-          {"id":12,"name":"فيديوهات المشروع | مشروع أندرسن في هولندا","url":"https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0","queue":"12"},
-          
-        {"id":13,"name":"فيديوهات المشروع | مشروع كيري في فرنسا","url":"https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3","queue":"13"},
-
-        {"id":14,"name":"فيديوهات المشروع | مشروع آدامز في جزر البهاما","url":"https://www.youtube.com/embed/JE9ftiOxcpI","queue":"14"},
-        {"id":15,"name":"فيديوهات المشروع | مشروع بوشامب في فيتنام","url":"https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3","queue":"15"},
-        {"id":16,"name":"فيديوهات المشروع | مشروع جاكسون في اسبانيا","url":"https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd","queue":"16"},
-        {"id":17,"name":"فيديوهات المشروع | مشروع فندق فيردي في مالطا","url":"https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW","queue":"17"},
-        {"id":18,"name":"فيديوهات المشروع | مشروع الصابوني في الكويت","url":"https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm","queue":"18"},
-        {"id":19,"name":"فيديوهات المشروع | مشروع بيس في سويسرا","url":"https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6","queue":"19"},
-        {"id":20,"name":"فيديوهات المشروع | الحجر الجيري الكلاسيكي المقطوع بالعرق مملوء ومملوء ومصقول","url":"https://www.youtube.com/embed/xfhsj866SAU","queue":"20"},
-        {"id":21,"name":"فيديوهات المشروع | بابلو فين قطع الحجر الجيري","url":"https://www.youtube.com/embed/u9TtbWff-W8","queue":"21"},
-        {"id":22,"name":"فيديوهات المشروع | مينا ريفي الترافرتين","url":"https://www.youtube.com/embed/UW9oDb3bt2I","queue":"22"},
-        {"id":23,"name":"فيديوهات المشروع | مشروع فيلا العوضي في الكويت","url":"https://www.youtube.com/embed/bGjZUG4k3Vc","queue":"23"}
-
-  
-        ],
-        "production":[
-
-          {"id":3,"url":"https://www.youtube.com/embed/75-OsSfISkI","name":"فيديوهات مكمار للإنتاج | مشروع رخام المحيط الرمادي","queue":"1"},
-          {"id":4,"url":"https://www.youtube.com/embed/Hkc5WXJ7F3o","name":"فيديوهات مكمار للإنتاج | وجه الانقسام","queue":"2"},
-          {"id":5,"url":"https://www.youtube.com/embed/30esf20C9Uw","name":"فيديوهات مكمار للإنتاج | الانتهاء من مشطوف","queue":"3"},
-          {"id":6,"url":"https://www.youtube.com/embed/6jSl51Mfrpo","name":"فيديوهات مكمار للإنتاج | مشروع قوس الترافرتين في دبي","queue":"4"},
-          {"id":7,"url":"https://www.youtube.com/embed/q7Bmy6J1_h4","name":"فيديوهات مكمار للإنتاج | أمر مراقبة الإنتاج","queue":"5"},
-          {"id":8,"url":"https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO","name":"فيديوهات مكمار للإنتاج | منتجات مخصصة / اختيارات مختلفة","queue":"6"},
-          {"id":2,
-          "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-          "name": "فيديوهات مكمار للإنتاج | نافورة",
-          "queue": "1"
-        },
-        {"id":25,"name":"الحلول المعمارية من مكمار","url":"https://www.youtube.com/embed/e2ok5kTRY_0","queue":"25"},
-        {"id":24,"name":"نافورة الرخام","url":"https://www.youtube.com/embed/xo0JL-c8xAM","queue":"24"}
-        ],
-        "informative":[
-          {"id":1,"name":"أنواع التسليم: مصطلحات التجارة الدولية","url":"https://www.youtube.com/embed/UJ6lubeTe10","queue":"1"},
-        {"id":2,"name":"قطع الوريد مقابل القطع المتقاطع","url":"https://www.youtube.com/embed/7WYoT6te_j8","queue":"2"},
-        {"id":3,"name":"ما هي الاختلافات بين الحجارة؟","url":"https://www.youtube.com/embed/mdaGLM3_rSU","queue":"3"},
-        {"id":4,"name":"خيارات سطحية مختلفة على الحجر الجيري","url":"https://www.youtube.com/embed/m1Im47Xe_Cc","queue":"4"},
-        {"id":5,"name":"خيارات حافة مختلفة على بلاط الحجر الطبيعي","url":"https://www.youtube.com/embed/tGsb5D4mMow","queue":"5"},
-        {"id":6,"name":"خيارات سطحية مختلفة على الرخام والحجر الجيري","url":"https://www.youtube.com/embed/UZ8CTP5e8Fs","queue":"6"},
-        {"id":7,"name":"رخام بيج | ما هو الفرق وكيفية اختيارهم؟","url":"https://www.youtube.com/embed/H5IgoDaxasc","queue":"7"},
-        {"id":8,"name":"كيف تؤثر المعالجات السطحية على لون الحجر","url":"https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0","queue":"8"}
-  
-        ],
-        "informative_fr":[
-          {"id":1,"name":"Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?","url":"https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd","queue":"6"},
-
-          {"id":1,"name":"Les Differentes Surface Sur Le Travertin","url":"https://www.youtube.com/embed/fMTPX9B5jB0","queue":"6"},
-          {"id":2,"name":"Différentes options de bord sur les carreaux en pierre naturelle","url":"https://www.youtube.com/embed/6QhOof8MFPU","queue":"7"},
-          {"id":3,"name":"Quelles sont les différences entre les pierres ?","url":"https://www.youtube.com/embed/4rqXrbXiPIU","queue":"8"},
-          {"id":4,"name":"Types de Chargement: INCOTERMS","url":"https://www.youtube.com/embed/2k8IA_efAok","queue":"10"},
-          {"id":5,"name":"Coupe Veineuse vs Coupe Croisée","url":"https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI","queue":11}
-  
-        ]
+      { "id": 11, "title": "الجصي", "link": "/ar/product/plasterboard/18" }
+    ],
+    "colors": [
+      { "id": 1, "title": "أبيض", "link": "/ar/product/color/white/1" },
+      { "id": 2, "title": "رمادي", "link": "/ar/product/color/grey/2" },
+      { "id": 3, "title": "أسود", "link": "/ar/product/color/black/3" },
+      { "id": 4, "title": "اللون البيج", "link": "/ar/product/color/beige/4" },
+      { "id": 5, "title": "بني", "link": "/ar/product/color/brown/5" },
+      { "id": 6, "title": "أصفر", "link": "/ar/product/color/yellow/6" },
+      { "id": 7, "title": "أخضر", "link": "/ar/product/color/green/7" },
+      { "id": 8, "title": "أزرق", "link": "/ar/product/color/blue/8" },
+      {
+        "id": 9,
+        "title": "أحمر/وردي/أرجواني",
+        "link": "/ar/product/color/red-pink-purple/9"
       },
-      "product_detail" : {
-
-        "description" : "وصف",
-        "tab_1" : "التفاصيل",
-        "tab_2" : "طلب",
-        "tab_3" : "الحجم والسعر",
-        "tab_1_code" : "شفرة",
-        "tab_1_stonetype" : "نوع الحجر",
-        "tab_1_country" : "دولة",
-        "tab_1_varitaion" : "تفاوت",
-        "tab_2_test_report" : "تقرير الاختبار/المواصفات الفنية",
-        "tab_2_available" : "الأسطح المتاحة",
-        "benzerurun_title" : "قد تكون مهتمًا بـ",
-        "onerilenurun_title" : "المنتجات المقترحة",
-        "hastags":"علامات التصنيف",
-        "specification":"مواصفات المنتج"
-    
-      },
-      "variation":{
-        "var_1":"الحد الأدنى",
-        "var_2":"واسطة"
-      },
-      "application":{
-        "marble":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "travertine":[
-          {"name":"حائط","status":""},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"لا"}
-        ],
-                "limestone":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"لا"},
-          {"name":"المناطق الرطبة","status":"لا"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"لا"}
-        ],
-         "mosaic":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"لا"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "slab":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "quartz":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "outdoor":[
-          {"name":"حائط","status":"لا"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"لا"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "bath":[
-          {"name":"حائط","status":"لا"},
-          {"name":"أرضية","status":"لا"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"لا"}
-        ],
-        "byproducts":[
-          {"name":"حائط","status":"لا"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ],
-        "installation":[
-          {"name":"حائط","status":"نعم"},
-          {"name":"أرضية","status":"نعم"},
-          {"name":"سكني","status":"نعم"},
-          {"name":"تجاري","status":"نعم"},
-          {"name":"المناطق الرطبة","status":"نعم"},
-          {"name":"الاستخدام الخارجي","status":"نعم"},
-          {"name":"الاستخدام الداخلي","status":"نعم"},
-          {"name":"المناخ المتجمد","status":"نعم"}
-        ]
-
-      },
-      "specification":{
-      "marble":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
-        {"name":"ساندبلاستيد","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"}
-
-      ],
-      "travertine":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"},
-        {"name":"ساندبلاستيد","link":"https://cdn.mekmarimage.com/other/SANDBLASTED.webp"},
-        {"name":"بوش مطروق","link":"https://cdn.mekmarimage.com/other/BUSHHAMMERED.webp"}
-
-      ],
-      "limestone":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
-
-      ],
-       "mosaic":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
-
-      ],
-      "slab":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
-
-      ],
-       "quartz":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
-
-      ],
-      "outdoor":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"},
-        {"name":"نحى","link":"https://cdn.mekmarimage.com/other/BRUSHED.webp"}
-
-      ],
-       "bath":[
-        {"name":"شحذ","link":"https://cdn.mekmarimage.com/other/HONED.webp"},
-        {"name":"مصقول","link":"https://cdn.mekmarimage.com/other/POLISHED.webp"}
-
-      ]
-
-    
-    
-    
-    },
-      "similar_products":[
-        {"id":1,"name":"ألواح","image":"https://cdn.mekmarimage.com/youmayalso/slabs+.jpg","link":"/ar/product/slabs/7"},
-        {"id":2,"name":"السلالم والناهضون","image":"https://cdn.mekmarimage.com/youmayalso/stair-risers+.jpg","link":"/ar/product/by-product/9"},
-        {"id":3,"name":"الأحواض وأسطح العمل","image":"https://cdn.mekmarimage.com/youmayalso/sink-countertop.jpg","link":"/ar/product/bath-and-kitchen/6"},
-        {"id":4,"name":"الفسيفساء","image":"https://cdn.mekmarimage.com/youmayalso/mosaic+.jpg","link":"/ar/product/mosaics/4"}
-      ],
-      "project":{
-        "header":"مشاريع مكمار",
-        "description":"وصف",
-        "suggested":"المشاريع المقترحة"
-      },
-      "login":{
-        "username":"اسم المستخدم",
-        "status_1":"تسجيل الدخول",
-        "status_2":"اكتب لنا",
-        "dialog_header":"تسجيل الدخول أو الكتابة إلينا"
-      },
-      "toast":{
-        "success":"نجاح",
-          "error":"خطأ"
-      },
-      "usa":{
-        "sale_price":"سعر البيع",
-        "in_stock":"في الأوراق المالية",
-        "available":"قدم مربع متاح",
-        "surface":"السطح والحافة",
-        "per_box":"في المربع",
-        "per_crate":"لكل قفص",
-        "description":"وصف",
-        "delivery_terms":"شروط التوصيل",
-        "delivery_terms_desc":"يمكنك الحضور واختيار طلبك من مستودعاتنا مباشرة بعد الدفع. لتسليم العنوان، نحن نطلب 3-5 أيام عمل.",
-        "sku":"رمز التخزين التعريفي",
-        "size":"مقاس",
-        "stock_header":"متوفر في المخزون: التسليم خلال 2-3 أيام من أتلانتا",
-        "about_header":"عن",
-        "contact_header":"اتصال",
-        "about":[
-          "تقوم شركة MEKMAR بإنتاج وتوريد أفضل منتجات الحجر الطبيعي وعالية الجودة في تركيا.",
-          "لدينا أيضًا مستودع في ستون ماونتن، أتلانتا.",
-          "لدينا مخزون جاهز من منتجات الرخام والحجر الجيري والحجر الجيري والفسيفساء في مستودعاتنا في أتلانتا.",
-          "نحن نرسل 4-5 حاويات كل شهر إلى مستودعاتنا مع منتجاتنا الأكثر مبيعًا.",
-          "يحتوي نظام المستودعات الخاص بنا على منتجات ذات حجم ولون قياسيين نقوم بتوريدها في جميع أنحاء الولايات المتحدة الأمريكية.",
-          "يمكننا أيضًا توفير منتجات غير قياسية لك. بالنسبة لهذه الطلبات، نطلب منك تحديد متطلباتك ونقوم بتسليم طلبك إلى مستودعاتنا لتتمكن من استلامه.",
-          "إذا كنت تفضل ذلك، يمكننا أيضًا توصيل طلبك إلى عنوانك. لهذا، سوف نطلب الرمز البريدي الخاص بك ونعمل على توفير أفضل تكاليف الشحن لك.",
-          "إذا كان المنتج الذي تبحث عنه جاهزًا في مخزوننا، فيمكننا تسليمه على الفور، وسيستغرق التسليم إلى العنوان من 3 إلى 5 أيام.",
-          "بالنسبة للمخزونات الجاهزة، نطلب من عملائنا دفع كامل المبلغ قبل التسليم."
-
-        ],
-        "adress_header":"العنوان",
-        "adress":"عنوان المستودع: 4841 طريق لويس، ستون ماونتن جورجيا، 30083 الولايات المتحدة الأمريكية",
-        "phone":"+1 860 373 7401",
-        "mail":"export@mekmar.com",
-
-        "faq_header":"التعليمات",
-        "faq":[
-          {"question":"أنا آخر مستخدم، هل هناك حد أدنى لكمية الطلب؟","answer":"يتم تقديم الأسعار الموجودة على موقعنا الإلكتروني لأي شخص يستوفي الحد الأدنى من متطلبات الطلب لدينا. أسعار Mekmar USA متاحة لك عند شراء كميات كاملة من منصة نقالة أو حاوية."},
-          {"question":"أريد الشراء من شركة مكمار الأمريكية. ما هي خياراتي؟","answer":"Mekmar USA هي شركة منتجة للحجر الطبيعي الذي يحتفظ بالمخزون في أتلانتا من أجل التسليم السريع والموثوق لعملاء الولايات المتحدة الأمريكية. نقوم بمعالجة طلبات منتجات الحجر الطبيعي بطريقتين. الأول هو بيع الطلبات لكل منصة نقالة من مستودعاتنا في أتلانتا في جميع أنحاء الولايات المتحدة الأمريكية. والثاني هو شحن طلبات الحاويات مباشرة من مصنعنا في تركيا وتسليمها إلى الميناء الخاص بك أو عنوانك."},
-          {"question":"ما هي طرق الدفع التي تقبلونها؟","answer":"نحن نقبل Visa وMasterCard وAmerican Express وPayPal والتحويل البنكي."},
-          {"question":"هل تقوم مكمار بالشحن إلى جميع أنحاء العالم؟","answer":"في الوقت الحاضر، نقوم بشحن طلبات الحاويات في جميع أنحاء العالم. لطلبات الحاويات، يرجى استشارة فريق المبيعات لدينا عبر الهاتف أو عبر البريد الإلكتروني لمزيد من المعلومات."},
-          {"question":"هل مكمار يقوم بالشحن إلى المساكن؟ كيف يعمل هذا؟","answer":"نعم. يعتبر التسليم السكني مكتملًا بمجرد وضع المنتج على الممر. تتطلب منتجاتنا سيارة مزودة ببوابة رفع، بسبب وزنها. سيتم إنزال المنصات إلى الأرض وسحبها إلى الممر الخاص بك باستخدام رافعة منصة نقالة. قد يُطلب منك تفريغ السيارة بنفسك، اعتمادًا على المنتج. مواد البناء ثقيلة وستتطلب معدات أو عمالة مناسبة لقبول البضائع عند التسليم."},
-          {"question":"عند طلب الحاويات، هل يمكنني المزج والمطابقة بين الألوان وأنماط المواد؟","answer":"نعم، نحن نشجع عملائنا بقوة على طلب احتياجاتهم من البلاط والفسيفساء في وقت واحد حتى يتمكنوا من الحصول على تكاليف شحن أفضل."},
-          {"question":"هل تقدمون أي خصومات للتجار؟","answer":"نعم! تقدم مكمار خصمًا للطلبات التي تزيد مساحتها عن 4000 قدم مربع. بالنسبة لهذه الطلبات، سيساعدك فريق المبيعات لدينا في الحصول على أفضل الأسعار من حيث المنتج والتسليم."},
-          {"question":"هل يمكنني رؤية المنتج على البليت قبل الشراء؟","answer":"بالطبع! سيقوم فريق المستودعات لدينا بتزويد صور الصناديق والصناديق والبلاط قبل طلب البلاط."},
-          {"question":"هل يمكنك أن تعطيني وقت وصول محدد لطلبي؟","answer":"بالنسبة للمنتجات الموجودة في مستودعاتنا في أتلانتا، يمكنك تسليم طلبك مباشرة بعد الدفع. لتسليم العنوان، نحتاج إلى 3-5 أيام حسب المسافة."},
-          {"question":"ما هو المبلغ الذي يجب أن أسمح به مقابل الكسر/الضرر؟","answer":"من المعقول توقع نسبة تتراوح بين 2% إلى 10% من الكسر أو التلف، اعتمادًا على المنتج. إذا كانت نسبة الكسر أعلى من 10%، فسنطلب منك الإشارة إلى ذلك في مستند الاستلام اللوجستي والتقاط الصور. يرجى تقديم مطالبة معنا خلال 10 أيام من استلام الطلب."},
-          {"question":"أين موقعك؟ هل لديك صالة عرض أو واجهة متجر؟","answer":"يقع مصنعنا في تركيا بينما يقع مستودعنا في ستون ماونتن، أتلانتا. لسوء الحظ، ليس لدينا أي صالة عرض في الولايات المتحدة الأمريكية في الوقت الحالي."},
-          {"question":"أرغب في طلب عينة، لكن المنتج الذي أشاهده ليس به هذا الخيار. كيف أطلب عينة لهذا المنتج؟","answer":"يمكننا إرسال عينات من المنتج من مصنعنا من تركيا. لهذا، يرجى التواصل معنا."},
-          {"question":"كم تبلغ تكلفة الشحن؟","answer":"يتم حساب الشحن بناءً على وزن طلبك والمسافة التي يجب أن يقطعها. للحصول على تقدير، يرجى التواصل مع فريق المبيعات لدينا."},
-          {"question":"هل تبيع وتشحن إلى كندا؟","answer":"تقوم شركة Mekmar USA بالبيع والشحن لجميع المستهلكين، بغض النظر عن مكان تواجدهم. إذا كان طلبك موجودًا في مستودعنا بالولايات المتحدة الأمريكية، فيمكننا شحن هذه الصناديق إليك من المستودع. إذا لم يكن الأمر كذلك، فسنقوم بشحنها إليك من تركيا."},
-          {"question":"هل يمكنني تأخير الشحنة أو اختيار وقت التسليم؟","answer":"يمكن لشركة Mekmar USA الاحتفاظ بالمنتجات بعد الشراء لمدة أقصاها 30 يومًا قبل الشحن."},
-          {"question":"ما هي شروط الدفع للطلبات؟","answer":"بالنسبة لطلبات التسليم في المستودعات، نطلب دفع كامل المبلغ قبل التسليم لأن التسليم يستغرق 5 أيام على الأكثر. ومع ذلك، بالنسبة لطلبات الحاويات، فإننا نعمل كدفعة مقدمة بنسبة 30٪ + الباقي بعد الشحن قبل BL."}
-
-
-
-
-
-
-
-
-
-
-
-
-
-        ],
-        "usage":"منطقة الاستخدام",
-        "categories":"فئات",
-        "colors":"الألوان",
-        "sizes":"الأحجام",
-        "mosaics":"الفسيفساء"     
-
-      },
-      "search":"يبحث...",
-      "search_link":"/ar/search/",
-      "usa_stock_main_menu":{
-        "name":"تحقق من مخزوننا في الولايات المتحدة الأمريكية",
-        "img":"/image/usa-atlanta-stock-items-mekmar.com.webp",
-        "link":"/ar/usa/stock",
-        "alt":"usa_stock_mekmar"
-      },
-      "filtered_header":{
-        "category":"فئات",
-        "color":"الألوان",
-        "area":"المناطق",
-        "type":"أنواع",
-        "edge":"حواف",
-        "style":"الأنماط",
-        "material":"مواد",
-        "finish":"التشطيبات"
-
+      {
+        "id": 10,
+        "title": "متعدد الألوان",
+        "link": "/ar/product/color/multicolor/10"
       }
+    ],
+    "areas": [
+      {
+        "id": 1,
+        "title": "غرفة المعيشة",
+        "link": "/ar/product/area/living-room/1"
+      },
+      { "id": 2, "title": "مطبخ", "link": "/ar/product/area/kitchen/2" },
+      { "id": 3, "title": "حمام", "link": "/ar/product/area/bathroom/3" },
+      {
+        "id": 4,
+        "title": "منظر جمالي",
+        "link": "/ar/product/area/landscape/4"
+      },
+      { "id": 5, "title": "كراج", "link": "/ar/product/area/garage/5" },
+      { "id": 6, "title": "حمام سباحة", "link": "/ar/product/area/pool/6" },
+      { "id": 7, "title": "مظهر زائف", "link": "/ar/product/area/facede/7" },
+      { "id": 8, "title": "حائط", "link": "/ar/product/area/wall/8" },
+      { "id": 9, "title": "أرضية", "link": "/ar/product/area/floor/9" }
+    ],
+    "info": [
+      { "id": 1, "title": "عن", "link": "/ar/about" },
+      { "id": 2, "title": "اتصال", "link": "/ar/contact" }
+    ],
+    "usaabout": "/ar/usa/about",
+    "usafaq": "/ar/usa/faq",
+    "usacontact": "/ar/usa/contact",
+    "faq": "/ar/faq"
+  },
+  "footer": {
+    "about": {
+      "header": "معلومات عنا",
+      "description": "تقوم شركة MEKMAR بإنتاج وتوريد أفضل منتجات الحجر الطبيعي وعالية الجودة منذ عام 2002. ونحن نهدف إلى الحصول على أفضل جودة وأفضل خدمة وأعلى مستوى من رضا العملاء حتى تسليم المنتجات. يقوم فريق المبيعات ذو الخبرة لدينا بإطلاعك على خطوات الدفع والإنتاج والشحنات بخطوات.",
+      "items": [
+        {
+          "id": 1,
+          "value": "نحن نقدم خدمة الشحن في جميع أنحاء العالم لمدة 23 عاما."
+        },
+        {
+          "id": 2,
+          "value": "نحن ننتج جميع أنواع الحجر الطبيعي من البلاطة إلى الفسيفساء."
+        },
+        { "id": 3, "value": "نحن نتحكم في 30.000 متر مربع من المنتج شهريًا." },
+        { "id": 4, "value": "نحن نقدم الحلول الطبيعية للمشاريع المعمارية." }
+      ],
+      "socials": [
+        {
+          "id": 1,
+          "name": "facebook",
+          "link": "https://www.facebook.com/mekmar",
+          "icon": "bi bi-facebook"
+        },
+        {
+          "id": 2,
+          "name": "twitter",
+          "link": "https://twitter.com/MekmarMarble",
+          "icon": "bi bi-twitter-x"
+        },
+        {
+          "id": 3,
+          "name": "youtube",
+          "link": "https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA",
+          "icon": "bi bi-youtube"
+        },
+        {
+          "id": 4,
+          "name": "instagram",
+          "link": "https://www.instagram.com/mekmarnaturalstone/",
+          "icon": "bi bi-instagram"
+        },
+        {
+          "id": 5,
+          "name": "pinterest",
+          "link": "https://tr.pinterest.com/export10499/",
+          "icon": "bi bi-pinterest"
+        }
+      ]
+    },
+    "news": {
+      "header": "أخبار",
+      "items": [
+        {
+          "id": 1,
+          "image": "/image/news/news-1-b.webp",
+          "name": "mekmar_suppliers_news_1"
+        },
+        {
+          "id": 2,
+          "image": "/image/news/news-2-b.webp",
+          "name": "mekmar_suppliers_news_2"
+        },
+        {
+          "id": 3,
+          "image": "/image/news/news-3-b.webp",
+          "name": "mekmar_suppliers_news_3"
+        },
+        {
+          "id": 4,
+          "image": "/image/news/news-4-b.webp",
+          "name": "mekmar_suppliers_news_4"
+        },
+        {
+          "id": 5,
+          "image": "/image/news/news-5-b.webp",
+          "name": "mekmar_suppliers_news_5"
+        },
+        {
+          "id": 6,
+          "image": "/image/news/news-6-b.webp",
+          "name": "mekmar_suppliers_news_6"
+        },
+        {
+          "id": 7,
+          "image": "/image/news/news-7-b.webp",
+          "name": "mekmar_suppliers_news_7"
+        },
+        {
+          "id": 8,
+          "image": "/image/news/news-8-b.webp",
+          "name": "mekmar_suppliers_news_8"
+        },
+        {
+          "id": 9,
+          "image": "/image/news/news-9-b.webp",
+          "name": "mekmar_suppliers_news_9"
+        }
+      ]
+    },
+    "personal": {
+      "header": "فريق مبيعات مكمار",
+      "items": [
+        {
+          "name": "Gizem",
+          "job": "أخصائي مبيعات",
+          "email": "export@mekmar.com",
+          "whatsapp": "+90 542 660 8087",
+          "image": "/image/personel/gizem-yeni.webp",
+          "webp": "/image/personel/gizem-yeni.webp",
+          "id": 1,
+          "watsappLink": "https://web.whatsapp.com/send?phone=905426608087"
+        },
+        {
+          "name": "Ozlem",
+          "job": "أخصائي مبيعات",
+          "email": "export1@mekmar.com",
+          "whatsapp": "+90 542 660 8085",
+          "image": "/image/personel/ozlem-yeni-2.webp",
+          "webp": "/image/personel/ozlem-yeni-2.webp",
+          "id": 2,
+          "watsappLink": "https://web.whatsapp.com/send?phone=905426608085"
+        },
+        {
+          "name": "Hakan",
+          "job": "أخصائي مبيعات",
+          "email": "export2@mekmar.com",
+          "whatsapp": "+90 542 660 8084",
+          "image": "/image/personel/hakan-yeni.webp",
+          "webp": "/image/personel/hakan-yeni.webp",
+          "id": 3,
+          "watsappLink": "https://web.whatsapp.com/send?phone=905426608084"
+        }
+      ]
+    }
+  },
+  "slides": {
+    "slide1": [
+      {
+        "id": 1,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من المحاجر",
+        "name": "محاجر الرخام",
+        "imagePath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp",
+        "macPath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-1.webp"
+      },
+      {
+        "id": 2,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من المحاجر",
+        "name": "محاجر الرخام",
+        "imagePath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp",
+        "macPath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-2.webp"
+      },
+      {
+        "id": 3,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من المحاجر",
+        "name": "محاجر الترافرتين",
+        "imagePath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp",
+        "macPath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-3.webp"
+      },
+      {
+        "id": 4,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من المحاجر",
+        "name": "محاجر الترافرتين",
+        "imagePath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp",
+        "macPath": "/image/slides/slide_1/scenes-from-quarries-mekmar.com-4.webp"
+      }
+    ],
+    "slide2": [
+      {
+        "id": 1,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من الإنتاج",
+        "name": "تلفيق",
+        "imagePath": "/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp",
+        "macPath": "/image/slides/slide_2/scenes-from-production-mekmar.com-1.webp"
+      },
+      {
+        "id": 2,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من الإنتاج",
+        "name": "تلفيق",
+        "imagePath": "/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp",
+        "macPath": "/image/slides/slide_2/scenes-from-production-mekmar.com-2.webp"
+      },
+      {
+        "id": 3,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من الإنتاج",
+        "name": "تلفيق",
+        "imagePath": "/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp",
+        "macPath": "/image/slides/slide_2/scenes-from-production-mekmar.com-3.webp"
+      },
+      {
+        "id": 4,
+        "link": "/ar/fabrication",
+        "title": "مشاهد من الإنتاج",
+        "name": "تلفيق/ar",
+        "imagePath": "/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp",
+        "macPath": "/image/slides/slide_2/scenes-from-production-mekmar.com-4.webp"
+      }
+    ],
+
+    "slide3": [
+      {
+        "id": 1,
+        "link": "https://www.mekmar.com/ar/product/detail/bianco-ibiza-sandblasted-marble-paver/996",
+        "title": "أضيفت حديثا",
+        "name": "",
+        "imagePath": "/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp",
+        "macPath": "/image/slides/slide_3/bianco-ibiza-sandblasted-white-marble-paver-mekmar.com-1.webp"
+      },
+
+      {
+        "id": 2,
+        "link": "https://www.mekmar.com/ar/product/detail/snow-black-marble-splitface/995",
+        "title": "أضيفت حديثا",
+        "name": "",
+        "imagePath": "/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp",
+        "macPath": "/image/slides/slide_3/Snow-black-splitface-marble-tile1.webp"
+      },
+      {
+        "id": 3,
+        "link": "https://www.mekmar.com/ar/product/detail/snow-black-marble/994",
+        "title": "أضيفت حديثا",
+        "name": "",
+        "imagePath": "/image/slides/slide_3/Snow-black-marble-tile1.webp",
+        "macPath": "/image/slides/slide_3/Snow-black-marble-tile1.webp"
+      },
+      {
+        "id": 4,
+        "link": "https://www.mekmar.com/ar/product/detail/apple-cream-marble/993",
+        "title": "أضيفت حديثا",
+        "name": "",
+        "imagePath": "/image/slides/slide_3/Mekmar-993-1.webp",
+        "macPath": "/image/slides/slide_3/Mekmar-993-1.webp"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": 1,
+      "link": "/ar/product/marble/1",
+      "name": "رخام",
+      "image": "/image/categories/marble-category-main-photo-mekmar.com.webp"
+    },
+    {
+      "id": 2,
+      "link": "/ar/product/travertine/2",
+      "name": "الترافرتين",
+      "image": "/image/categories/travertine-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 3,
+      "link": "/ar/product/limestone/3",
+      "name": "حجر الكلس",
+      "image": "/image/categories/limestone-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 4,
+      "link": "/ar/product/mosaics/4",
+      "name": "فسيفساء",
+      "image": "/image/categories/mosaic-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 5,
+      "link": "/ar/product/outdoor/5",
+      "name": "في الخارج",
+      "image": "/image/categories/outdoor-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 6,
+      "link": "/ar/product/bath-and-kitchen/6",
+      "name": "الحمام والمطبخ",
+      "image": "/image/categories/bath-and-kitchen-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 7,
+      "link": "/ar/product/slabs/7",
+      "name": "ألواح",
+      "image": "/image/categories/slabs-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 8,
+      "link": "/ar/product/quartz/8",
+      "name": "كوارتز",
+      "image": "/image/categories/quartz-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 9,
+      "link": "/ar/product/by-products/9",
+      "name": "حسب المنتجات",
+      "image": "/image/categories/by-products-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 11,
+      "link": "/ar/product/installation-materials/11",
+      "name": "مواد التثبيت",
+      "image": "/image/categories/installation-materials-category-main-photo-mekmar.webp"
+    },
+    {
+      "id": 18,
+      "link": "/ar/product/plasterboard/18",
+      "name": "الجصي",
+      "image": "/image/categories/plasterboard-category-main-photo-mekmar.webp"
+    }
+  ],
+  "about": {
+    "header": "معلومات عنا",
+    "title_1": "مهمتنا",
+    "title_2": "رؤيتنا",
+    "items_1": [
+      {
+        "id": 1,
+        "value": "استخدام الموارد الطبيعية بكفاءة؛ أن نكون شركة عالمية محترمة تراعي المجتمع والبيئة."
+      },
+      { "id": 2, "value": "لضمان رضا جميع العملاء ومعاملة كل عميل بكرامة." },
+      {
+        "id": 3,
+        "value": "الحفاظ على صورة المورد/الشركة المصنعة للحجر الطبيعي التركي عالي الجودة من الدرجة الأولى على مستوى العالم."
+      }
+    ],
+    "items_2": [
+      {
+        "id": 1,
+        "value": "توفير حلول الحجر الطبيعي من خلال برامج الرسم والعرض ثلاثية الأبعاد لمساعدة عملائنا في الحصول على منزل أحلامهم."
+      },
+      {
+        "id": 2,
+        "value": "تطوير حلول الإنتاج ومراقبة الجودة والنقل لدينا لمدة 23 عامًا من خلال مضاعفة نطاق منتجاتنا وعدد العملاء."
+      },
+      {
+        "id": 3,
+        "value": "توفير أفضل عناصر التصميم لخلق مساحة المعيشة المثالية."
+      }
+    ],
+    "sub_link_title": "إذا كنت تريد التحقق من الملف التعريفي لشركتنا بصيغة PDF، انقر هنا:",
+    "sub_link": "https://cdn.mekmarimage.com/mekmar-profile/MEKMAR%20PROFILE.pdf",
+    "socials": [
+      {
+        "id": 1,
+        "name": "facebook",
+        "link": "https://www.facebook.com/mekmar",
+        "icon": "bi bi-facebook"
+      },
+      {
+        "id": 2,
+        "name": "twitter",
+        "link": "https://twitter.com/MekmarMarble",
+        "icon": "bi bi-twitter-x"
+      },
+      {
+        "id": 3,
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCYz9dfb0A44hUzNiMwNQQFA",
+        "icon": "bi bi-youtube"
+      },
+      {
+        "id": 4,
+        "name": "instagram",
+        "link": "https://www.instagram.com/mekmarnaturalstone/",
+        "icon": "bi bi-instagram"
+      },
+      {
+        "id": 5,
+        "name": "pinterest",
+        "link": "https://tr.pinterest.com/export10499/",
+        "icon": "bi bi-pinterest"
+      }
+    ]
+  },
+  "contact": {
+    "header": "اتصال",
+    "items": [
+      {
+        "name": "Gizem",
+        "job": "أخصائي مبيعات",
+        "email": "export@mekmar.com",
+        "whatsapp": "+90 542 660 8087",
+        "image": "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+        "webp": "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
+        "id": 1,
+        "watsappLink": "https://web.whatsapp.com/send?phone=905426608087"
+      },
+      {
+        "name": "Ozlem",
+        "job": "أخصائي مبيعات",
+        "email": "export1@mekmar.com",
+        "whatsapp": "+90 542 660 8085",
+        "image": "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+        "webp": "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
+        "id": 2,
+        "watsappLink": "https://web.whatsapp.com/send?phone=905426608085"
+      },
+      {
+        "name": "Hakan",
+        "job": "أخصائي مبيعات",
+        "email": "export2@mekmar.com",
+        "whatsapp": "+90 542 660 8084",
+        "image": "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+        "webp": "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
+        "id": 3,
+        "watsappLink": "https://web.whatsapp.com/send?phone=905426608084"
+      }
+    ],
+    "form": {
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "phone": "رقم التليفون",
+      "message": "رسالة",
+      "field_1": "حقل الاسم مطلوب، يرجى ملؤه",
+      "field_2": "حقل البريد مطلوب، يرجى ملؤه",
+      "field_3": "حقل الهاتف مطلوب، يرجى ملؤه",
+      "country": "الرقم الدولي",
+      "example": "مثال:",
+      "choose_country": "اختر البلد",
+      "search_country": "ابحث عن بلد",
+      "general_field": "يرجى ملء جميع المدخلات",
+      "send": "يرسل"
+    }
+  },
+  "fabrication": {
+    "items": [
+      {
+        "id": 1,
+        "header": "المصانع التي نعمل بها",
+        "images": [
+          {
+            "id": 1,
+            "title": "خط إيبوكسي رخام بيج",
+            "image": "/image/fabrication/fab_1/Mekmar_Factory_1.webp"
+          },
+          {
+            "id": 2,
+            "title": "مصنع بيانكو إيبيزا",
+            "image": "/image/fabrication/fab_1/Mekmar_Factory_4.webp"
+          },
+          {
+            "id": 3,
+            "title": "عملية الأخدود للسلالم",
+            "image": "/image/fabrication/fab_1/Mekmar_Factory_2.webp"
+          },
+          {
+            "id": 4,
+            "title": "CNC قطع السلالم الزاوية",
+            "image": "/image/fabrication/fab_1/Mekmar_Factory_3.webp"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "header": "المحاجر التي نعمل بها",
+        "images": [
+          {
+            "id": 1,
+            "title": "بيانكو إيبيزا محجر الرخام",
+            "image": "/image/fabrication/fab_2/Mekmar_Quarry_1.webp"
+          },
+          {
+            "id": 2,
+            "title": "محجر رخام كالكوتا التركي",
+            "image": "/image/fabrication/fab_2/Mekmar_Quarry_2.webp"
+          },
+          {
+            "id": 3,
+            "title": "محجر الحجر الجيري الكلاسيكي",
+            "image": "/image/fabrication/fab_2/Mekmar_Quarry_3.webp"
+          },
+          {
+            "id": 4,
+            "title": "محجر بيكاسو الترافرتين",
+            "image": "/image/fabrication/fab_2/Mekmar_Quarry_4.webp"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "header": "مستودعنا في الولايات المتحدة الأمريكية",
+        "images": [
+          {
+            "id": 1,
+            "title": "منطقة العينة",
+            "image": "/image/fabrication/fab_3/Mekmar_Warehouse_1.webp"
+          },
+          {
+            "id": 2,
+            "title": "الأسهم المتاحة",
+            "image": "/image/fabrication/fab_3/Mekmar_Warehouse_2.webp"
+          },
+          {
+            "id": 3,
+            "title": "الطلبات الخاصة",
+            "image": "/image/fabrication/fab_3/Mekmar_Warehouse_3.webp"
+          },
+          {
+            "id": 4,
+            "title": "مدخل الحاوية",
+            "image": "/image/fabrication/fab_3/Mekmar_Warehouse_4.webp"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": {
+    "title_1": "فيديوهات المشروع",
+    "title_2": "فيديوهات الإنتاج",
+
+    "title_3": "مقاطع فيديو إعلامية",
+    "projects": [
+      {
+        "id": 30,
+        "name": "فيديوهات المشروع | مشروع أهلي في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/g7Dn9aBFq_Q?si=S82rRYr_pbnMnPDC",
+        "queue": "30"
+      },
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع LSA في اليونان",
+        "url": "https://www.youtube.com/embed/9Rb4nX_8rCc?si=SSha3lJsqQUmEhKk",
+        "queue": "29"
+      },
+
+      {
+        "id": 1,
+        "name": "سمك الحجر واستخدامه",
+        "url": "https://www.youtube.com/embed/GWmSghUN2Oc?si=sPQer5erMGrSaaOA",
+        "queue": "1"
+      },
+
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع الفن في بلغاريا",
+        "url": "https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq",
+        "queue": "29"
+      },
+
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع SYD في المملكة العربية السعودية",
+        "url": "https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8",
+        "queue": "29"
+      },
+
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع TMRP في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9",
+        "queue": "29"
+      },
+
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع DGCELL في غيانا",
+        "url": "https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh",
+        "queue": "29"
+      },
+
+      {
+        "id": 29,
+        "name": "فيديوهات المشروع | مشروع راندولف في غانا",
+        "url": "https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9",
+        "queue": "29"
+      },
+
+      {
+        "id": 28,
+        "name": "فيديوهات المشروع | مشروع دورهام في أستراليا",
+        "url": "https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX",
+        "queue": "28"
+      },
+
+      {
+        "id": 28,
+        "name": "فيديوهات المشروع | مشروع زنبق في غانا",
+        "url": "https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS",
+        "queue": "28"
+      },
+
+      {
+        "id": 27,
+        "name": "فيديوهات المشروع | مشروع الثنائي - فرنسا",
+        "url": "https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM",
+        "queue": "27"
+      },
+      {
+        "id": 26,
+        "name": "فيديوهات المشروع | مشروع جيبينج - ألمانيا",
+        "url": "https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM",
+        "queue": "26"
+      },
+
+      {
+        "id": 1,
+        "name": "فيديوهات المشروع | مشروع سان - كرواتيا",
+        "url": "https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV",
+        "queue": "1"
+      },
+      {
+        "id": 2,
+        "name": "فيديوهات المشروع | مشروع المحروقي في عمان",
+        "url": "https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS",
+        "queue": "2"
+      },
+      {
+        "id": 3,
+        "name": "فيديوهات المشروع | مشروع الجدار في أستراليا",
+        "url": "https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47",
+        "queue": "3"
+      },
+      {
+        "id": 4,
+        "name": "فيديوهات المشروع | مشروع HOGA في رومانيا",
+        "url": "https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z",
+        "queue": "4"
+      },
+      {
+        "id": 5,
+        "name": "فيديوهات المشروع | مشروع MTT في تركيا",
+        "url": "https://www.youtube.com/embed/Wg2VMMDhuHE?si=0w-xVWwFr9WwMiU2",
+        "queue": "5"
+      },
+      {
+        "id": 6,
+        "name": "فيديوهات المشروع | مشروع جزيرة في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/leerUVEjwLM?si=fRJrzxa6L5TbmA5N",
+        "queue": "6"
+      },
+      {
+        "id": 7,
+        "name": "فيديوهات المشروع | مشروع نادر في جمهورية الدومينيكان",
+        "url": "https://www.youtube.com/embed/GpzReJf4AIE?si=wyL7TgBzLPQVgQTC",
+        "queue": "7"
+      },
+      {
+        "id": 8,
+        "name": "فيديوهات المشروع | مشروع همايون في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/u8OlcbiFFU4?si=0iXTAXetqi192aNq",
+        "queue": "8"
+      },
+      {
+        "id": 9,
+        "name": "فيديوهات المشروع | المشروع الساحلي في موريشيوس",
+        "url": "https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6",
+        "queue": "9"
+      },
+      {
+        "id": 10,
+        "name": "فيديوهات المشروع | مشروع منصور في أستراليا",
+        "url": "https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3",
+        "queue": "10"
+      },
+      {
+        "id": 11,
+        "name": "فيديوهات المشروع | مشروع MBI في غانا",
+        "url": "https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK",
+        "queue": "11"
+      },
+      {
+        "id": 12,
+        "name": "فيديوهات المشروع | مشروع أندرسن في هولندا",
+        "url": "https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0",
+        "queue": "12"
+      },
+
+      {
+        "id": 13,
+        "name": "فيديوهات المشروع | مشروع كيري في فرنسا",
+        "url": "https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3",
+        "queue": "13"
+      },
+
+      {
+        "id": 14,
+        "name": "فيديوهات المشروع | مشروع آدامز في جزر البهاما",
+        "url": "https://www.youtube.com/embed/JE9ftiOxcpI",
+        "queue": "14"
+      },
+      {
+        "id": 15,
+        "name": "فيديوهات المشروع | مشروع بوشامب في فيتنام",
+        "url": "https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3",
+        "queue": "15"
+      },
+      {
+        "id": 16,
+        "name": "فيديوهات المشروع | مشروع جاكسون في اسبانيا",
+        "url": "https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd",
+        "queue": "16"
+      },
+      {
+        "id": 17,
+        "name": "فيديوهات المشروع | مشروع فندق فيردي في مالطا",
+        "url": "https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW",
+        "queue": "17"
+      },
+      {
+        "id": 18,
+        "name": "فيديوهات المشروع | مشروع الصابوني في الكويت",
+        "url": "https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm",
+        "queue": "18"
+      },
+      {
+        "id": 19,
+        "name": "فيديوهات المشروع | مشروع بيس في سويسرا",
+        "url": "https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6",
+        "queue": "19"
+      },
+      {
+        "id": 20,
+        "name": "فيديوهات المشروع | الحجر الجيري الكلاسيكي المقطوع بالعرق مملوء ومملوء ومصقول",
+        "url": "https://www.youtube.com/embed/xfhsj866SAU",
+        "queue": "20"
+      },
+      {
+        "id": 21,
+        "name": "فيديوهات المشروع | بابلو فين قطع الحجر الجيري",
+        "url": "https://www.youtube.com/embed/u9TtbWff-W8",
+        "queue": "21"
+      },
+      {
+        "id": 22,
+        "name": "فيديوهات المشروع | مينا ريفي الترافرتين",
+        "url": "https://www.youtube.com/embed/UW9oDb3bt2I",
+        "queue": "22"
+      },
+      {
+        "id": 23,
+        "name": "فيديوهات المشروع | مشروع فيلا العوضي في الكويت",
+        "url": "https://www.youtube.com/embed/bGjZUG4k3Vc",
+        "queue": "23"
+      }
+    ],
+    "production": [
+      {
+        "id": 3,
+        "url": "https://www.youtube.com/embed/75-OsSfISkI",
+        "name": "فيديوهات مكمار للإنتاج | مشروع رخام المحيط الرمادي",
+        "queue": "1"
+      },
+      {
+        "id": 4,
+        "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
+        "name": "فيديوهات مكمار للإنتاج | وجه الانقسام",
+        "queue": "2"
+      },
+      {
+        "id": 5,
+        "url": "https://www.youtube.com/embed/30esf20C9Uw",
+        "name": "فيديوهات مكمار للإنتاج | الانتهاء من مشطوف",
+        "queue": "3"
+      },
+      {
+        "id": 6,
+        "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
+        "name": "فيديوهات مكمار للإنتاج | مشروع قوس الترافرتين في دبي",
+        "queue": "4"
+      },
+      {
+        "id": 7,
+        "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
+        "name": "فيديوهات مكمار للإنتاج | أمر مراقبة الإنتاج",
+        "queue": "5"
+      },
+      {
+        "id": 8,
+        "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
+        "name": "فيديوهات مكمار للإنتاج | منتجات مخصصة / اختيارات مختلفة",
+        "queue": "6"
+      },
+      {
+        "id": 2,
+        "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
+        "name": "فيديوهات مكمار للإنتاج | نافورة",
+        "queue": "1"
+      },
+      {
+        "id": 25,
+        "name": "الحلول المعمارية من مكمار",
+        "url": "https://www.youtube.com/embed/e2ok5kTRY_0",
+        "queue": "25"
+      },
+      {
+        "id": 24,
+        "name": "نافورة الرخام",
+        "url": "https://www.youtube.com/embed/xo0JL-c8xAM",
+        "queue": "24"
+      }
+    ],
+    "informative": [
+      {
+        "id": 1,
+        "name": "أنواع التسليم: مصطلحات التجارة الدولية",
+        "url": "https://www.youtube.com/embed/UJ6lubeTe10",
+        "queue": "1"
+      },
+      {
+        "id": 2,
+        "name": "قطع الوريد مقابل القطع المتقاطع",
+        "url": "https://www.youtube.com/embed/7WYoT6te_j8",
+        "queue": "2"
+      },
+      {
+        "id": 3,
+        "name": "ما هي الاختلافات بين الحجارة؟",
+        "url": "https://www.youtube.com/embed/mdaGLM3_rSU",
+        "queue": "3"
+      },
+      {
+        "id": 4,
+        "name": "خيارات سطحية مختلفة على الحجر الجيري",
+        "url": "https://www.youtube.com/embed/m1Im47Xe_Cc",
+        "queue": "4"
+      },
+      {
+        "id": 5,
+        "name": "خيارات حافة مختلفة على بلاط الحجر الطبيعي",
+        "url": "https://www.youtube.com/embed/tGsb5D4mMow",
+        "queue": "5"
+      },
+      {
+        "id": 6,
+        "name": "خيارات سطحية مختلفة على الرخام والحجر الجيري",
+        "url": "https://www.youtube.com/embed/UZ8CTP5e8Fs",
+        "queue": "6"
+      },
+      {
+        "id": 7,
+        "name": "رخام بيج | ما هو الفرق وكيفية اختيارهم؟",
+        "url": "https://www.youtube.com/embed/H5IgoDaxasc",
+        "queue": "7"
+      },
+      {
+        "id": 8,
+        "name": "كيف تؤثر المعالجات السطحية على لون الحجر",
+        "url": "https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0",
+        "queue": "8"
+      }
+    ],
+    "informative_fr": [
+      {
+        "id": 1,
+        "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
+        "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
+        "queue": "6"
+      },
+
+      {
+        "id": 1,
+        "name": "Les Differentes Surface Sur Le Travertin",
+        "url": "https://www.youtube.com/embed/fMTPX9B5jB0",
+        "queue": "6"
+      },
+      {
+        "id": 2,
+        "name": "Différentes options de bord sur les carreaux en pierre naturelle",
+        "url": "https://www.youtube.com/embed/6QhOof8MFPU",
+        "queue": "7"
+      },
+      {
+        "id": 3,
+        "name": "Quelles sont les différences entre les pierres ?",
+        "url": "https://www.youtube.com/embed/4rqXrbXiPIU",
+        "queue": "8"
+      },
+      {
+        "id": 4,
+        "name": "Types de Chargement: INCOTERMS",
+        "url": "https://www.youtube.com/embed/2k8IA_efAok",
+        "queue": "10"
+      },
+      {
+        "id": 5,
+        "name": "Coupe Veineuse vs Coupe Croisée",
+        "url": "https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI",
+        "queue": 11
+      }
+    ]
+  },
+  "product_detail": {
+    "description": "وصف",
+    "tab_1": "التفاصيل",
+    "tab_2": "طلب",
+    "tab_3": "الحجم والسعر",
+    "tab_1_code": "شفرة",
+    "tab_1_stonetype": "نوع الحجر",
+    "tab_1_country": "دولة",
+    "tab_1_varitaion": "تفاوت",
+    "tab_2_test_report": "تقرير الاختبار/المواصفات الفنية",
+    "tab_2_available": "الأسطح المتاحة",
+    "benzerurun_title": "قد تكون مهتمًا بـ",
+    "onerilenurun_title": "المنتجات المقترحة",
+    "hastags": "علامات التصنيف",
+    "specification": "مواصفات المنتج"
+  },
+  "variation": {
+    "var_1": "الحد الأدنى",
+    "var_2": "واسطة"
+  },
+  "application": {
+    "marble": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "travertine": [
+      { "name": "حائط", "status": "" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "لا" }
+    ],
+    "limestone": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "لا" },
+      { "name": "المناطق الرطبة", "status": "لا" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "لا" }
+    ],
+    "mosaic": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "لا" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "slab": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "quartz": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "outdoor": [
+      { "name": "حائط", "status": "لا" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "لا" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "bath": [
+      { "name": "حائط", "status": "لا" },
+      { "name": "أرضية", "status": "لا" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "لا" }
+    ],
+    "byproducts": [
+      { "name": "حائط", "status": "لا" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ],
+    "installation": [
+      { "name": "حائط", "status": "نعم" },
+      { "name": "أرضية", "status": "نعم" },
+      { "name": "سكني", "status": "نعم" },
+      { "name": "تجاري", "status": "نعم" },
+      { "name": "المناطق الرطبة", "status": "نعم" },
+      { "name": "الاستخدام الخارجي", "status": "نعم" },
+      { "name": "الاستخدام الداخلي", "status": "نعم" },
+      { "name": "المناخ المتجمد", "status": "نعم" }
+    ]
+  },
+  "specification": {
+    "marble": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      },
+      {
+        "name": "ساندبلاستيد",
+        "link": "https://cdn.mekmarimage.com/other/SANDBLASTED.webp"
+      }
+    ],
+    "travertine": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      },
+      {
+        "name": "ساندبلاستيد",
+        "link": "https://cdn.mekmarimage.com/other/SANDBLASTED.webp"
+      },
+      {
+        "name": "بوش مطروق",
+        "link": "https://cdn.mekmarimage.com/other/BUSHHAMMERED.webp"
+      }
+    ],
+    "limestone": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      }
+    ],
+    "mosaic": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      }
+    ],
+    "slab": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      }
+    ],
+    "quartz": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      }
+    ],
+    "outdoor": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      },
+      {
+        "name": "نحى",
+        "link": "https://cdn.mekmarimage.com/other/BRUSHED.webp"
+      }
+    ],
+    "bath": [
+      { "name": "شحذ", "link": "https://cdn.mekmarimage.com/other/HONED.webp" },
+      {
+        "name": "مصقول",
+        "link": "https://cdn.mekmarimage.com/other/POLISHED.webp"
+      }
+    ]
+  },
+  "similar_products": [
+    {
+      "id": 1,
+      "name": "ألواح",
+      "image": "https://cdn.mekmarimage.com/youmayalso/slabs+.jpg",
+      "link": "/ar/product/slabs/7"
+    },
+    {
+      "id": 2,
+      "name": "السلالم والناهضون",
+      "image": "https://cdn.mekmarimage.com/youmayalso/stair-risers+.jpg",
+      "link": "/ar/product/by-product/9"
+    },
+    {
+      "id": 3,
+      "name": "الأحواض وأسطح العمل",
+      "image": "https://cdn.mekmarimage.com/youmayalso/sink-countertop.jpg",
+      "link": "/ar/product/bath-and-kitchen/6"
+    },
+    {
+      "id": 4,
+      "name": "الفسيفساء",
+      "image": "https://cdn.mekmarimage.com/youmayalso/mosaic+.jpg",
+      "link": "/ar/product/mosaics/4"
+    }
+  ],
+  "project": {
+    "header": "مشاريع مكمار",
+    "description": "وصف",
+    "suggested": "المشاريع المقترحة"
+  },
+  "login": {
+    "username": "اسم المستخدم",
+    "status_1": "تسجيل الدخول",
+    "status_2": "اكتب لنا",
+    "dialog_header": "تسجيل الدخول أو الكتابة إلينا"
+  },
+  "toast": {
+    "success": "نجاح",
+    "error": "خطأ"
+  },
+  "usa": {
+    "sale_price": "سعر البيع",
+    "in_stock": "في الأوراق المالية",
+    "available": "قدم مربع متاح",
+    "surface": "السطح والحافة",
+    "per_box": "في المربع",
+    "per_crate": "لكل قفص",
+    "description": "وصف",
+    "delivery_terms": "شروط التوصيل",
+    "delivery_terms_desc": "يمكنك الحضور واختيار طلبك من مستودعاتنا مباشرة بعد الدفع. لتسليم العنوان، نحن نطلب 3-5 أيام عمل.",
+    "sku": "رمز التخزين التعريفي",
+    "size": "مقاس",
+    "stock_header": "متوفر في المخزون: التسليم خلال 2-3 أيام من أتلانتا",
+    "about_header": "عن",
+    "contact_header": "اتصال",
+    "about": [
+      "تقوم شركة MEKMAR بإنتاج وتوريد أفضل منتجات الحجر الطبيعي وعالية الجودة في تركيا.",
+      "لدينا أيضًا مستودع في ستون ماونتن، أتلانتا.",
+      "لدينا مخزون جاهز من منتجات الرخام والحجر الجيري والحجر الجيري والفسيفساء في مستودعاتنا في أتلانتا.",
+      "نحن نرسل 4-5 حاويات كل شهر إلى مستودعاتنا مع منتجاتنا الأكثر مبيعًا.",
+      "يحتوي نظام المستودعات الخاص بنا على منتجات ذات حجم ولون قياسيين نقوم بتوريدها في جميع أنحاء الولايات المتحدة الأمريكية.",
+      "يمكننا أيضًا توفير منتجات غير قياسية لك. بالنسبة لهذه الطلبات، نطلب منك تحديد متطلباتك ونقوم بتسليم طلبك إلى مستودعاتنا لتتمكن من استلامه.",
+      "إذا كنت تفضل ذلك، يمكننا أيضًا توصيل طلبك إلى عنوانك. لهذا، سوف نطلب الرمز البريدي الخاص بك ونعمل على توفير أفضل تكاليف الشحن لك.",
+      "إذا كان المنتج الذي تبحث عنه جاهزًا في مخزوننا، فيمكننا تسليمه على الفور، وسيستغرق التسليم إلى العنوان من 3 إلى 5 أيام.",
+      "بالنسبة للمخزونات الجاهزة، نطلب من عملائنا دفع كامل المبلغ قبل التسليم."
+    ],
+    "adress_header": "العنوان",
+    "adress": "عنوان المستودع: 4841 طريق لويس، ستون ماونتن جورجيا، 30083 الولايات المتحدة الأمريكية",
+    "phone": "+1 860 373 7401",
+    "mail": "export@mekmar.com",
+
+    "faq_header": "التعليمات",
+    "faq": [
+      {
+        "question": "أنا آخر مستخدم، هل هناك حد أدنى لكمية الطلب؟",
+        "answer": "يتم تقديم الأسعار الموجودة على موقعنا الإلكتروني لأي شخص يستوفي الحد الأدنى من متطلبات الطلب لدينا. أسعار Mekmar USA متاحة لك عند شراء كميات كاملة من منصة نقالة أو حاوية."
+      },
+      {
+        "question": "أريد الشراء من شركة مكمار الأمريكية. ما هي خياراتي؟",
+        "answer": "Mekmar USA هي شركة منتجة للحجر الطبيعي الذي يحتفظ بالمخزون في أتلانتا من أجل التسليم السريع والموثوق لعملاء الولايات المتحدة الأمريكية. نقوم بمعالجة طلبات منتجات الحجر الطبيعي بطريقتين. الأول هو بيع الطلبات لكل منصة نقالة من مستودعاتنا في أتلانتا في جميع أنحاء الولايات المتحدة الأمريكية. والثاني هو شحن طلبات الحاويات مباشرة من مصنعنا في تركيا وتسليمها إلى الميناء الخاص بك أو عنوانك."
+      },
+      {
+        "question": "ما هي طرق الدفع التي تقبلونها؟",
+        "answer": "نحن نقبل Visa وMasterCard وAmerican Express وPayPal والتحويل البنكي."
+      },
+      {
+        "question": "هل تقوم مكمار بالشحن إلى جميع أنحاء العالم؟",
+        "answer": "في الوقت الحاضر، نقوم بشحن طلبات الحاويات في جميع أنحاء العالم. لطلبات الحاويات، يرجى استشارة فريق المبيعات لدينا عبر الهاتف أو عبر البريد الإلكتروني لمزيد من المعلومات."
+      },
+      {
+        "question": "هل مكمار يقوم بالشحن إلى المساكن؟ كيف يعمل هذا؟",
+        "answer": "نعم. يعتبر التسليم السكني مكتملًا بمجرد وضع المنتج على الممر. تتطلب منتجاتنا سيارة مزودة ببوابة رفع، بسبب وزنها. سيتم إنزال المنصات إلى الأرض وسحبها إلى الممر الخاص بك باستخدام رافعة منصة نقالة. قد يُطلب منك تفريغ السيارة بنفسك، اعتمادًا على المنتج. مواد البناء ثقيلة وستتطلب معدات أو عمالة مناسبة لقبول البضائع عند التسليم."
+      },
+      {
+        "question": "عند طلب الحاويات، هل يمكنني المزج والمطابقة بين الألوان وأنماط المواد؟",
+        "answer": "نعم، نحن نشجع عملائنا بقوة على طلب احتياجاتهم من البلاط والفسيفساء في وقت واحد حتى يتمكنوا من الحصول على تكاليف شحن أفضل."
+      },
+      {
+        "question": "هل تقدمون أي خصومات للتجار؟",
+        "answer": "نعم! تقدم مكمار خصمًا للطلبات التي تزيد مساحتها عن 4000 قدم مربع. بالنسبة لهذه الطلبات، سيساعدك فريق المبيعات لدينا في الحصول على أفضل الأسعار من حيث المنتج والتسليم."
+      },
+      {
+        "question": "هل يمكنني رؤية المنتج على البليت قبل الشراء؟",
+        "answer": "بالطبع! سيقوم فريق المستودعات لدينا بتزويد صور الصناديق والصناديق والبلاط قبل طلب البلاط."
+      },
+      {
+        "question": "هل يمكنك أن تعطيني وقت وصول محدد لطلبي؟",
+        "answer": "بالنسبة للمنتجات الموجودة في مستودعاتنا في أتلانتا، يمكنك تسليم طلبك مباشرة بعد الدفع. لتسليم العنوان، نحتاج إلى 3-5 أيام حسب المسافة."
+      },
+      {
+        "question": "ما هو المبلغ الذي يجب أن أسمح به مقابل الكسر/الضرر؟",
+        "answer": "من المعقول توقع نسبة تتراوح بين 2% إلى 10% من الكسر أو التلف، اعتمادًا على المنتج. إذا كانت نسبة الكسر أعلى من 10%، فسنطلب منك الإشارة إلى ذلك في مستند الاستلام اللوجستي والتقاط الصور. يرجى تقديم مطالبة معنا خلال 10 أيام من استلام الطلب."
+      },
+      {
+        "question": "أين موقعك؟ هل لديك صالة عرض أو واجهة متجر؟",
+        "answer": "يقع مصنعنا في تركيا بينما يقع مستودعنا في ستون ماونتن، أتلانتا. لسوء الحظ، ليس لدينا أي صالة عرض في الولايات المتحدة الأمريكية في الوقت الحالي."
+      },
+      {
+        "question": "أرغب في طلب عينة، لكن المنتج الذي أشاهده ليس به هذا الخيار. كيف أطلب عينة لهذا المنتج؟",
+        "answer": "يمكننا إرسال عينات من المنتج من مصنعنا من تركيا. لهذا، يرجى التواصل معنا."
+      },
+      {
+        "question": "كم تبلغ تكلفة الشحن؟",
+        "answer": "يتم حساب الشحن بناءً على وزن طلبك والمسافة التي يجب أن يقطعها. للحصول على تقدير، يرجى التواصل مع فريق المبيعات لدينا."
+      },
+      {
+        "question": "هل تبيع وتشحن إلى كندا؟",
+        "answer": "تقوم شركة Mekmar USA بالبيع والشحن لجميع المستهلكين، بغض النظر عن مكان تواجدهم. إذا كان طلبك موجودًا في مستودعنا بالولايات المتحدة الأمريكية، فيمكننا شحن هذه الصناديق إليك من المستودع. إذا لم يكن الأمر كذلك، فسنقوم بشحنها إليك من تركيا."
+      },
+      {
+        "question": "هل يمكنني تأخير الشحنة أو اختيار وقت التسليم؟",
+        "answer": "يمكن لشركة Mekmar USA الاحتفاظ بالمنتجات بعد الشراء لمدة أقصاها 30 يومًا قبل الشحن."
+      },
+      {
+        "question": "ما هي شروط الدفع للطلبات؟",
+        "answer": "بالنسبة لطلبات التسليم في المستودعات، نطلب دفع كامل المبلغ قبل التسليم لأن التسليم يستغرق 5 أيام على الأكثر. ومع ذلك، بالنسبة لطلبات الحاويات، فإننا نعمل كدفعة مقدمة بنسبة 30٪ + الباقي بعد الشحن قبل BL."
+      }
+    ],
+    "usage": "منطقة الاستخدام",
+    "categories": "فئات",
+    "colors": "الألوان",
+    "sizes": "الأحجام",
+    "mosaics": "الفسيفساء"
+  },
+  "search": "يبحث...",
+  "search_link": "/ar/search/",
+  "usa_stock_main_menu": {
+    "name": "تحقق من مخزوننا في الولايات المتحدة الأمريكية",
+    "img": "/image/usa-atlanta-stock-items-mekmar.com.webp",
+    "link": "/ar/usa/stock",
+    "alt": "usa_stock_mekmar"
+  },
+  "filtered_header": {
+    "category": "فئات",
+    "color": "الألوان",
+    "area": "المناطق",
+    "type": "أنواع",
+    "edge": "حواف",
+    "style": "الأنماط",
+    "material": "مواد",
+    "finish": "التشطيبات"
+  }
 }
