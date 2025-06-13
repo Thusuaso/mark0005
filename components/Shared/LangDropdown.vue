@@ -14,6 +14,7 @@
         <a
           class="dropdown-item d-flex align-items-center lang-item"
           :href="lang.link"
+          @click="selectLanguage(lang)"
         >
           <img :src="lang.flag" :alt="lang.code" class="flag-icon me-2" />
         </a>
@@ -33,21 +34,13 @@ const languages = [
   { code: "ar", flag: "/flags/ar.png", link: "/ar" },
 ];
 console.log("cookie", cookie);
-let selected = ref();
-if (cookie.value == "en") {
-  selected.value = languages[0];
-} else if (cookie.value == "fr") {
-  selected.value = languages[1];
-} else if (cookie.value == "es") {
-  selected.value = languages[2];
-} else if (cookie.value == "ru") {
-  selected.value = languages[3];
-} else if (cookie.value == "ar") {
-  selected.value = languages[4];
-}
+let selected = languages.find((x) => {
+  return x.code === cookie.value;
+});
 
 function selectLanguage(lang) {
   selected.value = lang;
+  cookie.value = lang.code;
 }
 </script>
 
