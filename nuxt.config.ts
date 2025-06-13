@@ -5,7 +5,7 @@ import Clarity from "@microsoft/clarity";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Mekmar Marble & Natural Stone Supplier/Manufacturer Universally",
+      title: "Mekmar | High-Quality Marble and Natural Stone Solutions",
       charset: "utf-8",
       htmlAttrs: {
         lang: "en",
@@ -15,13 +15,13 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Mekmar produces tile,slab,mosaic,sink,etc made from marble,travertine,limestone with cross/vein cut in white,beige,grey,black colors and exports worldwide",
+            "Mekmar offers reliable solutions in construction and design with premium marble and natural stone products. Discover modern design and durability combined.",
         },
         // { name:'google-site-verification',content:'-2spBZ_-lBKXZMQ9r5jpKUNxQ_KOI1Gf_CVKyn7URHA' },
         {
           name: "keywords",
           content:
-            "Marble, Travertine, Natural Stone, Limestone, Beige,Interior Design",
+            "marble, natural stone, marble supplier, natural stone products, building materials, durable natural stone cladding, modern marble designs, marble kitchen countertops",
         },
       ],
 
