@@ -618,6 +618,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Vidéos du Projet | Projet Arsea à Singapour",
+        "url": "https://www.youtube.com/embed/nE_4cCg6lRo?si=nYiwLpqvJ3a3BTeS",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Vidéos du Projet | Projet Ahly aux États-Unis",
         "url": "https://www.youtube.com/embed/g7Dn9aBFq_Q?si=S82rRYr_pbnMnPDC",
         "queue": "30"
