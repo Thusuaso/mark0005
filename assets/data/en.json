@@ -612,6 +612,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Project Videos | Durand Project in the USA",
+        "url": "https://www.youtube.com/embed/PH2QnGl8WnE?si=wVCnT7me6us3oZ81",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Project Videos | Arsea Prjoect in Singapore",
         "url": "https://www.youtube.com/embed/nE_4cCg6lRo?si=nYiwLpqvJ3a3BTeS",
         "queue": "30"
