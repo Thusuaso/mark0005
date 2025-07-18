@@ -959,6 +959,12 @@
     "informative_fr": [
       {
         "id": 1,
+        "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
+        "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
+        "queue": "6"
+      },
+      {
+        "id": 1,
         "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
         "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
         "queue": "6"
