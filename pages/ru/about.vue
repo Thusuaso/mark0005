@@ -24,7 +24,7 @@
         </li>
       </ul>
       <br />
-      <ul class="row m-auto text-center">
+      <ul class="d-flex justify-content-center list-unstyled">
         <li
           class="col-2"
           v-for="social of about.socials"

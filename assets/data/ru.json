@@ -158,6 +158,12 @@
           "name": "pinterest",
           "link": "https://tr.pinterest.com/export10499/",
           "icon": "bi bi-pinterest"
+        },
+        {
+          "id": 5,
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
+          "icon": "bi bi-linkedin"
         }
       ]
     },
@@ -485,6 +491,12 @@
         "name": "pinterest",
         "link": "https://tr.pinterest.com/export10499/",
         "icon": "bi bi-pinterest"
+      },
+      {
+        "id": 5,
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
+        "icon": "bi bi-linkedin"
       }
     ]
   },
