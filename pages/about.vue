@@ -22,7 +22,7 @@
         </div>
         <div class="col-sm-6">
             <figure class="image is-16by9">
-                <iframe class="has-ratio" src="https://www.youtube.com/embed/l2oZBA1o9ZM" frameborder="0"
+                <iframe class="has-ratio" src="https://www.youtube.com/embed/PqEfhqwvU_U?si=hhee2ExHZMgIkhLp" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
                     style="width: 100%; height: 450px"></iframe>
             </figure>
