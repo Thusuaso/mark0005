@@ -624,6 +624,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Project Videos | CRB Project 2 in USA",
+        "url": "https://www.youtube.com/embed/qZsulb9jNCA?si=vokTApUPnG9uIX8y",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Project Videos | Durand Project in the USA",
         "url": "https://www.youtube.com/embed/PH2QnGl8WnE?si=wVCnT7me6us3oZ81",
         "queue": "30"

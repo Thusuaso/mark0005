@@ -641,6 +641,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Видеоролики проекта | Проект CRB 2 в США",
+        "url": "https://www.youtube.com/embed/qZsulb9jNCA?si=vokTApUPnG9uIX8y",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Видеоролики проекта | Проект Дюранда в США",
         "url": "https://www.youtube.com/embed/PH2QnGl8WnE?si=wVCnT7me6us3oZ81",
         "queue": "30"

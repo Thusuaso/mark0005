@@ -145,12 +145,12 @@
           "link": "https://tr.pinterest.com/export10499/",
           "icon": "bi bi-pinterest"
         },
-                {
-                  "id": 5,
-                  "name": "linkedin",
-                  "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
-                  "icon": "bi bi-linkedin"
-                }
+        {
+          "id": 5,
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
+          "icon": "bi bi-linkedin"
+        }
       ]
     },
     "news": {
@@ -475,12 +475,12 @@
         "link": "https://tr.pinterest.com/export10499/",
         "icon": "bi bi-pinterest"
       },
-              {
-                "id": 5,
-                "name": "linkedin",
-                "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
-                "icon": "bi bi-linkedin"
-              }
+      {
+        "id": 5,
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/company/mekmar-marble-and-travertine/",
+        "icon": "bi bi-linkedin"
+      }
     ]
   },
   "contact": {
@@ -621,6 +621,12 @@
 
     "title_3": "مقاطع فيديو إعلامية",
     "projects": [
+      {
+        "id": 30,
+        "name": "فيديوهات المشروع | مشروع CRB 2 في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/qZsulb9jNCA?si=vokTApUPnG9uIX8y",
+        "queue": "30"
+      },
       {
         "id": 30,
         "name": "فيديوهات المشروع | مشروع دوراند في الولايات المتحدة الأمريكية",
