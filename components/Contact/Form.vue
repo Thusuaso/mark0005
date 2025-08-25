@@ -33,7 +33,7 @@
         v-model="model.email"
         :invalid="!isRequiredMail(model.email)"
         @update:modelValue="mailControl($event)"
-        @paste="onPaste"
+        @paste.prevent="onPaste"
       />
       <div id="emailHelp" class="form-text" v-if="!isRequiredMail(model.email)">
         {{ form.field_2 }}
@@ -232,8 +232,8 @@ function mailControl(event: any) {
   }
 }
 function onPaste(event: any) {
-  model.value.email = "";
   $toast.error("Copy-paste is not allowed.");
+  model.value.email = "";
 }
 </script>
 <style scoped></style>
