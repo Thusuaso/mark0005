@@ -641,6 +641,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Видеоролики проекта | Проект ATU в Нигерии",
+        "url": "https://www.youtube.com/embed/W5niXNuUBzo?si=tqhExaGzpQc9EzwT",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Видеоролики проекта | Проект CRB 2 в США",
         "url": "https://www.youtube.com/embed/qZsulb9jNCA?si=vokTApUPnG9uIX8y",
         "queue": "30"
