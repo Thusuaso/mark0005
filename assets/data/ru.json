@@ -641,6 +641,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Видеоролики проекта | АРТ-проект 2 в Болгарии",
+        "url": "https://www.youtube.com/embed/-gWMr0XVOHY?si=Ugo2K7pTWgOSDh6O",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Видеоролики проекта | Проект ATU в Нигерии",
         "url": "https://www.youtube.com/embed/W5niXNuUBzo?si=tqhExaGzpQc9EzwT",
         "queue": "30"

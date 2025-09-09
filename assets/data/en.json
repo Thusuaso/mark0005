@@ -624,6 +624,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Project Videos | ART Project 2 in Bulgaria",
+        "url": "https://www.youtube.com/embed/-gWMr0XVOHY?si=Ugo2K7pTWgOSDh6O",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Project Videos | ATU Project in Nigeria",
         "url": "https://www.youtube.com/embed/W5niXNuUBzo?si=tqhExaGzpQc9EzwT",
         "queue": "30"

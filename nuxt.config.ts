@@ -28,6 +28,7 @@ export default defineNuxtConfig({
       script: [
         // {src:'https://kit.fontawesome.com/0867affd7d.js'},
         // {src:'https://www.googletagmanager.com/gtag/js?id=G-1VBK9JFP48'},
+        // { src: "//code.jivosite.com/widget/Q7sfPesDSN", async: true },
       ],
 
       link: [

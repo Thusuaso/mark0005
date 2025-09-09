@@ -623,6 +623,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "فيديوهات المشروع | مشروع الفن الثاني في بلغاريا",
+        "url": "https://www.youtube.com/embed/-gWMr0XVOHY?si=Ugo2K7pTWgOSDh6O",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "فيديوهات المشروع | مشروع ATU في نيجيريا",
         "url": "https://www.youtube.com/embed/W5niXNuUBzo?si=tqhExaGzpQc9EzwT",
         "queue": "30"

@@ -1,21 +1,103 @@
 <template>
-        <div class="slider">
-                
-            <a v-for="item in catalog" :key="item" :href="'#' + item.name">{{ item.id }}</a>
-
-
-            <div class="slides">
-                <div v-for="item in catalog" :key="item" :id="item.name">
-                    <img :src="'/image/catalog/' + item.name" style="width:100%;"/>
-                </div>
-            </div>
-        </div>
-
+  <p>Please enter your e-mail address for the catalog.</p>
+  <div class="row">
+    <div class="col-sm-6">
+      <label for="exampleInputEmail1" class="form-label">{{
+        contact.form.email
+      }}</label>
+      <InputText
+        name="field"
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        v-model="email"
+        :invalid="!isRequiredMail(email)"
+        @update:modelValue="mailControl($event)"
+        @paste.prevent="onPaste"
+      />
+      <div id="emailHelp" class="form-text" v-if="!isRequiredMail(email)">
+        {{ contact.form.field_2 }}
+      </div>
+      <div
+        id="emailHelp"
+        class="form-text"
+        v-if="isRequiredMail(email)"
+        style="height: 20px"
+      ></div>
+    </div>
+    <div class="col-sm-6">
+      <button
+        type="submit"
+        class="btn btn-success w-100"
+        :disabled="button_status"
+        @click="sendMail"
+        style="margin-top: 32px"
+      >
+        {{ contact.form.send }}
+      </button>
+    </div>
+  </div>
 </template>
 <script lang="ts" setup>
-import { useStore } from '~/store/index';
+import { useStore } from "~/store/index";
 const store = useStore();
-const catalog = store.getCatalog;
+let email = ref("");
+const contact = store.getContact;
+const { $toast } = useNuxtApp();
+let button_status = ref(false);
+let catalog_link = "https://cdn.mekmarimage.com/category/catalog-2025.pdf";
+function isRequiredMail(value: any) {
+  const val = value.split("@");
+  if (val.length == 2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function mailControl(event: any) {
+  if (
+    event === "export@mekmar.com" ||
+    event === "export1@mekmar.com" ||
+    event === "export2@mekmar.com" ||
+    event === "export@mekmar.co" ||
+    event == "export1@mekmar.co" ||
+    event == "export2@mekmar.co" ||
+    event == "export@mekmar" ||
+    event == "export1@mekmar" ||
+    event == "export2@mekmar"
+  ) {
+    email.value = "";
+
+    $toast.error("This email address is not allowed.");
+  }
+}
+function onPaste(event: any) {
+  $toast.error("Copy-paste is not allowed.");
+  email.value = "";
+}
+function sendMail(event: any) {
+  if (email.value === "" || email.value === null || email.value === undefined) {
+    $toast.error("E-mail field cannot be empty.");
+    return;
+  } else if (
+    email.value === "export@mekmar.com" ||
+    email.value === "export1@mekmar.com" ||
+    email.value === "export2@mekmar.com"
+  ) {
+    $toast.error("This email address is not allowed.");
+    email = ref("");
+    return;
+  } else {
+    useFetch("/api/sendCategory", {
+      method: "POST",
+      body: {
+        email: email.value,
+        link: "https://cdn.mekmarimage.com/category/catalog-2025.pdf",
+      },
+    });
+  }
+}
 </script>
 
 <style scoped>
@@ -31,15 +113,13 @@ const catalog = store.getCatalog;
 
 .slides {
   display: flex;
-  
+
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  
-  
-  
+
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  
+
   /*
   scroll-snap-points-x: repeat(300px);
   scroll-snap-type: mandatory;
@@ -68,14 +148,14 @@ const catalog = store.getCatalog;
   transform: scale(1);
   transition: transform 0.5s;
   position: relative;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 100px;
 }
 .slides > div:target {
-/*   transform: scale(0.8); */
+  /*   transform: scale(0.8); */
 }
 .author-info {
   background: rgba(0, 0, 0, 0.75);
@@ -126,7 +206,8 @@ img {
   }
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow: hidden;
 }
@@ -134,7 +215,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #74ABE2, #5563DE);
-  font-family: 'Ropa Sans', sans-serif;
+  background: linear-gradient(to bottom, #74abe2, #5563de);
+  font-family: "Ropa Sans", sans-serif;
 }
 </style>
