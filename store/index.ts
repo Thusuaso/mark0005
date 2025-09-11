@@ -168,8 +168,11 @@ export const useStore = defineStore("store", {
     },
   },
   actions: {
-    setDisabledSendCategoryButtonStatus(payload: any) {
-      this.disabled_send_category_button_status = payload;
+    setDisabledSendCategoryButtonStatusFalse() {
+      this.disabled_send_category_button_status = false;
+    },
+    setDisabledSendCategoryButtonStatus() {
+      this.disabled_send_category_button_status = true;
     },
     setLoginDialogStatus(payload: any) {
       this.dialog_status = payload;

@@ -77,7 +77,6 @@ function onPaste(event: any) {
   email.value = "";
 }
 function sendMail(event: any) {
-  store.setDisabledSendCategoryButtonStatus(true);
   if (email.value === "" || email.value === null || email.value === undefined) {
     $toast.error("E-mail field cannot be empty.");
     return;
@@ -97,7 +96,7 @@ function sendMail(event: any) {
         link: "https://cdn.mekmarimage.com/category/catalog-2025.pdf",
       },
     });
-    store.setDisabledSendCategoryButtonStatus(false);
+    $toast.success("Mail Sent...");
   }
 }
 </script>
