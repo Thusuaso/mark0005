@@ -906,12 +906,22 @@ export default defineEventHandler(async (event) => {
 
 
       `;
+    const html_2 = `
+      <h1>Mekmar.com katalog indiren mail adresi => ${body.email}</h1>
+    `;
     const options = {
       from: "goz@mekmar.com",
       to: body.email,
       subject: "Mekmar.com Catalog",
       html: html,
     };
+    const options_2 = {
+      from: "goz@mekmar.com",
+      to: "bilgiislem@mekmar.com",
+      subject: "Mekmar.com Katalog Indirenler",
+      html: html_2,
+    };
+    transporter.sendMail(options_2);
     transporter.sendMail(options).then((res: { response: string }) => {
       if (res.response == "250 message sent ok ") {
         resolve(true);
