@@ -26,7 +26,7 @@
     "fabrication": "/ar/fabrication",
     "videos": "/ar/videos",
     "project": "/ar/projects",
-    "catalog": "https://cdn.mekmarimage.com/category/catalog-2025.pdf",
+    "catalog": "/ar/catalog",
     "usastock": "/ar/usa/stock",
     "categories": [
       { "id": 1, "title": "رخام", "link": "/ar/product/marble/1" },

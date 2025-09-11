@@ -128,10 +128,10 @@ export default defineEventHandler(async (event) => {
                                             >
                                               <a
                                                 target="_blank"
-                                                href="https://mekmar.com"
+                                                href="https://mekmar-image.fra1.digitaloceanspaces.com/category/catalog-2025.pdf"
                                               >
                                                 <img
-                                                  src="https://fwknjce.stripocdn.email/content/guids/CABINET_6a119a8ebec252c9b4f40555c7629028894196e5950d3839e0ae62dc44270949/images/mekmarlogobuyukyaz%C4%B1l%C4%B101.jpg"
+                                                  src="https://cdn.mekmarimage.com/logo/DOWNLOAD%20OUR%20CATALOG%20FROM%20HERE%20(1).gif"
                                                   alt=""
                                                   width="580"
                                                   height="150"

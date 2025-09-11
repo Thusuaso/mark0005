@@ -182,6 +182,7 @@ const inputPhoneNumber = (event: any) => {
 
 let button_status = ref(false);
 function sendMail() {
+  button_status.value = true;
   const { $toast } = useNuxtApp();
   let toasted = $toast;
 
@@ -191,7 +192,6 @@ function sendMail() {
     isRequiredMessage(model.value.description)
   ) {
     toasted.success("Success");
-    button_status.value = true;
     const { data: status } = useFetch("/api/sendMail", {
       method: "POST",
       body: model.value,

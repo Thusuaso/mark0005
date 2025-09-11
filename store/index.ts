@@ -42,8 +42,12 @@ export const useStore = defineStore("store", {
     now_breadcrumb: {},
     catalog: [],
     dialog_status: ref(true),
+    disabled_send_category_button_status: ref(false),
   }),
   getters: {
+    getDisabledSendCategoryButtonStatus(state) {
+      return state.disabled_send_category_button_status;
+    },
     getLoginDialogStatus(state) {
       return state.dialog_status;
     },
@@ -164,6 +168,9 @@ export const useStore = defineStore("store", {
     },
   },
   actions: {
+    setDisabledSendCategoryButtonStatus(payload: any) {
+      this.disabled_send_category_button_status = payload;
+    },
     setLoginDialogStatus(payload: any) {
       this.dialog_status = payload;
     },

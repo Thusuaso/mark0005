@@ -1,5 +1,5 @@
 <template>
-  <p>Please enter your e-mail address for the catalog.</p>
+  <p>الرجاء إدخال عنوان البريد الإلكتروني الخاص بك للحصول على الكتالوج.</p>
   <div class="row">
     <div class="col-sm-6">
       <label for="exampleInputEmail1" class="form-label">{{
@@ -30,7 +30,7 @@
       <button
         type="submit"
         class="btn btn-success w-100"
-        :loading="store.getDisabledSendCategoryButtonStatus"
+        :disabled="button_status"
         @click="sendMail"
         style="margin-top: 32px"
       >
