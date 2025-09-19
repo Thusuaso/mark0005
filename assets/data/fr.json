@@ -630,6 +630,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Vidéos du Projet | Projet Abui au Ghana",
+        "url": "https://www.youtube.com/embed/2w1ZL7NcbDY?si=p9stz0YYBQdsLcSg",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Vidéos du Projet | Projet ART 2 en Bulgarie",
         "url": "https://www.youtube.com/embed/-gWMr0XVOHY?si=Ugo2K7pTWgOSDh6O",
         "queue": "30"
