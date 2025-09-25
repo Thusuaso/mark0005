@@ -89,7 +89,7 @@
   <div
     class="container"
     v-if="isMobile"
-    style="margin-top: -15px; padding-top: -15px"
+    style="margin-top: -5px; padding-top: -5px"
   >
     <NuxtLayout>
       <NuxtPage />
