@@ -43,8 +43,12 @@ export const useStore = defineStore("store", {
     catalog: [],
     dialog_status: ref(true),
     disabled_send_category_button_status: ref(false),
+    mobile: 0,
   }),
   getters: {
+    getIfMobile(state) {
+      return state.mobile;
+    },
     getDisabledSendCategoryButtonStatus(state) {
       return state.disabled_send_category_button_status;
     },
@@ -167,7 +171,15 @@ export const useStore = defineStore("store", {
       return state.catalog;
     },
   },
+
   actions: {
+    async nuxtServerInit({ commit }: any) {
+      commit("getIfMobile", window.innerWidth);
+    },
+
+    setIfMobile(payload: any) {
+      this.mobile = payload;
+    },
     setDisabledSendCategoryButtonStatusFalse() {
       this.disabled_send_category_button_status = false;
     },
