@@ -630,6 +630,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Vidéos du projet | Projet Récif à Malte",
+        "url": "https://www.youtube.com/embed/ouiGuTJAn3c?si=0HQRVUljvVi79-KC",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Vidéos du Projet | Projet Abui au Ghana",
         "url": "https://www.youtube.com/embed/2w1ZL7NcbDY?si=p9stz0YYBQdsLcSg",
         "queue": "30"

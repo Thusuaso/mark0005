@@ -623,6 +623,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "فيديوهات المشروع | مشروع الشعاب المرجانية في مالطا",
+        "url": "https://www.youtube.com/embed/ouiGuTJAn3c?si=0HQRVUljvVi79-KC",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "فيديوهات المشروع | مشروع أبوي في غانا",
         "url": "https://www.youtube.com/embed/2w1ZL7NcbDY?si=p9stz0YYBQdsLcSg",
         "queue": "30"
