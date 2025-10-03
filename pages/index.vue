@@ -39,11 +39,107 @@
       </div>
     </div>
   </div>
+
+  <!-- <SharedPopUp /> -->
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
+import { onMounted, ref, useTemplateRef } from "vue";
 const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
 const usastock = store.getUsaStockMainMenu;
 </script>
+
+<style scoped>
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Yarı saydam siyah arka plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Diğer her şeyin üstünde olmasını sağlar */
+}
+
+/* Modal İçerik Kutusu */
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 650px;
+  max-height: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Modal Başlık Kısmı */
+.modal-header {
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
+}
+
+.modal-header h3 {
+  margin: 0;
+}
+
+/* Modal İçerik Kısmı */
+.modal-body {
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Modal Alt Kısım */
+.modal-footer {
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+/* Kapatma Butonu (x işareti) */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #aaa;
+  line-height: 1;
+  padding: 0;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+/* Kapat Butonu */
+.kapat-btn {
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.kapat-btn:hover {
+  background-color: #c82333;
+}
+
+/* Açma Butonu Stili */
+.open-btn {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+</style>

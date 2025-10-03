@@ -1006,6 +1006,12 @@
     "informative_fr": [
       {
         "id": 1,
+        "name": " Vidéos informatives | Types de Chargement ",
+        "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
+        "queue": "6"
+      },
+      {
+        "id": 1,
         "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
         "queue": "6"
