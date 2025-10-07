@@ -12,9 +12,9 @@
             &times;
           </button>
           <img
-            src="~/public/image/banner-1.jpeg"
-            width="700"
-            height="400"
+            src="~/public/image/banner-mobile.jpeg"
+            width="300"
+            height="600"
             style="text-align: center; vertical-align: top; margin: 0px auto"
             @click="closeModal"
           />
@@ -90,10 +90,10 @@ const closeModal = () => {
 .modal-content {
   background: white;
   border-radius: 10px;
-  width: 700px;
-  height: 400px;
-  max-width: 700px;
-  max-height: 400px;
+  width: 300px;
+  height: 600px;
+  max-width: 300px;
+  max-height: 600px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   transition: transform 0.3s ease-out; /* Animasyon için */
@@ -130,8 +130,8 @@ const closeModal = () => {
   border-bottom-left-radius: 100%;
   border: 1px solid white;
   position: absolute;
-  top: -11px;
-  left: 94.5%;
+  top: -10px;
+  left: 90%;
   z-index: 1000000;
   background-color: black;
   opacity: 30%;

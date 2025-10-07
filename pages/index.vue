@@ -40,7 +40,11 @@
     </div>
   </div>
 
-  <!-- <SharedPopUp /> -->
+  <SharedPopUp v-show="isVisible" v-if="cookie == undefined && !isMobile" />
+  <SharedPopUpMobile
+    v-show="isVisible"
+    v-if="cookie == undefined && isMobile"
+  />
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
@@ -49,6 +53,34 @@ const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
 const usastock = store.getUsaStockMainMenu;
+/*Visible Modal Section */
+let cookie = useCookie("modal_section_visible");
+if (cookie.value == "false") {
+  cookie.value == "false";
+}
+let isVisible = ref(true);
+let isMobile = ref(false);
+const handleKeydown = (event: any) => {
+  // Basılan tuşun 'Escape' (ESC) olup olmadığını kontrol edin
+  if (event.key === "Escape") {
+    closeModal();
+  }
+};
+const closeModal = () => {
+  // Yalnızca modal açıksa kapatma olayını gönderin
+  isVisible.value = false;
+  cookie.value = "false";
+};
+onMounted(() => {
+  document.addEventListener("keydown", handleKeydown);
+});
+onUnmounted(() => {
+  document.removeEventListener("keydown", handleKeydown);
+});
+
+if (process.client) {
+  isMobile.value = window.innerWidth <= 768 ? true : false;
+}
 </script>
 
 <style scoped>

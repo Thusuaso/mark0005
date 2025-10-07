@@ -108,8 +108,6 @@ const footer = store.getFooter;
 const lang = store.getLang;
 let isMobile = ref(false);
 if (process.client) {
-  console.log(navigator.userAgent);
-  console.log(window.innerWidth);
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
 </script>
