@@ -14,7 +14,7 @@
           <img
             src="~/public/image/banner-mobile.jpeg"
             width="300"
-            height="600"
+            height="450"
             style="text-align: center; vertical-align: top; margin: 0px auto"
             @click="closeModal"
           />
@@ -91,9 +91,9 @@ const closeModal = () => {
   background: white;
   border-radius: 10px;
   width: 300px;
-  height: 600px;
+  height: 450px;
   max-width: 300px;
-  max-height: 600px;
+  max-height: 450px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   transition: transform 0.3s ease-out; /* Animasyon için */
