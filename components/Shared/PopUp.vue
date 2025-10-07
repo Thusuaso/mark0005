@@ -134,13 +134,9 @@ const closeModal = () => {
   left: 94.5%;
   z-index: 1000000;
   background-color: black;
-  opacity: 30%;
 }
 
 .close-btn:hover {
-  color: #000;
-  opacity: 100%;
-  color: white;
 }
 
 /* Modal İçerik ve Alt Kısım */
