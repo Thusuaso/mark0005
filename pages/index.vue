@@ -40,23 +40,21 @@
     </div>
   </div>
 
-  <SharedPopUp v-show="isVisible" v-if="cookie == undefined && !isMobile" />
-  <SharedPopUpMobile
-    v-show="isVisible"
-    v-if="cookie == undefined && isMobile"
-  />
+  <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
+  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" />
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
-import { onMounted, ref, useTemplateRef } from "vue";
+import { onMounted, ref, useTemplateRef, onBeforeUnmount } from "vue";
 const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
 const usastock = store.getUsaStockMainMenu;
+const session = sessionStorage.getItem("modal_section_visible");
 /*Visible Modal Section */
-let cookie = useCookie("modal_section_visible");
-if (cookie.value == "false") {
-  cookie.value == "false";
+// let cookie = useCookie("modal_section_visible");
+if (session == "false") {
+  sessionStorage.setItem("modal_section_visible", "false");
 }
 let isVisible = ref(true);
 let isMobile = ref(false);
@@ -69,7 +67,8 @@ const handleKeydown = (event: any) => {
 const closeModal = () => {
   // Yalnızca modal açıksa kapatma olayını gönderin
   isVisible.value = false;
-  cookie.value = "false";
+  // cookie.value = "false";
+  sessionStorage.setItem("modal_section_visible", "false");
 };
 onMounted(() => {
   document.addEventListener("keydown", handleKeydown);
@@ -81,6 +80,24 @@ onUnmounted(() => {
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
+// const clearCookies = (event: any) => {
+//   cookie.value = undefined;
+// };
+// onMounted(() => {
+//   // Sadece istemci tarafında (tarayıcıda) çalışmalı
+//   if (process.client) {
+//     window.addEventListener("beforeunload", clearCookies);
+//     console.log("beforeunload dinleyicisi eklendi.");
+//   }
+// });
+
+// // 3. Bileşen kaldırılırken dinleyiciyi temizle
+// onBeforeUnmount(() => {
+//   if (process.client) {
+//     window.removeEventListener("beforeunload", clearCookies);
+//     console.log("beforeunload dinleyicisi kaldırıldı.");
+//   }
+// });
 </script>
 
 <style scoped>

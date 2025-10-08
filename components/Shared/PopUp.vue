@@ -27,10 +27,11 @@
 <script lang="ts" setup>
 let isModalOpen = ref(true);
 let cookie = useCookie("modal_section_visible");
-
+sessionStorage.setItem("modal_section_visible", "");
 const closeModal = () => {
   isModalOpen.value = false;
   cookie.value = "false";
+  sessionStorage.setItem("modal_section_visible", "false");
   // Modal kapandığında, olay dinleyicisini kaldır
 };
 

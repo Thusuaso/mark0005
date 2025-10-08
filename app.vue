@@ -110,6 +110,10 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
+
+
+
+
 </script>
 <style scoped>
 .customBannerA {
