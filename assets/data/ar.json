@@ -623,6 +623,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "فيديوهات المشروع | مشروع خاجافي 2 في كندا",
+        "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "فيديوهات المشروع | مشروع الشعاب المرجانية في مالطا",
         "url": "https://www.youtube.com/embed/ouiGuTJAn3c?si=0HQRVUljvVi79-KC",
         "queue": "30"

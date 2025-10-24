@@ -630,6 +630,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Vidéos du projet | Projet Khajavi 2 au Canada",
+        "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Vidéos du projet | Projet Récif à Malte",
         "url": "https://www.youtube.com/embed/ouiGuTJAn3c?si=0HQRVUljvVi79-KC",
         "queue": "30"
