@@ -636,6 +636,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "Vídeos del Proyecto | Proyecto Losey en EE. UU.",
+        "url": "https://www.youtube.com/embed/6ax-0KuoeZQ?si=B7GScNpwX72eLTgS",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "Vídeos del Proyecto | Proyecto Khajavi 2 en Canadá",
         "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
         "queue": "30"

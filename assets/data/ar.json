@@ -623,6 +623,12 @@
     "projects": [
       {
         "id": 30,
+        "name": "فيديوهات المشروع | مشروع لوزي في الولايات المتحدة الأمريكية",
+        "url": "https://www.youtube.com/embed/6ax-0KuoeZQ?si=B7GScNpwX72eLTgS",
+        "queue": "30"
+      },
+      {
+        "id": 30,
         "name": "فيديوهات المشروع | مشروع خاجافي 2 في كندا",
         "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
         "queue": "30"
