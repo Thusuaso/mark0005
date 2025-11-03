@@ -1,5 +1,7 @@
 <template>
-  <h1 class="header" style="margin-bottom: 10px">{{ header }}</h1>
+  <h1 class="header" style="margin-bottom: 10px; margin-top: 10px">
+    {{ header }}
+  </h1>
   <!-- <div class="row text-center overflow-x-scroll" style="height:250px;">
         <div class="col-3" v-for="vid in videos" :key="vid.id" >
             <iframe :src="vid.url" frameborder="0"

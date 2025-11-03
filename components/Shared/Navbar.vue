@@ -11,7 +11,7 @@
       >
         <img
           class="logo_mekmar"
-          src="https://cdn.mekmarimage.com/logo/Mekmar-Logo-b%C3%BCy%C3%BCk-yaz%C4%B1l%C4%B1-01.webp"
+          src="/image/mekmar-logo.png"
           alt="mekmar-logo"
         />
       </NuxtLink>

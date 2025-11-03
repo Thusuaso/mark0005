@@ -40,8 +40,8 @@
     </div>
   </div>
 
-  <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
-  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" />
+  <!-- <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
+  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" /> -->
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
@@ -50,12 +50,12 @@ const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
 const usastock = store.getUsaStockMainMenu;
-const session = sessionStorage.getItem("modal_section_visible");
+// const session = sessionStorage.getItem("modal_section_visible");
 /*Visible Modal Section */
 // let cookie = useCookie("modal_section_visible");
-if (session == "false") {
-  sessionStorage.setItem("modal_section_visible", "false");
-}
+// if (session == "false") {
+//   sessionStorage.setItem("modal_section_visible", "false");
+// }
 let isVisible = ref(true);
 let isMobile = ref(false);
 const handleKeydown = (event: any) => {
