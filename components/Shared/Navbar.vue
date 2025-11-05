@@ -1561,33 +1561,33 @@ const searchInputUsa = (event: any) => {
   margin-left: 10px;
 }
 .custom_navbar_css_font_en {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .custom_navbar_css_fr {
   margin-left: 4px;
 }
 .custom_navbar_css_font_fr {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .custom_navbar_css_es {
   margin-left: 2px;
 }
 .custom_navbar_css_font_es {
-  font-size: 13px;
+  font-size: 14px;
 }
 .custom_navbar_css_ru {
   margin-left: 0px;
 }
 .custom_navbar_css_font_ru {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .custom_navbar_css_ar {
   margin-left: 26px;
 }
 .custom_navbar_css_font_ar {
-  font-size: 16px;
+  font-size: 18px;
 }
 </style>
