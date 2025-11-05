@@ -64,6 +64,7 @@ export default defineNuxtConfig({
     "@vee-validate/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
+    "nuxt-lazytube",
   ],
   plugins: ["~/plugins/ms_tag.ts"],
 

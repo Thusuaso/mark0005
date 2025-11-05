@@ -18,12 +18,20 @@
     <div v-for="vid in videos" :key="vid.id">
       <iframe
         :src="vid.url"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <!-- <iframe
+        :src="vid.url"
         frameborder="0"
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture muted"
         allowfullscreen
         autoplay="0"
         muted
-      ></iframe>
+      ></iframe> -->
       <p style="margin: 0px auto; margin-bottom: -5px">
         {{ vid.name }}
       </p>
@@ -74,6 +82,7 @@ const props = defineProps({
   },
 });
 const { videos, header } = props;
+const youtubeLink = ref("");
 </script>
 <style scoped>
 div.scrollmenu {

@@ -35,7 +35,8 @@
   },
   "devDependencies": {
     "@types/mssql": "^9.1.5",
-    "@vee-validate/nuxt": "^4.13.2"
+    "@vee-validate/nuxt": "^4.13.2",
+    "nuxt-lazytube": "^0.2.3"
   },
   "engines": {
     "node": "20.x"
