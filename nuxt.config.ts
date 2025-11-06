@@ -133,4 +133,7 @@ export default defineNuxtConfig({
   static: {
     prefix: false,
   },
+  mazUi: {
+    injectUseToast: false, // Bu satır, Maz-UI'nin $toast'ı tanımlamasını engeller
+  },
 });

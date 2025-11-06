@@ -624,275 +624,354 @@
     "projects": [
       {
         "id": 30,
-        "name": "Project Videos | Losey Project in the USA",
+        "name": "Losey Project - USA",
         "url": "https://www.youtube.com/embed/6ax-0KuoeZQ?si=B7GScNpwX72eLTgS",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "6ax-0KuoeZQ"
       },
       {
         "id": 30,
-        "name": "Project Videos | Khajavi Project 2 in Canada",
+        "name": "Khajavi Project 2 - Canada",
         "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "KmA39iueFn0"
       },
       {
         "id": 30,
-        "name": "Project Videos | Reef Project in Malta",
+        "name": "Khajavi Project - Canada",
+        "url": "https://www.youtube.com/embed/KmA39iueFn0?si=Z1mwqzKcnULqIFnS",
+        "queue": "30",
+        "videoId": "X51McIwJnE4"
+      },
+      {
+        "id": 30,
+        "name": "Reef Project - Malta",
         "url": "https://www.youtube.com/embed/ouiGuTJAn3c?si=0HQRVUljvVi79-KC",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "ouiGuTJAn3c"
       },
+
       {
         "id": 30,
-        "name": "Project Videos | Abui Project in Ghana",
+        "name": "Abui Project - Ghana",
         "url": "https://www.youtube.com/embed/2w1ZL7NcbDY?si=p9stz0YYBQdsLcSg",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "2w1ZL7NcbDY"
       },
       {
         "id": 30,
-        "name": "Project Videos | ART Project 2 in Bulgaria",
+        "name": "ART Project 2 - Bulgaria",
         "url": "https://www.youtube.com/embed/-gWMr0XVOHY?si=Ugo2K7pTWgOSDh6O",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "-gWMr0XVOHY"
       },
       {
         "id": 30,
-        "name": "Project Videos | ATU Project in Nigeria",
+        "name": "ATU Project - Nigeria",
         "url": "https://www.youtube.com/embed/W5niXNuUBzo?si=tqhExaGzpQc9EzwT",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "W5niXNuUBzo"
       },
 
       {
         "id": 30,
-        "name": "Project Videos | CRB Project 2 in USA",
+        "name": "CRB Project 2 - USA",
         "url": "https://www.youtube.com/embed/qZsulb9jNCA?si=vokTApUPnG9uIX8y",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "qZsulb9jNCA"
       },
       {
         "id": 30,
-        "name": "Project Videos | Durand Project in the USA",
+        "name": "Durand Project - USA",
         "url": "https://www.youtube.com/embed/PH2QnGl8WnE?si=wVCnT7me6us3oZ81",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "PH2QnGl8WnE"
       },
       {
         "id": 30,
-        "name": "Project Videos | Arsea Prjoect in Singapore",
+        "name": "Arsea Prjoect - Singapore",
         "url": "https://www.youtube.com/embed/nE_4cCg6lRo?si=nYiwLpqvJ3a3BTeS",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "nE_4cCg6lRo"
       },
       {
         "id": 30,
-        "name": "Project Videos | Ahly Project in the USA",
+        "name": "Ahly Project - USA",
         "url": "https://www.youtube.com/embed/g7Dn9aBFq_Q?si=S82rRYr_pbnMnPDC",
-        "queue": "30"
+        "queue": "30",
+        "videoId": "g7Dn9aBFq_Q"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | LSA Project in Greece",
+        "name": "LSA Project - Greece",
         "url": "https://www.youtube.com/embed/9Rb4nX_8rCc?si=SSha3lJsqQUmEhKk",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "9Rb4nX_8rCc"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | ART Project in Bulgaria",
+        "name": "ART Project - Bulgaria",
         "url": "https://www.youtube.com/embed/r95Ypnq5t38?si=5aEk3gPcGL2N0mXq",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "r95Ypnq5t38"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | SYD Project in the Saudi Arabia",
+        "name": "SYD Project - Saudi Arabia",
         "url": "https://www.youtube.com/embed/wgdqFyBxOx0?si=5yIfzXB7IyuXtvt8",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "wgdqFyBxOx0"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | TMRP Project in the USA",
+        "name": "TMRP Project - USA",
         "url": "https://www.youtube.com/embed/_3xSGxRF9Js?si=bdEj4h21fhY4xES9",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "_3xSGxRF9Js"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | DGCELL Project in Guyana",
+        "name": "DGCELL Project - Guyana",
         "url": "https://www.youtube.com/embed/ZV_4CdQGLNE?si=lyfR5DzOFkRwf_Dh",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "ZV_4CdQGLNE"
       },
 
       {
         "id": 29,
-        "name": "Project Videos | Randolph Project in Ghana",
+        "name": "Randolph Project - Ghana",
         "url": "https://www.youtube.com/embed/Kcf8UTLRivw?si=CKWZ4b4pmbP3E1g9",
-        "queue": "29"
+        "queue": "29",
+        "videoId": "Kcf8UTLRivw"
       },
 
       {
         "id": 28,
-        "name": "Project Videos | Durham Project in Australia",
+        "name": "Durham Project - Australia",
         "url": "https://www.youtube.com/embed/dAlTGtgUj-s?si=VgnsJFeHe9sJPLhX",
-        "queue": "28"
+        "queue": "28",
+        "videoId": "dAlTGtgUj-s"
       },
 
       {
         "id": 28,
-        "name": "Project Videos | Lily Project in Ghana",
+        "name": "Imperial Homes Project - Ghana",
         "url": "https://www.youtube.com/embed/1g-yxoU134c?si=dYC_VfpspxTuUPYS",
-        "queue": "28"
+        "queue": "28",
+        "videoId": "1g-yxoU134c"
       },
 
       {
         "id": 27,
-        "name": "Project Videos | DUO Project in France",
+        "name": "DUO Project - France",
         "url": "https://www.youtube.com/embed/m6ocGL9FoXQ?si=v25F-AjjdaEJ1EyM",
-        "queue": "27"
+        "queue": "27",
+        "videoId": "m6ocGL9FoXQ"
       },
 
       {
         "id": 26,
-        "name": "Project Videos | Gebing Project in Germany",
+        "name": "Gebing Project - Germany",
         "url": "https://www.youtube.com/embed/KNQCSmjXCjM?si=IUlL6s-mSjU6zKxM",
-        "queue": "26"
+        "queue": "26",
+        "videoId": "KNQCSmjXCjM"
       },
 
       {
         "id": 1,
-        "name": "Project Videos | San Project - Croatia",
+        "name": "San Project - Croatia",
         "url": "https://www.youtube.com/embed/LtswOXsL7K4?si=8tXi79C2mcFu3RwV",
-        "queue": "1"
+        "queue": "1",
+        "videoId": "LtswOXsL7K4"
       },
       {
         "id": 2,
-        "name": "Project Videos | Al Mahruqi Project in Oman",
+        "name": "Al Mahruqi Project - Oman",
         "url": "https://www.youtube.com/embed/opRSJQKi9Zk?si=AVqOXXTCILN5E0xS",
-        "queue": "2"
+        "queue": "2",
+        "videoId": "opRSJQKi9Zk"
       },
       {
         "id": 3,
-        "name": "Project Videos | Wall Project in Australia",
+        "name": "Wall Project - Australia",
         "url": "https://www.youtube.com/embed/8K2Kfg5uTOc?si=GEl5dILTKO2L7a47",
-        "queue": "3"
+        "queue": "3",
+        "videoId": "8K2Kfg5uTOc"
       },
       {
         "id": 4,
-        "name": "Project Videos | HOGA Project in Romania",
+        "name": "HOGA Project - Romania",
         "url": "https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z",
-        "queue": "4"
+        "queue": "4",
+        "videoId": "S4UemlQ1Txs"
+      },
+      {
+        "id": 4,
+        "name": "Johnson Project - Australia",
+        "url": "https://www.youtube.com/embed/S4UemlQ1Txs?si=qyqjaJOr7RCRJF7Z",
+        "queue": "4",
+        "videoId": "pASpoyS7Mnc"
       },
       {
         "id": 5,
-        "name": "Project Videos | MTT Project in Turkey",
+        "name": "MTT Project - Turkey",
         "url": "https://www.youtube.com/embed/Wg2VMMDhuHE?si=0w-xVWwFr9WwMiU2",
-        "queue": "5"
+        "queue": "5",
+        "videoId": "Wg2VMMDhuHE"
       },
       {
         "id": 6,
-        "name": "Project Videos | Eisland Project in USA",
+        "name": "Eisland Project - USA",
         "url": "https://www.youtube.com/embed/leerUVEjwLM?si=fRJrzxa6L5TbmA5N",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "leerUVEjwLM"
       },
       {
         "id": 7,
-        "name": "Project Videos | Nader Project in Dominican Republic",
+        "name": "Nader Project - Dominican Republic",
         "url": "https://www.youtube.com/embed/GpzReJf4AIE?si=wyL7TgBzLPQVgQTC",
-        "queue": "7"
+        "queue": "7",
+        "videoId": "GpzReJf4AIE"
       },
       {
         "id": 8,
-        "name": "Project Videos | Homayoun Project in USA",
+        "name": "Homayoun Project - USA",
         "url": "https://www.youtube.com/embed/u8OlcbiFFU4?si=0iXTAXetqi192aNq",
-        "queue": "8"
+        "queue": "8",
+        "videoId": "u8OlcbiFFU4"
       },
       {
         "id": 9,
-        "name": "Project Videos | Littoral Project in Mauritius",
+        "name": "Littoral Project - Mauritius",
         "url": "https://www.youtube.com/embed/aHuU87uQDW4?si=QmuAbmL3BuwguGY6",
-        "queue": "9"
+        "queue": "9",
+        "videoId": "aHuU87uQDW4"
       },
       {
         "id": 10,
-        "name": "Project Videos | Mansour Project in Australia",
+        "name": "Mansour Project - Australia",
         "url": "https://www.youtube.com/embed/9R7CEBju5VE?si=mhEVYpVsrbBWs3n3",
-        "queue": "10"
+        "queue": "10",
+        "videoId": "9R7CEBju5VE"
       },
       {
         "id": 11,
-        "name": "Project Videos | MBI Project in Ghana",
+        "name": "MBI Project - Ghana",
         "url": "https://www.youtube.com/embed/bZTuZe6s2Sc?si=xjy3Yruhc4V_WHjK",
-        "queue": "11"
+        "queue": "11",
+        "videoId": "bZTuZe6s2Sc"
       },
       {
         "id": 12,
-        "name": "Project Videos | Andersen Project in Netherlands",
+        "name": "Andersen Project - Netherlands",
         "url": "https://www.youtube.com/embed/GA5o86hutKc?si=1Cn_NzOoDhOC49C0",
-        "queue": "12"
+        "queue": "12",
+        "videoId": "GA5o86hutKc"
       },
 
       {
         "id": 13,
-        "name": "Project Videos | Kirry Project in France",
+        "name": "Kirry Project - France",
         "url": "https://www.youtube.com/embed/s-RbWvi6Tls?si=qGxlWzUpHQWfypr3",
-        "queue": "13"
+        "queue": "13",
+        "videoId": "s-RbWvi6Tls"
       },
 
       {
         "id": 14,
-        "name": "Project Videos | Adams Project in Bahamas",
+        "name": "Adams Project - Bahamas",
         "url": "https://www.youtube.com/embed/JE9ftiOxcpI",
-        "queue": "14"
+        "queue": "14",
+        "videoId": "JE9ftiOxcpI"
+      },
+      {
+        "id": 14,
+        "name": "Bader Project - Bahrain",
+        "url": "https://www.youtube.com/embed/JE9ftiOxcpI",
+        "queue": "14",
+        "videoId": "b3yYdmet9DY"
       },
       {
         "id": 15,
-        "name": "Project Videos | Beauchamp Project in Vietnam",
+        "name": "Beauchamp Project - Vietnam",
         "url": "https://www.youtube.com/embed/YxbIATaO290?si=M6tbgZSYQXNfv8S3",
-        "queue": "15"
+        "queue": "15",
+        "videoId": "YxbIATaO290"
       },
       {
         "id": 16,
-        "name": "Project Videos | Jackson Project in Spain",
+        "name": "Jackson Project - Spain",
         "url": "https://www.youtube.com/embed/VLLZS4MADPI?si=SuACqDYPidqb9uXd",
-        "queue": "16"
+        "queue": "16",
+        "videoId": "VLLZS4MADPI"
       },
       {
         "id": 17,
-        "name": "Project Videos | Hotel Verdi Project in Malta",
+        "name": "Hotel Verdi Project - Malta",
         "url": "https://www.youtube.com/embed/tcfIRC4ZZiI?si=sCi7_Eyi-0u6D-PW",
-        "queue": "17"
+        "queue": "17",
+        "videoId": "tcfIRC4ZZiI"
       },
       {
         "id": 18,
-        "name": "Project Videos | Al Sabouni Project in Kuwait",
+        "name": "Al Sabouni Project - Kuwait",
         "url": "https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm",
-        "queue": "18"
+        "queue": "18",
+        "videoId": "ino0sI2MGKE"
+      },
+      {
+        "id": 18,
+        "name": "Vallinis Project - Anguilla",
+        "url": "https://www.youtube.com/embed/ino0sI2MGKE?si=vYnB9Vd0Zr09lYGm",
+        "queue": "18",
+        "videoId": "nEBs9E0SXk0"
       },
       {
         "id": 19,
-        "name": "Project Videos | Besse Project in Switzerland",
+        "name": "Besse Project - Switzerland",
         "url": "https://www.youtube.com/embed/fQVv3FhoSik?si=PhnxyAV3jP_MesH6",
-        "queue": "19"
+        "queue": "19",
+        "videoId": "fQVv3FhoSik"
       },
       {
         "id": 20,
-        "name": "Project Videos | Al Greishi Project in Kuwait",
+        "name": "Al Greishi Project - Kuwait",
         "url": "https://www.youtube.com/embed/xfhsj866SAU",
-        "queue": "20"
+        "queue": "20",
+        "videoId": "xfhsj866SAU"
       },
       {
         "id": 21,
-        "name": "Project Videos | Pablo Vein Cut Travertine",
+        "name": "Golyan Project - Dubai",
         "url": "https://www.youtube.com/embed/u9TtbWff-W8",
-        "queue": "21"
-      },
-      {
-        "id": 22,
-        "name": "Project Videos | Mina Rustic Travertine",
-        "url": "https://www.youtube.com/embed/UW9oDb3bt2I",
-        "queue": "22"
+        "queue": "21",
+        "videoId": "u9TtbWff-W8"
       },
       {
         "id": 23,
-        "name": "Project Videos | Alawadhi Villa Project in Kuwait",
+        "name": "Kaddour Project - Ghana",
         "url": "https://www.youtube.com/embed/bGjZUG4k3Vc",
-        "queue": "23"
+        "queue": "23",
+        "videoId": "UW9oDb3bt2I"
+      },
+      {
+        "id": 23,
+        "name": "Golyan Project - Dubai",
+        "url": "https://www.youtube.com/embed/bGjZUG4k3Vc",
+        "queue": "23",
+        "videoId": "u9TtbWff-W8"
+      },
+      {
+        "id": 23,
+        "name": "Alawadhi Villa Project - Kuwait",
+        "url": "https://www.youtube.com/embed/bGjZUG4k3Vc",
+        "queue": "23",
+        "videoId": "bGjZUG4k3Vc"
       }
     ],
     "production": [
@@ -900,55 +979,57 @@
         "id": 24,
         "name": "Marble Fountain / Fontaine en Marbre",
         "url": "https://www.youtube.com/embed/xo0JL-c8xAM",
-        "queue": "24"
+        "queue": "24",
+        "videoId": "xo0JL-c8xAM"
       },
       {
         "id": 25,
         "name": "Architectural solutions from Mekmar",
         "url": "https://www.youtube.com/embed/e2ok5kTRY_0",
-        "queue": "25"
+        "queue": "25",
+        "videoId": "e2ok5kTRY_0"
       },
       {
         "id": 3,
         "url": "https://www.youtube.com/embed/75-OsSfISkI",
         "name": "Mekmar Production Videos | Ocean Grey Marble Project",
-        "queue": "1"
+        "queue": "1",
+        "videoId": "75-OsSfISkI"
       },
       {
         "id": 4,
         "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
         "name": "Mekmar Production Videos | Splitface",
-        "queue": "2"
+        "queue": "2",
+        "videoId": "Hkc5WXJ7F3o"
       },
       {
         "id": 5,
         "url": "https://www.youtube.com/embed/30esf20C9Uw",
         "name": "Mekmar Production Videos | Bevelled Finish",
-        "queue": "3"
+        "queue": "3",
+        "videoId": "30esf20C9Uw"
       },
       {
         "id": 6,
         "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
         "name": "Mekmar Production Videos | Travertine Arch Project in Dubai",
-        "queue": "4"
+        "queue": "4",
+        "videoId": "6jSl51Mfrpo"
       },
       {
         "id": 7,
         "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
         "name": "Mekmar Production Videos | Order Production Control",
-        "queue": "5"
+        "queue": "5",
+        "videoId": "q7Bmy6J1_h4"
       },
       {
         "id": 8,
         "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
         "name": "Mekmar Production Videos | Custom Products / Various Selections",
-        "queue": "6"
-      },
-      {
-        "id": 2,
-        "url": "https://cdn.mekmarimage.com/videos/fountain.mp4",
-        "name": "Mekmar Production Videos | Fountain",
-        "queue": "1"
+        "queue": "6",
+        "videoId": "pp-UdTKFuPc"
       }
     ],
     "informative": [
@@ -956,62 +1037,72 @@
         "id": 1,
         "name": "Differences between 20DC and 40DC containers",
         "url": "https://www.youtube.com/embed/b5uizITliJQ?si=4CpqmO2aGoZOg9Ox",
-        "queue": "1"
+        "queue": "1",
+        "videoId": "b5uizITliJQ"
       },
       {
         "id": 1,
         "name": "Stone Thickness and Usage",
         "url": "https://www.youtube.com/embed/GWmSghUN2Oc?si=sPQer5erMGrSaaOA",
-        "queue": "1"
+        "queue": "1",
+        "videoId": "GWmSghUN2Oc"
       },
 
       {
         "id": 1,
         "name": "Types of Delivery: Incoterms",
         "url": "https://www.youtube.com/embed/UJ6lubeTe10",
-        "queue": "1"
+        "queue": "1",
+        "videoId": "UJ6lubeTe10"
       },
       {
         "id": 2,
         "name": "Vein Cut vs Cross Cut",
         "url": "https://www.youtube.com/embed/7WYoT6te_j8",
-        "queue": "2"
+        "queue": "2",
+        "videoId": "7WYoT6te_j8"
       },
       {
         "id": 3,
         "name": "What Are The Differences Between Stones?",
         "url": "https://www.youtube.com/embed/mdaGLM3_rSU",
-        "queue": "3"
+        "queue": "3",
+        "videoId": "mdaGLM3_rSU"
       },
       {
         "id": 4,
         "name": "Different Surface Options On Travertine",
         "url": "https://www.youtube.com/embed/m1Im47Xe_Cc",
-        "queue": "4"
+        "queue": "4",
+        "videoId": "m1Im47Xe_Cc"
       },
       {
         "id": 5,
         "name": "Different Edge Options on Natural Stone Tiles",
         "url": "https://www.youtube.com/embed/tGsb5D4mMow",
-        "queue": "5"
+        "queue": "5",
+        "videoId": "tGsb5D4mMow"
       },
       {
         "id": 6,
         "name": "Different Surface Options On Marble & Limestone",
         "url": "https://www.youtube.com/embed/UZ8CTP5e8Fs",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "UZ8CTP5e8Fs"
       },
       {
         "id": 7,
         "name": "Beige Marble | What Is The Difference And How To Select Them?",
         "url": "https://www.youtube.com/embed/H5IgoDaxasc",
-        "queue": "7"
+        "queue": "7",
+        "videoId": "H5IgoDaxasc"
       },
       {
         "id": 8,
         "name": "How The Surface Treatments Affect The Stone Color",
         "url": "https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0",
-        "queue": "8"
+        "queue": "8",
+        "videoId": "lh9o7MMYLFc"
       }
     ],
     "informative_fr": [
@@ -1019,50 +1110,58 @@
         "id": 1,
         "name": " Vidéos informatives | Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "WY9zJ00ls5Y"
       },
       {
         "id": 1,
         "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "_qiVVQ1SOes"
       },
       {
         "id": 1,
         "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
         "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "RbEbbjkGQaQ"
       },
 
       {
         "id": 1,
         "name": "Les Differentes Surface Sur Le Travertin",
         "url": "https://www.youtube.com/embed/fMTPX9B5jB0",
-        "queue": "6"
+        "queue": "6",
+        "videoId": "fMTPX9B5jB0"
       },
       {
         "id": 2,
         "name": "Différentes Options De Bord Sur Les Carreaux En Pierre Naturelle",
         "url": "https://www.youtube.com/embed/6QhOof8MFPU",
-        "queue": "7"
+        "queue": "7",
+        "videoId": "6QhOof8MFPU"
       },
       {
         "id": 3,
         "name": "Quelles Sont Les Différences Entre Les Pierres ?",
         "url": "https://www.youtube.com/embed/4rqXrbXiPIU",
-        "queue": "8"
+        "queue": "8",
+        "videoId": "4rqXrbXiPIU"
       },
       {
         "id": 4,
         "name": "Types de Chargement: Incoterms",
         "url": "https://www.youtube.com/embed/2k8IA_efAok",
-        "queue": "10"
+        "queue": "10",
+        "videoId": "2k8IA_efAok"
       },
       {
         "id": 5,
         "name": "Coupe Veineuse vs Coupe Croisée",
         "url": "https://www.youtube.com/embed/ghQNrD-h6Ag?si=BCGWPbJ2ksycP9vI",
-        "queue": 11
+        "queue": 11,
+        "videoId": "ghQNrD-h6Ag"
       }
     ]
   },

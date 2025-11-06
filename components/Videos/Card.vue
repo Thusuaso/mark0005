@@ -2,40 +2,27 @@
   <h1 class="header" style="margin-bottom: 10px; margin-top: 10px">
     {{ header }}
   </h1>
-  <!-- <div class="row text-center overflow-x-scroll" style="height:250px;">
-        <div class="col-3" v-for="vid in videos" :key="vid.id" >
-            <iframe :src="vid.url" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen ></iframe>
-            <p class="videosTitle">
-                {{ vid.name }}
-            </p>
-        </div>
-
-    </div> -->
 
   <div class="scrollmenu">
-    <div v-for="vid in videos" :key="vid.id">
+    <VideosLazyCard
+      v-for="vid in videos"
+      :key="vid.id"
+      :video-id="vid.videoId"
+      :title="vid.name"
+    />
+    <!-- <div v-for="vid in videos" :key="vid.id">
       <iframe
-        :src="vid.url"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-      <!-- <iframe
         :src="vid.url"
         frameborder="0"
         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture muted"
         allowfullscreen
         autoplay="0"
         muted
-      ></iframe> -->
+      ></iframe>
       <p style="margin: 0px auto; margin-bottom: -5px">
         {{ vid.name }}
       </p>
-    </div>
+    </div> -->
   </div>
 
   <!-- <MazCarousel
@@ -82,7 +69,6 @@ const props = defineProps({
   },
 });
 const { videos, header } = props;
-const youtubeLink = ref("");
 </script>
 <style scoped>
 div.scrollmenu {
@@ -94,6 +80,7 @@ div.scrollmenu {
   );
   overflow: auto;
   white-space: nowrap;
+  height: 300px;
 }
 
 div.scrollmenu div {
