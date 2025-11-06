@@ -90,7 +90,7 @@ const videoUrl = computed(() => {
   position: relative;
   width: 300px;
   height: 250px;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
+  padding-bottom: 56.25%; /*16:9 Aspect Ratio (9 / 16 = 0.5625)*/
   overflow: hidden; /* Taşmaları gizle */
   background-color: #aaa; /* Yüklenirken arka plan */
   border-radius: 8px; /* Köşeleri yumuşat */
@@ -121,7 +121,7 @@ const videoUrl = computed(() => {
 .youtube-thumbnail {
   width: 300px;
   height: 250px;
-  object-fit: contain; /* Resmi kapsayıcıya sığdırır, oranları bozulmaz */
+  object-fit: cover; /* Resmi kapsayıcıya sığdırır, oranları bozulmaz */
   display: block; /* Altındaki boşluğu engeller */
   transition: transform 0.3s ease-out; /* Üzerine gelince animasyon */
   margin: 0px auto;
