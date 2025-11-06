@@ -977,42 +977,42 @@
       {
         "id": 3,
         "url": "https://www.youtube.com/embed/75-OsSfISkI",
-        "name": "فيديوهات مكمار للإنتاج | مشروع رخام المحيط الرمادي",
+        "name": "مشروع رخام المحيط الرمادي",
         "queue": "1",
         "videoId": "75-OsSfISkI"
       },
       {
         "id": 4,
         "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
-        "name": "فيديوهات مكمار للإنتاج | وجه الانقسام",
+        "name": "وجه الانقسام",
         "queue": "2",
         "videoId": "Hkc5WXJ7F3o"
       },
       {
         "id": 5,
         "url": "https://www.youtube.com/embed/30esf20C9Uw",
-        "name": "فيديوهات مكمار للإنتاج | الانتهاء من مشطوف",
+        "name": "الانتهاء من مشطوف",
         "queue": "3",
         "videoId": "30esf20C9Uw"
       },
       {
         "id": 6,
         "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
-        "name": "فيديوهات مكمار للإنتاج | مشروع قوس الترافرتين في دبي",
+        "name": "مشروع قوس الترافرتين في دبي",
         "queue": "4",
         "videoId": "6jSl51Mfrpo"
       },
       {
         "id": 7,
         "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
-        "name": "فيديوهات مكمار للإنتاج | أمر مراقبة الإنتاج",
+        "name": "أمر مراقبة الإنتاج",
         "queue": "5",
         "videoId": "q7Bmy6J1_h4"
       },
       {
         "id": 8,
         "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
-        "name": "فيديوهات مكمار للإنتاج | منتجات مخصصة / اختيارات مختلفة",
+        "name": "منتجات مخصصة / اختيارات مختلفة",
         "queue": "6",
         "videoId": "pp-UdTKFuPc"
       },
@@ -1083,7 +1083,7 @@
       },
       {
         "id": 7,
-        "name": "رخام بيج | ما هو الفرق وكيفية اختيارهم؟",
+        "name": "ما هو الفرق وكيفية اختيارهم؟",
         "url": "https://www.youtube.com/embed/H5IgoDaxasc",
         "queue": "7",
         "videoId": "H5IgoDaxasc"
@@ -1099,21 +1099,21 @@
     "informative_fr": [
       {
         "id": 1,
-        "name": " Vidéos informatives | Types de Chargement ",
+        "name": "Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
         "queue": "6",
         "videoId": "WY9zJ00ls5Y"
       },
       {
         "id": 1,
-        "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
+        "name": "Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
         "queue": "6",
         "videoId": "_qiVVQ1SOes"
       },
       {
         "id": 1,
-        "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
+        "name": "Quelle est la différence et comment choisir ?",
         "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
         "queue": "6",
         "videoId": "RbEbbjkGQaQ"

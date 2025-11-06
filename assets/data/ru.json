@@ -994,48 +994,48 @@
       {
         "id": 3,
         "url": "https://www.youtube.com/embed/75-OsSfISkI",
-        "name": "Видео производства Мекмара | Проект «Океанский серый мрамор»",
+        "name": "Проект «Океанский серый мрамор»",
         "queue": "1",
         "videoId": "75-OsSfISkI"
       },
       {
         "id": 4,
         "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
-        "name": "Видео производства Мекмара | Разделенное лицо",
+        "name": "Разделенное лицо",
         "queue": "2",
         "videoId": "Hkc5WXJ7F3o"
       },
       {
         "id": 5,
         "url": "https://www.youtube.com/embed/30esf20C9Uw",
-        "name": "Видео производства Мекмара | Скошенная отделка",
+        "name": "Скошенная отделка",
         "queue": "3",
         "videoId": "30esf20C9Uw"
       },
       {
         "id": 6,
         "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
-        "name": "Видео производства Мекмара | Проект травертиновой арки в Дубае",
+        "name": "Проект травертиновой арки в Дубае",
         "queue": "4",
         "videoId": "6jSl51Mfrpo"
       },
       {
         "id": 7,
         "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
-        "name": "Видео производства Мекмара | Заказать производственный контроль",
+        "name": "Заказать производственный контроль",
         "queue": "5",
         "videoId": "q7Bmy6J1_h4"
       },
       {
         "id": 8,
         "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
-        "name": "Видео производства Мекмара | Товары на заказ / Различные варианты",
+        "name": "Товары на заказ / Различные варианты",
         "queue": "6",
         "videoId": "pp-UdTKFuPc"
       },
       {
         "id": 24,
-        "name": "Мраморный фонтан / Fontaine en Marbre",
+        "name": "Мраморный фонтан",
         "url": "https://www.youtube.com/embed/xo0JL-c8xAM",
         "queue": "24",
         "videoId": "xo0JL-c8xAM"
@@ -1094,21 +1094,21 @@
       },
       {
         "id": 5,
-        "name": "Различные варианты кромок плитки из натурального камня",
+        "name": "Различия в пограничных процессах",
         "url": "https://www.youtube.com/embed/tGsb5D4mMow",
         "queue": "5",
         "videoId": "tGsb5D4mMow"
       },
       {
         "id": 6,
-        "name": "Различные варианты поверхности мрамора и известняка",
+        "name": "Разница между мрамором и известняком",
         "url": "https://www.youtube.com/embed/UZ8CTP5e8Fs",
         "queue": "6",
         "videoId": "UZ8CTP5e8Fs"
       },
       {
         "id": 7,
-        "name": "Бежевый мрамор | В чем разница и как их выбрать?",
+        "name": "В чем разница и как их выбрать?",
         "url": "https://www.youtube.com/embed/H5IgoDaxasc",
         "queue": "7",
         "videoId": "H5IgoDaxasc"
@@ -1124,21 +1124,21 @@
     "informative_fr": [
       {
         "id": 1,
-        "name": " Vidéos informatives | Types de Chargement ",
+        "name": "Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
         "queue": "6",
         "videoId": "WY9zJ00ls5Y"
       },
       {
         "id": 1,
-        "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
+        "name": "Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
         "queue": "6",
         "videoId": "_qiVVQ1SOes"
       },
       {
         "id": 1,
-        "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
+        "name": "Quelle est la différence et comment choisir ?",
         "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
         "queue": "6",
         "videoId": "RbEbbjkGQaQ"

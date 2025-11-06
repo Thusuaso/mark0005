@@ -42,8 +42,8 @@
       </div>
     </div>
   </div>
-  <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
-  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" />
+  <!-- <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
+  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" /> -->
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 350px; height: 250px; margin: 0px auto">
     <div class="youtube-wrapper">
       <div
         v-if="!isActivated"
@@ -34,7 +34,14 @@
         allowfullscreen
       ></iframe>
     </div>
-    <p style="margin: 0px auto; margin-top: 5px; color: black">
+    <p
+      style="
+        margin: 0px auto;
+        margin-top: 5px;
+        color: black;
+        text-align: center;
+      "
+    >
       {{ title }}
     </p>
   </div>
@@ -81,7 +88,7 @@ const videoUrl = computed(() => {
 /* Genel kapsayıcı, 16:9 en boy oranını korur */
 .youtube-wrapper {
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 250px;
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
   overflow: hidden; /* Taşmaları gizle */
@@ -96,23 +103,29 @@ const videoUrl = computed(() => {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 250px;
   border: 0;
   cursor: pointer; /* Placeholder üzerinde fare imlecini değiştir */
+  margin: 0px auto;
+  text-align: center;
 }
 .youtube-placeholder {
   width: 300px;
   height: 250px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 /* Video kapak resmi */
 .youtube-thumbnail {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 250px;
   object-fit: contain; /* Resmi kapsayıcıya sığdırır, oranları bozulmaz */
   display: block; /* Altındaki boşluğu engeller */
   transition: transform 0.3s ease-out; /* Üzerine gelince animasyon */
+  margin: 0px auto;
+  text-align: center;
 }
 
 /* Oynat butonu kapsayıcısı */

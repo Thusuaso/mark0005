@@ -973,42 +973,42 @@
       {
         "id": 3,
         "url": "https://www.youtube.com/embed/75-OsSfISkI",
-        "name": "Vidéos de Production Mekmar | Projet de Marbre Gris Océan",
+        "name": "Projet de Marbre Gris Océan",
         "queue": "1",
         "videoId": "75-OsSfISkI"
       },
       {
         "id": 4,
         "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
-        "name": "Vidéos de Production Mekmar | Visage Divisé",
+        "name": "Visage Divisé",
         "queue": "2",
         "videoId": "Hkc5WXJ7F3o"
       },
       {
         "id": 5,
         "url": "https://www.youtube.com/embed/30esf20C9Uw",
-        "name": "Vidéos de Production Mekmar | Finition Biseautée",
+        "name": "Finition Biseautée",
         "queue": "3",
         "videoId": "30esf20C9Uw"
       },
       {
         "id": 6,
         "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
-        "name": "Vidéos de Production Mekmar | Projet D'arche en Travertin à Dubaï",
+        "name": "Projet D'arche en Travertin à Dubaï",
         "queue": "4",
         "videoId": "6jSl51Mfrpo"
       },
       {
         "id": 7,
         "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
-        "name": "Vidéos de Production Mekmar | Contrôle de Production des Commandes",
+        "name": "Contrôle de Production des Commandes",
         "queue": "5",
         "videoId": "q7Bmy6J1_h4"
       },
       {
         "id": 8,
         "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
-        "name": "Vidéos de Production Mekmar | Produits Personnalisés / Sélections Diverses",
+        "name": "Produits Personnalisés / Sélections Diverses",
         "queue": "6",
         "videoId": "pp-UdTKFuPc"
       },
@@ -1037,7 +1037,7 @@
       },
       {
         "id": 1,
-        "name": " Vidéos informatives | Types de Chargement ",
+        "name": "Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
         "queue": "6",
         "videoId": "WY9zJ00ls5Y"
@@ -1080,28 +1080,28 @@
       },
       {
         "id": 5,
-        "name": "Différentes Options de Bords Sur Les Carreaux en Pierre Naturelle",
+        "name": "Différences de Processus Edge",
         "url": "https://www.youtube.com/embed/tGsb5D4mMow",
         "queue": "5",
         "videoId": "tGsb5D4mMow"
       },
       {
         "id": 6,
-        "name": "Différentes Options de Surface Sur le Marbre et le Calcaire",
+        "name": "Différence Entre le Marbre et le Calcaire",
         "url": "https://www.youtube.com/embed/UZ8CTP5e8Fs",
         "queue": "6",
         "videoId": "UZ8CTP5e8Fs"
       },
       {
         "id": 7,
-        "name": "Marbre Beige | Quelle Est la Différence et Comment Les Sélectionner ?",
+        "name": "Quelle Est la Différence et Comment Les Sélectionner ?",
         "url": "https://www.youtube.com/embed/H5IgoDaxasc",
         "queue": "7",
         "videoId": "H5IgoDaxasc"
       },
       {
         "id": 8,
-        "name": "Comment Les Traitements de Surface Affectent la Couleur de la Pierre",
+        "name": "Effets du Traitement de Surface",
         "url": "https://www.youtube.com/embed/lh9o7MMYLFc?si=j3XmPJAtRFCHU0H0",
         "queue": "8",
         "videoId": "lh9o7MMYLFc"
@@ -1110,21 +1110,21 @@
     "informative_fr": [
       {
         "id": 1,
-        "name": "Vidéos informatives | Types de Chargement ",
+        "name": "Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
         "queue": "6",
         "videoId": "WY9zJ00ls5Y"
       },
       {
         "id": 1,
-        "name": "Vidéos Informatives | Épaisseur et Utilisation Des Pierres",
+        "name": "Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
         "queue": "6",
         "videoId": "_qiVVQ1SOes?si"
       },
       {
         "id": 1,
-        "name": "Surface Remplie vs Surface Non Remplie | Quelle est la différence et comment choisir ?",
+        "name": "Surface Remplie vs Surface Non Remplie",
         "url": "https://www.youtube.com/embed/RbEbbjkGQaQ?si=cqlDs3Scwgm3Xsvd",
         "queue": "6",
         "videoId": "RbEbbjkGQaQ"
