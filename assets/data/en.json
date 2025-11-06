@@ -977,7 +977,7 @@
     "production": [
       {
         "id": 24,
-        "name": "Marble Fountain / Fontaine en Marbre",
+        "name": "Marble Fountain",
         "url": "https://www.youtube.com/embed/xo0JL-c8xAM",
         "queue": "24",
         "videoId": "xo0JL-c8xAM"
@@ -992,42 +992,42 @@
       {
         "id": 3,
         "url": "https://www.youtube.com/embed/75-OsSfISkI",
-        "name": "Mekmar Production Videos | Ocean Grey Marble Project",
+        "name": "Ocean Grey Marble Project",
         "queue": "1",
         "videoId": "75-OsSfISkI"
       },
       {
         "id": 4,
         "url": "https://www.youtube.com/embed/Hkc5WXJ7F3o",
-        "name": "Mekmar Production Videos | Splitface",
+        "name": "Splitface",
         "queue": "2",
         "videoId": "Hkc5WXJ7F3o"
       },
       {
         "id": 5,
         "url": "https://www.youtube.com/embed/30esf20C9Uw",
-        "name": "Mekmar Production Videos | Bevelled Finish",
+        "name": "Bevelled Finish",
         "queue": "3",
         "videoId": "30esf20C9Uw"
       },
       {
         "id": 6,
         "url": "https://www.youtube.com/embed/6jSl51Mfrpo",
-        "name": "Mekmar Production Videos | Travertine Arch Project in Dubai",
+        "name": "Travertine Arch Project in Dubai",
         "queue": "4",
         "videoId": "6jSl51Mfrpo"
       },
       {
         "id": 7,
         "url": "https://www.youtube.com/embed/q7Bmy6J1_h4",
-        "name": "Mekmar Production Videos | Order Production Control",
+        "name": "Order Production Control",
         "queue": "5",
         "videoId": "q7Bmy6J1_h4"
       },
       {
         "id": 8,
         "url": "https://www.youtube.com/embed/pp-UdTKFuPc?si=IqS-NBEJkaqarTBO",
-        "name": "Mekmar Production Videos | Custom Products / Various Selections",
+        "name": "Custom Products / Various Selections",
         "queue": "6",
         "videoId": "pp-UdTKFuPc"
       }
