@@ -4,7 +4,7 @@
     <hr />
     <VideosCard :videos="videos.production" :header="videos.title_2" />
     <hr />
-    <VideosCard :videos="videos.informative" :header="videos.title_3" />
+    <VideosCard :videos="videos.informative_fr" :header="videos.title_3" />
   </div>
 </template>
 <script setup lang="ts">

@@ -1110,6 +1110,20 @@
     "informative_fr": [
       {
         "id": 1,
+        "name": "Découvrez-nous",
+        "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
+        "queue": "6",
+        "videoId": "i4UROT94EOA"
+      },
+      {
+        "id": 1,
+        "name": "Différences Entre Les Conteneurs 20DC et 40DC.",
+        "url": "https://www.youtube.com/embed/b5uizITliJQ?si=4CpqmO2aGoZOg9Ox",
+        "queue": "1",
+        "videoId": "b5uizITliJQ"
+      },
+      {
+        "id": 1,
         "name": "Types de Chargement ",
         "url": "https://www.youtube.com/embed/WY9zJ00ls5Y?si=a0usvdsNl1yDx1OA",
         "queue": "6",
@@ -1120,7 +1134,7 @@
         "name": "Épaisseur et Utilisation Des Pierres",
         "url": "https://www.youtube.com/embed/_qiVVQ1SOes?si=E1vfCIDyAqBHA2hx",
         "queue": "6",
-        "videoId": "_qiVVQ1SOes?si"
+        "videoId": "_qiVVQ1SOes"
       },
       {
         "id": 1,
@@ -1139,7 +1153,7 @@
       },
       {
         "id": 2,
-        "name": "Différentes options de bord sur les carreaux en pierre naturelle",
+        "name": "Différences Dans le Traitement des Contours",
         "url": "https://www.youtube.com/embed/6QhOof8MFPU",
         "queue": "7",
         "videoId": "6QhOof8MFPU"
