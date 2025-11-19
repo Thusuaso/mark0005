@@ -64,13 +64,13 @@
 
     const store = useStore();
     const router = useRouter();
-    const sizeFilter = await useFetch('/api/usa/filter/size/' + router.currentRoute._value.params.name);
-    const products = control.lang_usa_product(sizeFilter.data._value.products,store.getLang);
-    const categories = sizeFilter.data._value.category;
-    const colors = control.lang_usa_filter(sizeFilter.data._value.color,store.getLang);
-    const sizes = sizeFilter.data._value.size;
-    const usages = control.lang_usa_filter(sizeFilter.data._value.usage,store.getLang);
-    const mosaics = sizeFilter.data._value.mosaic;
+    const sizeFilter = await $fetch('/api/usa/filter/size/' + router.currentRoute._value.params.name);
+    const products = control.lang_usa_product(sizeFilter.products,store.getLang);
+    const categories = sizeFilter.category;
+    const colors = control.lang_usa_filter(sizeFilter.color,store.getLang);
+    const sizes = sizeFilter.size;
+    const usages = control.lang_usa_filter(sizeFilter.usage,store.getLang);
+    const mosaics = sizeFilter.mosaic;
     const usa_header = store.getUsa.stock_header;
 
 </script>

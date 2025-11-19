@@ -1,77 +1,110 @@
 <template>
-    <div class="row m-auto text-center">
-        <div class="col-sm-3">
-            <div class="border">
-                <h1 class="header mb-3 mt-3">Usage Areas</h1>
-                <ol class="list-group list-group-numbered">
-                    <div class="list-group-div" v-for="usage in usages" :key="usage.Id">
-                        <UsaFilter :link="usage.link" :name="usage.name" :value="usage.products"/>
-                    </div>
-                </ol>
-            </div>
-            <div class="border">
-                <h1 class="header mb-3 mt-3">Categories</h1>
-                <ol class="list-group list-group-numbered">
-                    <div class="list-group-div" v-for="category in categories" :key="category.Id">
-                        <UsaFilter :link="category.link" :name="category.name_en" :value="category.products"/>
-                    </div>
-                </ol>
-            </div>
-            <div class="border">
-                <h1 class="header mb-3 mt-3">Colors</h1>
-                <ol class="list-group list-group-numbered">
-                    <div class="list-group-div" v-for="color in colors" :key="color.Id">
-                        <UsaFilter :link="color.link" :name="color.name" :value="color.products"/>
-                    </div>
-                </ol>
-            </div>
-            <div class="border">
-                <h1 class="header mb-3 mt-3">Sizes</h1>
-                <ol class="list-group list-group-numbered">
-                    <div class="list-group-div" v-for="size in sizes" :key="size.Id">
-                        <UsaFilter :link="size.link" :name="size.name_en" :value="size.products"/>
-                    </div>
-                </ol>
-            </div>
-            <div class="border">
-                <h1 class="header mb-3 mt-3">Mosaics</h1>
-                <ol class="list-group list-group-numbered">
-                    <div class="list-group-div" v-for="mosaic in mosaics" :key="mosaic.Id">
-                        <UsaFilter :link="mosaic.link" :name="mosaic.name_en" :value="mosaic.products"/>
-                    </div>
-                </ol>
-            </div>
-
-
-
-        </div>
-        <div class="col-sm-9">
-            <h1 class="header mb-3">{{ usa_header }}</h1>
-
-            <div class="row m-auto text-center">
-                <div class="col-sm-4" v-for="product of products" :key="product?.ID">
-                    <UsaCard :text="product?.name" :image="product?.image" :link="product?.link" :price="product.Fiyat" :stock="product.Stok_Sqft" :size="product.Size"/>
-                </div>
-            </div>
-
-        </div>
-
+  <div class="row m-auto text-center">
+    <div class="col-sm-3">
+      <div class="border">
+        <h1 class="header mb-3 mt-3">Usage Areas</h1>
+        <ol class="list-group list-group-numbered">
+          <div class="list-group-div" v-for="usage in usages" :key="usage.Id">
+            <UsaFilter
+              :link="usage.link"
+              :name="usage.name"
+              :value="usage.products"
+            />
+          </div>
+        </ol>
+      </div>
+      <div class="border">
+        <h1 class="header mb-3 mt-3">Categories</h1>
+        <ol class="list-group list-group-numbered">
+          <div
+            class="list-group-div"
+            v-for="category in categories"
+            :key="category.Id"
+          >
+            <UsaFilter
+              :link="category.link"
+              :name="category.name_en"
+              :value="category.products"
+            />
+          </div>
+        </ol>
+      </div>
+      <div class="border">
+        <h1 class="header mb-3 mt-3">Colors</h1>
+        <ol class="list-group list-group-numbered">
+          <div class="list-group-div" v-for="color in colors" :key="color.Id">
+            <UsaFilter
+              :link="color.link"
+              :name="color.name"
+              :value="color.products"
+            />
+          </div>
+        </ol>
+      </div>
+      <div class="border">
+        <h1 class="header mb-3 mt-3">Sizes</h1>
+        <ol class="list-group list-group-numbered">
+          <div class="list-group-div" v-for="size in sizes" :key="size.Id">
+            <UsaFilter
+              :link="size.link"
+              :name="size.name_en"
+              :value="size.products"
+            />
+          </div>
+        </ol>
+      </div>
+      <div class="border">
+        <h1 class="header mb-3 mt-3">Mosaics</h1>
+        <ol class="list-group list-group-numbered">
+          <div
+            class="list-group-div"
+            v-for="mosaic in mosaics"
+            :key="mosaic.Id"
+          >
+            <UsaFilter
+              :link="mosaic.link"
+              :name="mosaic.name_en"
+              :value="mosaic.products"
+            />
+          </div>
+        </ol>
+      </div>
     </div>
+    <div class="col-sm-9">
+      <h1 class="header mb-3">{{ usa_header }}</h1>
+
+      <div class="row m-auto text-center">
+        <div class="col-sm-4" v-for="product of products" :key="product?.ID">
+          <UsaCard
+            :text="product?.name"
+            :image="product?.image"
+            :link="product?.link"
+            :price="product.Fiyat"
+            :stock="product.Stok_Sqft"
+            :size="product.Size"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script setup lang="ts">
-    import {useStore} from '~/store/index';
-    import control from '~/lang/control';
+import { useStore } from "~/store/index";
+import control from "~/lang/control";
 
-    const store = useStore();
-    const router = useRouter();
-    const categoryFilter = await useFetch('/api/usa/filter/category/' + router.currentRoute._value.params.name);
-    const products = control.lang_usa_product(categoryFilter.data._value.products,store.getLang);
-    const categories = categoryFilter.data._value.category;
-    const colors = control.lang_usa_filter(categoryFilter.data._value.color,store.getLang);
-    const sizes = categoryFilter.data._value.size;
-    const usages = control.lang_usa_filter(categoryFilter.data._value.usage,store.getLang);
-    const mosaics = categoryFilter.data._value.mosaic;
-    const usa_header = store.getUsa.stock_header;
-
-
+const store = useStore();
+const router = useRouter();
+const categoryFilter = await $fetch(
+  "/api/usa/filter/category/" + router.currentRoute._value.params.name
+);
+const products = control.lang_usa_product(
+  categoryFilter.products,
+  store.getLang
+);
+const categories = categoryFilter.category;
+const colors = control.lang_usa_filter(categoryFilter.color, store.getLang);
+const sizes = categoryFilter.size;
+const usages = control.lang_usa_filter(categoryFilter.usage, store.getLang);
+const mosaics = categoryFilter.mosaic;
+const usa_header = store.getUsa.stock_header;
 </script>

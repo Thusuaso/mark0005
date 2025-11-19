@@ -120,10 +120,10 @@
     import control from '~/lang/control';
     const store = useStore();
     const router = useRouter();
-    let product = await useFetch('/api/usa/product/detail/' + router.currentRoute._value.params.id);
-    let detail = control.lang_usa_detail_product(product.data._value.detail,store.getLang);
+    let product = await $fetch('/api/usa/product/detail/' + router.currentRoute._value.params.id);
+    let detail = control.lang_usa_detail_product(product.detail,store.getLang);
     let header = detail.name;
-    let photos = product.data._value.photos;
+    let photos = product.photos;
     let usa = store.getUsa;
     let oran = parseInt((detail.Stok_Sqft/ detail.MaxStock) * 100);
     if(oran > 100){
