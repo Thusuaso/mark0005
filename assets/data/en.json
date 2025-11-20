@@ -26,7 +26,7 @@
     "fabrication": "/fabrication",
     "videos": "/videos",
     "project": "/projects",
-    "catalog": "/catalog",
+    "catalog": "https://cdn.mekmarimage.com/category/catalog-2025.pdf",
     "usastock": "/usa/stock",
     "categories": [
       { "id": 1, "title": "Marble", "link": "/product/marble/1" },
