@@ -40,8 +40,8 @@
       </div>
     </div>
   </div>
-  <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
-  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" />
+  <!-- <SharedPopUp v-show="isVisible" v-if="session != 'false' && !isMobile" />
+  <SharedPopUpMobile v-show="isVisible" v-if="session != 'false' && isMobile" /> -->
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
@@ -50,10 +50,10 @@ const categories = store.getCategories;
 const slides = store.getSlides;
 const usastock = store.getUsaStockMainMenu;
 /*Session and Banner */
-const session = sessionStorage.getItem("modal_section_visible");
-if (session == "false") {
-  sessionStorage.setItem("modal_section_visible", "false");
-}
+// const session = sessionStorage.getItem("modal_section_visible");
+// if (session == "false") {
+//   sessionStorage.setItem("modal_section_visible", "false");
+// }
 let isVisible = ref(true);
 let isMobile = ref(false);
 const handleKeydown = (event: any) => {
