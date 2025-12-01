@@ -35,7 +35,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <a class="navbar-brand" href="/catalog" id="catalog_link_mobile"
+          <a
+            class="navbar-brand"
+            href="https://cdn.mekmarimage.com/category/catalog-2025.pdf"
+            id="catalog_link_mobile"
             >CATALOG</a
           >
           <SharedLangDropdown />
