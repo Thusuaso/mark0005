@@ -630,6 +630,13 @@
     "projects": [
       {
         "id": 30,
+        "name": "Projet Lavrenkov en Thaïlande",
+        "url": "https://www.youtube.com/embed/6ax-0KuoeZQ?si=B7GScNpwX72eLTgS",
+        "queue": "30",
+        "videoId": "5XC25iegngY"
+      },
+      {
+        "id": 30,
         "name": "Projet CMUT au Ghana",
         "url": "https://www.youtube.com/embed/6ax-0KuoeZQ?si=B7GScNpwX72eLTgS",
         "queue": "30",
