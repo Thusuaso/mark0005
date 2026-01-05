@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         lang: "en",
       },
       meta: [
+        {name:'yandex-verification',content:'4bb391314627b52d'}
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "description",
