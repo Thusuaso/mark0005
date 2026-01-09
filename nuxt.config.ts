@@ -106,6 +106,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtagId: "G-1VBK9JFP48",
+      yandexMetricaId: "SENIN_YANDEX_METRICA_ID_NUMARAN",
     },
   },
   vite: {
