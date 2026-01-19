@@ -7,7 +7,7 @@
         v-show="lang == 'en'"
       >
         <div class="customBanner" style="">
-          Please check the brand new travertine selection! With 23 years of
+          Please check the brand new travertine selection! With 24 years of
           experience, <strong>Mekmar</strong> offers:
           <strong>Philadelphia Travertine!</strong>
         </div>
@@ -22,7 +22,7 @@
         v-show="lang == 'fr'"
       >
         <div class="container customBanner m-auto text-center" style="">
-          Veuillez consulter la toute nouvelle sélection de travertin ! Avec 23
+          Veuillez consulter la toute nouvelle sélection de travertin ! Avec 24
           ans d'expérience, <strong>Mekmar</strong> vous propose :
           <strong>Philadelphia Travertin!</strong>
         </div>
@@ -37,7 +37,7 @@
         v-show="lang == 'es'"
       >
         <div class="container customBanner m-auto text-center" style="">
-          ¡Consulte la nueva selección de travertino! Con 23 años de
+          ¡Consulte la nueva selección de travertino! Con 24 años de
           experiencia, <strong>Mekmar</strong> ofrece:
           <strong>¡Travertino Filadelfia!</strong>
         </div>
@@ -52,7 +52,7 @@
         v-show="lang == 'ru'"
       >
         <div class="container customBanner m-auto text-center" style="">
-          Пожалуйста, ознакомьтесь с новым выбором травертина! Имея 23-летний
+          Пожалуйста, ознакомьтесь с новым выбором травертина! Имея 24-летний
           опыт работы, <strong>Mekmar</strong> предлагает:
           <strong>Филадельфийский травертин!</strong>
         </div>
@@ -67,7 +67,7 @@
         v-show="lang == 'ar'"
       >
         <div class="container customBanner m-auto text-center" style="">
-          يرجى التحقق من اختيار الحجر الجيري الجديد! مع 23 عامًا من الخبرة، تقدم
+          يرجى التحقق من اختيار الحجر الجيري الجديد! مع 24 عامًا من الخبرة، تقدم
           <strong>مكمار</strong>: <strong>فيلادلفيا ترافرتين!</strong>
         </div>
       </a>
@@ -110,10 +110,6 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
-
-
-
-
 </script>
 <style scoped>
 .customBannerA {

@@ -26,11 +26,11 @@
                     <p class="border border-info bg-dark bg-gradient rounded text-light p-1"><span>{{ usa.sku }}: </span><span>{{ detail.SkuNo }}</span></p>
                 </div>
                 <div class="col-sm-6">
-                    <p class="border border-info bg-dark bg-gradient rounded text-light p-2">
+                    <div class="border border-info bg-dark bg-gradient rounded text-light p-2">
                         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar" :style="{width:oran + '%'}">{{ oran }}%</div>
                         </div>
-                    </p>
+                    </div>
 
                 </div> 
 

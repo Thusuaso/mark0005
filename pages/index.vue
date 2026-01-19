@@ -45,7 +45,7 @@
 </template>
 <script setup lang="ts">
 import { useStore } from "~/store/index";
-import { onMounted, ref, useTemplateRef, onBeforeUnmount } from "vue";
+import { onMounted, onUnmounted, ref } from "vue";
 const store = useStore();
 const categories = store.getCategories;
 const slides = store.getSlides;
