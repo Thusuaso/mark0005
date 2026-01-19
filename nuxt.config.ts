@@ -141,23 +141,4 @@ export default defineNuxtConfig({
   mazUi: {
     injectUseToast: false,
   },
-  hooks: {
-    "imports:extend": (imports) => {
-      // 1. Maz-UI'dan gelen 'useDialog'u bul
-      const index = imports.findIndex(
-        (i) =>
-          i.name === "useDialog" &&
-          (i.from.includes("maz-ui") || i.from.includes("maz-ui/nuxt"))
-      );
-
-      // 2. Eğer bulunduysa konsola yaz ve sil
-      if (index !== -1) {
-        console.log(
-          "🛑 Çakışan Maz-UI useDialog silindi:",
-          imports[index].from
-        );
-        imports.splice(index, 1);
-      }
-    },
-  },
 });
