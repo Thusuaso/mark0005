@@ -779,7 +779,7 @@ if (process.client) {
 const videos = [
   {
     id: 30,
-    name: "Q1 : Quelle est la meilleure pierre naturelle pour un espace extérieur ?",
+    name: "Q1: Quelle est la meilleure pierre naturelle pour un espace extérieur ?",
     videoId: "G5RRCH97-Lk",
   },
 ];
