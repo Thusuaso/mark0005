@@ -20,6 +20,7 @@
     "@primevue/nuxt-module": "^4.0.0",
     "@primevue/themes": "^4.0.0",
     "bootstrap": "^5.3.3",
+    "chart.js": "^4.5.1",
     "libphonenumber-js": "^1.11.4",
     "maz-ui": "^3.44.3",
     "mssql": "^11.0.0",
