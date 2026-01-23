@@ -1,5 +1,7 @@
 <template>
-  <div style="width: 100%; height: 350px; margin: 0px auto">
+  <div
+    style="width: 100%; height: 350px; margin: 0px auto; margin-bottom: 55px"
+  >
     <div class="youtube-wrapper">
       <div
         v-if="!isActivated"
@@ -51,6 +53,7 @@
     >
       {{ title }}
     </p>
+    <hr />
   </div>
 </template>
 

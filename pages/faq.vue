@@ -654,5 +654,10 @@ const videos = [
     name: "Q1: What Is the Best Natural Stone for Outdoor Space?",
     videoId: "G5RRCH97-Lk",
   },
+  {
+    id: 30,
+    name: "Q2: Stone Countertops: Advantages & Disadvantages?",
+    videoId: "cgve3S-kX-g",
+  },
 ];
 </script>

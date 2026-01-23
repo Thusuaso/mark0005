@@ -782,5 +782,10 @@ const videos = [
     name: "Q1: Quelle est la meilleure pierre naturelle pour un espace extérieur?",
     videoId: "G5RRCH97-Lk",
   },
+  {
+    id: 30,
+    name: "Q2 : Comptoirs en pierre : avantages et inconvénients ?",
+    videoId: "cgve3S-kX-g",
+  },
 ];
 </script>

@@ -756,5 +756,10 @@ const videos = [
     name: "P1: Cuál es la mejor piedra natural para espacios exteriores?",
     videoId: "G5RRCH97-Lk",
   },
+  {
+    id: 30,
+    name: "Q2: Encimeras de piedra: Ventajas y desventajas?",
+    videoId: "cgve3S-kX-g",
+  },
 ];
 </script>
