@@ -787,5 +787,10 @@ const videos = [
     name: "Q2 : Comptoirs en pierre : avantages et inconvénients ?",
     videoId: "cgve3S-kX-g",
   },
+  {
+    id: 30,
+    name: "Q3 : Guide des revêtements muraux : Avantages des pierres minces/épaisses ?",
+    videoId: "OzrxDvo2-Eg",
+  },
 ];
 </script>

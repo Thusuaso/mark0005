@@ -761,5 +761,10 @@ const videos = [
     name: "Q2: Encimeras de piedra: Ventajas y desventajas?",
     videoId: "cgve3S-kX-g",
   },
+  {
+    id: 30,
+    name: "P3: Guía de revestimiento de paredes: ¿Beneficios de la piedra fina o gruesa?",
+    videoId: "OzrxDvo2-Eg",
+  },
 ];
 </script>

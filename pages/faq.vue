@@ -659,5 +659,10 @@ const videos = [
     name: "Q2: Stone Countertops: Advantages & Disadvantages?",
     videoId: "cgve3S-kX-g",
   },
+  {
+    id: 30,
+    name: "Q3: Wall Cladding Guide: Thin / Thick Stone Benefits?",
+    videoId: "OzrxDvo2-Eg",
+  },
 ];
 </script>
