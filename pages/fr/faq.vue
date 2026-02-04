@@ -378,9 +378,9 @@
       <div class="col-6">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Fr"
         />
       </div>
     </div>
@@ -388,9 +388,9 @@
       <div class="col-12">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Fr"
         />
       </div>
       <div class="col-12">
@@ -776,21 +776,22 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
-const videos = [
-  {
-    id: 30,
-    name: "Q1: Quelle est la meilleure pierre naturelle pour un espace extérieur?",
-    videoId: "G5RRCH97-Lk",
-  },
-  {
-    id: 30,
-    name: "Q2 : Comptoirs en pierre : avantages et inconvénients ?",
-    videoId: "cgve3S-kX-g",
-  },
-  {
-    id: 30,
-    name: "Q3 : Guide des revêtements muraux : Avantages des pierres minces/épaisses ?",
-    videoId: "OzrxDvo2-Eg",
-  },
-];
+// const videos = [
+//   {
+//     id: 30,
+//     name: "Q1: Quelle est la meilleure pierre naturelle pour un espace extérieur?",
+//     videoId: "G5RRCH97-Lk",
+//   },
+//   {
+//     id: 30,
+//     name: "Q2 : Comptoirs en pierre : avantages et inconvénients ?",
+//     videoId: "cgve3S-kX-g",
+//   },
+//   {
+//     id: 30,
+//     name: "Q3 : Guide des revêtements muraux : Avantages des pierres minces/épaisses ?",
+//     videoId: "OzrxDvo2-Eg",
+//   },
+// ];
+let videos = await $fetch("/api/faq_videos", { method: "GET" });
 </script>

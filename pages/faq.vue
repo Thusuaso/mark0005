@@ -314,9 +314,9 @@
       <div class="col-6">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_En"
         />
       </div>
     </div>
@@ -324,9 +324,9 @@
       <div class="col-12 mb-5">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_En"
         />
       </div>
       <div class="col-12">
@@ -648,21 +648,23 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
-const videos = [
-  {
-    id: 30,
-    name: "Q1: What Is the Best Natural Stone for Outdoor Space?",
-    videoId: "G5RRCH97-Lk",
-  },
-  {
-    id: 30,
-    name: "Q2: Stone Countertops: Advantages & Disadvantages?",
-    videoId: "cgve3S-kX-g",
-  },
-  {
-    id: 30,
-    name: "Q3: Wall Cladding Guide: Thin / Thick Stone Benefits?",
-    videoId: "OzrxDvo2-Eg",
-  },
-];
+// const videos = [
+//   {
+//     id: 30,
+//     name: "Q1: What Is the Best Natural Stone for Outdoor Space?",
+//     videoId: "G5RRCH97-Lk",
+//   },
+//   {
+//     id: 30,
+//     name: "Q2: Stone Countertops: Advantages & Disadvantages?",
+//     videoId: "cgve3S-kX-g",
+//   },
+//   {
+//     id: 30,
+//     name: "Q3: Wall Cladding Guide: Thin / Thick Stone Benefits?",
+//     videoId: "OzrxDvo2-Eg",
+//   },
+// ];
+
+let videos = await $fetch("/api/faq_videos", { method: "GET" });
 </script>

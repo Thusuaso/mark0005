@@ -335,9 +335,9 @@
       <div class="col-6">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Ar"
         />
       </div>
     </div>
@@ -346,9 +346,9 @@
       <div class="col-6">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Ar"
         />
       </div>
       <div class="col-6">
@@ -691,21 +691,22 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
-const videos = [
-  {
-    id: 30,
-    name: "س1: ما هو أفضل حجر طبيعي للمساحات الخارجية؟",
-    videoId: "G5RRCH97-Lk",
-  },
-  {
-    id: 30,
-    name: "السؤال الثاني: أسطح العمل الحجرية: ما هي مزاياها وعيوبها؟",
-    videoId: "cgve3S-kX-g",
-  },
-  {
-    id: 30,
-    name: "س٣: دليل تكسية الجدران: ما هي فوائد الحجر الرقيق/السميك؟",
-    videoId: "OzrxDvo2-Eg",
-  },
-];
+// const videos = [
+//   {
+//     id: 30,
+//     name: "س1: ما هو أفضل حجر طبيعي للمساحات الخارجية؟",
+//     videoId: "G5RRCH97-Lk",
+//   },
+//   {
+//     id: 30,
+//     name: "السؤال الثاني: أسطح العمل الحجرية: ما هي مزاياها وعيوبها؟",
+//     videoId: "cgve3S-kX-g",
+//   },
+//   {
+//     id: 30,
+//     name: "س٣: دليل تكسية الجدران: ما هي فوائد الحجر الرقيق/السميك؟",
+//     videoId: "OzrxDvo2-Eg",
+//   },
+// ];
+let videos = await $fetch("/api/faq_videos", { method: "GET" });
 </script>

@@ -365,9 +365,9 @@
       <div class="col-6">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Es"
         />
       </div>
     </div>
@@ -736,9 +736,9 @@
       <div class="col-12">
         <VideosLazyCardFaq
           v-for="vid in videos"
-          :key="vid.id"
-          :video-id="vid.videoId"
-          :title="vid.name"
+          :key="vid.ID"
+          :video-id="vid.Url"
+          :title="vid.Title_Es"
         />
       </div>
     </div>
@@ -750,21 +750,22 @@ let isMobile = ref(false);
 if (process.client) {
   isMobile.value = window.innerWidth <= 768 ? true : false;
 }
-const videos = [
-  {
-    id: 30,
-    name: "P1: Cuál es la mejor piedra natural para espacios exteriores?",
-    videoId: "G5RRCH97-Lk",
-  },
-  {
-    id: 30,
-    name: "Q2: Encimeras de piedra: Ventajas y desventajas?",
-    videoId: "cgve3S-kX-g",
-  },
-  {
-    id: 30,
-    name: "P3: Guía de revestimiento de paredes: ¿Beneficios de la piedra fina o gruesa?",
-    videoId: "OzrxDvo2-Eg",
-  },
-];
+// const videos = [
+//   {
+//     id: 30,
+//     name: "P1: Cuál es la mejor piedra natural para espacios exteriores?",
+//     videoId: "G5RRCH97-Lk",
+//   },
+//   {
+//     id: 30,
+//     name: "Q2: Encimeras de piedra: Ventajas y desventajas?",
+//     videoId: "cgve3S-kX-g",
+//   },
+//   {
+//     id: 30,
+//     name: "P3: Guía de revestimiento de paredes: ¿Beneficios de la piedra fina o gruesa?",
+//     videoId: "OzrxDvo2-Eg",
+//   },
+// ];
+let videos = await $fetch("/api/faq_videos", { method: "GET" });
 </script>
