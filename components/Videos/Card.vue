@@ -56,8 +56,6 @@
   </MazCarousel> -->
 </template>
 <script lang="ts" setup>
-import MazCarousel from "maz-ui/components/MazCarousel";
-
 const props = defineProps({
   videos: {
     type: Object,

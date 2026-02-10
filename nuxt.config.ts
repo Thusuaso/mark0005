@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import Aura from "@primevue/themes/aura";
-import Clarity from "@microsoft/clarity";
 
 export default defineNuxtConfig({
   app: {
@@ -60,7 +59,6 @@ export default defineNuxtConfig({
   modules: [
     "@pinia/nuxt",
     "maz-ui/nuxt",
-    "@element-plus/nuxt",
     "@primevue/nuxt-module",
     "@vee-validate/nuxt",
     "@nuxtjs/sitemap",
@@ -78,8 +76,6 @@ export default defineNuxtConfig({
     // "~/assets/css/tailwind.css",
   ],
 
-  overrides: { vue: "3.3.13" },
-
   primevue: {
     options: {
       theme: {
@@ -92,7 +88,6 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-07-16",
-  override: true,
   site: {
     url: "https://www.mekmar.com",
     trailingSlash: true,
@@ -109,24 +104,19 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtagId: "G-1VBK9JFP48",
-      yandexMetricaId: "SENIN_YANDEX_METRICA_ID_NUMARAN",
+      yandexMetricaId: "89814958",
     },
   },
-  vite: {
-    server: {
-      headers: {
-        "Cache-Control": "max-age=50000000",
-      },
-    },
-  },
+  // vite: {
+  //   server: {
+  //     headers: {
+  //       "Cache-Control": "max-age=50000000",
+  //     },
+  //   },
+  // },
   robots: {
     // provide simple disallow rules for all robots `user-agent: *`
     disallow: [
-      "/videos",
-      "/fr/videos",
-      "/es/videos",
-      "/ru/videos",
-      "/ar/videos",
       "/search/*",
       "/fr/search/*",
       "/es/search/*",

@@ -363,12 +363,22 @@
         </ul>
       </div>
       <div class="col-6">
-        <VideosLazyCardFaq
-          v-for="vid in videos"
-          :key="vid.ID"
-          :video-id="vid.Url"
-          :title="vid.Title_Es"
-        />
+        <ScrollPanel
+          style="width: 100%; height: 1949.2px"
+          :pt="{
+            wrapper: {
+              style: { 'border-right': '10px solid var(--surface-ground)' },
+            },
+            bary: 'hover:bg-primary-400 bg-primary-300 opacity-100',
+          }"
+        >
+          <VideosLazyCardFaq
+            v-for="vid in videos"
+            :key="vid.ID"
+            :video-id="vid.Url"
+            :title="vid.Title_Es"
+          />
+        </ScrollPanel>
       </div>
     </div>
     <div class="row" v-else>

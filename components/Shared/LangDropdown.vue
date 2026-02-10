@@ -33,7 +33,6 @@ const languages = [
   { code: "ru", flag: "/flags/ru.png", link: "/ru" },
   { code: "ar", flag: "/flags/ar.png", link: "/ar" },
 ];
-console.log("cookie", cookie);
 let selected = languages.find((x) => {
   return x.code === cookie.value;
 });
