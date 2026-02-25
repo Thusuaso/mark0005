@@ -90,7 +90,6 @@
     <div class="form-floating mb-3">
       <Textarea
         class="form-control"
-        placeholder="Leave a comment here"
         id="floatingTextarea2"
         style="height: 160px"
         v-model="model.description"
