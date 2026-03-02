@@ -579,7 +579,9 @@
   height: 250px;
   box-shadow: 1px 2px 2px black;
   border-radius: 5px;
-  transition: all, 0.7s 0s ease-in-out;
+  transition:
+    all,
+    0.7s 0s ease-in-out;
 }
 .product-img:hover {
   box-shadow: none;
@@ -671,21 +673,21 @@
 
 .personalCardGrid {
   width: 100%;
-  height: 110px;
+  height: 130px;
 }
 
 .personalCardColumnOne {
   display: inline-block;
   float: left;
   width: 30%;
-  height: 110px;
+  height: 130px;
 }
 
 .personalCardColumnTwo {
   display: inline-block;
   float: left;
   width: 70%;
-  height: 110px;
+  height: 130px;
   background: linear-gradient(
     90deg,
     rgba(42, 42, 45, 1) 0%,
@@ -696,7 +698,7 @@
 
 .personalCardColumnOne > img {
   width: 100%;
-  height: 110px;
+  height: 130px;
   border-radius: 5px;
 }
 

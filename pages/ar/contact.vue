@@ -13,6 +13,7 @@
         :email="item.email"
         :whatsapp="item.whatsapp"
         :watsappLink="item.watsappLink"
+        :email2="item.email2"
       />
     </div>
   </div>

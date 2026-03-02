@@ -211,19 +211,10 @@
       "header": "L'ÉQUIPE COMMERCIALE DE MEKMAR",
       "items": [
         {
-          "name": "Gizem",
-          "job": "Specialiste en Ventes",
-          "email": "export@mekmar.com",
-          "whatsapp": "+90 542 660 8087",
-          "image": "/image/personel/gizem-yeni.webp",
-          "webp": "/image/personel/gizem-yeni.webp",
-          "id": 1,
-          "watsappLink": "https://web.whatsapp.com/send?phone=905426608087"
-        },
-        {
           "name": "Ozlem",
           "job": "Specialiste en Ventes",
-          "email": "export1@mekmar.com",
+          "email": "export@mekmar.com",
+          "email2": "export1@mekmar.com",
           "whatsapp": "+90 542 660 8085",
           "image": "/image/personel/ozlem-yeni-2.webp",
           "webp": "/image/personel/ozlem-yeni-2.webp",
@@ -494,19 +485,10 @@
     "header": "CONTACT",
     "items": [
       {
-        "name": "Gizem",
-        "job": "Specialiste en Ventes",
-        "email": "export@mekmar.com",
-        "whatsapp": "+90 542 660 8087",
-        "image": "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-        "webp": "https://cdn.mekmarimage.com/personel/250x250/gizem-yeni.webp",
-        "id": 1,
-        "watsappLink": "https://web.whatsapp.com/send?phone=905426608087"
-      },
-      {
         "name": "Ozlem",
         "job": "Specialiste en Ventes",
         "email": "export1@mekmar.com",
+        "email2": "export@mekmar.com",
         "whatsapp": "+90 542 660 8085",
         "image": "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
         "webp": "https://cdn.mekmarimage.com/personel/250x250/ozlem-yeni-2.webp",
@@ -517,7 +499,9 @@
         "name": "Hakan",
         "job": "Specialiste en Ventes",
         "email": "export2@mekmar.com",
+        "email2": "",
         "whatsapp": "+90 542 660 8084",
+
         "image": "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
         "webp": "https://cdn.mekmarimage.com/personel/250x250/hakan-yeni.webp",
         "id": 3,
